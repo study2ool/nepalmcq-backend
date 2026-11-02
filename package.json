@@ -1,0 +1,38 @@
+{
+  "name": "study2ool-quiz-backend",
+  "version": "1.0.0",
+  "description": "Backend API service for Study2ool Quiz generation and practice questions",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "quiz",
+    "nepal",
+    "neb",
+    "education",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "firebase-admin": "^14.5.0",
+    "google-auth-library": "^11.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "openai": "^7.47.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

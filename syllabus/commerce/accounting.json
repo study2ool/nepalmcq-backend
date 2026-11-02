@@ -1,0 +1,1033 @@
+{
+  "metadata": {
+    "country": "Nepal",
+    "curriculum": "NEB",
+    "subject": "Accountancy",
+    "grades": [11, 12],
+    "purpose": "Question bank and topic mapping",
+    "format_version": "1.0",
+    "verification_note": "Expanded study outline for question-bank development. Verify chapter names and coverage against the latest official NEB syllabus before treating this as an exact official syllabus."
+  },
+  "grades": {
+    "11": {
+      "grade": 11,
+      "subject": "Accountancy",
+      "branches": [
+        {
+          "branchName": "Introduction to Accounting",
+          "chapters": [
+            {
+              "chapterNumber": 1,
+              "chapterName": "Introduction to Accounting",
+              "topics": [
+                "Meaning and definition of accounting",
+                "Objectives of accounting",
+                "Functions of accounting",
+                "Importance and advantages of accounting",
+                "Limitations of accounting",
+                "Accounting as an information system",
+                "Users of accounting information",
+                "Internal users of accounting information",
+                "External users of accounting information",
+                "Bookkeeping and accounting",
+                "Difference between bookkeeping and accounting",
+                "Branches of accounting",
+                "Accounting as a profession",
+                "Role of accounting in business",
+                "Basic accounting terminology"
+              ]
+            },
+            {
+              "chapterNumber": 2,
+              "chapterName": "Accounting Principles and Concepts",
+              "topics": [
+                "Meaning of accounting principles",
+                "Generally accepted accounting principles",
+                "Business entity concept",
+                "Money measurement concept",
+                "Going concern concept",
+                "Accounting period concept",
+                "Historical cost concept",
+                "Dual aspect concept",
+                "Matching concept",
+                "Realization concept",
+                "Consistency concept",
+                "Conservatism or prudence concept",
+                "Materiality concept",
+                "Accrual concept",
+                "Objectivity principle",
+                "Accounting conventions",
+                "Accounting standards",
+                "Importance of accounting principles",
+                "Application of accounting concepts to transactions"
+              ]
+            },
+            {
+              "chapterNumber": 3,
+              "chapterName": "Accounting Equation",
+              "topics": [
+                "Meaning of the accounting equation",
+                "Assets, liabilities and capital",
+                "Basic accounting equation",
+                "Expanded accounting equation",
+                "Effects of business transactions on the equation",
+                "Capital introduced by the owner",
+                "Drawings by the owner",
+                "Revenue and expenses",
+                "Changes in assets and liabilities",
+                "Analysis of business transactions",
+                "Preparation of an accounting equation statement",
+                "Numerical problems on the accounting equation"
+              ]
+            },
+            {
+              "chapterNumber": 4,
+              "chapterName": "Double Entry System",
+              "topics": [
+                "Meaning of the double entry system",
+                "Features of the double entry system",
+                "Advantages of double entry bookkeeping",
+                "Debit and credit rules",
+                "Personal accounts",
+                "Real accounts",
+                "Nominal accounts",
+                "Modern classification of accounts",
+                "Golden rules of accounting",
+                "Accounting treatment of common transactions",
+                "Distinction between single entry and double entry systems",
+                "Practical exercises on debit and credit"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Journal and Ledger Accounting",
+          "chapters": [
+            {
+              "chapterNumber": 5,
+              "chapterName": "Source Documents and Vouchers",
+              "topics": [
+                "Meaning of source documents",
+                "Importance of source documents",
+                "Cash memo",
+                "Invoice and bill",
+                "Receipt",
+                "Debit note",
+                "Credit note",
+                "Cheque and bank documents",
+                "Payment voucher",
+                "Receipt voucher",
+                "Journal voucher",
+                "Supporting documents for transactions",
+                "Preparation and verification of vouchers"
+              ]
+            },
+            {
+              "chapterNumber": 6,
+              "chapterName": "Journal",
+              "topics": [
+                "Meaning and importance of journal",
+                "Journal as the book of original entry",
+                "Format of a journal",
+                "Journalizing business transactions",
+                "Simple journal entries",
+                "Compound journal entries",
+                "Opening entries",
+                "Closing entries",
+                "Adjustment entries",
+                "Journal entries involving cash and credit transactions",
+                "Journal entries for purchases and sales",
+                "Journal entries for expenses and incomes",
+                "Journal entries for assets and liabilities",
+                "Journal entries involving capital and drawings",
+                "Narration in journal entries",
+                "Practical journal-entry problems"
+              ]
+            },
+            {
+              "chapterNumber": 7,
+              "chapterName": "Ledger",
+              "topics": [
+                "Meaning and importance of ledger",
+                "Ledger as the principal book",
+                "Format of a ledger account",
+                "Posting from journal to ledger",
+                "Debit and credit sides of ledger accounts",
+                "Balancing ledger accounts",
+                "Balance carried down",
+                "Balance brought down",
+                "Balancing personal accounts",
+                "Balancing real accounts",
+                "Balancing nominal accounts",
+                "Preparation of ledger accounts from transactions",
+                "Relationship between journal and ledger",
+                "Practical ledger-posting problems"
+              ]
+            },
+            {
+              "chapterNumber": 8,
+              "chapterName": "Subsidiary Books",
+              "topics": [
+                "Meaning and objectives of subsidiary books",
+                "Need for subdivision of journal",
+                "Cash book",
+                "Single-column cash book",
+                "Double-column cash book",
+                "Triple-column cash book",
+                "Petty cash book",
+                "Imprest system of petty cash",
+                "Purchases book",
+                "Sales book",
+                "Purchases returns book",
+                "Sales returns book",
+                "Bills receivable book",
+                "Bills payable book",
+                "Journal proper",
+                "Posting subsidiary books to ledger",
+                "Practical problems on subsidiary books"
+              ]
+            },
+            {
+              "chapterNumber": 9,
+              "chapterName": "Trial Balance",
+              "topics": [
+                "Meaning and objectives of trial balance",
+                "Methods of preparing a trial balance",
+                "Total method",
+                "Balance method",
+                "Total and balance method",
+                "Preparation of trial balance from ledger balances",
+                "Errors disclosed by trial balance",
+                "Errors not disclosed by trial balance",
+                "Limitations of a trial balance",
+                "Relationship between ledger and trial balance",
+                "Numerical problems on trial balance"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Cash and Banking",
+          "chapters": [
+            {
+              "chapterNumber": 10,
+              "chapterName": "Cash Book and Petty Cash",
+              "topics": [
+                "Meaning and purpose of cash book",
+                "Cash column",
+                "Bank column",
+                "Cash and bank columns",
+                "Discount allowed",
+                "Discount received",
+                "Contra entries",
+                "Bank deposits and withdrawals",
+                "Cash book balancing",
+                "Petty cash transactions",
+                "Imprest petty cash system",
+                "Preparation of cash book from transactions"
+              ]
+            },
+            {
+              "chapterNumber": 11,
+              "chapterName": "Bank Reconciliation Statement",
+              "topics": [
+                "Meaning of bank reconciliation statement",
+                "Need for bank reconciliation",
+                "Cash book balance",
+                "Passbook or bank statement balance",
+                "Cheques issued but not presented",
+                "Cheques deposited but not collected",
+                "Bank charges",
+                "Interest credited by bank",
+                "Direct deposits by customers",
+                "Standing instructions",
+                "Dishonoured cheques",
+                "Errors in cash book",
+                "Errors in bank statement",
+                "Preparation from favourable cash book balance",
+                "Preparation from overdraft balance",
+                "Adjustment of cash book before reconciliation",
+                "Numerical problems on bank reconciliation"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Financial Statements",
+          "chapters": [
+            {
+              "chapterNumber": 12,
+              "chapterName": "Capital and Revenue Items",
+              "topics": [
+                "Capital expenditure",
+                "Revenue expenditure",
+                "Capital receipts",
+                "Revenue receipts",
+                "Deferred revenue expenditure",
+                "Capital profit and revenue profit",
+                "Capital loss and revenue loss",
+                "Distinction between capital and revenue items",
+                "Treatment of capital and revenue items",
+                "Effects of incorrect classification",
+                "Practical classification problems"
+              ]
+            },
+            {
+              "chapterNumber": 13,
+              "chapterName": "Depreciation",
+              "topics": [
+                "Meaning of depreciation",
+                "Causes of depreciation",
+                "Objectives of charging depreciation",
+                "Factors affecting depreciation",
+                "Depreciable amount",
+                "Useful life of an asset",
+                "Residual value",
+                "Straight-line method",
+                "Written-down value method",
+                "Comparison of depreciation methods",
+                "Accounting treatment of depreciation",
+                "Depreciation through asset account",
+                "Provision for depreciation account",
+                "Disposal of depreciable assets",
+                "Calculation of depreciation for part of a year",
+                "Numerical problems on depreciation"
+              ]
+            },
+            {
+              "chapterNumber": 14,
+              "chapterName": "Provision and Reserve",
+              "topics": [
+                "Meaning of provision",
+                "Meaning of reserve",
+                "Objectives of creating provisions",
+                "Objectives of creating reserves",
+                "General reserve",
+                "Specific reserve",
+                "Provision for doubtful debts",
+                "Provision for discount on debtors",
+                "Provision for discount on creditors",
+                "Bad debts",
+                "Additional bad debts",
+                "Difference between provision and reserve",
+                "Accounting treatment of provisions",
+                "Adjustment of provisions in financial statements",
+                "Numerical problems on provisions and reserves"
+              ]
+            },
+            {
+              "chapterNumber": 15,
+              "chapterName": "Final Accounts of a Sole Trading Concern",
+              "topics": [
+                "Meaning and objectives of final accounts",
+                "Trading account",
+                "Calculation of net sales",
+                "Calculation of net purchases",
+                "Opening inventory",
+                "Closing inventory",
+                "Direct expenses",
+                "Calculation of gross profit or gross loss",
+                "Profit and loss account",
+                "Indirect expenses",
+                "Indirect incomes",
+                "Calculation of net profit or net loss",
+                "Balance sheet",
+                "Classification of assets",
+                "Classification of liabilities",
+                "Capital and drawings",
+                "Adjustments in final accounts",
+                "Outstanding expenses",
+                "Prepaid expenses",
+                "Accrued income",
+                "Income received in advance",
+                "Depreciation adjustment",
+                "Bad debts adjustment",
+                "Provision for doubtful debts",
+                "Closing inventory adjustment",
+                "Interest on capital",
+                "Interest on drawings",
+                "Preparation of final accounts from trial balance",
+                "Numerical problems on final accounts"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Accounting for Special Transactions",
+          "chapters": [
+            {
+              "chapterNumber": 16,
+              "chapterName": "Bills of Exchange",
+              "topics": [
+                "Meaning of bills of exchange",
+                "Parties to a bill of exchange",
+                "Drawer, drawee and payee",
+                "Features of a bill of exchange",
+                "Promissory note",
+                "Distinction between bill of exchange and promissory note",
+                "Drawing and acceptance of bills",
+                "Term and due date of a bill",
+                "Days of grace",
+                "Discounting of bills",
+                "Endorsement of bills",
+                "Collection of bills",
+                "Dishonour of bills",
+                "Noting charges",
+                "Renewal of bills",
+                "Retirement of bills",
+                "Accounting entries for bills of exchange"
+              ]
+            },
+            {
+              "chapterNumber": 17,
+              "chapterName": "Accounting from Incomplete Records",
+              "topics": [
+                "Meaning of incomplete records",
+                "Features of single-entry bookkeeping",
+                "Limitations of incomplete records",
+                "Difference between single-entry and double-entry systems",
+                "Statement of affairs",
+                "Calculation of opening capital",
+                "Calculation of closing capital",
+                "Calculation of profit or loss",
+                "Conversion of single-entry records into double-entry records",
+                "Calculation of credit sales",
+                "Calculation of credit purchases",
+                "Preparation of total debtors account",
+                "Preparation of total creditors account",
+                "Numerical problems on incomplete records"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "grade": 12,
+      "subject": "Accountancy",
+      "branches": [
+        {
+          "branchName": "Advanced Financial Accounting",
+          "chapters": [
+            {
+              "chapterNumber": 1,
+              "chapterName": "Accounting for Non-Trading Concerns",
+              "topics": [
+                "Meaning of non-trading concerns",
+                "Objectives of non-trading organizations",
+                "Receipts and payments account",
+                "Income and expenditure account",
+                "Balance sheet of a non-trading concern",
+                "Distinction between receipts and payments account and income and expenditure account",
+                "Capital receipts and revenue receipts",
+                "Capital payments and revenue payments",
+                "Subscriptions",
+                "Outstanding subscriptions",
+                "Subscriptions received in advance",
+                "Donations",
+                "Entrance fees",
+                "Legacy and special funds",
+                "Treatment of consumable items",
+                "Treatment of assets and liabilities",
+                "Preparation of income and expenditure account",
+                "Preparation of closing balance sheet",
+                "Numerical problems on non-trading concerns"
+              ]
+            },
+            {
+              "chapterNumber": 2,
+              "chapterName": "Accounting for Partnership",
+              "topics": [
+                "Meaning and features of partnership",
+                "Partnership deed",
+                "Provisions of partnership law relevant to accounting",
+                "Partners' capital accounts",
+                "Fixed capital method",
+                "Fluctuating capital method",
+                "Profit and loss appropriation account",
+                "Interest on capital",
+                "Interest on drawings",
+                "Partners' salary and commission",
+                "Profit-sharing ratio",
+                "Guarantee of profit to a partner",
+                "Past adjustments",
+                "Correction of appropriation errors",
+                "Preparation of partners' current accounts",
+                "Numerical problems on partnership accounts"
+              ]
+            },
+            {
+              "chapterNumber": 3,
+              "chapterName": "Admission of a Partner",
+              "topics": [
+                "Meaning of admission of a partner",
+                "Reasons for admitting a new partner",
+                "New profit-sharing ratio",
+                "Sacrificing ratio",
+                "Goodwill and its meaning",
+                "Factors affecting goodwill",
+                "Methods of valuation of goodwill",
+                "Premium for goodwill",
+                "Adjustment of goodwill through capital accounts",
+                "Revaluation of assets",
+                "Reassessment of liabilities",
+                "Revaluation account",
+                "Treatment of accumulated profits and losses",
+                "Adjustment of partners' capitals",
+                "Preparation of revised balance sheet",
+                "Numerical problems on admission of a partner"
+              ]
+            },
+            {
+              "chapterNumber": 4,
+              "chapterName": "Retirement and Death of a Partner",
+              "topics": [
+                "Meaning of retirement of a partner",
+                "Meaning of death of a partner",
+                "New profit-sharing ratio",
+                "Gaining ratio",
+                "Calculation of goodwill",
+                "Adjustment of goodwill",
+                "Revaluation of assets and liabilities",
+                "Distribution of accumulated profits and losses",
+                "Settlement of retiring partner's claim",
+                "Amount due to a deceased partner",
+                "Executor's account",
+                "Joint life policy treatment where applicable",
+                "Adjustment of remaining partners' capitals",
+                "Preparation of revised balance sheet",
+                "Numerical problems on retirement and death of a partner"
+              ]
+            },
+            {
+              "chapterNumber": 5,
+              "chapterName": "Dissolution of Partnership",
+              "topics": [
+                "Meaning of dissolution of partnership",
+                "Dissolution of a partnership firm",
+                "Reasons for dissolution",
+                "Realization account",
+                "Settlement of liabilities",
+                "Sale of assets",
+                "Realization expenses",
+                "Treatment of unrecorded assets",
+                "Treatment of unrecorded liabilities",
+                "Partners' capital accounts",
+                "Partners' loan accounts",
+                "Cash or bank account",
+                "Settlement of partners' balances",
+                "Insolvency of a partner where applicable",
+                "Preparation of accounts on dissolution",
+                "Numerical problems on dissolution"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Company Accounting",
+          "chapters": [
+            {
+              "chapterNumber": 6,
+              "chapterName": "Accounting for Share Capital",
+              "topics": [
+                "Meaning and features of a company",
+                "Types of companies",
+                "Meaning of share capital",
+                "Authorized capital",
+                "Issued capital",
+                "Subscribed capital",
+                "Called-up capital",
+                "Paid-up capital",
+                "Equity shares",
+                "Preference shares",
+                "Issue of shares at par",
+                "Issue of shares at premium",
+                "Issue of shares at discount where legally applicable",
+                "Oversubscription of shares",
+                "Pro-rata allotment",
+                "Calls in arrears",
+                "Calls in advance",
+                "Forfeiture of shares",
+                "Reissue of forfeited shares",
+                "Journal entries for share issue",
+                "Presentation of share capital in financial statements",
+                "Numerical problems on share capital"
+              ]
+            },
+            {
+              "chapterNumber": 7,
+              "chapterName": "Accounting for Debentures",
+              "topics": [
+                "Meaning of debentures",
+                "Features of debentures",
+                "Types of debentures",
+                "Distinction between shares and debentures",
+                "Issue of debentures at par",
+                "Issue of debentures at premium",
+                "Issue of debentures at discount",
+                "Issue of debentures for consideration other than cash",
+                "Collateral security",
+                "Interest on debentures",
+                "Redemption of debentures",
+                "Redemption at par",
+                "Redemption at premium",
+                "Journal entries for issue and redemption",
+                "Presentation of debentures in financial statements",
+                "Numerical problems on debentures"
+              ]
+            },
+            {
+              "chapterNumber": 8,
+              "chapterName": "Company Financial Statements",
+              "topics": [
+                "Meaning and objectives of company financial statements",
+                "Statement of profit or loss",
+                "Statement of financial position",
+                "Classification of assets and liabilities",
+                "Share capital presentation",
+                "Reserves and surplus",
+                "Revenue from operations",
+                "Cost of sales",
+                "Operating expenses",
+                "Finance costs",
+                "Tax expense",
+                "Current assets",
+                "Non-current assets",
+                "Current liabilities",
+                "Non-current liabilities",
+                "Notes to financial statements",
+                "Basic financial statement analysis",
+                "Preparation of company financial statements"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Cost and Management Accounting",
+          "chapters": [
+            {
+              "chapterNumber": 9,
+              "chapterName": "Introduction to Cost Accounting",
+              "topics": [
+                "Meaning of cost",
+                "Meaning of cost accounting",
+                "Objectives of cost accounting",
+                "Importance of cost accounting",
+                "Advantages and limitations of cost accounting",
+                "Difference between financial accounting and cost accounting",
+                "Cost unit",
+                "Cost centre",
+                "Cost object",
+                "Cost classification",
+                "Direct cost and indirect cost",
+                "Fixed cost and variable cost",
+                "Semi-variable cost",
+                "Product cost and period cost",
+                "Controllable and uncontrollable costs",
+                "Relevant and irrelevant costs",
+                "Elements of cost",
+                "Cost accounting terminology"
+              ]
+            },
+            {
+              "chapterNumber": 10,
+              "chapterName": "Materials Cost",
+              "topics": [
+                "Meaning and classification of materials",
+                "Direct materials and indirect materials",
+                "Materials purchasing procedure",
+                "Purchase requisition",
+                "Purchase order",
+                "Goods received note",
+                "Materials issue procedure",
+                "Materials requisition note",
+                "Stores ledger",
+                "Bin card",
+                "Economic order quantity",
+                "Reorder level",
+                "Minimum stock level",
+                "Maximum stock level",
+                "Average stock level",
+                "Inventory control",
+                "FIFO method of material issue",
+                "LIFO method of material issue where applicable",
+                "Weighted average method",
+                "Material losses and wastage",
+                "Numerical problems on materials cost"
+              ]
+            },
+            {
+              "chapterNumber": 11,
+              "chapterName": "Labour Cost",
+              "topics": [
+                "Meaning of labour cost",
+                "Direct labour and indirect labour",
+                "Time keeping",
+                "Time booking",
+                "Time rate system",
+                "Piece rate system",
+                "Differential piece rate system",
+                "Overtime wages",
+                "Idle time",
+                "Labour turnover",
+                "Methods of calculating labour turnover",
+                "Incentive wage plans",
+                "Halsey premium plan",
+                "Rowan premium plan",
+                "Labour cost control",
+                "Numerical problems on labour cost"
+              ]
+            },
+            {
+              "chapterNumber": 12,
+              "chapterName": "Overhead Cost",
+              "topics": [
+                "Meaning of overhead",
+                "Classification of overheads",
+                "Production overhead",
+                "Administration overhead",
+                "Selling overhead",
+                "Distribution overhead",
+                "Direct and indirect expenses",
+                "Allocation of overheads",
+                "Apportionment of overheads",
+                "Reapportionment of service department costs",
+                "Absorption of overheads",
+                "Overhead absorption rates",
+                "Machine hour rate",
+                "Labour hour rate",
+                "Under-absorption of overheads",
+                "Over-absorption of overheads",
+                "Numerical problems on overhead cost"
+              ]
+            },
+            {
+              "chapterNumber": 13,
+              "chapterName": "Cost Sheet",
+              "topics": [
+                "Meaning and objectives of a cost sheet",
+                "Prime cost",
+                "Works cost",
+                "Factory cost",
+                "Cost of production",
+                "Cost of goods sold",
+                "Cost of sales",
+                "Direct materials consumed",
+                "Direct labour",
+                "Direct expenses",
+                "Factory overhead",
+                "Administration overhead",
+                "Selling and distribution overhead",
+                "Opening and closing inventories",
+                "Calculation of profit",
+                "Preparation of a cost sheet",
+                "Cost sheet with missing figures",
+                "Numerical problems on cost sheets"
+              ]
+            },
+            {
+              "chapterNumber": 14,
+              "chapterName": "Marginal Costing and Cost-Volume-Profit Analysis",
+              "topics": [
+                "Meaning of marginal cost",
+                "Marginal costing",
+                "Fixed cost",
+                "Variable cost",
+                "Contribution",
+                "Profit-volume ratio",
+                "Break-even point",
+                "Break-even chart",
+                "Margin of safety",
+                "Target profit",
+                "Calculation of sales required for target profit",
+                "Effects of changes in selling price",
+                "Effects of changes in variable cost",
+                "Effects of changes in fixed cost",
+                "Cost-volume-profit relationships",
+                "Assumptions of break-even analysis",
+                "Limitations of marginal costing",
+                "Numerical problems on marginal costing"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Budgeting and Management Accounting",
+          "chapters": [
+            {
+              "chapterNumber": 15,
+              "chapterName": "Budget and Budgetary Control",
+              "topics": [
+                "Meaning of budget",
+                "Meaning of budgetary control",
+                "Objectives of budgeting",
+                "Advantages of budgets",
+                "Limitations of budgets",
+                "Fixed budget",
+                "Flexible budget",
+                "Functional budgets",
+                "Sales budget",
+                "Production budget",
+                "Materials purchase budget",
+                "Labour budget",
+                "Cash budget",
+                "Master budget",
+                "Budget preparation process",
+                "Budget coordination",
+                "Budgetary control reports",
+                "Comparison of budgeted and actual performance",
+                "Numerical problems on budgets"
+              ]
+            },
+            {
+              "chapterNumber": 16,
+              "chapterName": "Standard Costing and Variance Analysis",
+              "topics": [
+                "Meaning of standard costing",
+                "Objectives of standard costing",
+                "Advantages and limitations of standard costing",
+                "Standard cost and estimated cost",
+                "Setting standards",
+                "Variance analysis",
+                "Material cost variance",
+                "Material price variance",
+                "Material usage variance",
+                "Labour cost variance",
+                "Labour rate variance",
+                "Labour efficiency variance",
+                "Overhead variances",
+                "Favourable and adverse variances",
+                "Interpretation of variances",
+                "Numerical problems on variance analysis"
+              ]
+            },
+            {
+              "chapterNumber": 17,
+              "chapterName": "Cash Flow and Fund Flow Analysis",
+              "topics": [
+                "Meaning of cash flow statement",
+                "Objectives of cash flow analysis",
+                "Cash and cash equivalents",
+                "Operating activities",
+                "Investing activities",
+                "Financing activities",
+                "Direct method of cash flow statement",
+                "Indirect method of cash flow statement",
+                "Non-cash transactions",
+                "Preparation of cash flow statement",
+                "Meaning of fund flow statement",
+                "Sources and applications of funds",
+                "Working capital",
+                "Schedule of changes in working capital",
+                "Preparation of fund flow statement",
+                "Numerical problems on cash flow and fund flow"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Financial Statement Analysis",
+          "chapters": [
+            {
+              "chapterNumber": 18,
+              "chapterName": "Ratio Analysis",
+              "topics": [
+                "Meaning and objectives of ratio analysis",
+                "Importance of financial ratios",
+                "Limitations of ratio analysis",
+                "Current ratio",
+                "Quick ratio",
+                "Debt-equity ratio",
+                "Proprietary ratio",
+                "Inventory turnover ratio",
+                "Debtors turnover ratio",
+                "Creditors turnover ratio",
+                "Working capital turnover ratio",
+                "Gross profit ratio",
+                "Net profit ratio",
+                "Operating ratio",
+                "Operating profit ratio",
+                "Return on capital employed",
+                "Return on equity where applicable",
+                "Calculation of ratios from financial statements",
+                "Interpretation of accounting ratios",
+                "Numerical problems on ratio analysis"
+              ]
+            },
+            {
+              "chapterNumber": 19,
+              "chapterName": "Comparative and Common-Size Financial Statements",
+              "topics": [
+                "Meaning of financial statement analysis",
+                "Objectives of financial statement analysis",
+                "Comparative financial statements",
+                "Comparative income statement",
+                "Comparative balance sheet",
+                "Calculation of absolute changes",
+                "Calculation of percentage changes",
+                "Common-size financial statements",
+                "Common-size income statement",
+                "Common-size balance sheet",
+                "Trend analysis",
+                "Interpretation of changes in financial performance",
+                "Advantages and limitations of comparative statements",
+                "Numerical problems on financial statement analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Taxation and Regulatory Accounting",
+          "chapters": [
+            {
+              "chapterNumber": 20,
+              "chapterName": "Introduction to Taxation",
+              "topics": [
+                "Meaning and definition of tax",
+                "Objectives of taxation",
+                "Importance of taxation",
+                "Direct taxes",
+                "Indirect taxes",
+                "Difference between direct and indirect taxes",
+                "Income tax",
+                "Value Added Tax",
+                "Customs duty",
+                "Excise duty",
+                "Taxpayer and tax authority",
+                "Taxable income",
+                "Tax year and assessment period",
+                "Tax return",
+                "Tax compliance",
+                "Tax planning and tax evasion",
+                "Basic tax terminology used in Nepal"
+              ]
+            },
+            {
+              "chapterNumber": 21,
+              "chapterName": "Basic Tax Accounting",
+              "topics": [
+                "Accounting for tax expenses",
+                "Tax payable",
+                "Tax paid in advance",
+                "Tax provision",
+                "Tax expense in financial statements",
+                "Basic income classification for tax purposes",
+                "Business income and allowable expenses",
+                "Tax deductions and exemptions",
+                "Preparation of a basic taxable-income statement",
+                "Tax accounting entries",
+                "Introduction to VAT accounting",
+                "VAT on purchases",
+                "VAT on sales",
+                "Input VAT and output VAT",
+                "Calculation of net VAT payable",
+                "Preparation of basic tax records",
+                "Numerical problems on basic tax accounting"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Computerized Accounting",
+          "chapters": [
+            {
+              "chapterNumber": 22,
+              "chapterName": "Introduction to Computerized Accounting",
+              "topics": [
+                "Meaning of computerized accounting",
+                "Objectives of computerized accounting",
+                "Manual accounting and computerized accounting",
+                "Advantages of computerized accounting",
+                "Limitations of computerized accounting",
+                "Components of a computerized accounting system",
+                "Accounting software",
+                "Accounting databases",
+                "Data input and processing",
+                "Output reports",
+                "Accounting information security",
+                "Backup and recovery",
+                "Access controls",
+                "Internal controls in computerized accounting",
+                "Risks associated with computerized accounting"
+              ]
+            },
+            {
+              "chapterNumber": 23,
+              "chapterName": "Accounting Software and Practical Applications",
+              "topics": [
+                "Creating a company profile in accounting software",
+                "Creating account groups",
+                "Creating ledger accounts",
+                "Entering opening balances",
+                "Recording cash receipts",
+                "Recording cash payments",
+                "Recording bank transactions",
+                "Recording purchases",
+                "Recording sales",
+                "Recording purchase returns",
+                "Recording sales returns",
+                "Recording journal vouchers",
+                "Recording adjustment entries",
+                "Inventory records where supported",
+                "Generating a trial balance",
+                "Generating a profit and loss statement",
+                "Generating a balance sheet",
+                "Generating cash and bank reports",
+                "Exporting and printing accounting reports",
+                "Backing up accounting data"
+              ]
+            }
+          ]
+        },
+        {
+          "branchName": "Accounting Practice and Revision",
+          "chapters": [
+            {
+              "chapterNumber": 24,
+              "chapterName": "Integrated Accounting Problems",
+              "topics": [
+                "Analysis of business transactions",
+                "Journal entries",
+                "Ledger posting",
+                "Trial balance preparation",
+                "Adjustment entries",
+                "Final accounts preparation",
+                "Preparation of trading account",
+                "Preparation of profit and loss account",
+                "Preparation of balance sheet",
+                "Depreciation adjustments",
+                "Bad debts and provision adjustments",
+                "Outstanding and prepaid expenses",
+                "Accrued and unearned income",
+                "Rectification of accounting errors",
+                "Comprehensive financial accounting problems"
+              ]
+            },
+            {
+              "chapterNumber": 25,
+              "chapterName": "Accounting Theory and Examination Practice",
+              "topics": [
+                "Definitions of key accounting terms",
+                "Short-answer questions on accounting concepts",
+                "Differences between accounting terms",
+                "Explanation of accounting principles",
+                "Journal-entry practice",
+                "Ledger-posting practice",
+                "Trial balance problems",
+                "Financial statement preparation",
+                "Cost accounting calculations",
+                "Ratio analysis calculations",
+                "Budgeting problems",
+                "Taxation exercises",
+                "Computerized accounting theory",
+                "Case-based accounting questions",
+                "Long-answer accounting problems",
+                "Model examination questions"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
