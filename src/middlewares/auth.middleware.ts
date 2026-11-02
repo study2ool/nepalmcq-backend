@@ -1,6 +1,6 @@
 import type { Request, Response, NextFunction } from "express";
 import { authService } from "../services/auth.service.js";
-import { userRepository } from "../repository/user.repository.js";
+import { userRepository, ADMIN_EMAIL } from "../repository/user.repository.js";
 import { sendError } from "../utils/response.util.js";
 import type { User } from "../types/auth.types.js";
 
@@ -31,7 +31,21 @@ export async function authenticateToken(
   }
 
   try {
-    const payload = authService.verifyJwt(token);
+    const payload = await authService.resolveTokenPayload(token);
+
+    // Tokens only expire when the user logs out
+    const isRevoked = await authService.isTokenRevoked(
+      payload.tokenId || payload.userId || token,
+    );
+    if (isRevoked) {
+      sendError(
+        res,
+        "Token has expired due to logout. Please sign in again.",
+        401,
+      );
+      return;
+    }
+
     const user = await userRepository.findById(payload.userId);
 
     if (!user) {
@@ -40,10 +54,44 @@ export async function authenticateToken(
     }
 
     req.user = user;
+    if (user.email.toLowerCase() === ADMIN_EMAIL.toLowerCase()) {
+      req.user.role = "admin";
+    }
     next();
   } catch {
     sendError(res, "Invalid or expired authorization token.", 401);
   }
+}
+
+export function requireAdmin(
+  req: Request,
+  res: Response,
+  next: NextFunction,
+): void {
+  if (!req.user) {
+    sendError(
+      res,
+      "Authentication required. Please sign in as an administrator.",
+      401,
+    );
+    return;
+  }
+
+  const isAdmin =
+    req.user.role === "admin" ||
+    req.user.email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
+
+  if (!isAdmin) {
+    sendError(
+      res,
+      "Access forbidden: You do not have administrator permissions to perform this action.",
+      403,
+    );
+    return;
+  }
+
+  req.user.role = "admin";
+  next();
 }
 
 export async function optionalAuth(
@@ -56,10 +104,15 @@ export async function optionalAuth(
     const token = authHeader.split(" ")[1];
     if (token) {
       try {
-        const payload = authService.verifyJwt(token);
-        const user = await userRepository.findById(payload.userId);
-        if (user) {
-          req.user = user;
+        const payload = await authService.resolveTokenPayload(token);
+        const isRevoked = await authService.isTokenRevoked(
+          payload.tokenId || payload.userId || token,
+        );
+        if (!isRevoked) {
+          const user = await userRepository.findById(payload.userId);
+          if (user) {
+            req.user = user;
+          }
         }
       } catch {
         // ignore invalid token in optional auth

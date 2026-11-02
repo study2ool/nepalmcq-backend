@@ -1,10 +1,11 @@
 import { Router } from "express";
 import { quizController } from "../controllers/quiz.controller.js";
+import { authenticateToken } from "../middlewares/auth.middleware.js";
 
 const router = Router();
 
-// POST /api/v1/quiz/generate
-router.post("/generate", quizController.generate);
+// POST /api/v1/quiz/generate - Requires student to be logged in
+router.post("/generate", authenticateToken, quizController.generate);
 
 // GET /api/v1/quiz/subjects
 router.get("/subjects", quizController.getSubjects);

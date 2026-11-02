@@ -142,20 +142,36 @@ export class QuizController {
         difficulty,
         limit = "20",
         offset = "0",
+        random,
       } = req.query;
 
       const parsedClass = classLevel ? Number(classLevel) : undefined;
       const parsedLimit = parseInt(String(limit), 10);
       const parsedOffset = parseInt(String(offset), 10);
+      const isRandom = random === "true" || random === "1";
+
+      const cleanSubject =
+        subject && subject !== "All" && subject !== "All Subjects"
+          ? String(subject)
+          : undefined;
+      const cleanTopic =
+        topic && topic !== "All Topics" && topic !== "all"
+          ? String(topic)
+          : undefined;
+      const cleanDifficulty =
+        difficulty && difficulty !== "All Levels" && difficulty !== "all"
+          ? String(difficulty)
+          : undefined;
 
       const result = quizService.getQuestions({
-        subject: subject ? String(subject) : undefined,
+        subject: cleanSubject,
         classLevel:
           parsedClass === 11 || parsedClass === 12 ? parsedClass : undefined,
-        topic: topic ? String(topic) : undefined,
-        difficulty: difficulty ? String(difficulty) : undefined,
+        topic: cleanTopic,
+        difficulty: cleanDifficulty,
         limit: isNaN(parsedLimit) ? 20 : parsedLimit,
         offset: isNaN(parsedOffset) ? 0 : parsedOffset,
+        random: isRandom,
       });
 
       sendSuccess(res, result, "Questions retrieved successfully");

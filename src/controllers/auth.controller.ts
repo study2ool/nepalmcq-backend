@@ -1,5 +1,7 @@
 import type { Request, Response, NextFunction } from "express";
 import { authService } from "../services/auth.service.js";
+import { userRepository } from "../repository/user.repository.js";
+import { progressRepository } from "../repository/progress.repository.js";
 import { config } from "../config/env.config.js";
 import { sendSuccess, sendError } from "../utils/response.util.js";
 import type { GoogleAuthRequest } from "../types/auth.types.js";
@@ -37,7 +39,11 @@ export class AuthController {
       sendSuccess(res, result, "Signed in successfully with Google", 200);
     } catch (error: any) {
       logger.error("Authentication error in continueWithGoogle:", error);
-      sendError(res, error.message || "Failed to authenticate with Google", 401);
+      sendError(
+        res,
+        error.message || "Failed to authenticate with Google",
+        401,
+      );
     }
   };
 
@@ -114,12 +120,104 @@ export class AuthController {
   };
 
   /**
-   * POST /api/v1/auth/logout
+   * PATCH /api/v1/auth/profile
+   * Updates student profile (name, college/school, gender, city, grade)
    */
-  public logout = (_req: Request, res: Response): void => {
-    sendSuccess(res, { loggedOut: true }, "Logged out successfully");
+  public updateProfile = async (req: Request, res: Response): Promise<void> => {
+    try {
+      const userId = req.user?.id;
+      if (!userId) {
+        sendError(res, "Authentication required to update profile", 401);
+        return;
+      }
+
+      const {
+        name,
+        collegeId,
+        collegeName,
+        school,
+        city,
+        gender,
+        grade,
+        avatarBg,
+      } = req.body;
+      const parsedGrade =
+        Number(grade) === 11 ? 11 : Number(grade) === 12 ? 12 : undefined;
+      const finalSchool = collegeName || school;
+
+      const updatedUser = await userRepository.updateUser(userId, {
+        ...(name ? { name: String(name).trim() } : {}),
+        ...(collegeId ? { collegeId: String(collegeId).trim() } : {}),
+        ...(finalSchool ? { collegeName: String(finalSchool).trim() } : {}),
+        ...(city ? { collegeCity: String(city).trim() } : {}),
+        ...(gender ? { gender } : {}),
+        ...(parsedGrade ? { grade: parsedGrade } : {}),
+        isOnboarded: true,
+      });
+
+      await progressRepository.updateStudentProfile(userId, {
+        name: name ? String(name).trim() : undefined,
+        collegeId: collegeId ? String(collegeId).trim() : undefined,
+        school: finalSchool ? String(finalSchool).trim() : undefined,
+        city: city ? String(city).trim() : undefined,
+        gender: gender ? String(gender) : undefined,
+        grade: parsedGrade,
+        avatarBg: avatarBg ? String(avatarBg).trim() : undefined,
+      });
+
+      sendSuccess(
+        res,
+        {
+          user: updatedUser || req.user,
+          profile: {
+            name: name || req.user?.name,
+            collegeId: collegeId || updatedUser?.collegeId,
+            school: finalSchool,
+            city,
+            gender: gender || updatedUser?.gender,
+            grade: parsedGrade || 12,
+            avatarBg,
+            isOnboarded: true,
+          },
+        },
+        "Student college and profile updated successfully",
+      );
+    } catch (err: any) {
+      logger.error("Error updating profile:", err);
+      sendError(res, err.message || "Failed to update profile", 500);
+    }
+  };
+
+  /**
+   * POST /api/v1/auth/logout
+   * Invalidates and expires the current user token upon logout
+   */
+  public logout = async (req: Request, res: Response): Promise<void> => {
+    try {
+      let token: string | undefined;
+
+      const authHeader = req.headers.authorization;
+      if (authHeader && authHeader.startsWith("Bearer ")) {
+        token = authHeader.split(" ")[1];
+      } else if (req.body && typeof req.body.token === "string") {
+        token = req.body.token;
+      }
+
+      if (token) {
+        await authService.revokeToken(token);
+        logger.info("User logged out; token has been expired.");
+      }
+
+      sendSuccess(
+        res,
+        { loggedOut: true },
+        "Logged out successfully. Token is now expired.",
+      );
+    } catch (err: any) {
+      logger.warn(`Logout error: ${err.message}`);
+      sendSuccess(res, { loggedOut: true }, "Logged out successfully");
+    }
   };
 }
 
 export const authController = new AuthController();
-

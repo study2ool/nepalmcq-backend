@@ -137,6 +137,7 @@ export class QuestionRepository {
     difficulty?: string | undefined;
     limit?: number | undefined;
     offset?: number | undefined;
+    random?: boolean | undefined;
   }): { total: number; questions: Question[] } {
     const masterPath = config.masterDataFile;
     let allQuestions: Question[] = [];
@@ -177,6 +178,11 @@ export class QuestionRepository {
     }
 
     const total = filtered.length;
+
+    if (filters.random) {
+      filtered = [...filtered].sort(() => Math.random() - 0.5);
+    }
+
     const offset = Math.max(0, filters.offset || 0);
     const limit = Math.min(100, Math.max(1, filters.limit || 20));
     const paginated = filtered.slice(offset, offset + limit);

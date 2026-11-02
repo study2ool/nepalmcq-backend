@@ -376,6 +376,7 @@ Return ONLY a valid JSON object matching this exact structure:
     difficulty?: string | undefined;
     limit?: number | undefined;
     offset?: number | undefined;
+    random?: boolean | undefined;
   }) {
     return questionRepository.findQuestions(filters);
   }

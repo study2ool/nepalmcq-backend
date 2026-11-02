@@ -16,8 +16,10 @@ router.get("/google/callback", authController.googleCallback);
 // GET /api/v1/auth/me (Get current user)
 router.get("/me", authenticateToken, authController.getMe);
 
+// PATCH /api/v1/auth/profile (Update student profile)
+router.patch("/profile", authenticateToken, authController.updateProfile);
+
 // POST /api/v1/auth/logout (Logout)
 router.post("/logout", authController.logout);
 
 export default router;
-
