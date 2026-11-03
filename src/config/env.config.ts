@@ -41,9 +41,7 @@ export const config = {
     process.env.GOOGLE_CALLBACK_URL ||
     "https://study2ool.firebaseapp.com/__/auth/handler",
 
-  // Auth & JWT (Tokens do not expire by time; only upon explicit logout)
-  jwtSecret:
-    process.env.JWT_SECRET || "study2ool-quiz-jwt-secret-super-secure-key-2026",
+  // Auth & Google OAuth Credentials
   googleClientId: process.env.GOOGLE_CLIENT_ID || "",
   googleClientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
 

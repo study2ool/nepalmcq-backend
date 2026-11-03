@@ -1,6 +1,5 @@
 import crypto from "crypto";
 import { OAuth2Client } from "google-auth-library";
-import jwt from "jsonwebtoken";
 import { config } from "../config/env.config.js";
 import {
   firebaseAuth,
@@ -183,9 +182,8 @@ export class AuthService {
   }
 
   /**
-   * Generates a Firebase Custom Token using Firebase Admin SDK.
-   * Includes custom claims such as { role: 'student' }.
-   * Persists as the primary identity token.
+   * Generates a Firebase Auth Custom Token using Firebase Admin SDK.
+   * Includes custom claims such as { role: 'student', email: '...' }.
    */
   public async createFirebaseCustomToken(user: User): Promise<string> {
     if (firebaseAuth) {
@@ -206,30 +204,106 @@ export class AuthService {
       }
     }
 
-    // Fallback if Firebase Admin Auth is unavailable
-    return this.generateJwt(user);
+    // Fallback self-minted RS256 token if Firebase Admin Auth is not connected
+    return this.createLocalCustomToken(user);
   }
 
   /**
-   * Issues a signed JWT for the authenticated user without an expiry date.
-   * The token remains valid indefinitely and only expires if the user logs out.
+   * Creates a self-signed RS256 Firebase custom token when running in offline/local mode
    */
-  public generateJwt(user: User): string {
-    const tokenId = `tok_${crypto.randomUUID()}`;
-    const payload: AuthTokenPayload = {
-      userId: user.id,
-      email: user.email,
-      role: user.role,
-      tokenId,
-      createdAt: new Date().toISOString(),
+  private createLocalCustomToken(user: User): string {
+    const header = { alg: "RS256", typ: "JWT" };
+    const iat = Math.floor(Date.now() / 1000);
+    const body = {
+      aud: "https://identitytoolkit.googleapis.com/google.identity.identitytoolkit.v1.IdentityToolkit",
+      iat,
+      iss: config.firebaseClientEmail || "local-auth",
+      sub: config.firebaseClientEmail || "local-auth",
+      uid: user.id,
+      claims: {
+        email: user.email,
+        role: user.role || "student",
+      },
     };
 
-    // Note: No expiresIn option is passed. The token does not expire by time.
-    return jwt.sign(payload, config.jwtSecret);
+    const encodedHeader = Buffer.from(JSON.stringify(header)).toString(
+      "base64url",
+    );
+    const encodedBody = Buffer.from(JSON.stringify(body)).toString("base64url");
+    const dataToSign = `${encodedHeader}.${encodedBody}`;
+
+    if (config.firebasePrivateKey) {
+      const signer = crypto.createSign("RSA-SHA256");
+      signer.update(dataToSign);
+      const signature = signer.sign(config.firebasePrivateKey, "base64url");
+      return `${dataToSign}.${signature}`;
+    }
+
+    // Fallback HMAC signature if no private key is configured
+    const hmac = crypto.createHmac("sha256", "local-dev-fallback-key");
+    hmac.update(dataToSign);
+    return `${dataToSign}.${hmac.digest("base64url")}`;
   }
 
   /**
-   * Resolves an incoming token (Firebase ID token, Firebase Custom token, or internal JWT)
+   * Decodes dot-separated JWT segments without third-party dependencies
+   */
+  private decodeTokenSegments(token: string): {
+    header: any;
+    payload: any;
+    signature: Buffer;
+    data: Buffer;
+  } {
+    const [part0, part1, part2] = token.split(".");
+    if (!part0 || !part1 || !part2) {
+      throw new Error(
+        "Invalid token format: expected 3 dot-separated segments",
+      );
+    }
+
+    try {
+      const header = JSON.parse(
+        Buffer.from(part0, "base64url").toString("utf-8"),
+      );
+      const payload = JSON.parse(
+        Buffer.from(part1, "base64url").toString("utf-8"),
+      );
+      const data = Buffer.from(`${part0}.${part1}`);
+      const signature = Buffer.from(part2, "base64url");
+      return { header, payload, signature, data };
+    } catch (err: any) {
+      throw new Error(`Failed to decode token segments: ${err.message}`);
+    }
+  }
+
+  /**
+   * Verifies Firebase Custom Token RS256 signature using the service account private key
+   */
+  public verifyCustomToken(token: string): any {
+    const { payload, signature, data } = this.decodeTokenSegments(token);
+
+    // If private key is available, verify the RS256 signature
+    if (config.firebasePrivateKey) {
+      try {
+        const isValid = crypto.verify(
+          "RSA-SHA256",
+          data,
+          config.firebasePrivateKey,
+          signature,
+        );
+        if (!isValid) {
+          throw new Error("Invalid Firebase custom token signature");
+        }
+      } catch (err: any) {
+        throw new Error(`Token signature verification failed: ${err.message}`);
+      }
+    }
+
+    return payload;
+  }
+
+  /**
+   * Resolves an incoming token (Firebase ID token or Firebase Custom token)
    * into an AuthTokenPayload without premature expiration, ensuring persistent sessions.
    */
   public async resolveTokenPayload(token: string): Promise<AuthTokenPayload> {
@@ -251,75 +325,47 @@ export class AuthService {
           };
         }
       } catch {
-        // Not a standard Firebase ID token, proceed to check custom token or server JWT
+        // Not a standard Firebase ID token, proceed to verify as Firebase Custom Token
       }
     }
 
-    // 2. Try decoding as a Firebase Custom Token or server JWT
-    try {
-      const decoded = jwt.decode(token) as any;
-      if (decoded) {
-        // Firebase custom tokens have `uid` top-level and `claims` dictionary
-        if (decoded.uid) {
-          const email = decoded.claims?.email || decoded.email || "";
-          const isAdmin = email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
-          const role = isAdmin
-            ? "admin"
-            : decoded.claims?.role || decoded.role || "student";
-          return {
-            userId: decoded.uid,
-            email,
-            role,
-            tokenId: decoded.jti || decoded.uid || token,
-            createdAt: decoded.iat
-              ? new Date(decoded.iat * 1000).toISOString()
-              : new Date().toISOString(),
-          };
-        }
+    // 2. Verify and decode Firebase Custom Token
+    const payload = this.verifyCustomToken(token);
 
-        // Standard server JWT with `userId`
-        if (decoded.userId) {
-          const email = decoded.email || "";
-          const isAdmin = email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
-          return {
-            userId: decoded.userId,
-            email,
-            role: isAdmin ? "admin" : decoded.role || "student",
-            tokenId: decoded.tokenId || token,
-            createdAt: decoded.createdAt || new Date().toISOString(),
-          };
-        }
+    // Firebase custom tokens have `uid` top-level and optional `claims`
+    if (payload.uid) {
+      const email = payload.claims?.email || payload.email || "";
+      const isAdmin = email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
+      const role = isAdmin
+        ? "admin"
+        : payload.claims?.role || payload.role || "student";
 
-        // General JWT with `sub`
-        if (decoded.sub && !decoded.sub.includes("firebase-adminsdk")) {
-          const email = decoded.email || "";
-          const isAdmin = email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
-          return {
-            userId: decoded.sub,
-            email,
-            role: isAdmin ? "admin" : decoded.role || "student",
-            tokenId: token,
-            createdAt: new Date().toISOString(),
-          };
-        }
-      }
-    } catch (decodeErr: any) {
-      logger.debug(`Token decode notice: ${decodeErr.message}`);
+      return {
+        userId: payload.uid,
+        email,
+        role,
+        tokenId: payload.jti || payload.uid || token,
+        createdAt: payload.iat
+          ? new Date(payload.iat * 1000).toISOString()
+          : new Date().toISOString(),
+      };
     }
 
-    // 3. Fallback verification with server JWT secret
-    try {
-      return this.verifyJwt(token);
-    } catch {
-      throw new Error("Invalid or unrecognizable authorization token");
+    // General token with `sub` or `userId`
+    const userId = payload.userId || payload.sub;
+    if (userId) {
+      const email = payload.email || "";
+      const isAdmin = email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
+      return {
+        userId,
+        email,
+        role: isAdmin ? "admin" : payload.role || "student",
+        tokenId: payload.tokenId || payload.jti || token,
+        createdAt: payload.createdAt || new Date().toISOString(),
+      };
     }
-  }
 
-  /**
-   * Verifies an incoming JWT token
-   */
-  public verifyJwt(token: string): AuthTokenPayload {
-    return jwt.verify(token, config.jwtSecret) as AuthTokenPayload;
+    throw new Error("Unrecognizable token structure: missing user identifier");
   }
 
   /**
@@ -331,18 +377,14 @@ export class AuthService {
       let userId = "unknown";
 
       try {
-        const decoded = jwt.decode(rawToken) as any;
-        if (decoded) {
-          if (decoded.tokenId) {
-            identifier = decoded.tokenId;
-          } else if (decoded.uid) {
-            identifier = decoded.uid;
-          }
-          if (decoded.userId) {
-            userId = decoded.userId;
-          } else if (decoded.uid) {
-            userId = decoded.uid;
-          }
+        const { payload } = this.decodeTokenSegments(rawToken);
+        if (payload) {
+          if (payload.tokenId) identifier = payload.tokenId;
+          else if (payload.uid) identifier = payload.uid;
+          else if (payload.jti) identifier = payload.jti;
+
+          if (payload.userId) userId = payload.userId;
+          else if (payload.uid) userId = payload.uid;
         }
       } catch {
         // use rawToken if decoding fails
