@@ -1,25 +1,28 @@
-{
-  "metadata": {
-    "country": "Nepal",
-    "curriculum": "NEB",
-    "subject": "Hotel Management",
-    "grades": [11, 12],
-    "purpose": "Question bank and topic mapping",
-    "format_version": "1.0",
-    "verification_note": "Expanded study outline. Confirm chapter titles and topic coverage against the latest official NEB curriculum."
+import type { SyllabusFile } from "../../../types/quiz.types.js";
+
+export const commerce_hotel_managementSyllabus: SyllabusFile = {
+  metadata: {
+    country: "Nepal",
+    curriculum: "NEB",
+    subject: "Hotel Management",
+    grades: [11, 12],
+    purpose: "Question bank and topic mapping",
+    format_version: "1.0",
+    verification_note:
+      "Expanded study outline. Confirm chapter titles and topic coverage against the latest official NEB curriculum.",
   },
-  "grades": {
+  grades: {
     "11": {
-      "grade": 11,
-      "subject": "Hotel Management",
-      "branches": [
+      grade: 11,
+      subject: "Hotel Management",
+      branches: [
         {
-          "branchName": "Introduction to Hospitality and Tourism",
-          "chapters": [
+          branchName: "Introduction to Hospitality and Tourism",
+          chapters: [
             {
-              "chapterNumber": 1,
-              "chapterName": "Introduction to Hotel Management",
-              "topics": [
+              chapterNumber: 1,
+              chapterName: "Introduction to Hotel Management",
+              topics: [
                 "Meaning and definition of a hotel",
                 "Meaning and scope of hotel management",
                 "History and development of hotels",
@@ -32,13 +35,13 @@
                 "Classification of hotels by service level",
                 "Hotel ownership and management models",
                 "Hotel departments and their functions",
-                "Career opportunities in hotel management"
-              ]
+                "Career opportunities in hotel management",
+              ],
             },
             {
-              "chapterNumber": 2,
-              "chapterName": "Introduction to Tourism",
-              "topics": [
+              chapterNumber: 2,
+              chapterName: "Introduction to Tourism",
+              topics: [
                 "Meaning and definition of tourism",
                 "Tourist, excursionist, and visitor",
                 "Types of tourism",
@@ -52,13 +55,13 @@
                 "Components of the tourism industry",
                 "Relationship between tourism and hospitality",
                 "Economic importance of tourism in Nepal",
-                "Tourism opportunities in Nepal"
-              ]
+                "Tourism opportunities in Nepal",
+              ],
             },
             {
-              "chapterNumber": 3,
-              "chapterName": "Hospitality Industry Organization",
-              "topics": [
+              chapterNumber: 3,
+              chapterName: "Hospitality Industry Organization",
+              topics: [
                 "Meaning of hospitality",
                 "Characteristics of hospitality services",
                 "Structure of a hotel organization",
@@ -72,13 +75,13 @@
                 "Accounts and finance department",
                 "Human resources department",
                 "Sales and marketing department",
-                "Coordination among hotel departments"
-              ]
+                "Coordination among hotel departments",
+              ],
             },
             {
-              "chapterNumber": 4,
-              "chapterName": "Professional Grooming and Communication",
-              "topics": [
+              chapterNumber: 4,
+              chapterName: "Professional Grooming and Communication",
+              topics: [
                 "Personal hygiene and grooming",
                 "Professional appearance",
                 "Uniform standards",
@@ -92,18 +95,18 @@
                 "Handling difficult conversations",
                 "Interpersonal skills",
                 "Teamwork and cooperation",
-                "Professional ethics in hospitality"
-              ]
-            }
-          ]
+                "Professional ethics in hospitality",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Front Office Operations",
-          "chapters": [
+          branchName: "Front Office Operations",
+          chapters: [
             {
-              "chapterNumber": 5,
-              "chapterName": "Introduction to Front Office",
-              "topics": [
+              chapterNumber: 5,
+              chapterName: "Introduction to Front Office",
+              topics: [
                 "Meaning and importance of front office",
                 "Functions of the front office",
                 "Front office organizational structure",
@@ -115,13 +118,13 @@
                 "Guest relations",
                 "Coordination with housekeeping",
                 "Coordination with other hotel departments",
-                "Front office equipment and technology"
-              ]
+                "Front office equipment and technology",
+              ],
             },
             {
-              "chapterNumber": 6,
-              "chapterName": "Reservation Procedures",
-              "topics": [
+              chapterNumber: 6,
+              chapterName: "Reservation Procedures",
+              topics: [
                 "Meaning and importance of reservations",
                 "Types of reservations",
                 "Individual reservations",
@@ -137,13 +140,13 @@
                 "No-show policies",
                 "Overbooking",
                 "Reservation correspondence",
-                "Handling reservation inquiries"
-              ]
+                "Handling reservation inquiries",
+              ],
             },
             {
-              "chapterNumber": 7,
-              "chapterName": "Registration and Check-in",
-              "topics": [
+              chapterNumber: 7,
+              chapterName: "Registration and Check-in",
+              topics: [
                 "Meaning and purpose of guest registration",
                 "Pre-arrival procedures",
                 "Arrival procedures",
@@ -157,13 +160,13 @@
                 "Group check-in procedures",
                 "VIP guest handling",
                 "Guest privacy and confidentiality",
-                "Special check-in requirements"
-              ]
+                "Special check-in requirements",
+              ],
             },
             {
-              "chapterNumber": 8,
-              "chapterName": "Guest Services and Check-out",
-              "topics": [
+              chapterNumber: 8,
+              chapterName: "Guest Services and Check-out",
+              topics: [
                 "Guest service procedures",
                 "Guest requests and inquiries",
                 "Message handling",
@@ -178,18 +181,18 @@
                 "Late check-out",
                 "Room status updates",
                 "Guest feedback collection",
-                "Post-departure services"
-              ]
-            }
-          ]
+                "Post-departure services",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Housekeeping Operations",
-          "chapters": [
+          branchName: "Housekeeping Operations",
+          chapters: [
             {
-              "chapterNumber": 9,
-              "chapterName": "Introduction to Housekeeping",
-              "topics": [
+              chapterNumber: 9,
+              chapterName: "Introduction to Housekeeping",
+              topics: [
                 "Meaning and importance of housekeeping",
                 "Functions of the housekeeping department",
                 "Housekeeping organizational structure",
@@ -201,13 +204,13 @@
                 "Guestroom cleanliness",
                 "Public-area cleanliness",
                 "Housekeeping records",
-                "Environmental responsibility in housekeeping"
-              ]
+                "Environmental responsibility in housekeeping",
+              ],
             },
             {
-              "chapterNumber": 10,
-              "chapterName": "Cleaning Equipment and Materials",
-              "topics": [
+              chapterNumber: 10,
+              chapterName: "Cleaning Equipment and Materials",
+              topics: [
                 "Types of cleaning equipment",
                 "Manual cleaning equipment",
                 "Mechanical cleaning equipment",
@@ -221,13 +224,13 @@
                 "Equipment maintenance",
                 "Personal protective equipment",
                 "Safe handling procedures",
-                "Selection of appropriate cleaning materials"
-              ]
+                "Selection of appropriate cleaning materials",
+              ],
             },
             {
-              "chapterNumber": 11,
-              "chapterName": "Guestroom Cleaning and Maintenance",
-              "topics": [
+              chapterNumber: 11,
+              chapterName: "Guestroom Cleaning and Maintenance",
+              topics: [
                 "Guestroom cleaning procedures",
                 "Room preparation",
                 "Bed making",
@@ -243,13 +246,13 @@
                 "Handling damaged items",
                 "Maintenance reporting",
                 "Lost and found procedures",
-                "Guestroom hygiene and sanitation"
-              ]
+                "Guestroom hygiene and sanitation",
+              ],
             },
             {
-              "chapterNumber": 12,
-              "chapterName": "Linen, Laundry and Uniform Management",
-              "topics": [
+              chapterNumber: 12,
+              chapterName: "Linen, Laundry and Uniform Management",
+              topics: [
                 "Meaning and importance of linen management",
                 "Types of hotel linen",
                 "Linen room operations",
@@ -264,18 +267,18 @@
                 "Laundry chemicals and safety",
                 "Uniform control",
                 "Linen loss prevention",
-                "Laundry quality control"
-              ]
-            }
-          ]
+                "Laundry quality control",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Food Production",
-          "chapters": [
+          branchName: "Food Production",
+          chapters: [
             {
-              "chapterNumber": 13,
-              "chapterName": "Introduction to Food Production",
-              "topics": [
+              chapterNumber: 13,
+              chapterName: "Introduction to Food Production",
+              topics: [
                 "Meaning and scope of food production",
                 "Kitchen organization",
                 "Types of commercial kitchens",
@@ -288,13 +291,13 @@
                 "Large kitchen equipment",
                 "Kitchen workflow",
                 "Coordination between kitchen and service staff",
-                "Kitchen discipline and professional conduct"
-              ]
+                "Kitchen discipline and professional conduct",
+              ],
             },
             {
-              "chapterNumber": 14,
-              "chapterName": "Basic Food Commodities",
-              "topics": [
+              chapterNumber: 14,
+              chapterName: "Basic Food Commodities",
+              topics: [
                 "Classification of food commodities",
                 "Cereals and grains",
                 "Pulses and legumes",
@@ -309,13 +312,13 @@
                 "Flour and bakery ingredients",
                 "Food selection and purchasing",
                 "Food storage requirements",
-                "Quality indicators of food commodities"
-              ]
+                "Quality indicators of food commodities",
+              ],
             },
             {
-              "chapterNumber": 15,
-              "chapterName": "Basic Cooking Methods",
-              "topics": [
+              chapterNumber: 15,
+              chapterName: "Basic Cooking Methods",
+              topics: [
                 "Principles of cooking",
                 "Dry-heat cooking methods",
                 "Moist-heat cooking methods",
@@ -332,13 +335,13 @@
                 "Stewing",
                 "Microwave cooking",
                 "Effects of heat on food",
-                "Selection of cooking methods"
-              ]
+                "Selection of cooking methods",
+              ],
             },
             {
-              "chapterNumber": 16,
-              "chapterName": "Kitchen Hygiene and Food Safety",
-              "topics": [
+              chapterNumber: 16,
+              chapterName: "Kitchen Hygiene and Food Safety",
+              topics: [
                 "Meaning and importance of food safety",
                 "Personal hygiene of kitchen staff",
                 "Handwashing procedures",
@@ -355,18 +358,18 @@
                 "Cleaning and sanitizing kitchen equipment",
                 "Pest control",
                 "Food safety records",
-                "Safe waste disposal"
-              ]
-            }
-          ]
+                "Safe waste disposal",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Food and Beverage Service",
-          "chapters": [
+          branchName: "Food and Beverage Service",
+          chapters: [
             {
-              "chapterNumber": 17,
-              "chapterName": "Introduction to Food and Beverage Service",
-              "topics": [
+              chapterNumber: 17,
+              chapterName: "Introduction to Food and Beverage Service",
+              topics: [
                 "Meaning and importance of food and beverage service",
                 "Types of food service establishments",
                 "Restaurant organization",
@@ -378,13 +381,13 @@
                 "Guest service standards",
                 "Professional behavior in service",
                 "Types of restaurant services",
-                "Food service workflow"
-              ]
+                "Food service workflow",
+              ],
             },
             {
-              "chapterNumber": 18,
-              "chapterName": "Restaurant Mise-en-Place and Mise-en-Scène",
-              "topics": [
+              chapterNumber: 18,
+              chapterName: "Restaurant Mise-en-Place and Mise-en-Scène",
+              topics: [
                 "Meaning of mise-en-place",
                 "Meaning of mise-en-scène",
                 "Preparation of the restaurant",
@@ -397,13 +400,13 @@
                 "Checking restaurant equipment",
                 "Table maintenance",
                 "Restaurant opening procedures",
-                "Restaurant closing procedures"
-              ]
+                "Restaurant closing procedures",
+              ],
             },
             {
-              "chapterNumber": 19,
-              "chapterName": "Methods of Food and Beverage Service",
-              "topics": [
+              chapterNumber: 19,
+              chapterName: "Methods of Food and Beverage Service",
+              topics: [
                 "Meaning and types of food service",
                 "American service",
                 "English service",
@@ -417,13 +420,13 @@
                 "Banquet service",
                 "Tray service",
                 "Advantages and disadvantages of service methods",
-                "Selection of service methods for different establishments"
-              ]
+                "Selection of service methods for different establishments",
+              ],
             },
             {
-              "chapterNumber": 20,
-              "chapterName": "Menu Knowledge and Meal Planning",
-              "topics": [
+              chapterNumber: 20,
+              chapterName: "Menu Knowledge and Meal Planning",
+              topics: [
                 "Meaning and importance of a menu",
                 "Types of menus",
                 "À la carte menu",
@@ -438,18 +441,18 @@
                 "Dietary requirements",
                 "Vegetarian and special-diet menus",
                 "Menu pricing concepts",
-                "Menu presentation and design"
-              ]
-            }
-          ]
+                "Menu presentation and design",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Hospitality Business and Workplace Safety",
-          "chapters": [
+          branchName: "Hospitality Business and Workplace Safety",
+          chapters: [
             {
-              "chapterNumber": 21,
-              "chapterName": "Hotel Accounting Fundamentals",
-              "topics": [
+              chapterNumber: 21,
+              chapterName: "Hotel Accounting Fundamentals",
+              topics: [
                 "Meaning and importance of hotel accounting",
                 "Basic accounting terminology",
                 "Assets and liabilities",
@@ -462,13 +465,13 @@
                 "Basic bookkeeping",
                 "Departmental revenue",
                 "Introduction to hotel budgets",
-                "Importance of financial records"
-              ]
+                "Importance of financial records",
+              ],
             },
             {
-              "chapterNumber": 22,
-              "chapterName": "Hotel Safety, Security and First Aid",
-              "topics": [
+              chapterNumber: 22,
+              chapterName: "Hotel Safety, Security and First Aid",
+              topics: [
                 "Importance of hotel safety",
                 "Hotel security procedures",
                 "Guest and staff safety",
@@ -483,24 +486,24 @@
                 "Emergency reporting",
                 "Food safety emergencies",
                 "Security of guest belongings",
-                "Incident documentation"
-              ]
-            }
-          ]
-        }
-      ]
+                "Incident documentation",
+              ],
+            },
+          ],
+        },
+      ],
     },
     "12": {
-      "grade": 12,
-      "subject": "Hotel Management",
-      "branches": [
+      grade: 12,
+      subject: "Hotel Management",
+      branches: [
         {
-          "branchName": "Advanced Front Office Management",
-          "chapters": [
+          branchName: "Advanced Front Office Management",
+          chapters: [
             {
-              "chapterNumber": 1,
-              "chapterName": "Front Office Management and Revenue",
-              "topics": [
+              chapterNumber: 1,
+              chapterName: "Front Office Management and Revenue",
+              topics: [
                 "Front office management functions",
                 "Front office planning and organization",
                 "Room inventory management",
@@ -514,13 +517,13 @@
                 "Yield and revenue management concepts",
                 "Overbooking controls",
                 "Managing high-demand periods",
-                "Performance reports and statistics"
-              ]
+                "Performance reports and statistics",
+              ],
             },
             {
-              "chapterNumber": 2,
-              "chapterName": "Reservation Systems and Distribution",
-              "topics": [
+              chapterNumber: 2,
+              chapterName: "Reservation Systems and Distribution",
+              topics: [
                 "Manual reservation systems",
                 "Computerized reservation systems",
                 "Property management systems",
@@ -534,13 +537,13 @@
                 "Room inventory synchronization",
                 "Reservation data accuracy",
                 "Guest data privacy",
-                "Technology in front office operations"
-              ]
+                "Technology in front office operations",
+              ],
             },
             {
-              "chapterNumber": 3,
-              "chapterName": "Guest Relations and Complaint Management",
-              "topics": [
+              chapterNumber: 3,
+              chapterName: "Guest Relations and Complaint Management",
+              topics: [
                 "Principles of guest relations",
                 "Guest expectations and satisfaction",
                 "Guest feedback systems",
@@ -554,18 +557,18 @@
                 "Guest loyalty programs",
                 "Cultural sensitivity",
                 "Accessibility and inclusive service",
-                "Measuring guest satisfaction"
-              ]
-            }
-          ]
+                "Measuring guest satisfaction",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Advanced Housekeeping Management",
-          "chapters": [
+          branchName: "Advanced Housekeeping Management",
+          chapters: [
             {
-              "chapterNumber": 4,
-              "chapterName": "Housekeeping Supervision and Control",
-              "topics": [
+              chapterNumber: 4,
+              chapterName: "Housekeeping Supervision and Control",
+              topics: [
                 "Housekeeping planning",
                 "Duty allocation",
                 "Work schedules",
@@ -579,13 +582,13 @@
                 "Quality assurance",
                 "Housekeeping performance indicators",
                 "Guestroom readiness",
-                "Housekeeping records and reports"
-              ]
+                "Housekeeping records and reports",
+              ],
             },
             {
-              "chapterNumber": 5,
-              "chapterName": "Housekeeping Inventory and Cost Control",
-              "topics": [
+              chapterNumber: 5,
+              chapterName: "Housekeeping Inventory and Cost Control",
+              topics: [
                 "Housekeeping inventory management",
                 "Stock requisition",
                 "Purchasing and receiving supplies",
@@ -599,13 +602,13 @@
                 "Waste reduction",
                 "Loss and damage prevention",
                 "Supplier coordination",
-                "Sustainable housekeeping practices"
-              ]
+                "Sustainable housekeeping practices",
+              ],
             },
             {
-              "chapterNumber": 6,
-              "chapterName": "Interior Decoration and Facility Maintenance",
-              "topics": [
+              chapterNumber: 6,
+              chapterName: "Interior Decoration and Facility Maintenance",
+              topics: [
                 "Principles of interior decoration",
                 "Color schemes",
                 "Lighting",
@@ -619,18 +622,18 @@
                 "Corrective maintenance",
                 "Maintenance reporting",
                 "Energy and water conservation",
-                "Accessibility in hotel facilities"
-              ]
-            }
-          ]
+                "Accessibility in hotel facilities",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Advanced Food Production",
-          "chapters": [
+          branchName: "Advanced Food Production",
+          chapters: [
             {
-              "chapterNumber": 7,
-              "chapterName": "Menu Planning and Recipe Development",
-              "topics": [
+              chapterNumber: 7,
+              chapterName: "Menu Planning and Recipe Development",
+              topics: [
                 "Principles of menu planning",
                 "Menu balance and variety",
                 "Seasonal menu planning",
@@ -645,13 +648,13 @@
                 "Menu costing",
                 "Menu engineering concepts",
                 "Food presentation",
-                "Customer preferences and menu design"
-              ]
+                "Customer preferences and menu design",
+              ],
             },
             {
-              "chapterNumber": 8,
-              "chapterName": "Stocks, Soups and Sauces",
-              "topics": [
+              chapterNumber: 8,
+              chapterName: "Stocks, Soups and Sauces",
+              topics: [
                 "Meaning and classification of stocks",
                 "Preparation of white stock",
                 "Preparation of brown stock",
@@ -667,13 +670,13 @@
                 "Basic mother sauces",
                 "Derivative sauces",
                 "Sauce consistency and seasoning",
-                "Quality control in stocks, soups, and sauces"
-              ]
+                "Quality control in stocks, soups, and sauces",
+              ],
             },
             {
-              "chapterNumber": 9,
-              "chapterName": "Meat, Poultry, Fish and Vegetable Cookery",
-              "topics": [
+              chapterNumber: 9,
+              chapterName: "Meat, Poultry, Fish and Vegetable Cookery",
+              topics: [
                 "Selection and quality of meat",
                 "Cuts of meat",
                 "Meat preparation methods",
@@ -686,13 +689,13 @@
                 "Safe handling of raw animal products",
                 "Storage and preservation",
                 "Portioning and presentation",
-                "Quality assessment of cooked dishes"
-              ]
+                "Quality assessment of cooked dishes",
+              ],
             },
             {
-              "chapterNumber": 10,
-              "chapterName": "Bakery and Pastry",
-              "topics": [
+              chapterNumber: 10,
+              chapterName: "Bakery and Pastry",
+              topics: [
                 "Introduction to bakery and pastry",
                 "Bakery ingredients and their functions",
                 "Types of flour",
@@ -709,13 +712,13 @@
                 "Desserts and confectionery",
                 "Baking temperatures and times",
                 "Bakery hygiene and storage",
-                "Common baking faults and remedies"
-              ]
+                "Common baking faults and remedies",
+              ],
             },
             {
-              "chapterNumber": 11,
-              "chapterName": "Food Preservation and Storage",
-              "topics": [
+              chapterNumber: 11,
+              chapterName: "Food Preservation and Storage",
+              topics: [
                 "Principles of food preservation",
                 "Refrigeration",
                 "Freezing",
@@ -731,18 +734,18 @@
                 "Date labeling",
                 "Prevention of spoilage",
                 "Food waste reduction",
-                "Food safety during storage"
-              ]
-            }
-          ]
+                "Food safety during storage",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Advanced Food and Beverage Service",
-          "chapters": [
+          branchName: "Advanced Food and Beverage Service",
+          chapters: [
             {
-              "chapterNumber": 12,
-              "chapterName": "Advanced Restaurant Service",
-              "topics": [
+              chapterNumber: 12,
+              chapterName: "Advanced Restaurant Service",
+              topics: [
                 "Advanced table service procedures",
                 "Order taking and order transmission",
                 "Sequence of service",
@@ -756,13 +759,13 @@
                 "Service timing and workflow",
                 "Restaurant service quality control",
                 "Upselling and suggestive selling",
-                "Handling service complaints"
-              ]
+                "Handling service complaints",
+              ],
             },
             {
-              "chapterNumber": 13,
-              "chapterName": "Beverages and Beverage Service",
-              "topics": [
+              chapterNumber: 13,
+              chapterName: "Beverages and Beverage Service",
+              topics: [
                 "Classification of beverages",
                 "Non-alcoholic beverages",
                 "Tea and coffee",
@@ -776,13 +779,13 @@
                 "Beverage storage",
                 "Beverage cost control",
                 "Responsible and lawful beverage service",
-                "Hygiene in beverage preparation"
-              ]
+                "Hygiene in beverage preparation",
+              ],
             },
             {
-              "chapterNumber": 14,
-              "chapterName": "Banquet and Event Operations",
-              "topics": [
+              chapterNumber: 14,
+              chapterName: "Banquet and Event Operations",
+              topics: [
                 "Meaning and types of banquets",
                 "Banquet department organization",
                 "Event inquiries and bookings",
@@ -796,13 +799,13 @@
                 "Equipment and staffing requirements",
                 "Coordination with event organizers",
                 "Event costing and budgeting",
-                "Post-event evaluation"
-              ]
+                "Post-event evaluation",
+              ],
             },
             {
-              "chapterNumber": 15,
-              "chapterName": "Food and Beverage Cost Control",
-              "topics": [
+              chapterNumber: 15,
+              chapterName: "Food and Beverage Cost Control",
+              topics: [
                 "Importance of cost control",
                 "Food cost and beverage cost",
                 "Standard recipes and portion control",
@@ -817,18 +820,18 @@
                 "Menu pricing concepts",
                 "Actual versus standard costs",
                 "Cost variance analysis",
-                "Food and beverage profitability"
-              ]
-            }
-          ]
+                "Food and beverage profitability",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Hospitality Accounting and Finance",
-          "chapters": [
+          branchName: "Hospitality Accounting and Finance",
+          chapters: [
             {
-              "chapterNumber": 16,
-              "chapterName": "Hotel Accounting and Financial Records",
-              "topics": [
+              chapterNumber: 16,
+              chapterName: "Hotel Accounting and Financial Records",
+              topics: [
                 "Accounting principles and concepts",
                 "Hotel revenue and expenses",
                 "Journal entries",
@@ -843,13 +846,13 @@
                 "Preparation of financial statements",
                 "Profit and loss statement",
                 "Balance sheet",
-                "Cash flow concepts"
-              ]
+                "Cash flow concepts",
+              ],
             },
             {
-              "chapterNumber": 17,
-              "chapterName": "Budgeting and Financial Management",
-              "topics": [
+              chapterNumber: 17,
+              chapterName: "Budgeting and Financial Management",
+              topics: [
                 "Meaning and objectives of budgeting",
                 "Types of hotel budgets",
                 "Operating budgets",
@@ -863,13 +866,13 @@
                 "Cost reduction strategies",
                 "Financial planning",
                 "Profitability analysis",
-                "Financial performance indicators"
-              ]
+                "Financial performance indicators",
+              ],
             },
             {
-              "chapterNumber": 18,
-              "chapterName": "Hotel Pricing and Revenue Management",
-              "topics": [
+              chapterNumber: 18,
+              chapterName: "Hotel Pricing and Revenue Management",
+              topics: [
                 "Hotel pricing principles",
                 "Room rate determination",
                 "Cost-based pricing",
@@ -883,18 +886,18 @@
                 "Demand and capacity management",
                 "Revenue management strategies",
                 "Discounting and promotional rates",
-                "Profitability of hotel departments"
-              ]
-            }
-          ]
+                "Profitability of hotel departments",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Tourism and Destination Management",
-          "chapters": [
+          branchName: "Tourism and Destination Management",
+          chapters: [
             {
-              "chapterNumber": 19,
-              "chapterName": "Tourism Resources and Destinations of Nepal",
-              "topics": [
+              chapterNumber: 19,
+              chapterName: "Tourism Resources and Destinations of Nepal",
+              topics: [
                 "Natural tourism resources of Nepal",
                 "Cultural and historical heritage",
                 "Religious tourism destinations",
@@ -908,13 +911,13 @@
                 "Tourism destinations of the Himalayas",
                 "Tourism infrastructure",
                 "Destination accessibility",
-                "Tourism promotion in Nepal"
-              ]
+                "Tourism promotion in Nepal",
+              ],
             },
             {
-              "chapterNumber": 20,
-              "chapterName": "Travel Agency and Tour Operations",
-              "topics": [
+              chapterNumber: 20,
+              chapterName: "Travel Agency and Tour Operations",
+              topics: [
                 "Meaning and functions of travel agencies",
                 "Types of travel agencies",
                 "Tour operators",
@@ -928,13 +931,13 @@
                 "Customer service in travel operations",
                 "Booking and cancellation procedures",
                 "Coordination with hotels and transport providers",
-                "Travel agency marketing"
-              ]
+                "Travel agency marketing",
+              ],
             },
             {
-              "chapterNumber": 21,
-              "chapterName": "Sustainable Tourism and Hospitality",
-              "topics": [
+              chapterNumber: 21,
+              chapterName: "Sustainable Tourism and Hospitality",
+              topics: [
                 "Meaning of sustainable tourism",
                 "Environmental impacts of tourism",
                 "Socio-cultural impacts of tourism",
@@ -949,18 +952,18 @@
                 "Sustainable purchasing",
                 "Climate change and tourism",
                 "Green hotel practices",
-                "Sustainable tourism opportunities in Nepal"
-              ]
-            }
-          ]
+                "Sustainable tourism opportunities in Nepal",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Hotel Human Resources and Marketing",
-          "chapters": [
+          branchName: "Hotel Human Resources and Marketing",
+          chapters: [
             {
-              "chapterNumber": 22,
-              "chapterName": "Human Resource Management in Hotels",
-              "topics": [
+              chapterNumber: 22,
+              chapterName: "Human Resource Management in Hotels",
+              topics: [
                 "Meaning and importance of human resource management",
                 "Human resource planning",
                 "Job analysis",
@@ -975,13 +978,13 @@
                 "Workplace discipline",
                 "Employee welfare",
                 "Occupational health and safety",
-                "Labor relations and applicable employment laws"
-              ]
+                "Labor relations and applicable employment laws",
+              ],
             },
             {
-              "chapterNumber": 23,
-              "chapterName": "Hospitality Marketing and Sales",
-              "topics": [
+              chapterNumber: 23,
+              chapterName: "Hospitality Marketing and Sales",
+              topics: [
                 "Meaning and importance of hospitality marketing",
                 "Hospitality marketing environment",
                 "Market segmentation",
@@ -997,13 +1000,13 @@
                 "Customer relationship management",
                 "Sales promotion",
                 "Public relations",
-                "Guest reviews and reputation management"
-              ]
+                "Guest reviews and reputation management",
+              ],
             },
             {
-              "chapterNumber": 24,
-              "chapterName": "Entrepreneurship and Hotel Business Planning",
-              "topics": [
+              chapterNumber: 24,
+              chapterName: "Entrepreneurship and Hotel Business Planning",
+              topics: [
                 "Meaning and characteristics of entrepreneurship",
                 "Entrepreneurial opportunities in hospitality",
                 "Hotel business concepts",
@@ -1018,18 +1021,18 @@
                 "Financing options",
                 "Risk assessment",
                 "Business registration and licensing considerations in Nepal",
-                "Launching and managing a small hospitality business"
-              ]
-            }
-          ]
+                "Launching and managing a small hospitality business",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Hospitality Law, Ethics and Safety",
-          "chapters": [
+          branchName: "Hospitality Law, Ethics and Safety",
+          chapters: [
             {
-              "chapterNumber": 25,
-              "chapterName": "Hospitality Law and Professional Ethics",
-              "topics": [
+              chapterNumber: 25,
+              chapterName: "Hospitality Law and Professional Ethics",
+              topics: [
                 "Importance of law in hospitality",
                 "Hotel licensing and registration",
                 "Guest registration and record keeping",
@@ -1043,13 +1046,13 @@
                 "Handling guest property",
                 "Responsible tourism conduct",
                 "Legal and ethical handling of complaints",
-                "Compliance with applicable Nepalese laws"
-              ]
+                "Compliance with applicable Nepalese laws",
+              ],
             },
             {
-              "chapterNumber": 26,
-              "chapterName": "Risk Management and Emergency Procedures",
-              "topics": [
+              chapterNumber: 26,
+              chapterName: "Risk Management and Emergency Procedures",
+              topics: [
                 "Meaning of risk management",
                 "Identification of workplace hazards",
                 "Risk assessment",
@@ -1064,18 +1067,18 @@
                 "Business continuity",
                 "Disaster preparedness",
                 "Emergency drills",
-                "Post-incident review"
-              ]
-            }
-          ]
+                "Post-incident review",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Practical Training and Examination Preparation",
-          "chapters": [
+          branchName: "Practical Training and Examination Preparation",
+          chapters: [
             {
-              "chapterNumber": 27,
-              "chapterName": "Front Office and Housekeeping Practical Skills",
-              "topics": [
+              chapterNumber: 27,
+              chapterName: "Front Office and Housekeeping Practical Skills",
+              topics: [
                 "Reservation form preparation",
                 "Guest registration practice",
                 "Room allocation exercises",
@@ -1089,13 +1092,13 @@
                 "Linen handling exercises",
                 "Room inspection practice",
                 "Lost and found documentation",
-                "Practical assessment and checklists"
-              ]
+                "Practical assessment and checklists",
+              ],
             },
             {
-              "chapterNumber": 28,
-              "chapterName": "Food Production and Food Service Practical Skills",
-              "topics": [
+              chapterNumber: 28,
+              chapterName: "Food Production and Food Service Practical Skills",
+              topics: [
                 "Kitchen tool identification",
                 "Knife-handling techniques",
                 "Basic food preparation",
@@ -1109,13 +1112,13 @@
                 "Order-taking practice",
                 "Tray and plate service",
                 "Menu presentation",
-                "Practical assessment and hygiene checklists"
-              ]
+                "Practical assessment and hygiene checklists",
+              ],
             },
             {
-              "chapterNumber": 29,
-              "chapterName": "Integrated Hospitality Case Studies",
-              "topics": [
+              chapterNumber: 29,
+              chapterName: "Integrated Hospitality Case Studies",
+              topics: [
                 "Front office service scenarios",
                 "Housekeeping quality problems",
                 "Restaurant service problems",
@@ -1128,13 +1131,13 @@
                 "Tourism destination planning",
                 "Sustainable hotel operations",
                 "Hospitality business planning",
-                "Integrated hotel management scenarios"
-              ]
+                "Integrated hotel management scenarios",
+              ],
             },
             {
-              "chapterNumber": 30,
-              "chapterName": "Model Questions and Examination Practice",
-              "topics": [
+              chapterNumber: 30,
+              chapterName: "Model Questions and Examination Practice",
+              topics: [
                 "Multiple-choice questions",
                 "Very short-answer questions",
                 "Short-answer questions",
@@ -1148,12 +1151,12 @@
                 "Case-study questions",
                 "Past-paper-style questions",
                 "Mixed-topic revision tests",
-                "Common examination errors"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  }
-}
+                "Common examination errors",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+};

@@ -1,0 +1,4600 @@
+import type { SyllabusFile } from "../../../types/quiz.types.js";
+
+export const commerce_marketingSyllabus: SyllabusFile = {
+  metadata: {
+    country: "Nepal",
+    curriculum: "NEB",
+    subject: "Marketing",
+    grades: [11, 12],
+    purpose: "Question bank and topic mapping",
+    format_version: "1.0",
+    verification_note:
+      "Expanded study outline for question-bank development. Verify the subject's official NEB status, chapter names, and topic coverage against the latest curriculum before treating this as an exact official syllabus.",
+  },
+  grades: {
+    "11": {
+      grade: 11,
+      subject: "Marketing",
+      branches: [
+        {
+          branchName: "Fundamentals of Marketing",
+          chapters: [
+            {
+              chapterNumber: 1,
+              chapterName: "Introduction to Marketing",
+              topics: [
+                {
+                  topic: "Meaning and definition of marketing",
+                  brief:
+                    "Marketing is the process of identifying customer needs and satisfying them through creating, communicating, delivering, and exchanging valuable products or services.",
+                },
+                {
+                  topic: "Nature and characteristics of marketing",
+                  brief:
+                    "Marketing is customer-oriented, goal-driven, continuous, dynamic, and involves activities such as research, pricing, promotion, and distribution.",
+                },
+                {
+                  topic: "Scope of marketing",
+                  brief:
+                    "Marketing covers goods, services, ideas, people, and places, including research, product planning, pricing, distribution, promotion, and customer relationship management.",
+                },
+                {
+                  topic: "Objectives of marketing",
+                  brief:
+                    "Marketing aims to satisfy customers, increase sales, build brand awareness, develop customer loyalty, and achieve sustainable business growth.",
+                },
+                {
+                  topic: "Importance of marketing",
+                  brief:
+                    "Marketing connects businesses with customers, supports sales, encourages competition and innovation, and helps organizations understand changing market needs.",
+                },
+                {
+                  topic: "Functions of marketing",
+                  brief:
+                    "Marketing functions include market research, product planning, branding, pricing, promotion, selling, transportation, storage, financing, and risk management.",
+                },
+                {
+                  topic: "Marketing and selling",
+                  brief:
+                    "Selling focuses mainly on persuading customers to purchase existing products, while marketing begins with customer needs and covers the entire process of creating and delivering value.",
+                },
+                {
+                  topic: "Marketing and sales management",
+                  brief:
+                    "Marketing management plans and coordinates activities that create customer value, while sales management focuses on organizing, directing, and evaluating sales activities.",
+                },
+                {
+                  topic: "Marketing and advertising",
+                  brief:
+                    "Marketing is a broad business process that includes research, product decisions, pricing, distribution, and promotion, whereas advertising is one promotional tool within marketing.",
+                },
+                {
+                  topic: "Evolution of marketing concepts",
+                  brief:
+                    "Marketing concepts have developed from a focus on production and products toward selling, customer satisfaction, societal welfare, and modern relationship-based marketing.",
+                },
+                {
+                  topic: "Production concept",
+                  brief:
+                    "The production concept assumes that customers prefer products that are widely available and affordable, so businesses emphasize efficient production and distribution.",
+                },
+                {
+                  topic: "Product concept",
+                  brief:
+                    "The product concept emphasizes quality, performance, and features, assuming that customers will prefer products with superior characteristics.",
+                },
+                {
+                  topic: "Selling concept",
+                  brief:
+                    "The selling concept emphasizes active selling and promotion to persuade customers to purchase the products a business offers.",
+                },
+                {
+                  topic: "Marketing concept",
+                  brief:
+                    "The marketing concept focuses on understanding target customers' needs and satisfying them more effectively than competitors.",
+                },
+                {
+                  topic: "Societal marketing concept",
+                  brief:
+                    "The societal marketing concept seeks to balance customer satisfaction, organizational objectives, and the long-term welfare of society.",
+                },
+                {
+                  topic: "Modern marketing practices",
+                  brief:
+                    "Modern marketing uses digital platforms, customer data, personalized communication, relationship building, and integrated channels to deliver customer value.",
+                },
+                {
+                  topic: "Role of marketing in business",
+                  brief:
+                    "Marketing helps businesses identify opportunities, attract customers, build brands, generate revenue, and maintain competitiveness.",
+                },
+                {
+                  topic: "Role of marketing in economic development",
+                  brief:
+                    "Marketing supports economic development by connecting producers and consumers, creating employment, encouraging production, improving distribution, and facilitating trade.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 2,
+              chapterName: "Marketing Environment",
+              topics: [
+                {
+                  topic: "Meaning of marketing environment",
+                  brief:
+                    "The marketing environment consists of internal and external forces that influence a business's ability to serve customers and achieve its marketing objectives.",
+                },
+                {
+                  topic: "Importance of marketing environment analysis",
+                  brief:
+                    "Environment analysis helps businesses identify opportunities and threats, anticipate changes, understand competitors, and make informed marketing decisions.",
+                },
+                {
+                  topic: "Internal marketing environment",
+                  brief:
+                    "The internal marketing environment includes factors within an organization, such as its resources, employees, management, culture, and capabilities.",
+                },
+                {
+                  topic: "External marketing environment",
+                  brief:
+                    "The external marketing environment includes forces outside a business that influence its activities, opportunities, risks, and performance.",
+                },
+                {
+                  topic: "Microenvironment",
+                  brief:
+                    "The microenvironment consists of nearby actors that directly affect a business, including customers, competitors, suppliers, intermediaries, and the public.",
+                },
+                {
+                  topic: "Macroenvironment",
+                  brief:
+                    "The macroenvironment includes broad forces such as demographic, economic, political, legal, technological, sociocultural, and natural changes.",
+                },
+                {
+                  topic: "Customers and competitors",
+                  brief:
+                    "Customers influence demand and purchasing decisions, while competitors affect market choices, pricing, product differentiation, and business strategy.",
+                },
+                {
+                  topic: "Suppliers and intermediaries",
+                  brief:
+                    "Suppliers provide the resources needed to produce goods or services, while intermediaries help promote, sell, and distribute products to customers.",
+                },
+                {
+                  topic: "Demographic environment",
+                  brief:
+                    "The demographic environment includes population size, age, gender, education, occupation, household structure, and other population characteristics that affect demand.",
+                },
+                {
+                  topic: "Economic environment",
+                  brief:
+                    "The economic environment includes income, inflation, interest rates, employment, purchasing power, and economic growth, which influence consumer spending and business decisions.",
+                },
+                {
+                  topic: "Political and legal environment",
+                  brief:
+                    "The political and legal environment includes government policies, regulations, taxation, consumer protection rules, and laws that influence marketing activities.",
+                },
+                {
+                  topic: "Socio-cultural environment",
+                  brief:
+                    "The sociocultural environment includes social values, beliefs, customs, traditions, lifestyles, and attitudes that influence consumer preferences and behaviour.",
+                },
+                {
+                  topic: "Technological environment",
+                  brief:
+                    "The technological environment includes innovations, digital tools, automation, and communication technologies that create new marketing opportunities and challenges.",
+                },
+                {
+                  topic: "Natural environment",
+                  brief:
+                    "The natural environment includes natural resources, climate, pollution, environmental concerns, and sustainability issues that affect production and marketing.",
+                },
+                {
+                  topic: "Global marketing environment",
+                  brief:
+                    "The global marketing environment includes international economic, cultural, political, legal, and competitive forces that affect businesses operating across national borders.",
+                },
+                {
+                  topic: "Opportunities and threats",
+                  brief:
+                    "Opportunities are external conditions that may benefit a business, while threats are external conditions that may create risks or obstacles.",
+                },
+                {
+                  topic: "SWOT analysis",
+                  brief:
+                    "SWOT analysis evaluates an organization's internal strengths and weaknesses alongside external opportunities and threats to support strategic planning.",
+                },
+                {
+                  topic: "PESTLE analysis",
+                  brief:
+                    "PESTLE analysis examines political, economic, social, technological, legal, and environmental factors that may influence an organization.",
+                },
+                {
+                  topic: "Environmental scanning",
+                  brief:
+                    "Environmental scanning is the systematic collection and analysis of information about internal and external changes relevant to business decisions.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 3,
+              chapterName: "Marketing Mix",
+              topics: [
+                {
+                  topic: "Meaning of marketing mix",
+                  brief:
+                    "The marketing mix is the combination of controllable marketing elements a business uses to influence customer demand and achieve its objectives.",
+                },
+                {
+                  topic: "Importance of marketing mix",
+                  brief:
+                    "A suitable marketing mix helps businesses meet customer needs, differentiate their offerings, coordinate marketing activities, and compete effectively.",
+                },
+                {
+                  topic: "Elements of the marketing mix",
+                  brief:
+                    "The traditional marketing mix consists of product, price, place, and promotion, while services marketing commonly adds people, process, and physical evidence.",
+                },
+                {
+                  topic: "Product decisions",
+                  brief:
+                    "Product decisions involve choosing the features, quality, design, packaging, branding, and range of goods or services offered to customers.",
+                },
+                {
+                  topic: "Price decisions",
+                  brief:
+                    "Price decisions determine how much customers pay, taking into account costs, demand, competition, perceived value, and business objectives.",
+                },
+                {
+                  topic: "Place and distribution decisions",
+                  brief:
+                    "Place decisions determine where and how products reach customers through suitable distribution channels, locations, logistics, and delivery arrangements.",
+                },
+                {
+                  topic: "Promotion decisions",
+                  brief:
+                    "Promotion decisions involve selecting communication methods such as advertising, personal selling, sales promotion, public relations, and digital marketing.",
+                },
+                {
+                  topic: "The 4Ps of marketing",
+                  brief:
+                    "The 4Ps are product, price, place, and promotion, which businesses coordinate to create and deliver value to target customers.",
+                },
+                {
+                  topic: "The 7Ps of services marketing",
+                  brief:
+                    "The 7Ps framework includes product, price, place, promotion, people, process, and physical evidence to address the special characteristics of services.",
+                },
+                {
+                  topic: "People in the marketing mix",
+                  brief:
+                    "People include employees and other individuals involved in delivering a product or service and shaping the customer's experience.",
+                },
+                {
+                  topic: "Process in the marketing mix",
+                  brief:
+                    "Process refers to the procedures and activities through which a product or service is produced, delivered, and experienced by customers.",
+                },
+                {
+                  topic: "Physical evidence",
+                  brief:
+                    "Physical evidence includes the tangible surroundings and visible cues, such as facilities, equipment, documents, and website design, that influence perceptions of a service.",
+                },
+                {
+                  topic: "Coordination of marketing mix elements",
+                  brief:
+                    "Coordination means ensuring that product, price, place, and promotion decisions support one another and communicate a consistent value proposition.",
+                },
+                {
+                  topic: "Marketing mix for consumer products",
+                  brief:
+                    "The consumer-product marketing mix is designed around individual buyers' needs, including product features, affordable pricing, convenient distribution, and suitable promotion.",
+                },
+                {
+                  topic: "Marketing mix for services",
+                  brief:
+                    "The services marketing mix combines the 4Ps with people, process, and physical evidence to manage service quality and customer experience.",
+                },
+                {
+                  topic: "Developing a suitable marketing mix",
+                  brief:
+                    "Developing a suitable marketing mix involves studying target customers, competitors, resources, and objectives before selecting and coordinating appropriate marketing elements.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 4,
+              chapterName: "Marketing Research",
+              topics: [
+                {
+                  topic: "Meaning and definition of marketing research",
+                  brief:
+                    "Marketing research is the systematic collection, analysis, and interpretation of information to help solve marketing problems and support business decisions.",
+                },
+                {
+                  topic: "Objectives of marketing research",
+                  brief:
+                    "Marketing research aims to understand customers, estimate demand, assess competition, test ideas, evaluate campaigns, and reduce uncertainty in marketing decisions.",
+                },
+                {
+                  topic: "Importance of marketing research",
+                  brief:
+                    "Marketing research helps businesses identify market opportunities, understand customer preferences, evaluate risks, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Marketing research and marketing information systems",
+                  brief:
+                    "Marketing research investigates specific marketing problems, while a marketing information system continuously collects, organizes, and supplies information for decision-making.",
+                },
+                {
+                  topic: "Marketing research process",
+                  brief:
+                    "The marketing research process typically involves defining the problem, setting objectives, designing the study, collecting data, analysing results, and reporting findings.",
+                },
+                {
+                  topic: "Problem identification",
+                  brief:
+                    "Problem identification determines the marketing issue that needs investigation and clarifies the information required to address it.",
+                },
+                {
+                  topic: "Research objective formulation",
+                  brief:
+                    "Research objectives state precisely what the study intends to discover, measure, compare, or explain.",
+                },
+                {
+                  topic: "Research design",
+                  brief:
+                    "Research design is the plan that specifies the methods, data sources, sampling procedures, and analysis techniques used in a study.",
+                },
+                {
+                  topic: "Primary data",
+                  brief:
+                    "Primary data is information collected directly for a particular research purpose through methods such as surveys, interviews, observation, or experiments.",
+                },
+                {
+                  topic: "Secondary data",
+                  brief:
+                    "Secondary data is information previously collected by another person or organization, such as reports, publications, databases, or official statistics.",
+                },
+                {
+                  topic: "Qualitative research",
+                  brief:
+                    "Qualitative research explores opinions, experiences, motivations, and meanings through methods such as interviews, focus groups, and open-ended questions.",
+                },
+                {
+                  topic: "Quantitative research",
+                  brief:
+                    "Quantitative research collects numerical data and uses statistical methods to measure patterns, compare groups, or test relationships.",
+                },
+                {
+                  topic: "Questionnaire design",
+                  brief:
+                    "Questionnaire design involves preparing clear, relevant, unbiased questions in a logical order to collect reliable information from respondents.",
+                },
+                {
+                  topic: "Interview method",
+                  brief:
+                    "The interview method collects information by asking respondents questions directly, either face-to-face, by telephone, or through digital communication.",
+                },
+                {
+                  topic: "Observation method",
+                  brief:
+                    "The observation method gathers data by systematically watching and recording people's behaviour, activities, or events.",
+                },
+                {
+                  topic: "Survey method",
+                  brief:
+                    "The survey method collects information from a selected group of respondents using structured questions delivered through suitable channels.",
+                },
+                {
+                  topic: "Sampling and sample selection",
+                  brief:
+                    "Sampling is the process of selecting a subset of a population for study, and sample selection determines who or what will be included.",
+                },
+                {
+                  topic: "Data collection",
+                  brief:
+                    "Data collection is the systematic gathering of relevant information according to the research plan and chosen methods.",
+                },
+                {
+                  topic: "Data analysis and interpretation",
+                  brief:
+                    "Data analysis organizes and examines collected information, while interpretation explains what the results mean for the research problem.",
+                },
+                {
+                  topic: "Preparation of a research report",
+                  brief:
+                    "A research report presents the study's problem, objectives, methods, findings, conclusions, limitations, and recommendations in a structured format.",
+                },
+                {
+                  topic: "Limitations of marketing research",
+                  brief:
+                    "Marketing research may be limited by cost, time, small or biased samples, inaccurate responses, changing markets, and difficulties in interpreting data.",
+                },
+                {
+                  topic: "Ethical issues in marketing research",
+                  brief:
+                    "Ethical research requires informed consent, privacy protection, honest reporting, secure handling of information, and avoidance of deception or harm.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Consumer and Market Analysis",
+          chapters: [
+            {
+              chapterNumber: 5,
+              chapterName: "Consumer Behaviour",
+              topics: [
+                {
+                  topic: "Meaning and importance of consumer behaviour",
+                  brief:
+                    "Consumer behaviour studies how individuals or households select, purchase, use, and dispose of products and services to satisfy their needs.",
+                },
+                {
+                  topic: "Consumer and customer",
+                  brief:
+                    "A consumer uses a product or service, while a customer purchases it; the same person may be both, but they can also be different people.",
+                },
+                {
+                  topic: "Consumer buying process",
+                  brief:
+                    "The consumer buying process commonly includes need recognition, information search, evaluation of alternatives, purchase decision, and post-purchase behaviour.",
+                },
+                {
+                  topic: "Need recognition",
+                  brief:
+                    "Need recognition occurs when a consumer notices a difference between their current situation and a desired state, creating a reason to consider a purchase.",
+                },
+                {
+                  topic: "Information search",
+                  brief:
+                    "Information search is the stage in which consumers gather information from personal experience, family, advertising, reviews, and other sources before buying.",
+                },
+                {
+                  topic: "Evaluation of alternatives",
+                  brief:
+                    "Consumers compare available products or services using criteria such as price, quality, features, convenience, and perceived value.",
+                },
+                {
+                  topic: "Purchase decision",
+                  brief:
+                    "The purchase decision is the consumer's choice of whether, what, where, and when to buy after considering available alternatives and circumstances.",
+                },
+                {
+                  topic: "Post-purchase behaviour",
+                  brief:
+                    "Post-purchase behaviour includes a consumer's satisfaction, dissatisfaction, product use, complaints, recommendations, and future buying decisions after purchase.",
+                },
+                {
+                  topic: "Cultural factors influencing consumer behaviour",
+                  brief:
+                    "Culture, subculture, traditions, beliefs, and social values influence consumers' preferences, habits, product choices, and buying expectations.",
+                },
+                {
+                  topic: "Social factors influencing consumer behaviour",
+                  brief:
+                    "Family, friends, social groups, social roles, and reference groups can influence consumer preferences and purchasing decisions.",
+                },
+                {
+                  topic: "Personal factors influencing consumer behaviour",
+                  brief:
+                    "Personal factors such as age, occupation, income, lifestyle, life stage, and personality influence what consumers need and can afford.",
+                },
+                {
+                  topic: "Psychological factors influencing consumer behaviour",
+                  brief:
+                    "Motivation, perception, learning, beliefs, and attitudes affect how consumers recognize needs, interpret information, and make purchasing choices.",
+                },
+                {
+                  topic: "Motivation and perception",
+                  brief:
+                    "Motivation is the internal drive that encourages action, while perception is the process of selecting and interpreting information about products and experiences.",
+                },
+                {
+                  topic: "Learning and attitudes",
+                  brief:
+                    "Learning changes consumer knowledge or behaviour through experience, while attitudes are relatively enduring evaluations or feelings toward products, brands, or ideas.",
+                },
+                {
+                  topic: "Lifestyle and personality",
+                  brief:
+                    "Lifestyle reflects how people spend their time and resources, while personality refers to relatively enduring characteristics that may influence their preferences and choices.",
+                },
+                {
+                  topic: "Consumer satisfaction",
+                  brief:
+                    "Consumer satisfaction is the degree to which a product or service meets or exceeds a customer's expectations.",
+                },
+                {
+                  topic: "Consumer loyalty",
+                  brief:
+                    "Consumer loyalty is a customer's continuing preference for and repeated choice of a brand or business, often supported by trust and positive experiences.",
+                },
+                {
+                  topic: "Consumer rights and responsibilities",
+                  brief:
+                    "Consumer rights include protections such as safety, information, choice, and the ability to raise complaints, while responsibilities include informed purchasing and responsible product use.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 6,
+              chapterName: "Market Segmentation",
+              topics: [
+                {
+                  topic: "Meaning and definition of market segmentation",
+                  brief:
+                    "Market segmentation is the process of dividing a broad market into smaller groups of customers with similar needs, characteristics, or buying behaviour.",
+                },
+                {
+                  topic: "Importance of market segmentation",
+                  brief:
+                    "Segmentation helps businesses understand different customer groups, use resources efficiently, design relevant offerings, and develop more focused marketing strategies.",
+                },
+                {
+                  topic: "Requirements for effective segmentation",
+                  brief:
+                    "Effective segments should be measurable, substantial, accessible, differentiable, and actionable so that the business can serve them practically.",
+                },
+                {
+                  topic: "Geographic segmentation",
+                  brief:
+                    "Geographic segmentation divides a market according to location, such as country, province, city, climate, or urban and rural area.",
+                },
+                {
+                  topic: "Demographic segmentation",
+                  brief:
+                    "Demographic segmentation groups customers using characteristics such as age, income, gender, education, occupation, family size, or life stage.",
+                },
+                {
+                  topic: "Psychographic segmentation",
+                  brief:
+                    "Psychographic segmentation divides customers according to lifestyle, interests, values, attitudes, and personality.",
+                },
+                {
+                  topic: "Behavioural segmentation",
+                  brief:
+                    "Behavioural segmentation groups customers according to their usage patterns, purchase occasions, benefits sought, loyalty, and responses to products.",
+                },
+                {
+                  topic: "Business market segmentation",
+                  brief:
+                    "Business market segmentation groups organizational buyers using factors such as industry, company size, location, purchasing practices, and operating needs.",
+                },
+                {
+                  topic: "Consumer market segmentation",
+                  brief:
+                    "Consumer market segmentation divides individual or household buyers into groups based on their characteristics, needs, preferences, or buying behaviour.",
+                },
+                {
+                  topic: "Market targeting",
+                  brief:
+                    "Market targeting involves evaluating market segments and selecting the groups a business intends to serve.",
+                },
+                {
+                  topic: "Undifferentiated marketing",
+                  brief:
+                    "Undifferentiated marketing targets a broad market with one main offering and a largely uniform marketing approach.",
+                },
+                {
+                  topic: "Differentiated marketing",
+                  brief:
+                    "Differentiated marketing serves multiple market segments using tailored products or marketing strategies for each selected group.",
+                },
+                {
+                  topic: "Concentrated marketing",
+                  brief:
+                    "Concentrated marketing focuses resources on one specific market segment or a small number of segments rather than the entire market.",
+                },
+                {
+                  topic: "Micromarketing",
+                  brief:
+                    "Micromarketing tailors marketing activities to narrowly defined groups, local markets, or individual customers.",
+                },
+                {
+                  topic: "Niche marketing",
+                  brief:
+                    "Niche marketing focuses on a specialized market segment with particular needs that may be underserved by larger competitors.",
+                },
+                {
+                  topic: "Selection of target markets",
+                  brief:
+                    "Businesses select target markets by considering segment size, growth, competition, customer needs, profitability, and their own resources and capabilities.",
+                },
+                {
+                  topic: "Positioning in the market",
+                  brief:
+                    "Market positioning is the process of creating a clear and distinctive place for a product or brand in the minds of target customers relative to competitors.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 7,
+              chapterName: "Market and Marketing Information",
+              topics: [
+                {
+                  topic: "Meaning of a market",
+                  brief:
+                    "A market consists of actual or potential buyers and sellers who interact, directly or indirectly, to exchange goods, services, or value.",
+                },
+                {
+                  topic: "Classification of markets",
+                  brief:
+                    "Markets can be classified by buyer type, location, product, competition, transaction method, or purpose, helping businesses understand their customers and competitors.",
+                },
+                {
+                  topic: "Consumer markets",
+                  brief:
+                    "Consumer markets consist of individuals and households that purchase goods and services for personal or family use.",
+                },
+                {
+                  topic: "Industrial markets",
+                  brief:
+                    "Industrial or business markets include organizations that purchase goods and services for production, operations, or other business purposes.",
+                },
+                {
+                  topic: "Reseller markets",
+                  brief:
+                    "Reseller markets consist of businesses that buy products to resell them, usually without substantially transforming the products.",
+                },
+                {
+                  topic: "Government markets",
+                  brief:
+                    "Government markets include public agencies that purchase goods and services to perform public functions and provide services.",
+                },
+                {
+                  topic: "Local and international markets",
+                  brief:
+                    "Local markets serve buyers within a particular area, while international markets involve buyers and sellers across national borders.",
+                },
+                {
+                  topic: "Rural and urban markets",
+                  brief:
+                    "Rural and urban markets differ in population density, infrastructure, income patterns, access, lifestyles, and purchasing needs.",
+                },
+                {
+                  topic: "Meaning of marketing information",
+                  brief:
+                    "Marketing information is relevant data and knowledge about customers, competitors, products, and market conditions used to support marketing decisions.",
+                },
+                {
+                  topic: "Marketing information system",
+                  brief:
+                    "A marketing information system collects, processes, analyses, and distributes relevant information to help managers make marketing decisions.",
+                },
+                {
+                  topic: "Internal company records",
+                  brief:
+                    "Internal company records include sales figures, invoices, customer orders, inventory records, costs, and other information generated through business operations.",
+                },
+                {
+                  topic: "Marketing intelligence",
+                  brief:
+                    "Marketing intelligence is the ongoing collection and analysis of publicly available or appropriately obtained information about market developments, customers, and competitors.",
+                },
+                {
+                  topic: "Marketing research data",
+                  brief:
+                    "Marketing research data is information collected or obtained for a specific investigation into customer needs, market opportunities, or marketing performance.",
+                },
+                {
+                  topic: "Customer databases",
+                  brief:
+                    "Customer databases organize customer information, such as contact details, purchase history, preferences, and service interactions, for authorized business use.",
+                },
+                {
+                  topic: "Competitor information",
+                  brief:
+                    "Competitor information covers rival businesses' products, prices, positioning, promotions, distribution, and other market activities.",
+                },
+                {
+                  topic: "Use of information in marketing decisions",
+                  brief:
+                    "Marketing information supports decisions about target markets, product development, pricing, promotion, distribution, customer service, and performance evaluation.",
+                },
+                {
+                  topic: "Data privacy and responsible information use",
+                  brief:
+                    "Responsible information use requires lawful collection, appropriate consent where required, secure storage, limited access, and respect for customer privacy.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Product and Branding",
+          chapters: [
+            {
+              chapterNumber: 8,
+              chapterName: "Product Planning and Development",
+              topics: [
+                {
+                  topic: "Meaning and definition of a product",
+                  brief:
+                    "A product is anything offered to a market to satisfy a need or want, including physical goods, services, experiences, or ideas.",
+                },
+                {
+                  topic: "Goods and services",
+                  brief:
+                    "Goods are tangible items that can generally be seen or touched, while services are activities or benefits that are often intangible.",
+                },
+                {
+                  topic: "Consumer products",
+                  brief:
+                    "Consumer products are goods or services purchased by individuals or households for personal or family use.",
+                },
+                {
+                  topic: "Industrial products",
+                  brief:
+                    "Industrial products are goods and services purchased by organizations for production, operations, resale, or business activities.",
+                },
+                {
+                  topic: "Convenience products",
+                  brief:
+                    "Convenience products are frequently purchased items that customers usually buy with limited effort, comparison, or planning.",
+                },
+                {
+                  topic: "Shopping products",
+                  brief:
+                    "Shopping products are items for which customers commonly compare price, quality, features, and suitability before making a purchase.",
+                },
+                {
+                  topic: "Specialty products",
+                  brief:
+                    "Specialty products have distinctive characteristics or brand identities for which particular customers are willing to make a special purchasing effort.",
+                },
+                {
+                  topic: "Unsought products",
+                  brief:
+                    "Unsought products are goods or services that consumers do not usually think about purchasing or may not know about until a need arises.",
+                },
+                {
+                  topic: "Product attributes",
+                  brief:
+                    "Product attributes are the characteristics of an offering, including quality, features, design, size, materials, and other elements valued by customers.",
+                },
+                {
+                  topic: "Product quality",
+                  brief:
+                    "Product quality refers to how well a product performs, meets specifications, remains reliable, and satisfies customer expectations.",
+                },
+                {
+                  topic: "Product features",
+                  brief:
+                    "Product features are specific characteristics or functions that help a product perform tasks or provide benefits to customers.",
+                },
+                {
+                  topic: "Product design",
+                  brief:
+                    "Product design combines appearance, usability, functionality, safety, and practicality to create a product that meets customer needs.",
+                },
+                {
+                  topic: "Product assortment",
+                  brief:
+                    "Product assortment is the overall range of products a business offers to customers, including their variety and selection.",
+                },
+                {
+                  topic: "Product line and product mix",
+                  brief:
+                    "A product line is a group of related products, while the product mix is the complete set of product lines and items offered by a business.",
+                },
+                {
+                  topic: "Product differentiation",
+                  brief:
+                    "Product differentiation involves creating meaningful differences in features, quality, design, service, or brand identity that distinguish an offering from competitors.",
+                },
+                {
+                  topic: "New product development process",
+                  brief:
+                    "New product development is the structured process of generating ideas, evaluating opportunities, developing concepts, testing products, and introducing suitable offerings to the market.",
+                },
+                {
+                  topic: "Idea generation",
+                  brief:
+                    "Idea generation involves gathering possible new product ideas from customers, employees, research, competitors, and emerging market needs.",
+                },
+                {
+                  topic: "Idea screening",
+                  brief:
+                    "Idea screening evaluates proposed product ideas against criteria such as customer need, feasibility, cost, strategic fit, and potential demand.",
+                },
+                {
+                  topic: "Concept development and testing",
+                  brief:
+                    "Concept development turns a product idea into a clear description of its benefits and target customers, while concept testing gathers feedback before further investment.",
+                },
+                {
+                  topic: "Business analysis",
+                  brief:
+                    "Business analysis estimates a proposed product's demand, costs, sales, profitability, and risks to assess its commercial potential.",
+                },
+                {
+                  topic: "Product development and testing",
+                  brief:
+                    "Product development turns an approved concept into a usable offering, while testing checks its performance, quality, safety, and suitability.",
+                },
+                {
+                  topic: "Test marketing",
+                  brief:
+                    "Test marketing introduces a product or campaign in a limited market to evaluate customer response and identify problems before wider launch.",
+                },
+                {
+                  topic: "Commercialization",
+                  brief:
+                    "Commercialization is the process of launching a product into the market, including decisions about timing, target customers, distribution, pricing, and promotion.",
+                },
+                {
+                  topic: "Reasons for new product failure",
+                  brief:
+                    "New products may fail because of weak demand, poor research, unsuitable pricing, inadequate promotion, technical problems, strong competition, or ineffective distribution.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 9,
+              chapterName: "Branding, Packaging and Labelling",
+              topics: [
+                {
+                  topic: "Meaning and definition of a brand",
+                  brief:
+                    "A brand is a name, term, symbol, design, or combination of elements that identifies an offering and distinguishes it from competitors.",
+                },
+                {
+                  topic: "Brand name and brand mark",
+                  brief:
+                    "A brand name is the verbal part used to identify a brand, while a brand mark is its recognizable visual symbol or design.",
+                },
+                {
+                  topic: "Importance of branding",
+                  brief:
+                    "Branding helps customers identify products, recognize differences, develop trust, and associate an offering with particular qualities or experiences.",
+                },
+                {
+                  topic: "Brand identity",
+                  brief:
+                    "Brand identity is the set of visual and verbal elements, values, and associations a business deliberately creates to represent its brand.",
+                },
+                {
+                  topic: "Brand image",
+                  brief:
+                    "Brand image is the set of perceptions and associations that customers actually hold about a brand.",
+                },
+                {
+                  topic: "Brand positioning",
+                  brief:
+                    "Brand positioning establishes a distinctive and relevant place for a brand in the minds of its target customers compared with competitors.",
+                },
+                {
+                  topic: "Brand equity",
+                  brief:
+                    "Brand equity is the additional value a product gains from customer awareness, perceived quality, associations, and loyalty connected with its brand.",
+                },
+                {
+                  topic: "Brand loyalty",
+                  brief:
+                    "Brand loyalty describes a customer's continuing preference for and repeated purchasing of a particular brand.",
+                },
+                {
+                  topic: "Manufacturer brands",
+                  brief:
+                    "Manufacturer brands are created and owned by the producers of the goods, who market products under their own brand identities.",
+                },
+                {
+                  topic: "Private brands",
+                  brief:
+                    "Private brands are owned or controlled by retailers or other sellers and are sold under their own brand names.",
+                },
+                {
+                  topic: "Individual and family branding",
+                  brief:
+                    "Individual branding gives separate products distinct brand names, while family branding uses one brand name across related products.",
+                },
+                {
+                  topic: "Co-branding",
+                  brief:
+                    "Co-branding involves two or more brands working together on a product, service, or marketing activity to combine their strengths or reach customers.",
+                },
+                {
+                  topic: "Brand extension",
+                  brief:
+                    "Brand extension uses an established brand name to introduce a new product category or a new offering beyond its existing range.",
+                },
+                {
+                  topic: "Brand protection",
+                  brief:
+                    "Brand protection involves safeguarding brand names, logos, and related intellectual property through suitable legal measures and monitoring against misuse.",
+                },
+                {
+                  topic: "Meaning and functions of packaging",
+                  brief:
+                    "Packaging contains, protects, stores, transports, and presents a product while providing information and supporting brand recognition.",
+                },
+                {
+                  topic: "Types of packaging",
+                  brief:
+                    "Packaging is commonly classified as primary packaging in direct contact with a product, secondary packaging that groups or protects primary packs, and tertiary packaging used for bulk handling and transport.",
+                },
+                {
+                  topic: "Packaging design",
+                  brief:
+                    "Packaging design considers protection, convenience, materials, appearance, information, cost, and brand identity to make packaging useful and attractive.",
+                },
+                {
+                  topic: "Sustainable packaging",
+                  brief:
+                    "Sustainable packaging aims to reduce environmental impact through suitable materials, efficient design, reuse, recycling, and reduced waste.",
+                },
+                {
+                  topic: "Meaning and functions of labelling",
+                  brief:
+                    "Labelling is the presentation of written, printed, or graphic information on a product or its package to identify it and inform consumers.",
+                },
+                {
+                  topic: "Types of labels",
+                  brief:
+                    "Labels may identify a brand, describe a product's contents or features, or provide information required by applicable regulations.",
+                },
+                {
+                  topic: "Product information and warnings",
+                  brief:
+                    "Product information and warnings communicate details such as ingredients, instructions, hazards, storage conditions, expiry information, and safe use where applicable.",
+                },
+                {
+                  topic: "Packaging and labelling requirements",
+                  brief:
+                    "Packaging and labelling requirements depend on the product and applicable laws, which may specify safety, ingredient disclosure, quantities, dates, warnings, and other consumer information.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 10,
+              chapterName: "Product Life Cycle",
+              topics: [
+                {
+                  topic: "Meaning of product life cycle",
+                  brief:
+                    "The product life cycle describes the typical pattern of a product's market development through introduction, growth, maturity, and decline.",
+                },
+                {
+                  topic: "Introduction stage",
+                  brief:
+                    "During introduction, a new product enters the market, sales are usually low, and the business focuses on awareness, trial, and distribution.",
+                },
+                {
+                  topic: "Growth stage",
+                  brief:
+                    "During growth, sales and market acceptance increase, attracting competitors and encouraging businesses to improve products and expand distribution.",
+                },
+                {
+                  topic: "Maturity stage",
+                  brief:
+                    "During maturity, sales growth slows as the market becomes established, competition intensifies, and businesses focus on differentiation and customer retention.",
+                },
+                {
+                  topic: "Decline stage",
+                  brief:
+                    "During decline, sales fall because of changing preferences, new technologies, competition, or reduced demand, prompting businesses to reconsider their strategies.",
+                },
+                {
+                  topic: "Sales and profit patterns",
+                  brief:
+                    "Sales and profits often change across the product life cycle, with introduction costs high, growth profits potentially rising, maturity margins under pressure, and decline returns often falling.",
+                },
+                {
+                  topic: "Marketing strategies during introduction",
+                  brief:
+                    "Introduction strategies may emphasize product awareness, customer education, trial, selective distribution, and pricing approaches suited to launch objectives.",
+                },
+                {
+                  topic: "Marketing strategies during growth",
+                  brief:
+                    "Growth strategies often focus on improving product quality, expanding distribution, strengthening the brand, reaching new customers, and responding to competitors.",
+                },
+                {
+                  topic: "Marketing strategies during maturity",
+                  brief:
+                    "Maturity strategies may include product improvements, market expansion, competitive pricing, loyalty programmes, and promotional efforts to protect market share.",
+                },
+                {
+                  topic: "Marketing strategies during decline",
+                  brief:
+                    "Decline strategies may involve reducing costs, targeting remaining profitable customers, refreshing the offering, harvesting returns, or discontinuing the product.",
+                },
+                {
+                  topic: "Product life cycle and pricing",
+                  brief:
+                    "Pricing decisions may change across the product life cycle according to demand, competition, costs, perceived value, and the business's objectives at each stage.",
+                },
+                {
+                  topic: "Product life cycle and promotion",
+                  brief:
+                    "Promotion changes throughout the product life cycle, from building initial awareness to encouraging preference, defending market share, or focusing on remaining customers.",
+                },
+                {
+                  topic: "Product life cycle and distribution",
+                  brief:
+                    "Distribution may begin with limited availability and expand as demand grows, then be adjusted according to market coverage and profitability in later stages.",
+                },
+                {
+                  topic: "Limitations of the product life cycle model",
+                  brief:
+                    "The model cannot predict every product's performance because life-cycle stages vary, may overlap, and can be affected by innovation, strategy, and market conditions.",
+                },
+                {
+                  topic: "Examples of product life cycles",
+                  brief:
+                    "Examples illustrate how products can move through introduction, growth, maturity, and decline, although actual patterns differ by product, market, and technology.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Pricing and Distribution",
+          chapters: [
+            {
+              chapterNumber: 11,
+              chapterName: "Pricing Decisions",
+              topics: [
+                {
+                  topic: "Meaning and importance of price",
+                  brief:
+                    "Price is the amount customers give up to obtain a product or service, and it influences demand, revenue, positioning, and profitability.",
+                },
+                {
+                  topic: "Objectives of pricing",
+                  brief:
+                    "Pricing objectives may include earning profit, increasing sales, gaining market share, supporting a brand position, surviving competition, or achieving a target return.",
+                },
+                {
+                  topic: "Factors affecting pricing decisions",
+                  brief:
+                    "Pricing decisions are influenced by production costs, customer demand, perceived value, competitors, business objectives, market conditions, and legal requirements.",
+                },
+                {
+                  topic: "Cost-based pricing",
+                  brief:
+                    "Cost-based pricing sets a price by calculating the cost of producing or delivering a product and adding a suitable markup or margin.",
+                },
+                {
+                  topic: "Competition-based pricing",
+                  brief:
+                    "Competition-based pricing sets or adjusts prices by considering competitors' prices and market positioning.",
+                },
+                {
+                  topic: "Value-based pricing",
+                  brief:
+                    "Value-based pricing sets prices according to the value customers perceive in the product rather than relying only on production cost.",
+                },
+                {
+                  topic: "Demand-based pricing",
+                  brief:
+                    "Demand-based pricing adjusts prices according to customer demand, willingness to pay, and market conditions.",
+                },
+                {
+                  topic: "Markup pricing",
+                  brief:
+                    "Markup pricing adds a predetermined amount or percentage to the cost of a product to establish its selling price.",
+                },
+                {
+                  topic: "Break-even pricing",
+                  brief:
+                    "Break-even pricing estimates a price or sales level at which total revenue equals total costs, leaving neither profit nor loss.",
+                },
+                {
+                  topic: "Penetration pricing",
+                  brief:
+                    "Penetration pricing introduces a product at a relatively low price to attract customers quickly and gain market share.",
+                },
+                {
+                  topic: "Price skimming",
+                  brief:
+                    "Price skimming introduces a product at a relatively high price to capture revenue from customers willing to pay more, with possible reductions later.",
+                },
+                {
+                  topic: "Psychological pricing",
+                  brief:
+                    "Psychological pricing uses price presentation or price points that may influence how customers perceive affordability, quality, or value.",
+                },
+                {
+                  topic: "Promotional pricing",
+                  brief:
+                    "Promotional pricing temporarily reduces or adjusts prices to stimulate interest, encourage purchases, or support a specific marketing campaign.",
+                },
+                {
+                  topic: "Discount pricing",
+                  brief:
+                    "Discount pricing reduces the standard price, often to encourage larger orders, reward eligible customers, clear stock, or support sales objectives.",
+                },
+                {
+                  topic: "Geographical pricing",
+                  brief:
+                    "Geographical pricing sets prices according to customer location, transportation costs, regional demand, or other location-related factors.",
+                },
+                {
+                  topic: "Product-line pricing",
+                  brief:
+                    "Product-line pricing establishes prices for related products at different levels according to features, costs, customer value, and the intended relationship between products.",
+                },
+                {
+                  topic: "Pricing of new products",
+                  brief:
+                    "New-product pricing determines an appropriate launch price by considering costs, demand, competition, perceived value, and whether the business aims for penetration or skimming.",
+                },
+                {
+                  topic: "Pricing of services",
+                  brief:
+                    "Service pricing considers delivery costs, expertise, customer value, demand fluctuations, service quality, and the difficulty of storing unused service capacity.",
+                },
+                {
+                  topic: "Price adjustments",
+                  brief:
+                    "Price adjustments include changes such as discounts, allowances, regional differences, promotional offers, and other modifications to standard prices.",
+                },
+                {
+                  topic: "Ethical and legal considerations in pricing",
+                  brief:
+                    "Ethical and legal pricing requires transparency, honest price communication, compliance with applicable laws, and avoidance of deceptive or prohibited pricing practices.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 12,
+              chapterName: "Channels of Distribution",
+              topics: [
+                {
+                  topic: "Meaning and importance of distribution",
+                  brief:
+                    "Distribution is the process of making products available to customers at suitable locations and times, helping connect production with consumption.",
+                },
+                {
+                  topic: "Meaning of a distribution channel",
+                  brief:
+                    "A distribution channel is the network of organizations and intermediaries through which a product or service moves from its producer to the final customer.",
+                },
+                {
+                  topic: "Direct distribution",
+                  brief:
+                    "Direct distribution occurs when a producer sells to customers without using independent intermediaries.",
+                },
+                {
+                  topic: "Indirect distribution",
+                  brief:
+                    "Indirect distribution uses intermediaries such as wholesalers, retailers, agents, or distributors to help products reach customers.",
+                },
+                {
+                  topic: "Zero-level channel",
+                  brief:
+                    "A zero-level channel involves direct selling from the producer to the final customer without an intermediary.",
+                },
+                {
+                  topic: "One-level channel",
+                  brief:
+                    "A one-level channel includes one intermediary, commonly a retailer, between the producer and the final customer.",
+                },
+                {
+                  topic: "Two-level channel",
+                  brief:
+                    "A two-level channel commonly includes a wholesaler and a retailer between the producer and the final customer.",
+                },
+                {
+                  topic: "Three-level channel",
+                  brief:
+                    "A three-level channel includes three intermediary levels, often involving an agent, wholesaler, and retailer before the product reaches the final customer.",
+                },
+                {
+                  topic: "Wholesalers",
+                  brief:
+                    "Wholesalers buy goods in quantity and resell them mainly to retailers or other organizations rather than directly to final consumers.",
+                },
+                {
+                  topic: "Retailers",
+                  brief:
+                    "Retailers sell goods or services directly to final consumers for personal or household use.",
+                },
+                {
+                  topic: "Agents and brokers",
+                  brief:
+                    "Agents and brokers help connect buyers and sellers or negotiate transactions, usually without taking ownership of the goods they handle.",
+                },
+                {
+                  topic: "Functions of marketing intermediaries",
+                  brief:
+                    "Marketing intermediaries support distribution through activities such as storage, transportation, assortment, promotion, financing, negotiation, and market information.",
+                },
+                {
+                  topic: "Channel selection",
+                  brief:
+                    "Channel selection involves choosing suitable routes to customers based on product characteristics, customer needs, market coverage, cost, and business strategy.",
+                },
+                {
+                  topic: "Factors affecting channel selection",
+                  brief:
+                    "Channel selection is influenced by product type, customer location, market size, order volume, intermediary capabilities, distribution costs, and the desired level of control.",
+                },
+                {
+                  topic: "Channel conflict",
+                  brief:
+                    "Channel conflict occurs when members of a distribution channel disagree over goals, roles, pricing, territories, customers, or the allocation of benefits.",
+                },
+                {
+                  topic: "Channel coordination",
+                  brief:
+                    "Channel coordination aligns the activities, information, responsibilities, and goals of channel members to improve distribution efficiency and customer service.",
+                },
+                {
+                  topic: "Physical distribution",
+                  brief:
+                    "Physical distribution manages the movement and storage of goods from producers to customers, including transportation, warehousing, inventory, and order fulfilment.",
+                },
+                {
+                  topic: "Transportation",
+                  brief:
+                    "Transportation moves products between locations using suitable modes such as road, rail, air, or water, balancing speed, cost, reliability, and product needs.",
+                },
+                {
+                  topic: "Warehousing",
+                  brief:
+                    "Warehousing involves storing goods until they are needed for production, distribution, or sale, helping balance supply with demand.",
+                },
+                {
+                  topic: "Inventory management",
+                  brief:
+                    "Inventory management controls stock levels and replenishment to meet customer demand while limiting storage costs, shortages, and excess stock.",
+                },
+                {
+                  topic: "Order processing",
+                  brief:
+                    "Order processing covers receiving, checking, preparing, dispatching, and tracking customer orders to ensure accurate and timely fulfilment.",
+                },
+                {
+                  topic: "Logistics management",
+                  brief:
+                    "Logistics management plans and controls the movement, storage, and related information flows needed to deliver goods efficiently.",
+                },
+                {
+                  topic: "Supply chain coordination",
+                  brief:
+                    "Supply chain coordination aligns suppliers, producers, distributors, and retailers so materials, products, and information move efficiently from origin to customer.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 13,
+              chapterName: "Retailing and Wholesaling",
+              topics: [
+                {
+                  topic: "Meaning and importance of retailing",
+                  brief:
+                    "Retailing involves selling goods or services to final consumers and is important because it provides access, convenience, product choice, and customer service.",
+                },
+                {
+                  topic: "Types of retailers",
+                  brief:
+                    "Retailers can be classified by store format, product range, ownership, pricing approach, and sales channel, including independent stores, supermarkets, and online retailers.",
+                },
+                {
+                  topic: "Independent retailers",
+                  brief:
+                    "Independent retailers are businesses owned and operated by individuals or small groups, often serving particular communities or specialized customer needs.",
+                },
+                {
+                  topic: "Department stores",
+                  brief:
+                    "Department stores offer a wide variety of products organized into separate departments within one retail establishment.",
+                },
+                {
+                  topic: "Supermarkets",
+                  brief:
+                    "Supermarkets are self-service retail stores that primarily sell food, groceries, household essentials, and related products.",
+                },
+                {
+                  topic: "Convenience stores",
+                  brief:
+                    "Convenience stores provide frequently needed products in accessible locations, often emphasizing quick shopping and extended opening hours.",
+                },
+                {
+                  topic: "Specialty stores",
+                  brief:
+                    "Specialty stores focus on a particular product category or narrow range and often provide specialized product knowledge and service.",
+                },
+                {
+                  topic: "Online retailing",
+                  brief:
+                    "Online retailing sells products or services through websites, mobile applications, or digital marketplaces, enabling customers to browse and purchase remotely.",
+                },
+                {
+                  topic: "Retail location decisions",
+                  brief:
+                    "Retail location decisions consider customer access, foot traffic, population, competition, rent, transport, visibility, and the needs of the target market.",
+                },
+                {
+                  topic: "Retail pricing",
+                  brief:
+                    "Retail pricing determines the prices charged to final customers based on costs, margins, competition, demand, positioning, and promotional objectives.",
+                },
+                {
+                  topic: "Retail promotion",
+                  brief:
+                    "Retail promotion uses advertising, discounts, displays, loyalty offers, events, and digital communication to attract customers and increase store sales.",
+                },
+                {
+                  topic: "Customer service in retailing",
+                  brief:
+                    "Retail customer service includes helping customers choose products, answering questions, handling payments and returns, and resolving complaints.",
+                },
+                {
+                  topic: "Meaning and functions of wholesaling",
+                  brief:
+                    "Wholesaling involves selling goods mainly to retailers or organizations and supports bulk purchasing, storage, distribution, financing, and market supply.",
+                },
+                {
+                  topic: "Types of wholesalers",
+                  brief:
+                    "Wholesalers include merchant wholesalers who take ownership of goods and agents or brokers who facilitate transactions, along with other specialized wholesale operators.",
+                },
+                {
+                  topic: "Wholesaler selection",
+                  brief:
+                    "Businesses select wholesalers by considering reliability, market coverage, product handling, financial strength, pricing, delivery performance, and customer service.",
+                },
+                {
+                  topic: "Wholesale pricing",
+                  brief:
+                    "Wholesale pricing sets prices for bulk sales to retailers or other organizations, taking account of costs, order quantities, margins, competition, and trade terms.",
+                },
+                {
+                  topic: "Differences between retailing and wholesaling",
+                  brief:
+                    "Retailing mainly sells to final consumers in relatively small quantities, while wholesaling mainly supplies retailers or organizations, often in larger quantities.",
+                },
+                {
+                  topic: "Modern retail trends",
+                  brief:
+                    "Modern retail trends include e-commerce, mobile shopping, omnichannel services, personalized offers, digital payments, automation, and growing attention to sustainability.",
+                },
+                {
+                  topic: "Challenges in retail management",
+                  brief:
+                    "Retail management challenges include strong competition, changing consumer preferences, inventory control, staffing, operating costs, technology adoption, and customer retention.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Promotion and Sales",
+          chapters: [
+            {
+              chapterNumber: 14,
+              chapterName: "Promotion Mix",
+              topics: [
+                {
+                  topic: "Meaning and objectives of promotion",
+                  brief:
+                    "Promotion communicates product or brand value to target audiences to inform, persuade, remind, and encourage desired customer responses.",
+                },
+                {
+                  topic: "Importance of promotion",
+                  brief:
+                    "Promotion helps businesses build awareness, explain product benefits, differentiate offerings, stimulate demand, and maintain customer engagement.",
+                },
+                {
+                  topic: "Promotion mix",
+                  brief:
+                    "The promotion mix is the combination of communication tools a business uses, commonly including advertising, personal selling, sales promotion, public relations, and direct or digital marketing.",
+                },
+                {
+                  topic: "Advertising",
+                  brief:
+                    "Advertising is paid, usually non-personal communication from an identified sponsor used to promote products, services, ideas, or brands.",
+                },
+                {
+                  topic: "Personal selling",
+                  brief:
+                    "Personal selling involves direct interaction between a salesperson and a potential customer to understand needs, explain benefits, address concerns, and support a purchase decision.",
+                },
+                {
+                  topic: "Sales promotion",
+                  brief:
+                    "Sales promotion uses short-term incentives, such as discounts, samples, coupons, or special offers, to encourage purchasing or other desired actions.",
+                },
+                {
+                  topic: "Public relations",
+                  brief:
+                    "Public relations manages relationships and communication between an organization and its publics to develop understanding, credibility, and a positive reputation.",
+                },
+                {
+                  topic: "Publicity",
+                  brief:
+                    "Publicity is media or public attention received by an organization, product, or event, often through news coverage rather than directly paid advertising space.",
+                },
+                {
+                  topic: "Direct marketing",
+                  brief:
+                    "Direct marketing communicates with selected customers through channels such as email, messaging, telephone, or mail to encourage a measurable response.",
+                },
+                {
+                  topic: "Digital promotion",
+                  brief:
+                    "Digital promotion uses online channels such as websites, search engines, social media, email, and digital advertising to reach and engage target audiences.",
+                },
+                {
+                  topic: "Integrated marketing communications",
+                  brief:
+                    "Integrated marketing communications coordinates promotional channels and messages so customers receive a consistent brand message across different touchpoints.",
+                },
+                {
+                  topic: "Push strategy",
+                  brief:
+                    "A push strategy encourages channel intermediaries to stock, promote, and sell a product to the next level of the distribution channel.",
+                },
+                {
+                  topic: "Pull strategy",
+                  brief:
+                    "A pull strategy creates customer demand through promotion so consumers seek the product from retailers or other channel members.",
+                },
+                {
+                  topic: "Promotional budgeting",
+                  brief:
+                    "Promotional budgeting determines how much money to allocate to communication activities based on objectives, affordability, sales, competition, or expected returns.",
+                },
+                {
+                  topic: "Factors affecting promotion mix decisions",
+                  brief:
+                    "Promotion mix decisions depend on the target audience, product type, budget, buying stage, market conditions, distribution strategy, and communication objectives.",
+                },
+                {
+                  topic: "Promotion effectiveness evaluation",
+                  brief:
+                    "Promotion effectiveness is evaluated using measures such as reach, engagement, inquiries, sales, conversions, brand awareness, and return on promotional investment.",
+                },
+                {
+                  topic: "Ethical issues in promotional activities",
+                  brief:
+                    "Ethical promotion requires truthful claims, clear disclosures, respect for privacy, fair treatment of audiences, and avoidance of misleading or harmful messages.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 15,
+              chapterName: "Advertising",
+              topics: [
+                {
+                  topic: "Meaning and definition of advertising",
+                  brief:
+                    "Advertising is paid communication from an identified sponsor designed to inform or persuade an audience about a product, service, idea, or brand.",
+                },
+                {
+                  topic: "Objectives of advertising",
+                  brief:
+                    "Advertising objectives include creating awareness, providing information, persuading customers, reminding existing buyers, and supporting brand preference or sales.",
+                },
+                {
+                  topic: "Functions of advertising",
+                  brief:
+                    "Advertising informs customers, builds brand recognition, communicates benefits, supports demand, differentiates products, and helps businesses reach target audiences.",
+                },
+                {
+                  topic: "Advantages and limitations of advertising",
+                  brief:
+                    "Advertising can reach large audiences and build awareness, but it may be costly, face audience resistance, create clutter, and fail to guarantee purchases.",
+                },
+                {
+                  topic: "Types of advertising",
+                  brief:
+                    "Advertising can be classified by purpose, audience, medium, and message, including product, institutional, informative, persuasive, reminder, and digital advertising.",
+                },
+                {
+                  topic: "Product advertising",
+                  brief:
+                    "Product advertising promotes a specific product or service by communicating its features, benefits, availability, or reasons to buy.",
+                },
+                {
+                  topic: "Institutional advertising",
+                  brief:
+                    "Institutional advertising promotes an organization's identity, values, reputation, or overall image rather than focusing on one specific product.",
+                },
+                {
+                  topic: "Informative advertising",
+                  brief:
+                    "Informative advertising provides facts about a product's features, uses, availability, price, or benefits, especially when customers need to learn about an offering.",
+                },
+                {
+                  topic: "Persuasive advertising",
+                  brief:
+                    "Persuasive advertising aims to influence customer attitudes, preferences, or purchasing choices by presenting reasons to select a particular offering.",
+                },
+                {
+                  topic: "Reminder advertising",
+                  brief:
+                    "Reminder advertising keeps an established product or brand in customers' minds and encourages continued awareness or repeat purchases.",
+                },
+                {
+                  topic: "Advertising media",
+                  brief:
+                    "Advertising media are the channels used to deliver advertising messages, such as print, broadcast, outdoor, search, websites, and social platforms.",
+                },
+                {
+                  topic: "Print advertising",
+                  brief:
+                    "Print advertising uses printed materials such as newspapers, magazines, brochures, flyers, and posters to communicate promotional messages.",
+                },
+                {
+                  topic: "Broadcast advertising",
+                  brief:
+                    "Broadcast advertising uses audio or audiovisual media, such as radio and television, to reach audiences through scheduled or streamed content.",
+                },
+                {
+                  topic: "Outdoor advertising",
+                  brief:
+                    "Outdoor advertising reaches people in public places through billboards, transit displays, posters, and other visible placements outside the home.",
+                },
+                {
+                  topic: "Online advertising",
+                  brief:
+                    "Online advertising uses internet-based placements, such as search ads, display ads, websites, and digital marketplaces, to reach selected audiences.",
+                },
+                {
+                  topic: "Social media advertising",
+                  brief:
+                    "Social media advertising uses paid placements on social platforms to reach audiences according to factors such as interests, behaviour, and demographics.",
+                },
+                {
+                  topic: "Advertising campaign planning",
+                  brief:
+                    "Advertising campaign planning defines objectives, target audiences, messages, media, schedules, budgets, and evaluation measures before a campaign is launched.",
+                },
+                {
+                  topic: "Advertising message and appeal",
+                  brief:
+                    "An advertising message communicates the main product benefit, while an appeal uses themes such as quality, value, emotion, convenience, or social responsibility to attract attention.",
+                },
+                {
+                  topic: "Advertising budget",
+                  brief:
+                    "An advertising budget allocates resources to media, creative work, production, distribution, and evaluation according to campaign objectives and available funds.",
+                },
+                {
+                  topic: "Advertising effectiveness",
+                  brief:
+                    "Advertising effectiveness measures how well an advertisement achieves objectives such as awareness, recall, engagement, inquiries, conversions, or sales.",
+                },
+                {
+                  topic: "Truthfulness and ethics in advertising",
+                  brief:
+                    "Ethical advertising presents accurate claims, avoids deceptive omissions, respects audiences, and follows applicable rules concerning evidence, disclosures, and consumer protection.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 16,
+              chapterName: "Personal Selling and Sales Management",
+              topics: [
+                {
+                  topic: "Meaning and importance of personal selling",
+                  brief:
+                    "Personal selling is direct interaction between a salesperson and a buyer that helps explain product value, address individual needs, and develop customer relationships.",
+                },
+                {
+                  topic: "Features of personal selling",
+                  brief:
+                    "Personal selling involves direct communication, immediate feedback, tailored messages, relationship building, and the ability to respond to customer questions.",
+                },
+                {
+                  topic: "Advantages and limitations of personal selling",
+                  brief:
+                    "Personal selling allows personalized communication and objection handling but can be expensive, time-consuming, and limited in the number of customers reached.",
+                },
+                {
+                  topic: "Types of salespersons",
+                  brief:
+                    "Salespersons may be classified by their duties, such as order takers, order getters, technical sales representatives, retail sales staff, and service-oriented salespeople.",
+                },
+                {
+                  topic: "Sales process",
+                  brief:
+                    "The sales process is a sequence of activities that commonly includes prospecting, preparation, approach, presentation, handling objections, closing, and follow-up.",
+                },
+                {
+                  topic: "Prospecting and qualifying",
+                  brief:
+                    "Prospecting identifies potential customers, while qualifying assesses whether they have relevant needs, purchasing ability, and a realistic likelihood of buying.",
+                },
+                {
+                  topic: "Pre-approach",
+                  brief:
+                    "The pre-approach stage involves researching a prospect, understanding their needs, setting objectives, and preparing an appropriate sales presentation.",
+                },
+                {
+                  topic: "Approach",
+                  brief:
+                    "The approach is the initial contact with a potential customer, during which the salesperson establishes rapport and begins understanding the customer's needs.",
+                },
+                {
+                  topic: "Presentation and demonstration",
+                  brief:
+                    "A sales presentation explains how a product meets customer needs, while a demonstration shows its features or performance in practice.",
+                },
+                {
+                  topic: "Handling objections",
+                  brief:
+                    "Handling objections involves listening to customer concerns, clarifying misunderstandings, and responding honestly with relevant information or solutions.",
+                },
+                {
+                  topic: "Closing the sale",
+                  brief:
+                    "Closing the sale involves helping a ready customer make a purchase decision and confirming the agreed transaction details.",
+                },
+                {
+                  topic: "Follow-up",
+                  brief:
+                    "Follow-up occurs after the sale to confirm satisfaction, resolve problems, support product use, and encourage long-term customer relationships.",
+                },
+                {
+                  topic: "Sales force recruitment",
+                  brief:
+                    "Sales force recruitment identifies and attracts suitable candidates with the communication, product knowledge, interpersonal, and other skills required for sales roles.",
+                },
+                {
+                  topic: "Sales force training",
+                  brief:
+                    "Sales force training develops employees' product knowledge, selling techniques, customer service skills, ethical practices, and understanding of company procedures.",
+                },
+                {
+                  topic: "Sales motivation",
+                  brief:
+                    "Sales motivation encourages sales staff to work toward goals through suitable leadership, recognition, incentives, feedback, and career development.",
+                },
+                {
+                  topic: "Sales compensation",
+                  brief:
+                    "Sales compensation includes the financial and non-financial rewards provided to sales staff, such as salaries, commissions, bonuses, benefits, and recognition.",
+                },
+                {
+                  topic: "Sales territories",
+                  brief:
+                    "Sales territories are defined groups of customers or geographic areas assigned to salespeople to improve coverage, responsibility, and efficiency.",
+                },
+                {
+                  topic: "Sales quotas",
+                  brief:
+                    "Sales quotas are targets assigned to salespeople or teams for measures such as revenue, units sold, new accounts, or other performance indicators.",
+                },
+                {
+                  topic: "Sales forecasting",
+                  brief:
+                    "Sales forecasting estimates future sales over a specified period using historical performance, market conditions, customer information, and other relevant evidence.",
+                },
+                {
+                  topic: "Sales performance evaluation",
+                  brief:
+                    "Sales performance evaluation compares actual results with targets and assesses indicators such as revenue, conversion rates, customer retention, and sales activity.",
+                },
+                {
+                  topic: "Customer relationship management",
+                  brief:
+                    "Customer relationship management organizes customer information and interactions to improve service, support retention, personalize communication, and strengthen long-term relationships.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 17,
+              chapterName: "Sales Promotion and Public Relations",
+              topics: [
+                {
+                  topic: "Meaning and objectives of sales promotion",
+                  brief:
+                    "Sales promotion uses short-term incentives to encourage product trials, immediate purchases, repeat buying, or support from distribution partners.",
+                },
+                {
+                  topic: "Consumer sales promotion",
+                  brief:
+                    "Consumer sales promotion provides incentives directly to final buyers, such as coupons, samples, discounts, gifts, contests, and loyalty rewards.",
+                },
+                {
+                  topic: "Trade sales promotion",
+                  brief:
+                    "Trade sales promotion offers incentives to distributors, wholesalers, and retailers to encourage stocking, displaying, promoting, or selling a product.",
+                },
+                {
+                  topic: "Sales contests",
+                  brief:
+                    "Sales contests offer rewards to participants who achieve specified sales goals or performance measures within a defined period.",
+                },
+                {
+                  topic: "Coupons and vouchers",
+                  brief:
+                    "Coupons and vouchers provide eligible customers with a specified discount or benefit when they meet the stated redemption conditions.",
+                },
+                {
+                  topic: "Discounts and rebates",
+                  brief:
+                    "Discounts reduce the price at the time of purchase, while rebates generally provide a partial refund or benefit after specified purchase conditions are met.",
+                },
+                {
+                  topic: "Free samples",
+                  brief:
+                    "Free samples allow potential customers to try a product before buying, helping reduce uncertainty and encourage product trial.",
+                },
+                {
+                  topic: "Premium offers",
+                  brief:
+                    "Premium offers provide an additional item or benefit with a purchase to increase perceived value and encourage customers to buy.",
+                },
+                {
+                  topic: "Loyalty programmes",
+                  brief:
+                    "Loyalty programmes reward repeat purchases or customer engagement through benefits such as points, discounts, exclusive offers, or membership privileges.",
+                },
+                {
+                  topic: "Point-of-purchase displays",
+                  brief:
+                    "Point-of-purchase displays present products and promotional messages near the buying location to attract attention and influence purchase decisions.",
+                },
+                {
+                  topic: "Meaning of public relations",
+                  brief:
+                    "Public relations is the planned management of communication and relationships between an organization and its audiences to build understanding and trust.",
+                },
+                {
+                  topic: "Objectives of public relations",
+                  brief:
+                    "Public relations aims to build credibility, maintain a positive reputation, communicate organizational information, strengthen relationships, and respond to public concerns.",
+                },
+                {
+                  topic: "Publicity and media relations",
+                  brief:
+                    "Publicity involves public or media attention, while media relations focuses on maintaining professional communication with journalists and media organizations.",
+                },
+                {
+                  topic: "Press releases",
+                  brief:
+                    "A press release is an official written announcement prepared for media outlets to communicate newsworthy information about an organization, event, or development.",
+                },
+                {
+                  topic: "Corporate image",
+                  brief:
+                    "Corporate image is the overall impression that customers, employees, investors, and the public form about an organization.",
+                },
+                {
+                  topic: "Event sponsorship",
+                  brief:
+                    "Event sponsorship involves providing financial or other support to an event in exchange for agreed recognition, visibility, or association with its audience.",
+                },
+                {
+                  topic: "Community relations",
+                  brief:
+                    "Community relations involve building constructive relationships with local communities through communication, participation, responsible conduct, and suitable support.",
+                },
+                {
+                  topic: "Crisis communication",
+                  brief:
+                    "Crisis communication provides timely, accurate, and coordinated information during a serious event to protect people, address concerns, and maintain trust.",
+                },
+                {
+                  topic: "Evaluating promotional campaigns",
+                  brief:
+                    "Promotional campaigns are evaluated by comparing their results with objectives using measures such as participation, awareness, sales, engagement, cost, and return on investment.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Services and Customer Relationships",
+          chapters: [
+            {
+              chapterNumber: 18,
+              chapterName: "Services Marketing",
+              topics: [
+                {
+                  topic: "Meaning and definition of services",
+                  brief:
+                    "Services are activities, performances, or benefits provided to customers that are often intangible and may not result in ownership of a physical object.",
+                },
+                {
+                  topic: "Characteristics of services",
+                  brief:
+                    "Services are commonly described by intangibility, inseparability, variability, and perishability, although these characteristics differ across service types.",
+                },
+                {
+                  topic: "Intangibility",
+                  brief:
+                    "Intangibility means that services generally cannot be physically examined in the same way as goods before purchase, so customers often rely on trust and visible cues.",
+                },
+                {
+                  topic: "Inseparability",
+                  brief:
+                    "Inseparability describes how service production and consumption often occur together, with customers or service providers participating in delivery.",
+                },
+                {
+                  topic: "Variability",
+                  brief:
+                    "Variability means that service quality or delivery can differ depending on the provider, customer, time, location, and circumstances.",
+                },
+                {
+                  topic: "Perishability",
+                  brief:
+                    "Perishability means that unused service capacity generally cannot be stored for future sale, such as an unoccupied hotel room for a particular night.",
+                },
+                {
+                  topic: "Goods and services compared",
+                  brief:
+                    "Goods are generally tangible and can often be stored, while services are often intangible, involve customer interaction, and cannot usually be inventoried in the same way.",
+                },
+                {
+                  topic: "Service quality",
+                  brief:
+                    "Service quality refers to how well service delivery meets customer expectations through factors such as reliability, responsiveness, assurance, empathy, and tangible cues.",
+                },
+                {
+                  topic: "Customer expectations",
+                  brief:
+                    "Customer expectations are the standards or outcomes customers anticipate before receiving a service, shaped by experience, promises, needs, and recommendations.",
+                },
+                {
+                  topic: "Service delivery",
+                  brief:
+                    "Service delivery is the process of providing a service to customers through people, procedures, systems, facilities, and other necessary resources.",
+                },
+                {
+                  topic: "Service recovery",
+                  brief:
+                    "Service recovery involves responding to service failures by acknowledging problems, resolving complaints, providing appropriate remedies, and restoring customer confidence.",
+                },
+                {
+                  topic: "Service marketing mix",
+                  brief:
+                    "The service marketing mix extends the traditional 4Ps by including people, process, and physical evidence to address service delivery and customer experience.",
+                },
+                {
+                  topic: "People, process and physical evidence",
+                  brief:
+                    "People are those involved in service delivery, process covers the procedures used to provide the service, and physical evidence includes the tangible cues that shape customer perceptions.",
+                },
+                {
+                  topic: "Marketing of tourism services",
+                  brief:
+                    "Tourism services marketing promotes travel experiences, destinations, accommodation, transport, and related services by communicating value and building customer confidence.",
+                },
+                {
+                  topic: "Marketing of banking services",
+                  brief:
+                    "Banking services marketing promotes financial products and services by emphasizing convenience, reliability, security, suitability, and customer relationships.",
+                },
+                {
+                  topic: "Marketing of educational services",
+                  brief:
+                    "Educational services marketing communicates the value, quality, programmes, facilities, and learning opportunities offered by educational institutions.",
+                },
+                {
+                  topic: "Marketing of healthcare services",
+                  brief:
+                    "Healthcare services marketing communicates available medical services, access, expertise, and patient support while respecting privacy, professional standards, and applicable regulations.",
+                },
+                {
+                  topic: "Challenges in services marketing",
+                  brief:
+                    "Services marketing faces challenges involving intangible offerings, variable quality, limited capacity, customer participation, trust, and maintaining consistent service experiences.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 19,
+              chapterName: "Customer Relationship Management",
+              topics: [
+                {
+                  topic: "Meaning of customer relationship management",
+                  brief:
+                    "Customer relationship management (CRM) is the strategy and set of processes or tools used to manage customer information, interactions, and relationships throughout the customer journey.",
+                },
+                {
+                  topic: "Importance of customer relationships",
+                  brief:
+                    "Strong customer relationships can improve trust, satisfaction, repeat purchases, referrals, feedback, and long-term business performance.",
+                },
+                {
+                  topic: "Customer acquisition",
+                  brief:
+                    "Customer acquisition is the process of attracting potential customers and converting them into buyers through suitable marketing, sales, and service activities.",
+                },
+                {
+                  topic: "Customer retention",
+                  brief:
+                    "Customer retention involves encouraging existing customers to continue buying from a business through reliable value, service, communication, and relationship management.",
+                },
+                {
+                  topic: "Customer satisfaction",
+                  brief:
+                    "Customer satisfaction measures how well a product, service, or overall experience meets or exceeds customer expectations.",
+                },
+                {
+                  topic: "Customer loyalty",
+                  brief:
+                    "Customer loyalty is a sustained preference for a business or brand, often demonstrated through repeat purchases, recommendations, and continued engagement.",
+                },
+                {
+                  topic: "Customer lifetime value",
+                  brief:
+                    "Customer lifetime value estimates the value a customer may generate for a business over the duration of the relationship, often considering revenue, costs, and retention.",
+                },
+                {
+                  topic: "Customer feedback",
+                  brief:
+                    "Customer feedback consists of opinions, suggestions, ratings, and complaints that help businesses understand customer experiences and identify areas for improvement.",
+                },
+                {
+                  topic: "Complaint handling",
+                  brief:
+                    "Complaint handling involves listening to customer concerns, investigating issues, communicating clearly, offering appropriate solutions, and using lessons to prevent recurrence.",
+                },
+                {
+                  topic: "Customer databases",
+                  brief:
+                    "Customer databases store organized customer information and interaction histories to support authorized communication, service, analysis, and relationship management.",
+                },
+                {
+                  topic: "Personalized communication",
+                  brief:
+                    "Personalized communication adapts messages, offers, or service interactions to relevant customer preferences, needs, history, and consent.",
+                },
+                {
+                  topic: "Loyalty programmes",
+                  brief:
+                    "Loyalty programmes encourage ongoing engagement by offering benefits such as points, rewards, member discounts, or exclusive services to qualifying customers.",
+                },
+                {
+                  topic: "Customer relationship management systems",
+                  brief:
+                    "CRM systems are software tools that organize customer records, track interactions, manage sales activities, support customer service, and help teams coordinate relationships.",
+                },
+                {
+                  topic: "Customer experience management",
+                  brief:
+                    "Customer experience management coordinates interactions across the customer journey to make experiences consistent, useful, and aligned with customer expectations.",
+                },
+                {
+                  topic: "Ethics and privacy in customer relationships",
+                  brief:
+                    "Ethical customer relationship management requires honest communication, respectful treatment, secure information handling, appropriate consent, and compliance with privacy rules.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    "12": {
+      grade: 12,
+      subject: "Marketing",
+      branches: [
+        {
+          branchName: "Strategic Marketing Management",
+          chapters: [
+            {
+              chapterNumber: 1,
+              chapterName: "Marketing Management",
+              topics: [
+                {
+                  topic: "Meaning and definition of marketing management",
+                  brief:
+                    "Meaning and definition of marketing management: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Objectives of marketing management",
+                  brief:
+                    "Objectives of marketing management: Explains the main goals, why they matter, and how they guide marketing decisions.",
+                },
+                {
+                  topic: "Functions of marketing management",
+                  brief:
+                    "Functions of marketing management: Outlines the main activities and responsibilities involved and their contribution to marketing outcomes.",
+                },
+                {
+                  topic: "Marketing planning",
+                  brief:
+                    "Marketing planning: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Marketing organization",
+                  brief:
+                    "Marketing organization: Explains marketing organization and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing implementation",
+                  brief:
+                    "Marketing implementation: Explains marketing implementation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing control",
+                  brief:
+                    "Marketing control: Explains marketing control and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Strategic marketing planning",
+                  brief:
+                    "Strategic marketing planning: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Corporate objectives and marketing objectives",
+                  brief:
+                    "Corporate objectives and marketing objectives: Explains the main goals, why they matter, and how they guide marketing decisions.",
+                },
+                {
+                  topic: "Situation analysis",
+                  brief:
+                    "Situation analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "SWOT analysis",
+                  brief:
+                    "SWOT analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Marketing strategy formulation",
+                  brief:
+                    "Marketing strategy formulation: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Marketing strategy implementation",
+                  brief:
+                    "Marketing strategy implementation: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Marketing performance evaluation",
+                  brief:
+                    "Marketing performance evaluation: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Marketing management challenges",
+                  brief:
+                    "Marketing management challenges: Explains marketing management challenges and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Role of marketing managers",
+                  brief:
+                    "Role of marketing managers: Explains role of marketing managers and its practical relevance to marketing decisions and business performance.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 2,
+              chapterName: "Market Segmentation, Targeting and Positioning",
+              topics: [
+                {
+                  topic: "Meaning and importance of market segmentation",
+                  brief:
+                    "Meaning and importance of market segmentation: Describes why the topic matters and how it contributes to effective marketing.",
+                },
+                {
+                  topic: "Geographic segmentation",
+                  brief:
+                    "Geographic segmentation: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Demographic segmentation",
+                  brief:
+                    "Demographic segmentation: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Psychographic segmentation",
+                  brief:
+                    "Psychographic segmentation: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Behavioural segmentation",
+                  brief:
+                    "Behavioural segmentation: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Business-to-business segmentation",
+                  brief:
+                    "Business-to-business segmentation: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Requirements for effective segmentation",
+                  brief:
+                    "Requirements for effective segmentation: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Market attractiveness analysis",
+                  brief:
+                    "Market attractiveness analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Market targeting",
+                  brief:
+                    "Market targeting: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Undifferentiated marketing",
+                  brief:
+                    "Undifferentiated marketing: Explains undifferentiated marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Differentiated marketing",
+                  brief:
+                    "Differentiated marketing: Explains differentiated marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Concentrated marketing",
+                  brief:
+                    "Concentrated marketing: Explains concentrated marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Micromarketing",
+                  brief:
+                    "Micromarketing: Explains micromarketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Meaning of positioning",
+                  brief:
+                    "Meaning of positioning: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Positioning strategies",
+                  brief:
+                    "Positioning strategies: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Perceptual mapping",
+                  brief:
+                    "Perceptual mapping: Explains perceptual mapping and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Brand positioning",
+                  brief:
+                    "Brand positioning: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Repositioning",
+                  brief:
+                    "Repositioning: Explains repositioning and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Selecting a target market",
+                  brief:
+                    "Selecting a target market: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Developing a value proposition",
+                  brief:
+                    "Developing a value proposition: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 3,
+              chapterName: "Marketing Strategy and Competitive Advantage",
+              topics: [
+                {
+                  topic: "Meaning of marketing strategy",
+                  brief:
+                    "Meaning of marketing strategy: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Competitive advantage",
+                  brief:
+                    "Competitive advantage: Explains competitive advantage and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Cost leadership",
+                  brief:
+                    "Cost leadership: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Differentiation strategy",
+                  brief:
+                    "Differentiation strategy: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Focus strategy",
+                  brief:
+                    "Focus strategy: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Market leader strategies",
+                  brief:
+                    "Market leader strategies: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Market challenger strategies",
+                  brief:
+                    "Market challenger strategies: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Market follower strategies",
+                  brief:
+                    "Market follower strategies: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Market nicher strategies",
+                  brief:
+                    "Market nicher strategies: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Market penetration",
+                  brief:
+                    "Market penetration: Explains market penetration and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Market development",
+                  brief:
+                    "Market development: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Product development",
+                  brief:
+                    "Product development: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Diversification",
+                  brief:
+                    "Diversification: Explains diversification and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Competitive analysis",
+                  brief:
+                    "Competitive analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Competitor identification",
+                  brief:
+                    "Competitor identification: Explains competitor identification and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Competitor strengths and weaknesses",
+                  brief:
+                    "Competitor strengths and weaknesses: Explains competitor strengths and weaknesses and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Value creation",
+                  brief:
+                    "Value creation: Explains value creation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Strategic alliances",
+                  brief:
+                    "Strategic alliances: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Marketing strategy evaluation",
+                  brief:
+                    "Marketing strategy evaluation: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Product and Brand Strategy",
+          chapters: [
+            {
+              chapterNumber: 4,
+              chapterName: "Product Strategy and Innovation",
+              topics: [
+                {
+                  topic: "Product planning",
+                  brief:
+                    "Product planning: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Product classification",
+                  brief:
+                    "Product classification: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product differentiation",
+                  brief:
+                    "Product differentiation: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product quality and features",
+                  brief:
+                    "Product quality and features: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product line decisions",
+                  brief:
+                    "Product line decisions: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product mix decisions",
+                  brief:
+                    "Product mix decisions: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product line stretching",
+                  brief:
+                    "Product line stretching: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product line filling",
+                  brief:
+                    "Product line filling: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "New product development",
+                  brief:
+                    "New product development: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Innovation and creativity",
+                  brief:
+                    "Innovation and creativity: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Idea generation and screening",
+                  brief:
+                    "Idea generation and screening: Explains idea generation and screening and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Concept development and testing",
+                  brief:
+                    "Concept development and testing: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Business analysis",
+                  brief:
+                    "Business analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Product development",
+                  brief:
+                    "Product development: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Test marketing",
+                  brief:
+                    "Test marketing: Explains test marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Commercialization",
+                  brief:
+                    "Commercialization: Explains commercialization and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Innovation adoption process",
+                  brief:
+                    "Innovation adoption process: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Reasons for new product success and failure",
+                  brief:
+                    "Reasons for new product success and failure: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Sustainable product design",
+                  brief:
+                    "Sustainable product design: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 5,
+              chapterName: "Brand Management",
+              topics: [
+                {
+                  topic: "Meaning and importance of branding",
+                  brief:
+                    "Meaning and importance of branding: Describes why the topic matters and how it contributes to effective marketing.",
+                },
+                {
+                  topic: "Brand identity",
+                  brief:
+                    "Brand identity: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand image",
+                  brief:
+                    "Brand image: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand positioning",
+                  brief:
+                    "Brand positioning: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand equity",
+                  brief:
+                    "Brand equity: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand awareness",
+                  brief:
+                    "Brand awareness: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Perceived quality",
+                  brief:
+                    "Perceived quality: Explains perceived quality and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Brand associations",
+                  brief:
+                    "Brand associations: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand loyalty",
+                  brief:
+                    "Brand loyalty: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Brand personality",
+                  brief:
+                    "Brand personality: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand architecture",
+                  brief:
+                    "Brand architecture: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Individual branding",
+                  brief:
+                    "Individual branding: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Family branding",
+                  brief:
+                    "Family branding: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Corporate branding",
+                  brief:
+                    "Corporate branding: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Co-branding",
+                  brief:
+                    "Co-branding: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand extension",
+                  brief:
+                    "Brand extension: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand revitalization",
+                  brief:
+                    "Brand revitalization: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Rebranding",
+                  brief:
+                    "Rebranding: Explains rebranding and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Brand protection and trademarks",
+                  brief:
+                    "Brand protection and trademarks: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Brand performance measurement",
+                  brief:
+                    "Brand performance measurement: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 6,
+              chapterName: "Product Life Cycle and Portfolio Management",
+              topics: [
+                {
+                  topic: "Meaning of product life cycle",
+                  brief:
+                    "Meaning of product life cycle: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Introduction stage",
+                  brief:
+                    "Introduction stage: Explains introduction stage and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Growth stage",
+                  brief:
+                    "Growth stage: Explains growth stage and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Maturity stage",
+                  brief:
+                    "Maturity stage: Explains maturity stage and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Decline stage",
+                  brief:
+                    "Decline stage: Explains decline stage and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing strategies at each life-cycle stage",
+                  brief:
+                    "Marketing strategies at each life-cycle stage: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Product life-cycle limitations",
+                  brief:
+                    "Product life-cycle limitations: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product portfolio management",
+                  brief:
+                    "Product portfolio management: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product portfolio analysis",
+                  brief:
+                    "Product portfolio analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Boston Consulting Group matrix",
+                  brief:
+                    "Boston Consulting Group matrix: Explains boston consulting group matrix and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Stars",
+                  brief:
+                    "Stars: Explains stars and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Cash cows",
+                  brief:
+                    "Cash cows: Explains cash cows and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Question marks",
+                  brief:
+                    "Question marks: Explains question marks and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Dogs",
+                  brief:
+                    "Dogs: Explains dogs and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Resource allocation across product lines",
+                  brief:
+                    "Resource allocation across product lines: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product discontinuation decisions",
+                  brief:
+                    "Product discontinuation decisions: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Product repositioning",
+                  brief:
+                    "Product repositioning: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Pricing and Distribution Strategy",
+          chapters: [
+            {
+              chapterNumber: 7,
+              chapterName: "Advanced Pricing Strategies",
+              topics: [
+                {
+                  topic: "Pricing objectives",
+                  brief:
+                    "Pricing objectives: Explains the main goals, why they matter, and how they guide marketing decisions.",
+                },
+                {
+                  topic: "Factors affecting pricing decisions",
+                  brief:
+                    "Factors affecting pricing decisions: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Cost-based pricing",
+                  brief:
+                    "Cost-based pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Value-based pricing",
+                  brief:
+                    "Value-based pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Competition-based pricing",
+                  brief:
+                    "Competition-based pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Demand-based pricing",
+                  brief:
+                    "Demand-based pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Penetration pricing",
+                  brief:
+                    "Penetration pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Price skimming",
+                  brief:
+                    "Price skimming: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Psychological pricing",
+                  brief:
+                    "Psychological pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Premium pricing",
+                  brief:
+                    "Premium pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Economy pricing",
+                  brief:
+                    "Economy pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Product-line pricing",
+                  brief:
+                    "Product-line pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Bundle pricing",
+                  brief:
+                    "Bundle pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Promotional pricing",
+                  brief:
+                    "Promotional pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Dynamic pricing",
+                  brief:
+                    "Dynamic pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Geographical pricing",
+                  brief:
+                    "Geographical pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Price discrimination",
+                  brief:
+                    "Price discrimination: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Break-even analysis for pricing",
+                  brief:
+                    "Break-even analysis for pricing: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Price elasticity and pricing decisions",
+                  brief:
+                    "Price elasticity and pricing decisions: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Pricing ethics and legal considerations",
+                  brief:
+                    "Pricing ethics and legal considerations: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 8,
+              chapterName: "Distribution and Channel Management",
+              topics: [
+                {
+                  topic: "Meaning and objectives of distribution",
+                  brief:
+                    "Meaning and objectives of distribution: Explains the main goals, why they matter, and how they guide marketing decisions.",
+                },
+                {
+                  topic: "Distribution channel structures",
+                  brief:
+                    "Distribution channel structures: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Direct and indirect channels",
+                  brief:
+                    "Direct and indirect channels: Explains direct and indirect channels and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Channel design decisions",
+                  brief:
+                    "Channel design decisions: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Channel selection criteria",
+                  brief:
+                    "Channel selection criteria: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Channel length and width",
+                  brief:
+                    "Channel length and width: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Intensive distribution",
+                  brief:
+                    "Intensive distribution: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Selective distribution",
+                  brief:
+                    "Selective distribution: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Exclusive distribution",
+                  brief:
+                    "Exclusive distribution: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Channel members and their functions",
+                  brief:
+                    "Channel members and their functions: Outlines the main activities and responsibilities involved and their contribution to marketing outcomes.",
+                },
+                {
+                  topic: "Channel conflict",
+                  brief:
+                    "Channel conflict: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Channel power",
+                  brief:
+                    "Channel power: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Channel coordination",
+                  brief:
+                    "Channel coordination: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Vertical marketing systems",
+                  brief:
+                    "Vertical marketing systems: Explains vertical marketing systems and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Horizontal marketing systems",
+                  brief:
+                    "Horizontal marketing systems: Explains horizontal marketing systems and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Omnichannel distribution",
+                  brief:
+                    "Omnichannel distribution: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Distribution performance evaluation",
+                  brief:
+                    "Distribution performance evaluation: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Channel management challenges",
+                  brief:
+                    "Channel management challenges: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 9,
+              chapterName: "Logistics and Supply Chain Management",
+              topics: [
+                {
+                  topic: "Meaning of logistics",
+                  brief:
+                    "Meaning of logistics: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Meaning of supply chain management",
+                  brief:
+                    "Meaning of supply chain management: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Logistics and distribution compared",
+                  brief:
+                    "Logistics and distribution compared: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Order processing",
+                  brief:
+                    "Order processing: Explains order processing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Inventory control",
+                  brief:
+                    "Inventory control: Explains inventory control and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Warehousing",
+                  brief:
+                    "Warehousing: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Transportation management",
+                  brief:
+                    "Transportation management: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Material handling",
+                  brief:
+                    "Material handling: Explains material handling and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Demand forecasting",
+                  brief:
+                    "Demand forecasting: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Supplier relationships",
+                  brief:
+                    "Supplier relationships: Explains supplier relationships and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Supply chain coordination",
+                  brief:
+                    "Supply chain coordination: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Distribution network design",
+                  brief:
+                    "Distribution network design: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Logistics costs",
+                  brief:
+                    "Logistics costs: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Reverse logistics",
+                  brief:
+                    "Reverse logistics: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Sustainable supply chains",
+                  brief:
+                    "Sustainable supply chains: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Technology in logistics",
+                  brief:
+                    "Technology in logistics: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Supply chain risks",
+                  brief:
+                    "Supply chain risks: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Logistics performance measurement",
+                  brief:
+                    "Logistics performance measurement: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Integrated Marketing Communications",
+          chapters: [
+            {
+              chapterNumber: 10,
+              chapterName: "Advertising and Media Planning",
+              topics: [
+                {
+                  topic: "Advertising objectives",
+                  brief:
+                    "Advertising objectives: Explains the main goals, why they matter, and how they guide marketing decisions.",
+                },
+                {
+                  topic: "Advertising strategy",
+                  brief:
+                    "Advertising strategy: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Advertising campaign development",
+                  brief:
+                    "Advertising campaign development: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Target audience selection",
+                  brief:
+                    "Target audience selection: Explains target audience selection and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Advertising message design",
+                  brief:
+                    "Advertising message design: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Creative appeals",
+                  brief:
+                    "Creative appeals: Explains creative appeals and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Media planning",
+                  brief:
+                    "Media planning: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Media selection",
+                  brief:
+                    "Media selection: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Print media",
+                  brief:
+                    "Print media: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Broadcast media",
+                  brief:
+                    "Broadcast media: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Outdoor media",
+                  brief:
+                    "Outdoor media: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Digital media",
+                  brief:
+                    "Digital media: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Media reach and frequency",
+                  brief:
+                    "Media reach and frequency: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Advertising budget methods",
+                  brief:
+                    "Advertising budget methods: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Advertising scheduling",
+                  brief:
+                    "Advertising scheduling: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Advertising effectiveness",
+                  brief:
+                    "Advertising effectiveness: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Brand safety",
+                  brief:
+                    "Brand safety: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Advertising ethics",
+                  brief:
+                    "Advertising ethics: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Regulation of advertising",
+                  brief:
+                    "Regulation of advertising: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 11,
+              chapterName: "Sales Promotion, Public Relations and Publicity",
+              topics: [
+                {
+                  topic: "Objectives of sales promotion",
+                  brief:
+                    "Objectives of sales promotion: Explains the main goals, why they matter, and how they guide marketing decisions.",
+                },
+                {
+                  topic: "Consumer-oriented sales promotion",
+                  brief:
+                    "Consumer-oriented sales promotion: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Trade-oriented sales promotion",
+                  brief:
+                    "Trade-oriented sales promotion: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Sales promotion tools",
+                  brief:
+                    "Sales promotion tools: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Coupons and rebates",
+                  brief:
+                    "Coupons and rebates: Explains coupons and rebates and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Samples and premiums",
+                  brief:
+                    "Samples and premiums: Explains samples and premiums and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Contests and loyalty programmes",
+                  brief:
+                    "Contests and loyalty programmes: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Trade fairs and exhibitions",
+                  brief:
+                    "Trade fairs and exhibitions: Explains trade fairs and exhibitions and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Public relations planning",
+                  brief:
+                    "Public relations planning: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Corporate communications",
+                  brief:
+                    "Corporate communications: Explains corporate communications and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Media relations",
+                  brief:
+                    "Media relations: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Publicity",
+                  brief:
+                    "Publicity: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Sponsorships",
+                  brief:
+                    "Sponsorships: Explains sponsorships and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Event marketing",
+                  brief:
+                    "Event marketing: Explains event marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Crisis communication",
+                  brief:
+                    "Crisis communication: Explains crisis communication and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Reputation management",
+                  brief:
+                    "Reputation management: Explains reputation management and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Evaluation of public relations activities",
+                  brief:
+                    "Evaluation of public relations activities: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Integration of promotional tools",
+                  brief:
+                    "Integration of promotional tools: Explains integration of promotional tools and its practical relevance to marketing decisions and business performance.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 12,
+              chapterName: "Personal Selling and Sales Force Management",
+              topics: [
+                {
+                  topic: "Personal selling process",
+                  brief:
+                    "Personal selling process: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Prospecting and lead generation",
+                  brief:
+                    "Prospecting and lead generation: Explains prospecting and lead generation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Sales preparation",
+                  brief:
+                    "Sales preparation: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Sales presentation",
+                  brief:
+                    "Sales presentation: Explains sales presentation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Product demonstration",
+                  brief:
+                    "Product demonstration: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Handling objections",
+                  brief:
+                    "Handling objections: Explains handling objections and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Negotiation",
+                  brief:
+                    "Negotiation: Explains negotiation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Closing sales",
+                  brief:
+                    "Closing sales: Explains closing sales and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "After-sales follow-up",
+                  brief:
+                    "After-sales follow-up: Explains after-sales follow-up and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Sales force planning",
+                  brief:
+                    "Sales force planning: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Recruitment and selection of salespeople",
+                  brief:
+                    "Recruitment and selection of salespeople: Explains recruitment and selection of salespeople and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Sales training",
+                  brief:
+                    "Sales training: Explains sales training and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Sales motivation",
+                  brief:
+                    "Sales motivation: Explains sales motivation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Sales compensation",
+                  brief:
+                    "Sales compensation: Explains sales compensation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Sales territories and quotas",
+                  brief:
+                    "Sales territories and quotas: Explains sales territories and quotas and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Sales forecasting",
+                  brief:
+                    "Sales forecasting: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Sales performance appraisal",
+                  brief:
+                    "Sales performance appraisal: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Sales ethics",
+                  brief:
+                    "Sales ethics: Explains sales ethics and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Relationship selling",
+                  brief:
+                    "Relationship selling: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Key account management",
+                  brief:
+                    "Key account management: Explains key account management and its practical relevance to marketing decisions and business performance.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 13,
+              chapterName: "Digital Marketing and Social Media",
+              topics: [
+                {
+                  topic: "Meaning and scope of digital marketing",
+                  brief:
+                    "Meaning and scope of digital marketing: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Traditional marketing and digital marketing",
+                  brief:
+                    "Traditional marketing and digital marketing: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Digital marketing strategy",
+                  brief:
+                    "Digital marketing strategy: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Website marketing",
+                  brief:
+                    "Website marketing: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Search engine optimization",
+                  brief:
+                    "Search engine optimization: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Search engine marketing",
+                  brief:
+                    "Search engine marketing: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Content marketing",
+                  brief:
+                    "Content marketing: Explains content marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Social media marketing",
+                  brief:
+                    "Social media marketing: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Email marketing",
+                  brief:
+                    "Email marketing: Explains email marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Influencer marketing",
+                  brief:
+                    "Influencer marketing: Explains influencer marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Affiliate marketing",
+                  brief:
+                    "Affiliate marketing: Explains affiliate marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Online advertising",
+                  brief:
+                    "Online advertising: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Mobile marketing",
+                  brief:
+                    "Mobile marketing: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Video marketing",
+                  brief:
+                    "Video marketing: Explains video marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing automation",
+                  brief:
+                    "Marketing automation: Explains marketing automation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Customer journey mapping",
+                  brief:
+                    "Customer journey mapping: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Digital campaign analytics",
+                  brief:
+                    "Digital campaign analytics: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Conversion rate",
+                  brief:
+                    "Conversion rate: Explains conversion rate and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Return on advertising spend",
+                  brief:
+                    "Return on advertising spend: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Online reputation management",
+                  brief:
+                    "Online reputation management: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Data privacy and digital marketing ethics",
+                  brief:
+                    "Data privacy and digital marketing ethics: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Services and Relationship Marketing",
+          chapters: [
+            {
+              chapterNumber: 14,
+              chapterName: "Services Marketing Management",
+              topics: [
+                {
+                  topic: "Meaning and characteristics of services",
+                  brief:
+                    "Meaning and characteristics of services: Explains meaning and characteristics of services and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Intangibility",
+                  brief:
+                    "Intangibility: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Inseparability",
+                  brief:
+                    "Inseparability: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Variability",
+                  brief:
+                    "Variability: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Perishability",
+                  brief:
+                    "Perishability: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Service quality",
+                  brief:
+                    "Service quality: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Customer expectations and perceptions",
+                  brief:
+                    "Customer expectations and perceptions: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Service quality measurement",
+                  brief:
+                    "Service quality measurement: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Service delivery systems",
+                  brief:
+                    "Service delivery systems: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Service blueprinting",
+                  brief:
+                    "Service blueprinting: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Managing service encounters",
+                  brief:
+                    "Managing service encounters: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Service failure and recovery",
+                  brief:
+                    "Service failure and recovery: Explains the distinctive features of services and their implications for service delivery and customer experience.",
+                },
+                {
+                  topic: "Services marketing mix",
+                  brief:
+                    "Services marketing mix: Explains services marketing mix and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Internal marketing",
+                  brief:
+                    "Internal marketing: Explains internal marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Interactive marketing",
+                  brief:
+                    "Interactive marketing: Explains interactive marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing of tourism services",
+                  brief:
+                    "Marketing of tourism services: Explains marketing of tourism services and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing of financial services",
+                  brief:
+                    "Marketing of financial services: Explains marketing of financial services and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing of educational services",
+                  brief:
+                    "Marketing of educational services: Explains marketing of educational services and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing of healthcare services",
+                  brief:
+                    "Marketing of healthcare services: Explains marketing of healthcare services and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing of digital services",
+                  brief:
+                    "Marketing of digital services: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 15,
+              chapterName: "Customer Relationship and Experience Management",
+              topics: [
+                {
+                  topic: "Meaning of customer relationship management",
+                  brief:
+                    "Meaning of customer relationship management: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Customer acquisition and retention",
+                  brief:
+                    "Customer acquisition and retention: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer satisfaction",
+                  brief:
+                    "Customer satisfaction: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer loyalty",
+                  brief:
+                    "Customer loyalty: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer lifetime value",
+                  brief:
+                    "Customer lifetime value: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer profitability",
+                  brief:
+                    "Customer profitability: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer segmentation",
+                  brief:
+                    "Customer segmentation: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer relationship management software",
+                  brief:
+                    "Customer relationship management software: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer databases",
+                  brief:
+                    "Customer databases: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer feedback systems",
+                  brief:
+                    "Customer feedback systems: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Complaint handling",
+                  brief:
+                    "Complaint handling: Explains complaint handling and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Personalization",
+                  brief:
+                    "Personalization: Explains personalization and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Customer experience design",
+                  brief:
+                    "Customer experience design: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Customer journey mapping",
+                  brief:
+                    "Customer journey mapping: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Loyalty programmes",
+                  brief:
+                    "Loyalty programmes: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Relationship marketing",
+                  brief:
+                    "Relationship marketing: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Customer privacy and consent",
+                  brief:
+                    "Customer privacy and consent: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Measuring customer relationship performance",
+                  brief:
+                    "Measuring customer relationship performance: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Marketing Research and Analytics",
+          chapters: [
+            {
+              chapterNumber: 16,
+              chapterName: "Marketing Research Methods",
+              topics: [
+                {
+                  topic: "Meaning and objectives of marketing research",
+                  brief:
+                    "Meaning and objectives of marketing research: Explains the main goals, why they matter, and how they guide marketing decisions.",
+                },
+                {
+                  topic: "Marketing research process",
+                  brief:
+                    "Marketing research process: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Problem definition",
+                  brief:
+                    "Problem definition: Explains problem definition and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Research questions and hypotheses",
+                  brief:
+                    "Research questions and hypotheses: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Exploratory research",
+                  brief:
+                    "Exploratory research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Descriptive research",
+                  brief:
+                    "Descriptive research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Causal research",
+                  brief:
+                    "Causal research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Primary and secondary data",
+                  brief:
+                    "Primary and secondary data: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Qualitative research",
+                  brief:
+                    "Qualitative research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Quantitative research",
+                  brief:
+                    "Quantitative research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Survey research",
+                  brief:
+                    "Survey research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Interview methods",
+                  brief:
+                    "Interview methods: Explains interview methods and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Observation methods",
+                  brief:
+                    "Observation methods: Explains observation methods and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Focus group discussions",
+                  brief:
+                    "Focus group discussions: Explains focus group discussions and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Questionnaire design",
+                  brief:
+                    "Questionnaire design: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Sampling methods",
+                  brief:
+                    "Sampling methods: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Probability sampling",
+                  brief:
+                    "Probability sampling: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Non-probability sampling",
+                  brief:
+                    "Non-probability sampling: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Data collection",
+                  brief:
+                    "Data collection: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Research report preparation",
+                  brief:
+                    "Research report preparation: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Research ethics",
+                  brief:
+                    "Research ethics: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Limitations of marketing research",
+                  brief:
+                    "Limitations of marketing research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 17,
+              chapterName: "Marketing Data Analysis and Forecasting",
+              topics: [
+                {
+                  topic: "Marketing information systems",
+                  brief:
+                    "Marketing information systems: Explains marketing information systems and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing data sources",
+                  brief:
+                    "Marketing data sources: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Data classification and tabulation",
+                  brief:
+                    "Data classification and tabulation: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Measures of central tendency",
+                  brief:
+                    "Measures of central tendency: Explains measures of central tendency and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Measures of dispersion",
+                  brief:
+                    "Measures of dispersion: Explains measures of dispersion and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Data visualization",
+                  brief:
+                    "Data visualization: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Interpretation of survey results",
+                  brief:
+                    "Interpretation of survey results: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Market demand estimation",
+                  brief:
+                    "Market demand estimation: Explains market demand estimation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Sales forecasting",
+                  brief:
+                    "Sales forecasting: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Qualitative forecasting methods",
+                  brief:
+                    "Qualitative forecasting methods: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Quantitative forecasting methods",
+                  brief:
+                    "Quantitative forecasting methods: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Trend analysis",
+                  brief:
+                    "Trend analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Moving averages",
+                  brief:
+                    "Moving averages: Explains moving averages and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Correlation in marketing",
+                  brief:
+                    "Correlation in marketing: Explains correlation in marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Customer analytics",
+                  brief:
+                    "Customer analytics: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Market share analysis",
+                  brief:
+                    "Market share analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Campaign performance analysis",
+                  brief:
+                    "Campaign performance analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Key performance indicators",
+                  brief:
+                    "Key performance indicators: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Marketing return on investment",
+                  brief:
+                    "Marketing return on investment: Explains marketing return on investment and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Limitations of marketing analytics",
+                  brief:
+                    "Limitations of marketing analytics: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "International and Emerging Marketing",
+          chapters: [
+            {
+              chapterNumber: 18,
+              chapterName: "International Marketing",
+              topics: [
+                {
+                  topic: "Meaning and importance of international marketing",
+                  brief:
+                    "Meaning and importance of international marketing: Describes why the topic matters and how it contributes to effective marketing.",
+                },
+                {
+                  topic: "Domestic and international marketing",
+                  brief:
+                    "Domestic and international marketing: Covers cross-border marketing considerations, market opportunities, and factors that affect international decisions.",
+                },
+                {
+                  topic: "International marketing environment",
+                  brief:
+                    "International marketing environment: Covers cross-border marketing considerations, market opportunities, and factors that affect international decisions.",
+                },
+                {
+                  topic: "Cultural differences in international markets",
+                  brief:
+                    "Cultural differences in international markets: Covers cross-border marketing considerations, market opportunities, and factors that affect international decisions.",
+                },
+                {
+                  topic: "Political and legal factors",
+                  brief:
+                    "Political and legal factors: Explains political and legal factors and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Economic factors",
+                  brief:
+                    "Economic factors: Explains economic factors and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "International market research",
+                  brief:
+                    "International market research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "International market selection",
+                  brief:
+                    "International market selection: Covers cross-border marketing considerations, market opportunities, and factors that affect international decisions.",
+                },
+                {
+                  topic: "Market entry strategies",
+                  brief:
+                    "Market entry strategies: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Exporting",
+                  brief:
+                    "Exporting: Explains exporting and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Licensing",
+                  brief:
+                    "Licensing: Explains licensing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Franchising",
+                  brief:
+                    "Franchising: Explains franchising and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Joint ventures",
+                  brief:
+                    "Joint ventures: Explains joint ventures and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Foreign direct investment",
+                  brief:
+                    "Foreign direct investment: Covers cross-border marketing considerations, market opportunities, and factors that affect international decisions.",
+                },
+                {
+                  topic: "Standardization and adaptation",
+                  brief:
+                    "Standardization and adaptation: Explains standardization and adaptation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "International product decisions",
+                  brief:
+                    "International product decisions: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "International pricing",
+                  brief:
+                    "International pricing: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "International distribution",
+                  brief:
+                    "International distribution: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "International promotion",
+                  brief:
+                    "International promotion: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Challenges of international marketing",
+                  brief:
+                    "Challenges of international marketing: Covers cross-border marketing considerations, market opportunities, and factors that affect international decisions.",
+                },
+                {
+                  topic:
+                    "Export marketing opportunities for Nepalese businesses",
+                  brief:
+                    "Export marketing opportunities for Nepalese businesses: Covers cross-border marketing considerations, market opportunities, and factors that affect international decisions.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 19,
+              chapterName: "E-Commerce and Online Business",
+              topics: [
+                {
+                  topic: "Meaning of e-commerce",
+                  brief:
+                    "Meaning of e-commerce: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Types of e-commerce",
+                  brief:
+                    "Types of e-commerce: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Business-to-business commerce",
+                  brief:
+                    "Business-to-business commerce: Explains business-to-business commerce and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Business-to-consumer commerce",
+                  brief:
+                    "Business-to-consumer commerce: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Consumer-to-consumer commerce",
+                  brief:
+                    "Consumer-to-consumer commerce: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Consumer-to-business commerce",
+                  brief:
+                    "Consumer-to-business commerce: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Online marketplaces",
+                  brief:
+                    "Online marketplaces: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "E-commerce business models",
+                  brief:
+                    "E-commerce business models: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Online storefront design",
+                  brief:
+                    "Online storefront design: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Digital payment systems",
+                  brief:
+                    "Digital payment systems: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Online customer service",
+                  brief:
+                    "Online customer service: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Order fulfilment",
+                  brief:
+                    "Order fulfilment: Explains order fulfilment and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Returns and refunds",
+                  brief:
+                    "Returns and refunds: Explains returns and refunds and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Trust and security in online transactions",
+                  brief:
+                    "Trust and security in online transactions: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Online consumer protection",
+                  brief:
+                    "Online consumer protection: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Mobile commerce",
+                  brief:
+                    "Mobile commerce: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Social commerce",
+                  brief:
+                    "Social commerce: Explains social commerce and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Omnichannel commerce",
+                  brief:
+                    "Omnichannel commerce: Explains omnichannel commerce and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "E-commerce opportunities and challenges in Nepal",
+                  brief:
+                    "E-commerce opportunities and challenges in Nepal: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 20,
+              chapterName: "Emerging Trends in Marketing",
+              topics: [
+                {
+                  topic: "Artificial intelligence in marketing",
+                  brief:
+                    "Artificial intelligence in marketing: Explains artificial intelligence in marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing automation",
+                  brief:
+                    "Marketing automation: Explains marketing automation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Predictive analytics",
+                  brief:
+                    "Predictive analytics: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Personalized marketing",
+                  brief:
+                    "Personalized marketing: Explains personalized marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Influencer and creator marketing",
+                  brief:
+                    "Influencer and creator marketing: Explains influencer and creator marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Short-form video marketing",
+                  brief:
+                    "Short-form video marketing: Explains short-form video marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Voice search and conversational marketing",
+                  brief:
+                    "Voice search and conversational marketing: Explains voice search and conversational marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Augmented reality in marketing",
+                  brief:
+                    "Augmented reality in marketing: Explains augmented reality in marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Virtual reality in marketing",
+                  brief:
+                    "Virtual reality in marketing: Explains virtual reality in marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Customer data platforms",
+                  brief:
+                    "Customer data platforms: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Omnichannel customer experiences",
+                  brief:
+                    "Omnichannel customer experiences: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Community-based marketing",
+                  brief:
+                    "Community-based marketing: Explains community-based marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Experiential marketing",
+                  brief:
+                    "Experiential marketing: Explains experiential marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Green marketing",
+                  brief:
+                    "Green marketing: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Sustainable marketing",
+                  brief:
+                    "Sustainable marketing: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Ethical marketing",
+                  brief:
+                    "Ethical marketing: Explains ethical marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Privacy-focused marketing",
+                  brief:
+                    "Privacy-focused marketing: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic:
+                    "Emerging marketing opportunities for Nepalese businesses",
+                  brief:
+                    "Emerging marketing opportunities for Nepalese businesses: Covers identifying opportunities and applying practical marketing decisions in entrepreneurial or small-business settings.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Marketing Planning and Entrepreneurship",
+          chapters: [
+            {
+              chapterNumber: 21,
+              chapterName: "Marketing Plan Development",
+              topics: [
+                {
+                  topic: "Meaning and importance of a marketing plan",
+                  brief:
+                    "Meaning and importance of a marketing plan: Describes why the topic matters and how it contributes to effective marketing.",
+                },
+                {
+                  topic: "Components of a marketing plan",
+                  brief:
+                    "Components of a marketing plan: Explains components of a marketing plan and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Executive summary",
+                  brief:
+                    "Executive summary: Explains executive summary and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Business and product description",
+                  brief:
+                    "Business and product description: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Situation analysis",
+                  brief:
+                    "Situation analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Market research",
+                  brief:
+                    "Market research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Target market definition",
+                  brief:
+                    "Target market definition: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Competitor analysis",
+                  brief:
+                    "Competitor analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Marketing objectives",
+                  brief:
+                    "Marketing objectives: Explains the main goals, why they matter, and how they guide marketing decisions.",
+                },
+                {
+                  topic: "Marketing strategies",
+                  brief:
+                    "Marketing strategies: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Marketing mix decisions",
+                  brief:
+                    "Marketing mix decisions: Explains marketing mix decisions and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing budget",
+                  brief:
+                    "Marketing budget: Explains marketing budget and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Implementation schedule",
+                  brief:
+                    "Implementation schedule: Explains implementation schedule and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Performance indicators",
+                  brief:
+                    "Performance indicators: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Monitoring and evaluation",
+                  brief:
+                    "Monitoring and evaluation: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Risk assessment",
+                  brief:
+                    "Risk assessment: Explains risk assessment and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Preparation of a sample marketing plan",
+                  brief:
+                    "Preparation of a sample marketing plan: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 22,
+              chapterName: "Entrepreneurship and Small Business Marketing",
+              topics: [
+                {
+                  topic: "Meaning and characteristics of entrepreneurship",
+                  brief:
+                    "Meaning and characteristics of entrepreneurship: Covers identifying opportunities and applying practical marketing decisions in entrepreneurial or small-business settings.",
+                },
+                {
+                  topic: "Entrepreneurial opportunities",
+                  brief:
+                    "Entrepreneurial opportunities: Covers identifying opportunities and applying practical marketing decisions in entrepreneurial or small-business settings.",
+                },
+                {
+                  topic: "Business idea generation",
+                  brief:
+                    "Business idea generation: Explains business idea generation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Market opportunity assessment",
+                  brief:
+                    "Market opportunity assessment: Covers identifying opportunities and applying practical marketing decisions in entrepreneurial or small-business settings.",
+                },
+                {
+                  topic: "Business model development",
+                  brief:
+                    "Business model development: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Value proposition",
+                  brief:
+                    "Value proposition: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Target customer identification",
+                  brief:
+                    "Target customer identification: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Low-cost marketing strategies",
+                  brief:
+                    "Low-cost marketing strategies: Explains the approach, when it is useful, and how it can support business and marketing goals.",
+                },
+                {
+                  topic: "Local market promotion",
+                  brief:
+                    "Local market promotion: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Digital marketing for small businesses",
+                  brief:
+                    "Digital marketing for small businesses: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Customer relationship development",
+                  brief:
+                    "Customer relationship development: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Pricing for small businesses",
+                  brief:
+                    "Pricing for small businesses: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Distribution for small businesses",
+                  brief:
+                    "Distribution for small businesses: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Marketing challenges faced by startups",
+                  brief:
+                    "Marketing challenges faced by startups: Explains marketing challenges faced by startups and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Entrepreneurship in Nepal",
+                  brief:
+                    "Entrepreneurship in Nepal: Covers identifying opportunities and applying practical marketing decisions in entrepreneurial or small-business settings.",
+                },
+                {
+                  topic: "Marketing plan for a small business",
+                  brief:
+                    "Marketing plan for a small business: Covers identifying opportunities and applying practical marketing decisions in entrepreneurial or small-business settings.",
+                },
+                {
+                  topic: "Measuring small-business marketing performance",
+                  brief:
+                    "Measuring small-business marketing performance: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Marketing Ethics and Consumer Protection",
+          chapters: [
+            {
+              chapterNumber: 23,
+              chapterName: "Marketing Ethics and Social Responsibility",
+              topics: [
+                {
+                  topic: "Meaning of marketing ethics",
+                  brief:
+                    "Meaning of marketing ethics: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Ethical principles in marketing",
+                  brief:
+                    "Ethical principles in marketing: Explains ethical principles in marketing and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Truthful advertising",
+                  brief:
+                    "Truthful advertising: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Fair pricing practices",
+                  brief:
+                    "Fair pricing practices: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Responsible product claims",
+                  brief:
+                    "Responsible product claims: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Protection of consumer data",
+                  brief:
+                    "Protection of consumer data: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Ethical market research",
+                  brief:
+                    "Ethical market research: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Responsible use of customer information",
+                  brief:
+                    "Responsible use of customer information: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Environmental responsibility",
+                  brief:
+                    "Environmental responsibility: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Sustainable packaging",
+                  brief:
+                    "Sustainable packaging: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Social responsibility of businesses",
+                  brief:
+                    "Social responsibility of businesses: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Green marketing claims",
+                  brief:
+                    "Green marketing claims: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Misleading advertising",
+                  brief:
+                    "Misleading advertising: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Unfair selling practices",
+                  brief:
+                    "Unfair selling practices: Explains unfair selling practices and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Corporate social responsibility",
+                  brief:
+                    "Corporate social responsibility: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Ethical dilemmas in marketing",
+                  brief:
+                    "Ethical dilemmas in marketing: Explains ethical dilemmas in marketing and its practical relevance to marketing decisions and business performance.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 24,
+              chapterName: "Consumer Rights and Protection",
+              topics: [
+                {
+                  topic: "Meaning of consumer protection",
+                  brief:
+                    "Meaning of consumer protection: Introduces the concept, explains its meaning, and clarifies its purpose in marketing.",
+                },
+                {
+                  topic: "Importance of consumer protection",
+                  brief:
+                    "Importance of consumer protection: Describes why the topic matters and how it contributes to effective marketing.",
+                },
+                {
+                  topic: "Consumer rights",
+                  brief:
+                    "Consumer rights: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Right to safety",
+                  brief:
+                    "Right to safety: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Right to information",
+                  brief:
+                    "Right to information: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Right to choose",
+                  brief:
+                    "Right to choose: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Right to be heard",
+                  brief:
+                    "Right to be heard: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Right to consumer education",
+                  brief:
+                    "Right to consumer education: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Right to seek redress",
+                  brief:
+                    "Right to seek redress: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+                {
+                  topic: "Consumer responsibilities",
+                  brief:
+                    "Consumer responsibilities: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Product quality and safety",
+                  brief:
+                    "Product quality and safety: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Misleading advertisements",
+                  brief:
+                    "Misleading advertisements: Explains misleading advertisements and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "False claims and unfair trade practices",
+                  brief:
+                    "False claims and unfair trade practices: Explains false claims and unfair trade practices and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Consumer complaints and dispute resolution",
+                  brief:
+                    "Consumer complaints and dispute resolution: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Consumer protection in Nepal",
+                  brief:
+                    "Consumer protection in Nepal: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Role of government and regulatory institutions",
+                  brief:
+                    "Role of government and regulatory institutions: Explains role of government and regulatory institutions and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Consumer protection in e-commerce",
+                  brief:
+                    "Consumer protection in e-commerce: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Business responsibilities toward consumers",
+                  brief:
+                    "Business responsibilities toward consumers: Explains the relevant ethical, legal, or social responsibilities and their importance to fair and trustworthy marketing.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Marketing Applications and Examination Practice",
+          chapters: [
+            {
+              chapterNumber: 25,
+              chapterName: "Applied Marketing Case Studies",
+              topics: [
+                {
+                  topic: "Analysis of a local business",
+                  brief:
+                    "Analysis of a local business: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Identification of a target market",
+                  brief:
+                    "Identification of a target market: Explains how a market or audience is selected and served with a clear, relevant value proposition.",
+                },
+                {
+                  topic: "Market segmentation case study",
+                  brief:
+                    "Market segmentation case study: Applies marketing concepts to examples or exam-style tasks, emphasizing clear reasoning and appropriate use of key terms.",
+                },
+                {
+                  topic: "Consumer behaviour case study",
+                  brief:
+                    "Consumer behaviour case study: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Product positioning case study",
+                  brief:
+                    "Product positioning case study: Covers product-related decisions, including customer value, market fit, development, and ongoing management.",
+                },
+                {
+                  topic: "Brand development case study",
+                  brief:
+                    "Brand development case study: Describes the key steps, decisions, and considerations involved in applying this topic.",
+                },
+                {
+                  topic: "Pricing decision case study",
+                  brief:
+                    "Pricing decision case study: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Distribution channel case study",
+                  brief:
+                    "Distribution channel case study: Covers how products move through channels, the decisions involved, and how availability and efficiency are managed.",
+                },
+                {
+                  topic: "Advertising campaign case study",
+                  brief:
+                    "Advertising campaign case study: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Digital marketing campaign case study",
+                  brief:
+                    "Digital marketing campaign case study: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Customer satisfaction case study",
+                  brief:
+                    "Customer satisfaction case study: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Competitor analysis",
+                  brief:
+                    "Competitor analysis: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Marketing mix evaluation",
+                  brief:
+                    "Marketing mix evaluation: Covers the methods used to assess results, interpret evidence, and improve marketing decisions.",
+                },
+                {
+                  topic: "Marketing research report",
+                  brief:
+                    "Marketing research report: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Marketing plan presentation",
+                  brief:
+                    "Marketing plan presentation: Explains marketing plan presentation and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing solutions for Nepalese businesses",
+                  brief:
+                    "Marketing solutions for Nepalese businesses: Explains marketing solutions for nepalese businesses and its practical relevance to marketing decisions and business performance.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 26,
+              chapterName: "Marketing Theory and Examination Practice",
+              topics: [
+                {
+                  topic: "Definitions of key marketing terms",
+                  brief:
+                    "Definitions of key marketing terms: Explains definitions of key marketing terms and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Short-answer questions on marketing concepts",
+                  brief:
+                    "Short-answer questions on marketing concepts: Applies marketing concepts to examples or exam-style tasks, emphasizing clear reasoning and appropriate use of key terms.",
+                },
+                {
+                  topic: "Differences between marketing concepts",
+                  brief:
+                    "Differences between marketing concepts: Explains differences between marketing concepts and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Explanation of marketing principles",
+                  brief:
+                    "Explanation of marketing principles: Explains explanation of marketing principles and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Marketing mix questions",
+                  brief:
+                    "Marketing mix questions: Applies marketing concepts to examples or exam-style tasks, emphasizing clear reasoning and appropriate use of key terms.",
+                },
+                {
+                  topic: "Consumer behaviour questions",
+                  brief:
+                    "Consumer behaviour questions: Explains how this topic affects customer needs, perceptions, decisions, and long-term relationships.",
+                },
+                {
+                  topic: "Market segmentation and positioning questions",
+                  brief:
+                    "Market segmentation and positioning questions: Applies marketing concepts to examples or exam-style tasks, emphasizing clear reasoning and appropriate use of key terms.",
+                },
+                {
+                  topic: "Product and branding questions",
+                  brief:
+                    "Product and branding questions: Explains how brands are created, positioned, protected, and managed to build recognition and value.",
+                },
+                {
+                  topic: "Pricing and distribution questions",
+                  brief:
+                    "Pricing and distribution questions: Explains the relevant pricing concepts, influencing factors, and implications for customers and profitability.",
+                },
+                {
+                  topic: "Advertising and promotion questions",
+                  brief:
+                    "Advertising and promotion questions: Explains the communication tool or activity, its intended audience, and ways to plan or assess its impact.",
+                },
+                {
+                  topic: "Marketing research questions",
+                  brief:
+                    "Marketing research questions: Describes the information or methods used to understand markets, support analysis, and make evidence-based decisions.",
+                },
+                {
+                  topic: "Digital marketing questions",
+                  brief:
+                    "Digital marketing questions: Explains the digital channel or practice, how it reaches audiences, and how its results can be improved.",
+                },
+                {
+                  topic: "Marketing management case studies",
+                  brief:
+                    "Marketing management case studies: Applies marketing concepts to examples or exam-style tasks, emphasizing clear reasoning and appropriate use of key terms.",
+                },
+                {
+                  topic: "Numerical problems on marketing metrics",
+                  brief:
+                    "Numerical problems on marketing metrics: Explains numerical problems on marketing metrics and its practical relevance to marketing decisions and business performance.",
+                },
+                {
+                  topic: "Long-answer marketing questions",
+                  brief:
+                    "Long-answer marketing questions: Applies marketing concepts to examples or exam-style tasks, emphasizing clear reasoning and appropriate use of key terms.",
+                },
+                {
+                  topic: "Model examination questions",
+                  brief:
+                    "Model examination questions: Applies marketing concepts to examples or exam-style tasks, emphasizing clear reasoning and appropriate use of key terms.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+};

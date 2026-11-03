@@ -15,20 +15,6 @@ for (const envPath of envCandidates) {
   }
 }
 
-function resolveDirectory(envKey: string, defaultPath: string): string {
-  const custom = process.env[envKey];
-  if (custom) {
-    return path.isAbsolute(custom) ? custom : path.resolve(baseDir, custom);
-  }
-  const rootCandidate = path.resolve(baseDir, defaultPath);
-  if (fs.existsSync(rootCandidate)) return rootCandidate;
-
-  const backendCandidate = path.resolve(baseDir, "backend", defaultPath);
-  if (fs.existsSync(backendCandidate)) return backendCandidate;
-
-  return rootCandidate;
-}
-
 export const config = {
   port: parseInt(process.env.PORT || "5001", 10),
   env: process.env.NODE_ENV || "development",
@@ -55,14 +41,6 @@ export const config = {
   firestoreUsersCollection: process.env.FIRESTORE_USERS_COLLECTION || "users",
   firestoreRevokedTokensCollection:
     process.env.FIRESTORE_REVOKED_TOKENS_COLLECTION || "revoked_tokens",
-
-  // Paths (auto-resolves correctly from both root and backend directory)
-  questionsDir: resolveDirectory("QUESTIONS_DIR", "questions"),
-  syllabusDir: resolveDirectory("SYLLABUS_DIR", "syllabus"),
-  masterDataFile: resolveDirectory(
-    "MASTER_DATA_FILE",
-    "questions/questions.json",
-  ),
 
   // Generator & LLM Defaults
   targetPerSubject: parseInt(process.env.TARGET_PER_SUBJECT || "200", 10),

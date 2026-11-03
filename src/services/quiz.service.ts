@@ -162,8 +162,13 @@ export class QuizService {
   ): Promise<Question[]> {
     const { chapter, branchName } = context;
 
-    const topicsList = chapter.topics
-      .map((t) => `* Subtopic ID: "${t.id}" | Title: "${t.topic}"`)
+    const topicsList = (chapter.topics || [])
+      .map((t, idx) => {
+        if (typeof t === "string") {
+          return `* Subtopic ID: "${chapter.id || chapter.chapterNumber}_${idx + 1}" | Title: "${t}"`;
+        }
+        return `* Subtopic ID: "${t.id || `${chapter.id || chapter.chapterNumber}_${idx + 1}`}" | Title: "${t.topic || ""}"`;
+      })
       .join("\n");
 
     const languageDirective = subject.isNepaliLang
@@ -277,8 +282,16 @@ Return ONLY a valid JSON object matching this exact structure:
       ? parsed
       : parsed.questions || [];
 
-    const validSubtopicsMap = new Map(
-      chapter.topics.map((t) => [t.id, t.topic]),
+    const validSubtopicsMap = new Map<string, string>(
+      (chapter.topics || []).map((t, idx) => {
+        if (typeof t === "string") {
+          return [`${chapter.id || chapter.chapterNumber}_${idx + 1}`, t];
+        }
+        return [
+          t.id || `${chapter.id || chapter.chapterNumber}_${idx + 1}`,
+          t.topic || "",
+        ];
+      }),
     );
 
     const validated: Question[] = [];
@@ -294,15 +307,21 @@ Return ONLY a valid JSON object matching this exact structure:
 
       q.class = classLevel;
       q.subject = subject.name;
-      q.topicId = chapter.id;
+      q.topicId = chapter.id || String(chapter.chapterNumber);
       q.topic = chapter.chapterName;
 
       // Match subtopic
       if (!validSubtopicsMap.has(q.subtopicId)) {
-        const fallback = chapter.topics[0];
+        const fallback = (chapter.topics || [])[0];
         if (fallback) {
-          q.subtopicId = fallback.id;
-          q.subtopic = fallback.topic;
+          if (typeof fallback === "string") {
+            q.subtopicId = `${chapter.id || chapter.chapterNumber}_1`;
+            q.subtopic = fallback;
+          } else {
+            q.subtopicId =
+              fallback.id || `${chapter.id || chapter.chapterNumber}_1`;
+            q.subtopic = fallback.topic || "";
+          }
         }
       } else {
         q.subtopic = validSubtopicsMap.get(q.subtopicId)!;

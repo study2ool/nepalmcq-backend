@@ -1,7 +1,5 @@
-import * as fs from "fs";
-import * as path from "path";
-import { config } from "../config/env.config.js";
 import { SUBJECT_CONFIGS } from "../config/constants.js";
+import { getSyllabusFromList } from "../data/syllabus/index.js";
 import type {
   SyllabusFile,
   ChapterContext,
@@ -22,8 +20,6 @@ export interface SubjectSummary {
 }
 
 export class SyllabusRepository {
-  private cache: Map<string, SyllabusFile> = new Map();
-
   /**
    * Resolves a subject query to SubjectConfig
    */
@@ -48,29 +44,24 @@ export class SyllabusRepository {
   }
 
   /**
-   * Loads syllabus file for a subject
+   * Loads syllabus for a subject directly from in-memory syllabus list
    */
   public loadSyllabus(subjectConfig: SubjectConfig): SyllabusFile {
-    const cacheKey = `${subjectConfig.category}:${subjectConfig.syllabusFile}`;
-    if (this.cache.has(cacheKey)) {
-      return this.cache.get(cacheKey)!;
-    }
-
-    const filePath = path.join(
-      config.syllabusDir,
+    const syllabus = getSyllabusFromList(
       subjectConfig.category,
       subjectConfig.syllabusFile,
     );
 
-    if (!fs.existsSync(filePath)) {
-      logger.error(`Syllabus file not found at: ${filePath}`);
-      throw new Error(`Syllabus file not found at: ${filePath}`);
+    if (!syllabus) {
+      logger.error(
+        `Syllabus not found for ${subjectConfig.category}:${subjectConfig.syllabusFile}`,
+      );
+      throw new Error(
+        `Syllabus not found for ${subjectConfig.category}:${subjectConfig.syllabusFile}`,
+      );
     }
 
-    const raw = fs.readFileSync(filePath, "utf-8");
-    const parsed = JSON.parse(raw) as SyllabusFile;
-    this.cache.set(cacheKey, parsed);
-    return parsed;
+    return syllabus;
   }
 
   /**
@@ -84,7 +75,7 @@ export class SyllabusRepository {
 
     return gradeData.branches.flatMap((branch) =>
       (branch.chapters || []).map((ch) => ({
-        branchId: branch.id,
+        branchId: branch.id || "",
         branchName: branch.branchName,
         chapter: ch,
       })),
@@ -103,7 +94,7 @@ export class SyllabusRepository {
     const idClean = identifier.trim().toLowerCase();
 
     const directIdMatch = chapters.find(
-      (c) => c.chapter.id.toLowerCase() === idClean,
+      (c) => (c.chapter.id || "").toLowerCase() === idClean,
     );
     if (directIdMatch) return directIdMatch;
 

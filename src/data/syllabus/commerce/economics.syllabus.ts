@@ -1,0 +1,2741 @@
+import type { SyllabusFile } from "../../../types/quiz.types.js";
+
+export const commerce_economicsSyllabus: SyllabusFile = {
+  metadata: {
+    country: "Nepal",
+    curriculum: "NEB",
+    subject: "Economics",
+    grades: [11, 12],
+    purpose: "Question bank and topic mapping",
+    format_version: "1.0",
+    verification_note:
+      "Expanded study outline. Verify chapter names, topic coverage, and prescribed content against the latest official NEB syllabus before treating this as an exact official syllabus.",
+  },
+  grades: {
+    "11": {
+      grade: 11,
+      subject: "Economics",
+      branches: [
+        {
+          branchName: "Introduction to Economics",
+          chapters: [
+            {
+              chapterNumber: 1,
+              chapterName: "Basic Concepts of Economics",
+              topics: [
+                {
+                  topic: "Meaning and definition of economics",
+                  brief:
+                    "Economics is the social science that studies how people use scarce resources to satisfy unlimited wants.",
+                },
+                {
+                  topic: "Nature and scope of economics",
+                  brief:
+                    "The nature of economics explains its scientific and social characteristics, while its scope covers consumption, production, exchange, distribution, and economic growth.",
+                },
+                {
+                  topic: "Economics as a social science",
+                  brief:
+                    "Economics is a social science because it studies human behavior and relationships involved in producing, distributing, and consuming goods and services.",
+                },
+                {
+                  topic: "Microeconomics and macroeconomics",
+                  brief:
+                    "Microeconomics studies individual consumers, firms, and markets, whereas macroeconomics examines the economy as a whole.",
+                },
+                {
+                  topic: "Positive economics and normative economics",
+                  brief:
+                    "Positive economics describes and explains economic facts, while normative economics evaluates economic outcomes using opinions and value judgments.",
+                },
+                {
+                  topic: "Importance of economics in daily life",
+                  brief:
+                    "Economics helps people make informed decisions about spending, saving, borrowing, working, and using limited resources.",
+                },
+                {
+                  topic: "Economic problems and decision-making",
+                  brief:
+                    "Economic problems arise because resources are limited, requiring individuals and societies to make choices among competing alternatives.",
+                },
+                {
+                  topic: "Scarcity of resources",
+                  brief:
+                    "Scarcity means that available resources are insufficient to satisfy all human wants.",
+                },
+                {
+                  topic: "Unlimited human wants",
+                  brief:
+                    "Human wants continue to grow and change, while the resources available to satisfy them remain limited.",
+                },
+                {
+                  topic: "Choice and opportunity cost",
+                  brief:
+                    "Choice involves selecting among alternatives, and opportunity cost is the value of the next-best alternative sacrificed.",
+                },
+                {
+                  topic: "Production possibility curve",
+                  brief:
+                    "A production possibility curve shows the maximum combinations of two goods an economy can produce using available resources and technology.",
+                },
+                {
+                  topic: "Economic growth and the production possibility curve",
+                  brief:
+                    "Economic growth shifts the production possibility curve outward as resources, technology, or productive capacity increase.",
+                },
+                {
+                  topic: "Efficiency and inefficiency in resource utilization",
+                  brief:
+                    "Efficiency occurs when resources are fully and productively used, while inefficiency indicates that potential output is being wasted.",
+                },
+                {
+                  topic: "Central economic problems",
+                  brief:
+                    "The central economic problems arise from scarcity and include deciding what to produce, how to produce, and for whom to produce.",
+                },
+                {
+                  topic:
+                    "What to produce, how to produce, and for whom to produce",
+                  brief:
+                    "These questions determine which goods and services are produced, which production methods are used, and how output is distributed among people.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 2,
+              chapterName: "Economic Systems",
+              topics: [
+                {
+                  topic: "Meaning of an economic system",
+                  brief:
+                    "An economic system is the arrangement through which a society organizes production, distribution, and consumption of goods and services.",
+                },
+                {
+                  topic: "Traditional economic system",
+                  brief:
+                    "A traditional economic system relies on customs, traditions, and inherited practices to determine economic activities.",
+                },
+                {
+                  topic: "Market economic system",
+                  brief:
+                    "A market economic system relies mainly on demand, supply, prices, and private decisions to allocate resources.",
+                },
+                {
+                  topic: "Command economic system",
+                  brief:
+                    "A command economic system places major economic decisions under government or central planning authority.",
+                },
+                {
+                  topic: "Mixed economic system",
+                  brief:
+                    "A mixed economic system combines private enterprise and market activity with government regulation and public services.",
+                },
+                {
+                  topic: "Features of a capitalist economy",
+                  brief:
+                    "A capitalist economy is characterized by private ownership, profit motives, freedom of enterprise, competition, and market-based resource allocation.",
+                },
+                {
+                  topic: "Features of a socialist economy",
+                  brief:
+                    "A socialist economy emphasizes social or public ownership of major productive resources and planned efforts to promote social welfare.",
+                },
+                {
+                  topic: "Features of a mixed economy",
+                  brief:
+                    "A mixed economy combines private ownership and market forces with public ownership, regulation, and government intervention.",
+                },
+                {
+                  topic: "Role of government in an economy",
+                  brief:
+                    "Government provides public goods, regulates markets, collects taxes, redistributes income, and supports economic stability and development.",
+                },
+                {
+                  topic: "Role of the private sector",
+                  brief:
+                    "The private sector produces goods and services, creates employment, invests capital, encourages innovation, and contributes to economic growth.",
+                },
+                {
+                  topic: "Market mechanism and resource allocation",
+                  brief:
+                    "The market mechanism uses prices determined by demand and supply to guide production, consumption, and resource allocation.",
+                },
+                {
+                  topic:
+                    "Advantages and disadvantages of different economic systems",
+                  brief:
+                    "Economic systems differ in efficiency, freedom, equality, innovation, stability, and their ability to meet society's needs.",
+                },
+                {
+                  topic: "Economic system of Nepal",
+                  brief:
+                    "Nepal has a mixed economic system in which private enterprise, public institutions, markets, and government planning all contribute to economic activity.",
+                },
+                {
+                  topic: "Comparison of economic systems",
+                  brief:
+                    "Economic systems can be compared by ownership, decision-making, resource allocation, incentives, economic freedom, and income distribution.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 3,
+              chapterName: "Basic Concepts of Demand and Supply",
+              topics: [
+                {
+                  topic: "Meaning and definition of demand",
+                  brief:
+                    "Demand is the quantity of a good consumers are willing and able to purchase at different prices during a given period.",
+                },
+                {
+                  topic: "Individual demand and market demand",
+                  brief:
+                    "Individual demand represents one consumer's purchases, while market demand is the combined demand of all consumers in a market.",
+                },
+                {
+                  topic: "Demand schedule",
+                  brief:
+                    "A demand schedule is a table showing the quantities demanded at different prices.",
+                },
+                {
+                  topic: "Demand curve",
+                  brief:
+                    "A demand curve graphically represents the relationship between the price of a good and its quantity demanded.",
+                },
+                {
+                  topic: "Law of demand",
+                  brief:
+                    "The law of demand states that quantity demanded generally increases when price falls and decreases when price rises, other things remaining constant.",
+                },
+                {
+                  topic: "Assumptions of the law of demand",
+                  brief:
+                    "The law of demand assumes that factors such as income, tastes, related-goods prices, and consumer expectations remain unchanged.",
+                },
+                {
+                  topic: "Exceptions to the law of demand",
+                  brief:
+                    "Certain situations, such as some Giffen goods, prestige goods, or expectations of future price increases, may produce demand patterns that differ from the usual law.",
+                },
+                {
+                  topic: "Determinants of demand",
+                  brief:
+                    "Demand is influenced by price, consumer income, tastes, population, expectations, and the prices of substitute and complementary goods.",
+                },
+                {
+                  topic: "Changes in quantity demanded",
+                  brief:
+                    "A change in quantity demanded is a movement along the same demand curve caused by a change in the good's own price.",
+                },
+                {
+                  topic: "Changes in demand",
+                  brief:
+                    "A change in demand shifts the entire demand curve because of changes in factors other than the good's own price.",
+                },
+                {
+                  topic: "Meaning and definition of supply",
+                  brief:
+                    "Supply is the quantity of a good producers are willing and able to offer for sale at different prices during a given period.",
+                },
+                {
+                  topic: "Individual supply and market supply",
+                  brief:
+                    "Individual supply represents one producer's offerings, while market supply combines the quantities supplied by all producers.",
+                },
+                {
+                  topic: "Supply schedule",
+                  brief:
+                    "A supply schedule is a table showing the quantities producers are willing to sell at different prices.",
+                },
+                {
+                  topic: "Supply curve",
+                  brief:
+                    "A supply curve graphically shows the relationship between a good's price and its quantity supplied.",
+                },
+                {
+                  topic: "Law of supply",
+                  brief:
+                    "The law of supply states that quantity supplied generally increases when price rises and decreases when price falls, other things remaining constant.",
+                },
+                {
+                  topic: "Determinants of supply",
+                  brief:
+                    "Supply is affected by production costs, technology, taxes, subsidies, producer expectations, the number of sellers, and prices of related products.",
+                },
+                {
+                  topic: "Changes in quantity supplied",
+                  brief:
+                    "A change in quantity supplied is a movement along the same supply curve caused by a change in the good's own price.",
+                },
+                {
+                  topic: "Changes in supply",
+                  brief:
+                    "A change in supply shifts the entire supply curve because of changes in factors other than the good's own price.",
+                },
+                {
+                  topic: "Movement along demand and supply curves",
+                  brief:
+                    "Movement along a curve occurs when the good's own price changes while the other determinants remain constant.",
+                },
+                {
+                  topic: "Shifts in demand and supply curves",
+                  brief:
+                    "Demand and supply curves shift when non-price determinants change, altering the quantities buyers want or sellers offer at each price.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 4,
+              chapterName: "Elasticity of Demand and Supply",
+              topics: [
+                {
+                  topic: "Meaning of elasticity",
+                  brief:
+                    "Elasticity measures how strongly one economic variable responds to a change in another variable.",
+                },
+                {
+                  topic: "Price elasticity of demand",
+                  brief:
+                    "Price elasticity of demand measures the responsiveness of quantity demanded to a change in price.",
+                },
+                {
+                  topic: "Percentage method of calculating price elasticity",
+                  brief:
+                    "The percentage method calculates price elasticity by dividing the percentage change in quantity demanded by the percentage change in price, usually taking the absolute value for classification.",
+                },
+                {
+                  topic: "Total expenditure method",
+                  brief:
+                    "The total expenditure method estimates demand elasticity by observing how total spending changes when price changes.",
+                },
+                {
+                  topic: "Point elasticity of demand",
+                  brief:
+                    "Point elasticity measures demand responsiveness at a specific point on a demand curve.",
+                },
+                {
+                  topic: "Arc elasticity of demand",
+                  brief:
+                    "Arc elasticity measures average demand responsiveness between two points on a demand curve using average price and quantity.",
+                },
+                {
+                  topic: "Perfectly elastic demand",
+                  brief:
+                    "Perfectly elastic demand has infinite price elasticity, meaning consumers are willing to buy at one price but not at a higher price.",
+                },
+                {
+                  topic: "Perfectly inelastic demand",
+                  brief:
+                    "Perfectly inelastic demand has zero price elasticity because quantity demanded does not change when price changes.",
+                },
+                {
+                  topic: "Relatively elastic demand",
+                  brief:
+                    "Relatively elastic demand occurs when the percentage change in quantity demanded exceeds the percentage change in price.",
+                },
+                {
+                  topic: "Relatively inelastic demand",
+                  brief:
+                    "Relatively inelastic demand occurs when the percentage change in quantity demanded is smaller than the percentage change in price.",
+                },
+                {
+                  topic: "Unitary elastic demand",
+                  brief:
+                    "Unitary elastic demand occurs when the percentage change in quantity demanded equals the percentage change in price.",
+                },
+                {
+                  topic: "Factors affecting price elasticity of demand",
+                  brief:
+                    "Demand elasticity depends on substitutes, necessity, the share of income spent, time available to adjust, and the definition of the market.",
+                },
+                {
+                  topic: "Income elasticity of demand",
+                  brief:
+                    "Income elasticity measures how quantity demanded responds to a change in consumer income.",
+                },
+                {
+                  topic: "Cross elasticity of demand",
+                  brief:
+                    "Cross elasticity measures how demand for one good responds to a price change in another good, helping identify substitutes and complements.",
+                },
+                {
+                  topic: "Elasticity of supply",
+                  brief:
+                    "Elasticity of supply measures how responsive quantity supplied is to a change in price.",
+                },
+                {
+                  topic: "Methods of measuring elasticity of supply",
+                  brief:
+                    "Supply elasticity can be measured using percentage changes, point elasticity, or arc elasticity between two points.",
+                },
+                {
+                  topic: "Factors affecting elasticity of supply",
+                  brief:
+                    "Supply elasticity depends on production capacity, spare resources, storage, time, input availability, and how easily production can be adjusted.",
+                },
+                {
+                  topic: "Practical applications of elasticity",
+                  brief:
+                    "Elasticity helps businesses set prices and governments assess taxes, subsidies, market changes, and the effects of price policies.",
+                },
+                {
+                  topic: "Numerical problems on elasticity",
+                  brief:
+                    "Numerical problems involve calculating and interpreting price, income, cross, and supply elasticities using given data.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Consumer and Production Economics",
+          chapters: [
+            {
+              chapterNumber: 5,
+              chapterName: "Consumer Behaviour and Utility Analysis",
+              topics: [
+                {
+                  topic: "Meaning of utility",
+                  brief:
+                    "Utility is the satisfaction or benefit a consumer receives from consuming a good or service.",
+                },
+                {
+                  topic: "Total utility",
+                  brief:
+                    "Total utility is the overall satisfaction gained from consuming a particular quantity of a good or service.",
+                },
+                {
+                  topic: "Marginal utility",
+                  brief:
+                    "Marginal utility is the additional satisfaction gained from consuming one more unit of a good or service.",
+                },
+                {
+                  topic: "Relationship between total and marginal utility",
+                  brief:
+                    "Marginal utility measures the change in total utility; total utility rises when marginal utility is positive, reaches a maximum when it is zero, and falls when it is negative.",
+                },
+                {
+                  topic: "Law of diminishing marginal utility",
+                  brief:
+                    "The law states that additional satisfaction from consuming successive units of a good generally decreases as consumption increases.",
+                },
+                {
+                  topic:
+                    "Assumptions of the law of diminishing marginal utility",
+                  brief:
+                    "The law commonly assumes consistent units, continuous consumption, unchanged tastes, and stable conditions during consumption.",
+                },
+                {
+                  topic: "Consumer equilibrium under utility analysis",
+                  brief:
+                    "Consumer equilibrium occurs when a consumer allocates income to maximize total utility within the available budget.",
+                },
+                {
+                  topic: "Law of equi-marginal utility",
+                  brief:
+                    "The law states that a consumer maximizes satisfaction by allocating spending so that marginal utility per unit of money is equal across goods.",
+                },
+                {
+                  topic: "Consumer surplus",
+                  brief:
+                    "Consumer surplus is the difference between what consumers are willing to pay and what they actually pay.",
+                },
+                {
+                  topic: "Limitations of cardinal utility analysis",
+                  brief:
+                    "Cardinal utility analysis is limited because satisfaction cannot be measured precisely in numbers and its assumptions may not reflect real consumer behavior.",
+                },
+                {
+                  topic: "Indifference curve",
+                  brief:
+                    "An indifference curve shows combinations of two goods that provide a consumer with the same level of satisfaction.",
+                },
+                {
+                  topic: "Properties of indifference curves",
+                  brief:
+                    "Indifference curves generally slope downward, are convex to the origin, do not intersect, and farther curves represent higher satisfaction under standard assumptions.",
+                },
+                {
+                  topic: "Marginal rate of substitution",
+                  brief:
+                    "The marginal rate of substitution measures how much of one good a consumer will give up to obtain an additional unit of another while maintaining the same satisfaction.",
+                },
+                {
+                  topic: "Budget line",
+                  brief:
+                    "A budget line shows combinations of goods a consumer can afford given income and market prices.",
+                },
+                {
+                  topic: "Consumer equilibrium using indifference curves",
+                  brief:
+                    "Consumer equilibrium occurs where the highest attainable indifference curve is tangent to the budget line under standard assumptions.",
+                },
+                {
+                  topic:
+                    "Effects of changes in income and prices on consumer equilibrium",
+                  brief:
+                    "Changes in income or prices alter the budget constraint and can change the consumer's optimal combination of goods.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 6,
+              chapterName: "Production Function",
+              topics: [
+                {
+                  topic: "Meaning and definition of production",
+                  brief:
+                    "Production is the process of transforming resources into goods and services that satisfy human wants.",
+                },
+                {
+                  topic: "Factors of production",
+                  brief:
+                    "Factors of production are the resources used to produce goods and services, commonly classified as land, labour, capital, and entrepreneurship.",
+                },
+                {
+                  topic: "Land, labour, capital, and organization",
+                  brief:
+                    "Land provides natural resources, labour supplies human effort, capital provides produced inputs, and organization coordinates production and business risk.",
+                },
+                {
+                  topic: "Meaning of production function",
+                  brief:
+                    "A production function describes the technical relationship between quantities of inputs and the maximum output that can be produced.",
+                },
+                {
+                  topic: "Short-run and long-run production",
+                  brief:
+                    "In the short run, at least one input is fixed; in the long run, all inputs can be varied.",
+                },
+                {
+                  topic: "Fixed and variable factors",
+                  brief:
+                    "Fixed factors cannot be changed in the short run, while variable factors can be adjusted as production changes.",
+                },
+                {
+                  topic: "Total product",
+                  brief:
+                    "Total product is the total quantity of output produced using a given combination of inputs.",
+                },
+                {
+                  topic: "Average product",
+                  brief:
+                    "Average product is output per unit of a variable input, calculated by dividing total product by the quantity of that input.",
+                },
+                {
+                  topic: "Marginal product",
+                  brief:
+                    "Marginal product is the additional output produced by using one more unit of an input while other relevant inputs remain unchanged.",
+                },
+                {
+                  topic:
+                    "Relationship between total, average, and marginal product",
+                  brief:
+                    "Marginal product determines changes in total product, while average product rises when marginal product exceeds it and falls when marginal product is below it.",
+                },
+                {
+                  topic: "Law of variable proportions",
+                  brief:
+                    "The law explains how output changes when more units of a variable input are combined with fixed inputs in the short run.",
+                },
+                {
+                  topic: "Stages of production",
+                  brief:
+                    "The three stages of production are characterized by rising average product, declining average product with positive marginal product, and negative marginal product.",
+                },
+                {
+                  topic: "Returns to a factor",
+                  brief:
+                    "Returns to a factor describe how output changes when one variable input changes while other inputs remain fixed.",
+                },
+                {
+                  topic: "Returns to scale",
+                  brief:
+                    "Returns to scale describe how output changes when all inputs are increased in the same proportion.",
+                },
+                {
+                  topic: "Increasing returns to scale",
+                  brief:
+                    "Increasing returns to scale occur when output increases by a greater proportion than the increase in all inputs.",
+                },
+                {
+                  topic: "Constant returns to scale",
+                  brief:
+                    "Constant returns to scale occur when output increases in the same proportion as all inputs.",
+                },
+                {
+                  topic: "Decreasing returns to scale",
+                  brief:
+                    "Decreasing returns to scale occur when output increases by a smaller proportion than the increase in all inputs.",
+                },
+                {
+                  topic: "Importance of production analysis",
+                  brief:
+                    "Production analysis helps firms choose input combinations, understand productivity, control costs, and improve operational efficiency.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 7,
+              chapterName: "Cost and Revenue Analysis",
+              topics: [
+                {
+                  topic: "Meaning of cost of production",
+                  brief:
+                    "Cost of production is the value of resources used by a firm to produce goods or services.",
+                },
+                {
+                  topic: "Explicit and implicit costs",
+                  brief:
+                    "Explicit costs involve direct monetary payments, while implicit costs represent the opportunity costs of using resources owned by the firm.",
+                },
+                {
+                  topic: "Accounting cost and economic cost",
+                  brief:
+                    "Accounting cost includes recorded explicit expenses, whereas economic cost includes both explicit costs and implicit opportunity costs.",
+                },
+                {
+                  topic: "Fixed cost",
+                  brief:
+                    "Fixed cost does not change with output in the short run, even when production is zero.",
+                },
+                {
+                  topic: "Variable cost",
+                  brief:
+                    "Variable cost changes with the quantity of output produced.",
+                },
+                {
+                  topic: "Total cost",
+                  brief:
+                    "Total cost is the sum of fixed cost and variable cost.",
+                },
+                {
+                  topic: "Average fixed cost",
+                  brief:
+                    "Average fixed cost is fixed cost per unit of output, calculated by dividing total fixed cost by quantity produced.",
+                },
+                {
+                  topic: "Average variable cost",
+                  brief:
+                    "Average variable cost is variable cost per unit of output.",
+                },
+                {
+                  topic: "Average total cost",
+                  brief:
+                    "Average total cost is total cost per unit of output and equals average fixed cost plus average variable cost.",
+                },
+                {
+                  topic: "Marginal cost",
+                  brief:
+                    "Marginal cost is the additional cost incurred from producing one more unit of output.",
+                },
+                {
+                  topic: "Relationship between average and marginal costs",
+                  brief:
+                    "Marginal cost pulls average cost downward when it is below average cost and upward when it is above average cost.",
+                },
+                {
+                  topic: "Short-run cost curves",
+                  brief:
+                    "Short-run cost curves show how fixed, variable, total, average, and marginal costs change as output varies with at least one fixed input.",
+                },
+                {
+                  topic: "Long-run cost curves",
+                  brief:
+                    "Long-run cost curves show the lowest possible cost of producing different output levels when all inputs can be varied.",
+                },
+                {
+                  topic: "Economies of scale",
+                  brief:
+                    "Economies of scale occur when average production cost decreases as a firm expands its scale of operation.",
+                },
+                {
+                  topic: "Diseconomies of scale",
+                  brief:
+                    "Diseconomies of scale occur when average production cost increases as a firm becomes larger.",
+                },
+                {
+                  topic: "Meaning of revenue",
+                  brief:
+                    "Revenue is the income a firm receives from selling goods or services.",
+                },
+                {
+                  topic: "Total revenue",
+                  brief:
+                    "Total revenue is the total amount earned from sales, calculated by multiplying price by quantity sold.",
+                },
+                {
+                  topic: "Average revenue",
+                  brief:
+                    "Average revenue is revenue per unit sold and is calculated by dividing total revenue by quantity sold.",
+                },
+                {
+                  topic: "Marginal revenue",
+                  brief:
+                    "Marginal revenue is the additional revenue obtained from selling one more unit of output.",
+                },
+                {
+                  topic: "Relationship between average and marginal revenue",
+                  brief:
+                    "Average and marginal revenue are equal under perfect competition, while marginal revenue is generally below average revenue for a downward-sloping demand curve.",
+                },
+                {
+                  topic: "Numerical problems on cost and revenue",
+                  brief:
+                    "Numerical problems apply cost and revenue formulas to calculate totals, averages, marginal values, and relationships among production variables.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 8,
+              chapterName: "Market Structures",
+              topics: [
+                {
+                  topic: "Meaning and classification of markets",
+                  brief:
+                    "A market is an arrangement through which buyers and sellers exchange goods or services, and markets are classified by competition and other characteristics.",
+                },
+                {
+                  topic: "Perfect competition",
+                  brief:
+                    "Perfect competition is a market structure with many buyers and sellers, homogeneous products, and firms that accept the market price.",
+                },
+                {
+                  topic: "Features of perfect competition",
+                  brief:
+                    "Key features include many participants, identical products, free entry and exit, good market information, and no individual firm's control over price.",
+                },
+                {
+                  topic: "Price determination under perfect competition",
+                  brief:
+                    "Market price is determined by industry demand and supply, and an individual firm chooses output at that price.",
+                },
+                {
+                  topic: "Monopoly",
+                  brief:
+                    "A monopoly is a market structure in which a single seller supplies a product with no close substitutes and significant barriers limit entry.",
+                },
+                {
+                  topic: "Features of monopoly",
+                  brief:
+                    "Monopoly is characterized by a single dominant seller, barriers to entry, limited competition, and substantial influence over market price.",
+                },
+                {
+                  topic: "Sources of monopoly power",
+                  brief:
+                    "Monopoly power can arise from legal protection, control of essential resources, economies of scale, network effects, or high barriers to entry.",
+                },
+                {
+                  topic: "Price and output determination under monopoly",
+                  brief:
+                    "A monopolist typically chooses output where marginal revenue equals marginal cost and then sets the price according to market demand.",
+                },
+                {
+                  topic: "Price discrimination",
+                  brief:
+                    "Price discrimination occurs when a seller charges different prices to different buyers for the same or similar product for reasons not fully explained by cost differences.",
+                },
+                {
+                  topic: "Monopolistic competition",
+                  brief:
+                    "Monopolistic competition is a market structure with many firms selling differentiated products and facing relatively easy entry and exit.",
+                },
+                {
+                  topic: "Features of monopolistic competition",
+                  brief:
+                    "Its features include many sellers, differentiated products, some pricing power, advertising, and relatively free entry and exit.",
+                },
+                {
+                  topic: "Product differentiation",
+                  brief:
+                    "Product differentiation occurs when firms distinguish their products through quality, design, features, branding, or customer service.",
+                },
+                {
+                  topic: "Selling costs",
+                  brief:
+                    "Selling costs are expenses such as advertising and promotion used to attract customers and increase sales.",
+                },
+                {
+                  topic: "Oligopoly",
+                  brief:
+                    "An oligopoly is a market structure dominated by a small number of large firms whose decisions affect one another.",
+                },
+                {
+                  topic: "Features of oligopoly",
+                  brief:
+                    "Oligopolies feature a few major sellers, barriers to entry, strategic interdependence, and potentially significant non-price competition.",
+                },
+                {
+                  topic: "Interdependence among firms",
+                  brief:
+                    "Interdependence means that each firm considers how competitors may respond when making pricing, output, and marketing decisions.",
+                },
+                {
+                  topic: "Comparison of market structures",
+                  brief:
+                    "Market structures can be compared by the number of firms, product type, entry barriers, price control, and intensity of competition.",
+                },
+                {
+                  topic:
+                    "Advantages and disadvantages of different market structures",
+                  brief:
+                    "Different market structures vary in price, consumer choice, efficiency, innovation, competition, and the distribution of market power.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Factor Pricing and Distribution",
+          chapters: [
+            {
+              chapterNumber: 9,
+              chapterName: "Theory of Distribution",
+              topics: [
+                {
+                  topic: "Meaning of distribution in economics",
+                  brief:
+                    "Distribution in economics explains how income generated through production is shared among factors of production and individuals.",
+                },
+                {
+                  topic: "Functional and personal distribution",
+                  brief:
+                    "Functional distribution examines income received by factors such as labour and capital, while personal distribution examines how income is shared among individuals or households.",
+                },
+                {
+                  topic: "Factors of production and factor rewards",
+                  brief:
+                    "The main factors of production receive rewards commonly described as rent for land, wages for labour, interest for capital, and profit for entrepreneurship.",
+                },
+                {
+                  topic: "Demand for factors of production",
+                  brief:
+                    "Factor demand is derived from demand for the goods and services those factors help produce.",
+                },
+                {
+                  topic: "Supply of factors of production",
+                  brief:
+                    "Factor supply describes the quantities of land, labour, capital, and entrepreneurship available at different reward levels.",
+                },
+                {
+                  topic: "Marginal productivity theory of distribution",
+                  brief:
+                    "The theory explains factor rewards by relating them to the additional output or revenue generated by an extra unit of a factor.",
+                },
+                {
+                  topic: "Meaning of rent",
+                  brief:
+                    "Rent is the payment for the use of land or other resources whose supply may be limited.",
+                },
+                {
+                  topic: "Ricardian theory of rent",
+                  brief:
+                    "Ricardo's theory explains rent as arising from differences in land fertility or location as demand for land increases.",
+                },
+                {
+                  topic: "Economic rent and transfer earnings",
+                  brief:
+                    "Economic rent is the payment above the minimum required to keep a factor in its current use, while transfer earnings are the minimum payment needed to retain it there.",
+                },
+                {
+                  topic: "Meaning of wages",
+                  brief:
+                    "Wages are payments received by workers in return for their labour services.",
+                },
+                {
+                  topic: "Nominal and real wages",
+                  brief:
+                    "Nominal wages are wages expressed in money, while real wages measure the goods and services those wages can purchase.",
+                },
+                {
+                  topic: "Factors affecting wages",
+                  brief:
+                    "Wages depend on labour demand and supply, skills, education, productivity, experience, working conditions, and labour-market institutions.",
+                },
+                {
+                  topic: "Meaning of interest",
+                  brief:
+                    "Interest is the payment made for borrowing money or using loanable funds over a period.",
+                },
+                {
+                  topic: "Gross and net interest",
+                  brief:
+                    "Gross interest includes the total payment to a lender, while net interest excludes certain additional charges or components included in the gross amount.",
+                },
+                {
+                  topic: "Factors affecting interest rates",
+                  brief:
+                    "Interest rates are influenced by money supply, demand for credit, inflation expectations, risk, monetary policy, and economic conditions.",
+                },
+                {
+                  topic: "Meaning of profit",
+                  brief:
+                    "Profit is the surplus remaining after a firm deducts relevant costs from its revenue.",
+                },
+                {
+                  topic: "Gross profit and net profit",
+                  brief:
+                    "Gross profit is revenue minus the direct cost of goods sold, while net profit is the amount remaining after all relevant expenses are deducted.",
+                },
+                {
+                  topic: "Normal and abnormal profit",
+                  brief:
+                    "Normal profit is the minimum return needed to keep an entrepreneur in business, while abnormal profit exceeds that minimum return.",
+                },
+                {
+                  topic: "Functions of profit",
+                  brief:
+                    "Profit rewards entrepreneurship, signals market opportunities, encourages innovation, and helps finance business expansion.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Macroeconomics",
+          chapters: [
+            {
+              chapterNumber: 10,
+              chapterName: "Introduction to Macroeconomics",
+              topics: [
+                {
+                  topic: "Meaning and scope of macroeconomics",
+                  brief:
+                    "Macroeconomics studies the economy as a whole, including national income, employment, inflation, economic growth, and stabilization policies.",
+                },
+                {
+                  topic: "Microeconomics and macroeconomics compared",
+                  brief:
+                    "Microeconomics examines individual markets and decision-makers, whereas macroeconomics analyzes aggregate economic activity and economy-wide outcomes.",
+                },
+                {
+                  topic: "Aggregate economic variables",
+                  brief:
+                    "Aggregate economic variables summarize economy-wide measures such as total output, national income, overall consumption, investment, and employment.",
+                },
+                {
+                  topic: "National income",
+                  brief:
+                    "National income measures the income earned by a nation's residents from productive economic activities during a specified period.",
+                },
+                {
+                  topic: "Employment and unemployment",
+                  brief:
+                    "Employment refers to people engaged in work, while unemployment describes people without work who are available for and seeking employment.",
+                },
+                {
+                  topic: "General price level",
+                  brief:
+                    "The general price level represents the average level of prices across a broad range of goods and services in an economy.",
+                },
+                {
+                  topic: "Inflation and deflation",
+                  brief:
+                    "Inflation is a sustained increase in the general price level, while deflation is a sustained decrease in the general price level.",
+                },
+                {
+                  topic: "Economic growth",
+                  brief:
+                    "Economic growth is an increase in an economy's real output over time.",
+                },
+                {
+                  topic: "Economic development",
+                  brief:
+                    "Economic development involves improvements in living standards, health, education, opportunities, and the broader structure of an economy.",
+                },
+                {
+                  topic: "Business cycles",
+                  brief:
+                    "Business cycles are fluctuations in economic activity involving phases such as expansion, peak, contraction, and trough.",
+                },
+                {
+                  topic: "Objectives of macroeconomic policy",
+                  brief:
+                    "Macroeconomic policy aims to support stable prices, high employment, sustainable growth, external stability, and balanced economic development.",
+                },
+                {
+                  topic: "Limitations of macroeconomic analysis",
+                  brief:
+                    "Macroeconomic analysis can be limited by incomplete data, simplifying assumptions, changing behavior, and differences among sectors and households.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 11,
+              chapterName: "National Income Accounting",
+              topics: [
+                {
+                  topic: "Meaning and definition of national income",
+                  brief:
+                    "National income is a measure of income earned by a country's residents from production during a specified period, using a defined accounting framework.",
+                },
+                {
+                  topic: "Importance of national income accounting",
+                  brief:
+                    "National income accounting helps measure economic performance, compare periods, support policy decisions, and evaluate changes in living standards.",
+                },
+                {
+                  topic: "Gross domestic product",
+                  brief:
+                    "Gross domestic product is the market value of final goods and services produced within a country's borders during a given period.",
+                },
+                {
+                  topic: "Gross national income",
+                  brief:
+                    "Gross national income equals GDP plus net primary income received by residents from abroad.",
+                },
+                {
+                  topic: "Net domestic product",
+                  brief:
+                    "Net domestic product is GDP minus depreciation or consumption of fixed capital.",
+                },
+                {
+                  topic: "Net national income",
+                  brief:
+                    "Net national income is gross national income minus consumption of fixed capital.",
+                },
+                {
+                  topic: "GDP at market prices",
+                  brief:
+                    "GDP at market prices values final domestic output using the prices paid by purchasers, including applicable product taxes and excluding product subsidies.",
+                },
+                {
+                  topic: "GDP at factor cost where applicable",
+                  brief:
+                    "GDP at factor cost measures domestic output using factor incomes and adjusts market-price GDP for relevant product taxes and subsidies under the applicable accounting convention.",
+                },
+                {
+                  topic: "Nominal GDP",
+                  brief:
+                    "Nominal GDP measures the value of current-period output using prices from the same period.",
+                },
+                {
+                  topic: "Real GDP",
+                  brief:
+                    "Real GDP measures output using constant or appropriately adjusted prices to separate changes in production from changes in prices.",
+                },
+                {
+                  topic: "Per capita income",
+                  brief:
+                    "Per capita income is an average income measure calculated by dividing a defined income total by the population.",
+                },
+                {
+                  topic: "Gross national disposable income",
+                  brief:
+                    "Gross national disposable income measures the income available to residents for consumption or saving after accounting for net current transfers from abroad.",
+                },
+                {
+                  topic: "Depreciation and capital consumption",
+                  brief:
+                    "Depreciation, or consumption of fixed capital, measures the loss in value of fixed assets through use, ageing, and normal obsolescence.",
+                },
+                {
+                  topic: "Value-added method",
+                  brief:
+                    "The value-added method calculates national output by summing the value added by producers at each stage of production.",
+                },
+                {
+                  topic: "Income method",
+                  brief:
+                    "The income method estimates national output by adding relevant factor incomes generated by production, with necessary accounting adjustments.",
+                },
+                {
+                  topic: "Expenditure method",
+                  brief:
+                    "The expenditure method calculates GDP by adding consumption, investment, government purchases, and net exports.",
+                },
+                {
+                  topic: "Circular flow of income",
+                  brief:
+                    "The circular flow of income illustrates how money, goods, services, and factor payments move among households, firms, government, and foreign sectors.",
+                },
+                {
+                  topic: "Two-sector economy",
+                  brief:
+                    "A two-sector economy contains households and firms, showing how household spending becomes business revenue and factor payments become household income.",
+                },
+                {
+                  topic: "Three-sector economy",
+                  brief:
+                    "A three-sector economy adds government to households and firms, incorporating taxes, public spending, and government transfers.",
+                },
+                {
+                  topic: "Four-sector economy",
+                  brief:
+                    "A four-sector economy includes households, firms, government, and the foreign sector, accounting for imports, exports, and international income flows.",
+                },
+                {
+                  topic: "Double counting in national income",
+                  brief:
+                    "Double counting occurs when the value of intermediate goods is counted more than once in national output calculations.",
+                },
+                {
+                  topic: "Difficulties in measuring national income",
+                  brief:
+                    "Measurement difficulties include informal activity, subsistence production, incomplete records, valuation problems, and distinguishing final from intermediate goods.",
+                },
+                {
+                  topic: "Uses and limitations of national income statistics",
+                  brief:
+                    "National income statistics help assess growth and compare economies, but they do not fully capture inequality, unpaid work, environmental costs, or quality of life.",
+                },
+                {
+                  topic: "Numerical problems on national income",
+                  brief:
+                    "Numerical exercises apply national income identities and accounting methods to calculate GDP, GNI, net products, and related measures.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 12,
+              chapterName: "Consumption, Saving and Investment",
+              topics: [
+                {
+                  topic: "Meaning of consumption",
+                  brief:
+                    "Consumption is expenditure by households on goods and services to satisfy current wants.",
+                },
+                {
+                  topic: "Meaning of saving",
+                  brief:
+                    "Saving is the portion of disposable income that is not spent on current consumption.",
+                },
+                {
+                  topic: "Meaning of investment",
+                  brief:
+                    "In macroeconomics, investment refers mainly to spending on newly produced capital goods, structures, and inventory accumulation.",
+                },
+                {
+                  topic: "Consumption function",
+                  brief:
+                    "The consumption function describes the relationship between household consumption and factors such as disposable income.",
+                },
+                {
+                  topic: "Saving function",
+                  brief:
+                    "The saving function describes how saving changes with disposable income and other relevant economic factors.",
+                },
+                {
+                  topic: "Average propensity to consume",
+                  brief:
+                    "Average propensity to consume is the proportion of disposable income spent on consumption, calculated as consumption divided by disposable income.",
+                },
+                {
+                  topic: "Marginal propensity to consume",
+                  brief:
+                    "Marginal propensity to consume is the proportion of an additional unit of disposable income spent on consumption.",
+                },
+                {
+                  topic: "Average propensity to save",
+                  brief:
+                    "Average propensity to save is the proportion of disposable income saved, calculated as saving divided by disposable income.",
+                },
+                {
+                  topic: "Marginal propensity to save",
+                  brief:
+                    "Marginal propensity to save is the proportion of an additional unit of disposable income that is saved.",
+                },
+                {
+                  topic: "Relationship between consumption and saving",
+                  brief:
+                    "Disposable income is divided between consumption and saving, so changes in one affect the amount available for the other.",
+                },
+                {
+                  topic: "Factors affecting consumption",
+                  brief:
+                    "Consumption is influenced by disposable income, wealth, expectations, interest rates, access to credit, prices, and consumer confidence.",
+                },
+                {
+                  topic: "Factors affecting saving",
+                  brief:
+                    "Saving depends on income, consumption needs, interest rates, uncertainty, future goals, wealth, and access to financial services.",
+                },
+                {
+                  topic: "Factors affecting investment",
+                  brief:
+                    "Investment is affected by interest rates, expected profitability, business confidence, technology, taxes, demand expectations, and economic stability.",
+                },
+                {
+                  topic: "Autonomous and induced consumption",
+                  brief:
+                    "Autonomous consumption occurs independently of current income, while induced consumption changes with income.",
+                },
+                {
+                  topic: "Autonomous and induced investment",
+                  brief:
+                    "Autonomous investment is driven by factors other than current income, while induced investment responds to changes in income or demand.",
+                },
+                {
+                  topic: "Marginal efficiency of capital",
+                  brief:
+                    "Marginal efficiency of capital is the expected rate of return from an additional capital asset over its lifetime.",
+                },
+                {
+                  topic: "Investment and economic growth",
+                  brief:
+                    "Investment can increase productive capacity, employment, and productivity, supporting long-term economic growth.",
+                },
+                {
+                  topic: "Numerical problems on consumption and saving",
+                  brief:
+                    "Numerical exercises use income, consumption, and saving data to calculate consumption and saving propensities and related functions.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 13,
+              chapterName: "Determination of National Income",
+              topics: [
+                {
+                  topic: "Aggregate demand",
+                  brief:
+                    "Aggregate demand is total planned spending on domestically produced goods and services at a given level of income or price level.",
+                },
+                {
+                  topic: "Aggregate supply",
+                  brief:
+                    "Aggregate supply represents the total output firms are willing and able to produce at different price levels or levels of income, depending on the model used.",
+                },
+                {
+                  topic: "Equilibrium national income",
+                  brief:
+                    "Equilibrium national income occurs when planned aggregate expenditure equals output in the simple income-expenditure model.",
+                },
+                {
+                  topic: "Consumption and investment expenditure",
+                  brief:
+                    "Consumption expenditure is spending on current goods and services, while investment expenditure adds to capital formation and inventories.",
+                },
+                {
+                  topic: "Income determination in a two-sector economy",
+                  brief:
+                    "In a two-sector model, national income is determined by the interaction of household consumption, business investment, and total output.",
+                },
+                {
+                  topic: "Equilibrium through aggregate expenditure",
+                  brief:
+                    "The aggregate expenditure approach identifies equilibrium where planned consumption and investment equal total output.",
+                },
+                {
+                  topic: "Equilibrium through saving and investment",
+                  brief:
+                    "In a simple closed economy without government, equilibrium income occurs where planned saving equals planned investment.",
+                },
+                {
+                  topic: "Underemployment equilibrium",
+                  brief:
+                    "Underemployment equilibrium occurs when aggregate demand balances output at a level below full-employment capacity.",
+                },
+                {
+                  topic: "Full-employment equilibrium",
+                  brief:
+                    "Full-employment equilibrium occurs when aggregate demand supports output consistent with full employment of available resources.",
+                },
+                {
+                  topic: "Investment multiplier",
+                  brief:
+                    "The investment multiplier measures the total change in equilibrium income resulting from an initial change in investment.",
+                },
+                {
+                  topic: "Working of the multiplier",
+                  brief:
+                    "The multiplier works as initial spending becomes income for others, who spend part of that income and generate further rounds of economic activity.",
+                },
+                {
+                  topic: "Marginal propensity to consume and multiplier",
+                  brief:
+                    "In the simple model, the multiplier equals one divided by one minus the marginal propensity to consume.",
+                },
+                {
+                  topic: "Marginal propensity to save and multiplier",
+                  brief:
+                    "In the simple model, the multiplier equals the reciprocal of the marginal propensity to save when the marginal propensity to consume and save sum to one.",
+                },
+                {
+                  topic: "Leakages from the circular flow of income",
+                  brief:
+                    "Leakages are withdrawals from the spending flow, commonly including saving, taxes, and imports.",
+                },
+                {
+                  topic: "Injections into the circular flow of income",
+                  brief:
+                    "Injections add spending to the circular flow and commonly include investment, government expenditure, and exports.",
+                },
+                {
+                  topic: "Paradox of thrift",
+                  brief:
+                    "The paradox of thrift suggests that if everyone tries to save more during a downturn, reduced consumption may lower total income without increasing total saving.",
+                },
+                {
+                  topic: "Numerical problems on national income determination",
+                  brief:
+                    "Numerical exercises calculate equilibrium income, aggregate expenditure, and multiplier effects using consumption, saving, and investment data.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Money and Banking",
+          chapters: [
+            {
+              chapterNumber: 14,
+              chapterName: "Money",
+              topics: [
+                {
+                  topic: "Meaning and definition of money",
+                  brief:
+                    "Money is anything generally accepted as payment for goods and services and for settling debts.",
+                },
+                {
+                  topic: "Evolution of money",
+                  brief:
+                    "Money evolved from barter and commodity exchange to coins, paper currency, bank deposits, and electronic payment methods.",
+                },
+                {
+                  topic: "Barter system",
+                  brief:
+                    "The barter system is an exchange arrangement in which goods and services are traded directly without using money.",
+                },
+                {
+                  topic: "Difficulties of the barter system",
+                  brief:
+                    "Barter faces problems such as the need for a double coincidence of wants, difficulties in measuring value, and challenges in storing wealth and making deferred payments.",
+                },
+                {
+                  topic: "Functions of money",
+                  brief:
+                    "Money facilitates exchange, measures value, stores purchasing power, and supports payments and financial transactions.",
+                },
+                {
+                  topic: "Primary functions of money",
+                  brief:
+                    "The primary functions of money are serving as a medium of exchange and a measure of value.",
+                },
+                {
+                  topic: "Secondary functions of money",
+                  brief:
+                    "Secondary functions include storing value, transferring value, and serving as a standard for deferred payments.",
+                },
+                {
+                  topic: "Contingent functions of money",
+                  brief:
+                    "Contingent functions include helping distribute income, support credit transactions, and provide a basis for calculating economic values.",
+                },
+                {
+                  topic: "Qualities of good money",
+                  brief:
+                    "Good money should be widely accepted, durable, portable, divisible, recognizable, relatively stable in value, and difficult to counterfeit.",
+                },
+                {
+                  topic: "Types of money",
+                  brief:
+                    "Types of money include commodity money, coins, paper currency, bank deposits, and various digital payment forms.",
+                },
+                {
+                  topic: "Commodity money",
+                  brief:
+                    "Commodity money is an item with intrinsic or direct use value that also functions as a medium of exchange.",
+                },
+                {
+                  topic: "Paper money",
+                  brief:
+                    "Paper money is currency issued under an authorized monetary system and generally accepted as a means of payment.",
+                },
+                {
+                  topic: "Bank money",
+                  brief:
+                    "Bank money refers to funds held as bank deposits that can be transferred or used to make payments.",
+                },
+                {
+                  topic: "Digital forms of payment",
+                  brief:
+                    "Digital payments transfer money electronically through methods such as mobile wallets, payment cards, online banking, and instant payment systems.",
+                },
+                {
+                  topic: "Money and near-money",
+                  brief:
+                    "Money is readily usable for payments, while near-money consists of liquid financial assets that can be converted into money relatively easily.",
+                },
+                {
+                  topic: "Money supply",
+                  brief:
+                    "Money supply is the total stock of monetary assets available in an economy under a specified measure.",
+                },
+                {
+                  topic: "Measures of money supply",
+                  brief:
+                    "Measures of money supply classify monetary assets by liquidity, commonly distinguishing narrow money from broader measures that include additional deposits.",
+                },
+                {
+                  topic: "Importance of money in a modern economy",
+                  brief:
+                    "Money enables efficient exchange, price comparison, saving, borrowing, investment, and the operation of modern financial markets.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 15,
+              chapterName: "Banking and Financial Institutions",
+              topics: [
+                {
+                  topic: "Meaning and functions of banks",
+                  brief:
+                    "Banks accept deposits, provide loans, facilitate payments, safeguard funds, and offer other financial services.",
+                },
+                {
+                  topic: "Commercial banks",
+                  brief:
+                    "Commercial banks are financial institutions that accept deposits and provide loans and payment services to individuals and businesses.",
+                },
+                {
+                  topic: "Central bank",
+                  brief:
+                    "A central bank manages monetary policy, issues currency under its authority, oversees parts of the financial system, and supports monetary and financial stability.",
+                },
+                {
+                  topic: "Development banks",
+                  brief:
+                    "Development banks provide financing and related services to support sectors and projects that contribute to economic development.",
+                },
+                {
+                  topic: "Cooperative banks and financial institutions",
+                  brief:
+                    "Cooperative financial institutions are member-oriented organizations that provide savings, credit, and other financial services to their communities.",
+                },
+                {
+                  topic: "Deposit mobilization",
+                  brief:
+                    "Deposit mobilization involves collecting savings from individuals and organizations and channeling funds into the financial system.",
+                },
+                {
+                  topic: "Lending and credit creation",
+                  brief:
+                    "Lending provides borrowers with funds, while bank credit creation expands deposit balances through lending within regulatory and financial constraints.",
+                },
+                {
+                  topic: "Credit creation by commercial banks",
+                  brief:
+                    "Commercial banks create deposit money when they issue loans, subject to capital requirements, liquidity conditions, regulation, and credit demand.",
+                },
+                {
+                  topic: "Central bank functions",
+                  brief:
+                    "Central banks conduct monetary policy, issue currency, manage reserves, support payment systems, and help maintain financial stability.",
+                },
+                {
+                  topic: "Banker to the government",
+                  brief:
+                    "As banker to the government, the central bank may manage government accounts, process payments, and provide specified financial services.",
+                },
+                {
+                  topic: "Banker to banks",
+                  brief:
+                    "The central bank provides settlement services and holds reserves for commercial banks as part of the banking system.",
+                },
+                {
+                  topic: "Lender of last resort",
+                  brief:
+                    "A lender of last resort provides emergency liquidity to eligible financial institutions facing temporary funding difficulties.",
+                },
+                {
+                  topic: "Currency issuance",
+                  brief:
+                    "Currency issuance is the authorized creation and distribution of notes and coins in accordance with the country's monetary framework.",
+                },
+                {
+                  topic: "Credit control",
+                  brief:
+                    "Credit control involves measures used by monetary authorities to influence lending, borrowing, and the availability of credit.",
+                },
+                {
+                  topic: "Monetary policy",
+                  brief:
+                    "Monetary policy uses tools such as policy rates and liquidity management to influence money and credit conditions and support economic objectives.",
+                },
+                {
+                  topic: "Qualitative and quantitative credit control",
+                  brief:
+                    "Quantitative controls influence the overall volume or cost of credit, while qualitative controls target the allocation or use of credit.",
+                },
+                {
+                  topic: "Role of Nepal Rastra Bank",
+                  brief:
+                    "Nepal Rastra Bank is Nepal's central bank and is responsible for monetary policy, currency management, banking regulation, and supporting financial stability.",
+                },
+                {
+                  topic: "Role of banks in Nepal's economic development",
+                  brief:
+                    "Banks support Nepal's development by mobilizing savings, financing businesses, facilitating payments, and expanding access to financial services.",
+                },
+                {
+                  topic: "Financial inclusion",
+                  brief:
+                    "Financial inclusion means ensuring that individuals and businesses can access and use suitable, affordable, and reliable financial services.",
+                },
+                {
+                  topic: "Digital banking and electronic payment systems",
+                  brief:
+                    "Digital banking and electronic payment systems enable customers to manage accounts, transfer funds, and make payments through digital channels.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Public Finance and International Trade",
+          chapters: [
+            {
+              chapterNumber: 16,
+              chapterName: "Public Finance",
+              topics: [
+                {
+                  topic: "Meaning and scope of public finance",
+                  brief:
+                    "Public finance studies government revenue, expenditure, borrowing, budgeting, and their effects on the economy.",
+                },
+                {
+                  topic: "Public finance and private finance",
+                  brief:
+                    "Public finance concerns the financial activities of government, while private finance concerns the income, spending, and borrowing decisions of individuals and businesses.",
+                },
+                {
+                  topic: "Objectives of public finance",
+                  brief:
+                    "Public finance aims to provide public goods, allocate resources, redistribute income, stabilize the economy, and support development.",
+                },
+                {
+                  topic: "Public revenue",
+                  brief:
+                    "Public revenue is the income government receives from sources such as taxes, fees, fines, grants, and returns on public assets.",
+                },
+                {
+                  topic: "Tax revenue and non-tax revenue",
+                  brief:
+                    "Tax revenue comes from compulsory levies imposed by government, while non-tax revenue includes fees, charges, fines, and certain public-enterprise earnings.",
+                },
+                {
+                  topic: "Direct and indirect taxes",
+                  brief:
+                    "Direct taxes are imposed directly on income or wealth, while indirect taxes are charged on goods, services, or transactions.",
+                },
+                {
+                  topic: "Principles of taxation",
+                  brief:
+                    "Taxation principles include equity, certainty, convenience, efficiency, simplicity, and the ability to raise sufficient public revenue.",
+                },
+                {
+                  topic: "Progressive, proportional, and regressive taxes",
+                  brief:
+                    "Progressive taxes take a larger income share as income rises, proportional taxes take a constant share, and regressive taxes take a smaller income share as income rises.",
+                },
+                {
+                  topic: "Public expenditure",
+                  brief:
+                    "Public expenditure is government spending on administration, public services, infrastructure, transfers, and development programs.",
+                },
+                {
+                  topic: "Classification of public expenditure",
+                  brief:
+                    "Public expenditure may be classified as recurrent or capital, development or non-development, and by function or economic purpose.",
+                },
+                {
+                  topic: "Public debt",
+                  brief:
+                    "Public debt is the amount government owes because of past borrowing to finance spending or other obligations.",
+                },
+                {
+                  topic: "Internal and external public debt",
+                  brief:
+                    "Internal public debt is borrowed from domestic sources, while external public debt is borrowed from foreign lenders or institutions.",
+                },
+                {
+                  topic: "Public borrowing",
+                  brief:
+                    "Public borrowing allows government to obtain funds from domestic or foreign sources to finance expenditure and manage fiscal needs.",
+                },
+                {
+                  topic: "Government budget",
+                  brief:
+                    "A government budget is a financial plan estimating public revenue and expenditure for a specified fiscal period.",
+                },
+                {
+                  topic: "Revenue budget and capital budget",
+                  brief:
+                    "A revenue budget records routine income and operating expenditure, while a capital budget focuses on investment in assets and long-term projects.",
+                },
+                {
+                  topic: "Budget deficit and budget surplus",
+                  brief:
+                    "A budget deficit occurs when expenditure exceeds revenue under the chosen accounting definition, while a surplus occurs when revenue exceeds expenditure.",
+                },
+                {
+                  topic: "Fiscal policy",
+                  brief:
+                    "Fiscal policy uses government spending, taxation, and borrowing to influence economic activity, distribution, and stability.",
+                },
+                {
+                  topic: "Role of fiscal policy in economic stabilization",
+                  brief:
+                    "Fiscal policy can support demand during downturns, moderate excessive demand, and influence employment, prices, and economic growth.",
+                },
+                {
+                  topic: "Public finance in Nepal",
+                  brief:
+                    "Public finance in Nepal covers government revenue, expenditure, budgeting, borrowing, and fiscal relations among federal, provincial, and local governments.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 17,
+              chapterName: "International Trade",
+              topics: [
+                {
+                  topic: "Meaning and importance of international trade",
+                  brief:
+                    "International trade is the exchange of goods and services across national borders and can expand markets, specialization, and access to resources.",
+                },
+                {
+                  topic: "Internal trade and international trade",
+                  brief:
+                    "Internal trade takes place within one country, while international trade involves transactions between countries and may require foreign exchange and customs procedures.",
+                },
+                {
+                  topic: "Absolute advantage theory",
+                  brief:
+                    "The theory of absolute advantage states that a country can gain from trade by specializing in goods it produces more efficiently than another country.",
+                },
+                {
+                  topic: "Comparative advantage theory",
+                  brief:
+                    "Comparative advantage states that countries can benefit from specializing in goods they produce at a lower opportunity cost.",
+                },
+                {
+                  topic: "Gains from international trade",
+                  brief:
+                    "International trade can increase consumer choice, encourage specialization, improve efficiency, and provide access to larger markets and resources.",
+                },
+                {
+                  topic: "Terms of trade",
+                  brief:
+                    "Terms of trade measure the relationship between a country's export prices and import prices.",
+                },
+                {
+                  topic: "Balance of trade",
+                  brief:
+                    "The balance of trade is the difference between the value of a country's exports and imports of goods over a period.",
+                },
+                {
+                  topic: "Balance of payments",
+                  brief:
+                    "The balance of payments records a country's economic transactions with the rest of the world during a specified period.",
+                },
+                {
+                  topic: "Current account",
+                  brief:
+                    "The current account records international trade in goods and services, primary income, and secondary income transfers.",
+                },
+                {
+                  topic: "Capital and financial accounts",
+                  brief:
+                    "The capital account records certain capital transfers and non-produced non-financial assets, while the financial account records cross-border financial asset and liability transactions.",
+                },
+                {
+                  topic: "Trade deficit and trade surplus",
+                  brief:
+                    "A trade deficit occurs when imports exceed exports under the relevant measure, while a trade surplus occurs when exports exceed imports.",
+                },
+                {
+                  topic: "Exchange rate",
+                  brief:
+                    "An exchange rate is the price of one currency expressed in terms of another currency.",
+                },
+                {
+                  topic: "Fixed and floating exchange rates",
+                  brief:
+                    "A fixed exchange rate is maintained against a chosen value or currency, while a floating rate is mainly determined by market demand and supply.",
+                },
+                {
+                  topic: "Foreign exchange market",
+                  brief:
+                    "The foreign exchange market is where currencies are bought and sold for trade, investment, travel, and financial transactions.",
+                },
+                {
+                  topic: "Tariffs and quotas",
+                  brief:
+                    "Tariffs are taxes on imported or exported goods, while quotas restrict the quantity of goods that may be traded.",
+                },
+                {
+                  topic: "Trade restrictions",
+                  brief:
+                    "Trade restrictions are government measures such as tariffs, quotas, licensing, and standards that limit or regulate international trade.",
+                },
+                {
+                  topic: "Free trade and protectionism",
+                  brief:
+                    "Free trade reduces barriers to international exchange, while protectionism uses trade barriers to support selected domestic industries or objectives.",
+                },
+                {
+                  topic: "Regional economic cooperation",
+                  brief:
+                    "Regional economic cooperation involves countries working together through agreements on trade, investment, infrastructure, or broader economic policy.",
+                },
+                {
+                  topic: "International trade of Nepal",
+                  brief:
+                    "Nepal's international trade involves exports and imports of goods and services, shaped by its production structure, geography, and trade relationships.",
+                },
+                {
+                  topic: "Problems and prospects of Nepal's foreign trade",
+                  brief:
+                    "Nepal's foreign trade faces challenges such as a narrow export base and transport costs, while opportunities include hydropower, tourism, agricultural products, and regional market access.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Economic Development and Nepalese Economy",
+          chapters: [
+            {
+              chapterNumber: 18,
+              chapterName: "Economic Growth and Development",
+              topics: [
+                {
+                  topic: "Meaning of economic growth",
+                  brief:
+                    "Economic growth is an increase in the quantity of goods and services an economy produces, usually measured by real GDP.",
+                },
+                {
+                  topic: "Meaning of economic development",
+                  brief:
+                    "Economic development is a broad improvement in economic opportunities, living standards, capabilities, and social well-being.",
+                },
+                {
+                  topic: "Difference between growth and development",
+                  brief:
+                    "Growth focuses on increases in real output, while development also considers changes in poverty, inequality, health, education, and quality of life.",
+                },
+                {
+                  topic: "Characteristics of developing economies",
+                  brief:
+                    "Developing economies may face low average incomes, limited infrastructure, structural unemployment, low productivity, and dependence on primary sectors.",
+                },
+                {
+                  topic: "Indicators of economic development",
+                  brief:
+                    "Development indicators include income per person, health, education, poverty, inequality, employment, infrastructure, and access to essential services.",
+                },
+                {
+                  topic: "Per capita income",
+                  brief:
+                    "Per capita income is average income per person, calculated by dividing a selected national income measure by the population.",
+                },
+                {
+                  topic: "Human Development Index",
+                  brief:
+                    "The Human Development Index combines indicators of life expectancy, education, and income to summarize key dimensions of human development.",
+                },
+                {
+                  topic: "Poverty and inequality",
+                  brief:
+                    "Poverty refers to insufficient resources to meet basic needs, while inequality describes differences in income, wealth, or opportunities among people.",
+                },
+                {
+                  topic: "Unemployment and underemployment",
+                  brief:
+                    "Unemployment means people seeking and available for work cannot find it, while underemployment means people work fewer hours or use less of their capacity than desired.",
+                },
+                {
+                  topic: "Structural transformation",
+                  brief:
+                    "Structural transformation is the shift of economic activity and employment from traditional sectors toward more productive industry and services.",
+                },
+                {
+                  topic: "Role of capital formation",
+                  brief:
+                    "Capital formation increases the stock of productive assets through investment in machinery, buildings, infrastructure, and equipment.",
+                },
+                {
+                  topic: "Role of human capital",
+                  brief:
+                    "Human capital includes people's education, skills, health, and experience, which can improve productivity and development outcomes.",
+                },
+                {
+                  topic: "Role of technology",
+                  brief:
+                    "Technology supports development by improving productivity, reducing costs, enabling innovation, and expanding access to information and services.",
+                },
+                {
+                  topic: "Role of infrastructure",
+                  brief:
+                    "Infrastructure such as roads, electricity, communications, water systems, and transport helps connect markets and support economic activity.",
+                },
+                {
+                  topic: "Sustainable development",
+                  brief:
+                    "Sustainable development meets present needs while protecting the ability of future generations to meet their own needs.",
+                },
+                {
+                  topic: "Inclusive economic growth",
+                  brief:
+                    "Inclusive growth allows different groups of people to participate in and benefit from economic progress.",
+                },
+                {
+                  topic: "Barriers to economic development",
+                  brief:
+                    "Barriers can include inadequate infrastructure, limited finance, low skills, weak institutions, inequality, political instability, and environmental constraints.",
+                },
+              ],
+            },
+            {
+              chapterNumber: 19,
+              chapterName: "Economic Development of Nepal",
+              topics: [
+                {
+                  topic: "Structure of the Nepalese economy",
+                  brief:
+                    "The Nepalese economy includes agriculture, industry, and services, with employment and output distributed differently across these sectors.",
+                },
+                {
+                  topic: "Agriculture and its contribution",
+                  brief:
+                    "Agriculture contributes to Nepal's food supply, employment, rural livelihoods, raw materials, and economic activity.",
+                },
+                {
+                  topic: "Industry and manufacturing",
+                  brief:
+                    "Industry and manufacturing transform raw materials into products, create jobs, and can diversify Nepal's production and export base.",
+                },
+                {
+                  topic: "Service sector",
+                  brief:
+                    "The service sector includes activities such as trade, transport, tourism, finance, education, health, and communications.",
+                },
+                {
+                  topic: "Tourism",
+                  brief:
+                    "Tourism generates income and employment through travel, accommodation, trekking, cultural activities, and visits to Nepal's natural attractions.",
+                },
+                {
+                  topic: "Hydropower and energy",
+                  brief:
+                    "Hydropower and energy development can expand electricity access, support industry, reduce energy constraints, and create export opportunities.",
+                },
+                {
+                  topic: "Foreign employment and remittances",
+                  brief:
+                    "Foreign employment provides income opportunities abroad, while remittances sent home support household spending, savings, education, and investment.",
+                },
+                {
+                  topic: "Poverty in Nepal",
+                  brief:
+                    "Poverty in Nepal is shaped by income opportunities, access to services, regional differences, education, employment, and social and economic conditions.",
+                },
+                {
+                  topic: "Unemployment in Nepal",
+                  brief:
+                    "Unemployment in Nepal is associated with limited job creation, skills mismatches, seasonal work, and the gap between labor supply and available opportunities.",
+                },
+                {
+                  topic: "Income inequality",
+                  brief:
+                    "Income inequality describes how income is distributed unevenly among households or individuals in Nepal.",
+                },
+                {
+                  topic: "Regional economic disparities",
+                  brief:
+                    "Regional economic disparities are differences in income, infrastructure, employment, and access to services among Nepal's geographic areas.",
+                },
+                {
+                  topic: "Infrastructure development",
+                  brief:
+                    "Infrastructure development improves transport, electricity, communications, irrigation, water supply, and other facilities needed for economic activity.",
+                },
+                {
+                  topic: "Human resource development",
+                  brief:
+                    "Human resource development strengthens people's knowledge, skills, health, and capabilities through education, training, and related services.",
+                },
+                {
+                  topic: "Role of education and health",
+                  brief:
+                    "Education improves knowledge and skills, while health services support well-being and productivity; both are important for long-term development.",
+                },
+                {
+                  topic: "Foreign aid and investment",
+                  brief:
+                    "Foreign aid provides external support for development programs, while foreign investment can supply capital, technology, expertise, and employment.",
+                },
+                {
+                  topic: "Economic planning in Nepal",
+                  brief:
+                    "Economic planning in Nepal involves setting development priorities, allocating resources, and coordinating policies and programs over defined periods.",
+                },
+                {
+                  topic: "Federalism and economic development",
+                  brief:
+                    "Federalism distributes government responsibilities among federal, provincial, and local levels, influencing public investment and the delivery of services.",
+                },
+                {
+                  topic: "Challenges of Nepal's economic development",
+                  brief:
+                    "Challenges include limited productive employment, infrastructure gaps, low productivity, dependence on imports and remittances, and constraints on investment and implementation.",
+                },
+                {
+                  topic: "Prospects for sustainable economic development",
+                  brief:
+                    "Nepal's sustainable development prospects include hydropower, tourism, agriculture modernization, digital services, human capital, and environmentally responsible infrastructure.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    "12": {
+      grade: 12,
+      subject: "Economics",
+      branches: [
+        {
+          branchName: "Advanced Microeconomics",
+          chapters: [
+            {
+              chapterNumber: 1,
+              chapterName: "Advanced Demand and Supply Analysis",
+              topics: [
+                "Demand function",
+                "Supply function",
+                "Individual and market demand",
+                "Individual and market supply",
+                "Determinants of demand",
+                "Determinants of supply",
+                "Equilibrium price",
+                "Equilibrium quantity",
+                "Changes in market equilibrium",
+                "Effects of shifts in demand",
+                "Effects of shifts in supply",
+                "Simultaneous changes in demand and supply",
+                "Market disequilibrium",
+                "Shortage and surplus",
+                "Price ceilings",
+                "Price floors",
+                "Effects of government intervention in markets",
+                "Numerical problems on market equilibrium",
+              ],
+            },
+            {
+              chapterNumber: 2,
+              chapterName: "Elasticity and Its Applications",
+              topics: [
+                "Price elasticity of demand",
+                "Income elasticity of demand",
+                "Cross elasticity of demand",
+                "Price elasticity of supply",
+                "Elasticity using the percentage method",
+                "Elasticity using the point method",
+                "Elasticity using the arc method",
+                "Determinants of demand elasticity",
+                "Determinants of supply elasticity",
+                "Elasticity and total revenue",
+                "Elasticity and business decisions",
+                "Elasticity and taxation",
+                "Elasticity and agricultural prices",
+                "Interpretation of elasticity coefficients",
+                "Numerical problems on elasticity",
+              ],
+            },
+            {
+              chapterNumber: 3,
+              chapterName: "Theory of Consumer Behaviour",
+              topics: [
+                "Cardinal utility approach",
+                "Ordinal utility approach",
+                "Total utility and marginal utility",
+                "Law of diminishing marginal utility",
+                "Law of equi-marginal utility",
+                "Consumer equilibrium",
+                "Consumer surplus",
+                "Indifference curves",
+                "Properties of indifference curves",
+                "Marginal rate of substitution",
+                "Budget constraint",
+                "Budget line shifts",
+                "Consumer equilibrium through indifference curves",
+                "Income effect",
+                "Substitution effect",
+                "Price effect",
+                "Normal goods",
+                "Inferior goods",
+                "Giffen goods",
+                "Numerical and diagram-based consumer equilibrium problems",
+              ],
+            },
+            {
+              chapterNumber: 4,
+              chapterName: "Theory of Production",
+              topics: [
+                "Production function",
+                "Short-run and long-run production",
+                "Total product",
+                "Average product",
+                "Marginal product",
+                "Law of variable proportions",
+                "Stages of production",
+                "Returns to scale",
+                "Isoquants",
+                "Properties of isoquants",
+                "Marginal rate of technical substitution",
+                "Isocost line",
+                "Producer equilibrium",
+                "Least-cost combination of inputs",
+                "Technical efficiency",
+                "Economies of scale",
+                "Diseconomies of scale",
+                "Numerical and diagram-based production problems",
+              ],
+            },
+            {
+              chapterNumber: 5,
+              chapterName: "Theory of Cost and Revenue",
+              topics: [
+                "Explicit and implicit costs",
+                "Opportunity cost",
+                "Fixed and variable costs",
+                "Total cost",
+                "Average fixed cost",
+                "Average variable cost",
+                "Average total cost",
+                "Marginal cost",
+                "Short-run cost curves",
+                "Long-run average cost curve",
+                "Economies and diseconomies of scale",
+                "Total revenue",
+                "Average revenue",
+                "Marginal revenue",
+                "Relationship between revenue measures",
+                "Profit maximization",
+                "Marginal cost and marginal revenue",
+                "Numerical problems on cost, revenue, and profit",
+              ],
+            },
+            {
+              chapterNumber: 6,
+              chapterName: "Market Structures and Price Determination",
+              topics: [
+                "Classification of market structures",
+                "Perfect competition",
+                "Features of perfect competition",
+                "Short-run equilibrium of a competitive firm",
+                "Long-run equilibrium of a competitive firm",
+                "Industry equilibrium under perfect competition",
+                "Monopoly",
+                "Sources of monopoly",
+                "Short-run monopoly equilibrium",
+                "Long-run monopoly equilibrium",
+                "Price discrimination under monopoly",
+                "Monopolistic competition",
+                "Product differentiation",
+                "Selling costs",
+                "Short-run equilibrium under monopolistic competition",
+                "Long-run equilibrium under monopolistic competition",
+                "Oligopoly",
+                "Interdependence among oligopolistic firms",
+                "Comparison of market structures",
+                "Efficiency and welfare implications of market structures",
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Macroeconomic Theory",
+          chapters: [
+            {
+              chapterNumber: 7,
+              chapterName: "National Income Accounting",
+              topics: [
+                "Concept and importance of national income",
+                "Gross domestic product",
+                "Gross national income",
+                "Net domestic product",
+                "Net national income",
+                "Market prices and factor cost where applicable",
+                "Nominal and real GDP",
+                "GDP deflator",
+                "Per capita income",
+                "Value-added method",
+                "Income method",
+                "Expenditure method",
+                "Circular flow of income",
+                "National income in a two-sector economy",
+                "National income in a three-sector economy",
+                "National income in a four-sector economy",
+                "Double counting",
+                "Difficulties in national income measurement",
+                "Uses and limitations of national income estimates",
+                "Numerical problems on national income",
+              ],
+            },
+            {
+              chapterNumber: 8,
+              chapterName: "Classical and Keynesian Employment Theory",
+              topics: [
+                "Meaning of full employment",
+                "Meaning of unemployment",
+                "Classical theory of employment",
+                "Say's law of markets",
+                "Wage and price flexibility",
+                "Classical view of saving and investment",
+                "Criticisms of classical employment theory",
+                "Keynesian theory of employment",
+                "Effective demand",
+                "Aggregate demand and aggregate supply",
+                "Consumption function",
+                "Investment function",
+                "Underemployment equilibrium",
+                "Involuntary unemployment",
+                "Role of government in employment generation",
+                "Comparison of classical and Keynesian theories",
+              ],
+            },
+            {
+              chapterNumber: 9,
+              chapterName: "Consumption, Saving and Investment Functions",
+              topics: [
+                "Consumption function",
+                "Autonomous consumption",
+                "Induced consumption",
+                "Saving function",
+                "Autonomous saving",
+                "Average propensity to consume",
+                "Marginal propensity to consume",
+                "Average propensity to save",
+                "Marginal propensity to save",
+                "Relationship between MPC and MPS",
+                "Psychological law of consumption",
+                "Determinants of consumption",
+                "Determinants of saving",
+                "Investment function",
+                "Autonomous and induced investment",
+                "Marginal efficiency of capital",
+                "Interest rates and investment",
+                "Numerical problems on consumption and saving",
+              ],
+            },
+            {
+              chapterNumber: 10,
+              chapterName: "National Income Determination and Multiplier",
+              topics: [
+                "Aggregate demand",
+                "Aggregate supply",
+                "Equilibrium level of income",
+                "Consumption and investment approach",
+                "Saving and investment approach",
+                "Equilibrium in a two-sector economy",
+                "Equilibrium in a three-sector economy",
+                "Government expenditure and taxation",
+                "Equilibrium in an open economy",
+                "Investment multiplier",
+                "Government expenditure multiplier",
+                "Tax multiplier",
+                "Balanced budget multiplier",
+                "Marginal propensity to consume and multiplier",
+                "Leakages and injections",
+                "Paradox of thrift",
+                "Limitations of the multiplier",
+                "Numerical problems on national income determination",
+              ],
+            },
+            {
+              chapterNumber: 11,
+              chapterName: "Inflation and Deflation",
+              topics: [
+                "Meaning and definition of inflation",
+                "Types of inflation",
+                "Demand-pull inflation",
+                "Cost-push inflation",
+                "Creeping, walking, and galloping inflation",
+                "Hyperinflation",
+                "Causes of inflation",
+                "Effects of inflation",
+                "Inflation and income distribution",
+                "Inflation and economic growth",
+                "Measurement of inflation",
+                "Consumer price index",
+                "Wholesale price index where applicable",
+                "Meaning of deflation",
+                "Causes and effects of deflation",
+                "Disinflation and reflation",
+                "Monetary measures to control inflation",
+                "Fiscal measures to control inflation",
+                "Supply-side measures to control inflation",
+                "Inflation in Nepal",
+              ],
+            },
+            {
+              chapterNumber: 12,
+              chapterName: "Business Cycles",
+              topics: [
+                "Meaning of business cycles",
+                "Characteristics of business cycles",
+                "Phases of a business cycle",
+                "Prosperity and boom",
+                "Recession",
+                "Depression",
+                "Recovery",
+                "Causes of business cycles",
+                "Monetary explanations of business cycles",
+                "Investment fluctuations",
+                "Effects of business cycles",
+                "Business cycles and employment",
+                "Business cycles and inflation",
+                "Measures to reduce cyclical fluctuations",
+                "Role of fiscal and monetary policy",
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Money, Banking and Monetary Policy",
+          chapters: [
+            {
+              chapterNumber: 13,
+              chapterName: "Money and Money Supply",
+              topics: [
+                "Definition and functions of money",
+                "Evolution of money",
+                "Types of money",
+                "Money and near-money",
+                "Demand for money",
+                "Transactions motive",
+                "Precautionary motive",
+                "Speculative motive",
+                "Supply of money",
+                "Measures of money supply",
+                "Factors affecting money supply",
+                "Quantity theory of money",
+                "Fisher's equation of exchange",
+                "Relationship between money supply and price level",
+                "Money supply and economic activity",
+                "Digital payment systems and changes in money use",
+              ],
+            },
+            {
+              chapterNumber: 14,
+              chapterName: "Central Banking and Commercial Banking",
+              topics: [
+                "Meaning and functions of a central bank",
+                "Central bank as currency issuer",
+                "Central bank as banker to the government",
+                "Central bank as banker to commercial banks",
+                "Lender of last resort",
+                "Credit control",
+                "Meaning and functions of commercial banks",
+                "Deposit mobilization",
+                "Lending and investment",
+                "Credit creation",
+                "Cash reserve requirements",
+                "Bank rate and policy rate",
+                "Open market operations",
+                "Repo and reverse repo concepts",
+                "Qualitative credit control",
+                "Quantitative credit control",
+                "Relationship between central and commercial banks",
+                "Role of Nepal Rastra Bank",
+                "Commercial banking system in Nepal",
+                "Financial inclusion and digital banking",
+              ],
+            },
+            {
+              chapterNumber: 15,
+              chapterName: "Monetary Policy",
+              topics: [
+                "Meaning and objectives of monetary policy",
+                "Price stability",
+                "Economic growth and employment",
+                "Control of inflation",
+                "Monetary policy instruments",
+                "Policy interest rates",
+                "Open market operations",
+                "Reserve requirements",
+                "Credit ceilings and selective credit controls",
+                "Expansionary monetary policy",
+                "Contractionary monetary policy",
+                "Monetary transmission mechanism",
+                "Monetary policy and investment",
+                "Monetary policy and exchange rates",
+                "Limitations of monetary policy",
+                "Monetary policy in Nepal",
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Public Finance and Fiscal Policy",
+          chapters: [
+            {
+              chapterNumber: 16,
+              chapterName: "Public Revenue and Taxation",
+              topics: [
+                "Meaning and sources of public revenue",
+                "Tax revenue",
+                "Non-tax revenue",
+                "Direct taxation",
+                "Indirect taxation",
+                "Progressive taxation",
+                "Proportional taxation",
+                "Regressive taxation",
+                "Principles of taxation",
+                "Ability-to-pay principle",
+                "Benefit principle",
+                "Canons of taxation",
+                "Tax incidence",
+                "Impact and shifting of taxes",
+                "Tax evasion and tax avoidance",
+                "Value Added Tax",
+                "Income tax",
+                "Customs and excise duties",
+                "Tax structure of Nepal",
+                "Challenges of tax collection in Nepal",
+              ],
+            },
+            {
+              chapterNumber: 17,
+              chapterName: "Public Expenditure and Public Debt",
+              topics: [
+                "Meaning and classification of public expenditure",
+                "Development expenditure",
+                "Recurrent expenditure",
+                "Capital expenditure",
+                "Causes of increasing public expenditure",
+                "Principles of public expenditure",
+                "Effects of public expenditure",
+                "Meaning of public debt",
+                "Internal public debt",
+                "External public debt",
+                "Productive and unproductive debt",
+                "Public debt management",
+                "Debt servicing",
+                "Effects of public debt on the economy",
+                "Public expenditure and economic development",
+                "Public debt in Nepal",
+              ],
+            },
+            {
+              chapterNumber: 18,
+              chapterName: "Government Budget and Fiscal Policy",
+              topics: [
+                "Meaning and objectives of a government budget",
+                "Revenue budget",
+                "Capital budget",
+                "Balanced budget",
+                "Surplus budget",
+                "Deficit budget",
+                "Budget preparation process",
+                "Budget implementation and evaluation",
+                "Fiscal policy",
+                "Expansionary fiscal policy",
+                "Contractionary fiscal policy",
+                "Government expenditure and aggregate demand",
+                "Taxation and aggregate demand",
+                "Automatic stabilizers",
+                "Discretionary fiscal policy",
+                "Fiscal deficit and public debt",
+                "Fiscal federalism",
+                "Federal, provincial, and local government finance in Nepal",
+                "Role of the national budget in economic development",
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "International Economics",
+          chapters: [
+            {
+              chapterNumber: 19,
+              chapterName: "International Trade Theory",
+              topics: [
+                "Meaning and importance of international trade",
+                "Basis of international trade",
+                "Absolute advantage theory",
+                "Comparative advantage theory",
+                "Opportunity cost and trade",
+                "Gains from specialization",
+                "Terms of trade",
+                "Factors affecting terms of trade",
+                "Free trade",
+                "Protectionism",
+                "Tariffs",
+                "Import quotas",
+                "Export subsidies",
+                "Arguments for and against protection",
+                "Trade liberalization",
+                "Trade policy of Nepal",
+                "Challenges of international trade for developing countries",
+              ],
+            },
+            {
+              chapterNumber: 20,
+              chapterName: "Balance of Payments and Exchange Rates",
+              topics: [
+                "Meaning of balance of payments",
+                "Components of the balance of payments",
+                "Current account",
+                "Capital account",
+                "Financial account",
+                "Balance of trade",
+                "Balance of payments surplus and deficit",
+                "Causes of balance of payments disequilibrium",
+                "Measures to correct balance of payments disequilibrium",
+                "Meaning of foreign exchange rate",
+                "Fixed exchange rate",
+                "Floating exchange rate",
+                "Managed floating exchange rate",
+                "Currency appreciation",
+                "Currency depreciation",
+                "Devaluation and revaluation",
+                "Factors affecting exchange rates",
+                "Exchange rates and international trade",
+                "Foreign exchange reserves",
+                "Balance of payments and foreign trade of Nepal",
+              ],
+            },
+            {
+              chapterNumber: 21,
+              chapterName:
+                "Globalization and International Economic Organizations",
+              topics: [
+                "Meaning of globalization",
+                "Drivers of globalization",
+                "Benefits of globalization",
+                "Challenges of globalization",
+                "Foreign direct investment",
+                "Foreign portfolio investment",
+                "Multinational corporations",
+                "International migration and remittances",
+                "World Trade Organization",
+                "International Monetary Fund",
+                "World Bank Group",
+                "Regional economic cooperation",
+                "South Asian Association for Regional Cooperation",
+                "Other regional trade arrangements relevant to Nepal",
+                "International aid and development",
+                "Globalization and the Nepalese economy",
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Economic Development and Planning",
+          chapters: [
+            {
+              chapterNumber: 22,
+              chapterName: "Economic Growth and Development",
+              topics: [
+                "Meaning of economic growth",
+                "Meaning of economic development",
+                "Economic growth versus economic development",
+                "Indicators of development",
+                "Gross domestic product and per capita income",
+                "Human Development Index",
+                "Multidimensional poverty",
+                "Income distribution and inequality",
+                "Structural change",
+                "Human capital formation",
+                "Physical capital formation",
+                "Technological progress",
+                "Institutional development",
+                "Sustainable development",
+                "Inclusive growth",
+                "Sustainable Development Goals",
+                "Obstacles to economic development",
+              ],
+            },
+            {
+              chapterNumber: 23,
+              chapterName: "Theories of Economic Development",
+              topics: [
+                "Classical views on economic development",
+                "Adam Smith's views on growth",
+                "Malthusian theory of population",
+                "Ricardian theory of distribution and growth",
+                "Harrod-Domar growth model",
+                "Rostow's stages of economic growth",
+                "Lewis dual-sector model",
+                "Balanced growth theory",
+                "Unbalanced growth theory",
+                "Big push theory",
+                "Role of savings and investment",
+                "Role of entrepreneurship",
+                "Role of technology",
+                "Role of institutions",
+                "Limitations of development theories",
+                "Application of development theories to Nepal",
+              ],
+            },
+            {
+              chapterNumber: 24,
+              chapterName: "Economic Planning",
+              topics: [
+                "Meaning and objectives of economic planning",
+                "Types of economic planning",
+                "Centralized and decentralized planning",
+                "Indicative and directive planning",
+                "Short-term and long-term plans",
+                "Planning process",
+                "Plan formulation and implementation",
+                "Role of government in planning",
+                "Public and private sector coordination",
+                "Economic planning in Nepal",
+                "Periodic development plans of Nepal",
+                "Role of the National Planning Commission",
+                "Monitoring and evaluation of development plans",
+                "Achievements and weaknesses of economic planning in Nepal",
+                "Challenges of effective plan implementation",
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Nepalese Economy",
+          chapters: [
+            {
+              chapterNumber: 25,
+              chapterName: "Structure and Features of the Nepalese Economy",
+              topics: [
+                "Introduction to the Nepalese economy",
+                "Structure of the Nepalese economy",
+                "Agriculture sector",
+                "Industry and manufacturing sector",
+                "Service sector",
+                "Contribution of agriculture to GDP and employment",
+                "Industrial development",
+                "Tourism and hospitality",
+                "Hydropower and energy resources",
+                "Transport and communication infrastructure",
+                "Foreign employment",
+                "Remittances",
+                "Private sector development",
+                "Public sector enterprises",
+                "Federal structure and economic governance",
+                "Major structural challenges of the Nepalese economy",
+              ],
+            },
+            {
+              chapterNumber: 26,
+              chapterName: "Poverty, Inequality and Unemployment in Nepal",
+              topics: [
+                "Meaning and measurement of poverty",
+                "Absolute and relative poverty",
+                "Causes of poverty in Nepal",
+                "Rural and urban poverty",
+                "Poverty reduction strategies",
+                "Meaning and measurement of inequality",
+                "Income and wealth inequality",
+                "Regional disparities",
+                "Causes of inequality",
+                "Meaning and types of unemployment",
+                "Seasonal unemployment",
+                "Structural unemployment",
+                "Disguised unemployment",
+                "Youth unemployment",
+                "Underemployment",
+                "Foreign employment and labour migration",
+                "Employment generation strategies",
+                "Inclusive development policies",
+              ],
+            },
+            {
+              chapterNumber: 27,
+              chapterName: "Agriculture and Industrial Development in Nepal",
+              topics: [
+                "Role of agriculture in Nepal's economy",
+                "Subsistence and commercial agriculture",
+                "Agricultural productivity",
+                "Land ownership and land-use issues",
+                "Irrigation and agricultural infrastructure",
+                "Agricultural modernization",
+                "Agricultural credit and insurance",
+                "Agricultural marketing",
+                "Problems of agricultural development",
+                "Industrialization and economic growth",
+                "Small, medium, and large industries",
+                "Cottage and small industries",
+                "Industrial infrastructure",
+                "Industrial finance",
+                "Foreign investment in industry",
+                "Import substitution and export promotion",
+                "Problems of industrial development in Nepal",
+                "Policies for agricultural and industrial development",
+              ],
+            },
+            {
+              chapterNumber: 28,
+              chapterName: "Trade, Tourism and Remittances in Nepal",
+              topics: [
+                "Structure of Nepal's foreign trade",
+                "Major export products",
+                "Major import products",
+                "Trade deficit",
+                "Causes of Nepal's trade imbalance",
+                "Export diversification",
+                "Trade facilitation",
+                "Transit and transport challenges",
+                "Tourism resources of Nepal",
+                "Economic importance of tourism",
+                "Tourism infrastructure",
+                "Challenges facing the tourism sector",
+                "Foreign employment",
+                "Remittance inflows",
+                "Economic effects of remittances",
+                "Remittances and household consumption",
+                "Remittances and investment",
+                "Risks associated with dependence on remittances",
+                "Strategies for sustainable foreign trade and tourism",
+              ],
+            },
+            {
+              chapterNumber: 29,
+              chapterName:
+                "Infrastructure, Energy and Human Development in Nepal",
+              topics: [
+                "Meaning and importance of economic infrastructure",
+                "Road and transport infrastructure",
+                "Rail and air transport",
+                "Communication and digital infrastructure",
+                "Electricity generation and distribution",
+                "Hydropower potential of Nepal",
+                "Renewable energy",
+                "Energy access and energy security",
+                "Education and human capital",
+                "Health and labour productivity",
+                "Skill development and vocational training",
+                "Digital technology and economic development",
+                "Public-private partnerships",
+                "Infrastructure financing",
+                "Challenges of infrastructure development",
+                "Sustainable infrastructure planning",
+              ],
+            },
+            {
+              chapterNumber: 30,
+              chapterName: "Contemporary Economic Issues of Nepal",
+              topics: [
+                "Economic growth and its determinants",
+                "Inflation and cost of living",
+                "Government revenue and expenditure",
+                "Public debt and fiscal sustainability",
+                "Foreign trade deficit",
+                "Balance of payments",
+                "Foreign exchange reserves",
+                "Foreign direct investment",
+                "Capital formation",
+                "Financial inclusion",
+                "Cooperatives and the financial sector",
+                "Digital economy",
+                "Climate change and the economy",
+                "Disaster risk and economic resilience",
+                "Sustainable development",
+                "Federalism and resource allocation",
+                "Youth employment and entrepreneurship",
+                "Policy options for sustainable economic development",
+              ],
+            },
+          ],
+        },
+        {
+          branchName: "Statistics and Quantitative Methods in Economics",
+          chapters: [
+            {
+              chapterNumber: 31,
+              chapterName: "Basic Economic Statistics",
+              topics: [
+                "Meaning and importance of statistics in economics",
+                "Types of data",
+                "Primary and secondary data",
+                "Qualitative and quantitative data",
+                "Methods of data collection",
+                "Classification and tabulation of data",
+                "Frequency distribution",
+                "Presentation of data using tables",
+                "Bar diagrams",
+                "Pie charts",
+                "Histograms",
+                "Frequency polygons",
+                "Ogives",
+                "Interpretation of economic data",
+                "Limitations of statistical methods",
+              ],
+            },
+            {
+              chapterNumber: 32,
+              chapterName: "Measures of Central Tendency and Dispersion",
+              topics: [
+                "Meaning of central tendency",
+                "Arithmetic mean",
+                "Weighted arithmetic mean",
+                "Median",
+                "Mode",
+                "Mean for grouped data",
+                "Median for grouped data",
+                "Mode for grouped data",
+                "Comparison of mean, median, and mode",
+                "Meaning of dispersion",
+                "Range",
+                "Quartile deviation",
+                "Mean deviation",
+                "Standard deviation",
+                "Coefficient of variation",
+                "Interpretation of statistical measures",
+                "Numerical problems on central tendency and dispersion",
+              ],
+            },
+            {
+              chapterNumber: 33,
+              chapterName: "Index Numbers and Time Series",
+              topics: [
+                "Meaning and uses of index numbers",
+                "Price index numbers",
+                "Quantity index numbers",
+                "Value index numbers",
+                "Simple aggregative method",
+                "Simple average of price relatives",
+                "Weighted index numbers",
+                "Laspeyres price index",
+                "Paasche price index",
+                "Fisher's ideal index",
+                "Consumer price index",
+                "Limitations of index numbers",
+                "Meaning of time series",
+                "Components of time series",
+                "Trend, seasonal, cyclical, and irregular variations",
+                "Uses of time-series analysis",
+                "Numerical problems on index numbers",
+              ],
+            },
+            {
+              chapterNumber: 34,
+              chapterName: "Correlation and Regression",
+              topics: [
+                "Meaning of correlation",
+                "Positive and negative correlation",
+                "Zero correlation",
+                "Simple scatter diagram",
+                "Karl Pearson's coefficient of correlation",
+                "Spearman's rank correlation where applicable",
+                "Interpretation of correlation coefficients",
+                "Meaning of regression",
+                "Regression lines",
+                "Regression coefficients",
+                "Relationship between correlation and regression",
+                "Economic applications of correlation",
+                "Limitations of correlation analysis",
+                "Numerical problems on correlation and regression",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+};

@@ -1,25 +1,28 @@
-{
-  "metadata": {
-    "country": "Nepal",
-    "curriculum": "NEB",
-    "subject": "Business Studies",
-    "grades": [11, 12],
-    "purpose": "Question bank and topic mapping",
-    "format_version": "1.0",
-    "verification_note": "Expanded study outline. Verify the official subject title, chapter names, and topic coverage against the latest NEB curriculum before treating this as an exact official syllabus."
+import type { SyllabusFile } from "../../../types/quiz.types.js";
+
+export const commerce_business_studiesSyllabus: SyllabusFile = {
+  metadata: {
+    country: "Nepal",
+    curriculum: "NEB",
+    subject: "Business Studies",
+    grades: [11, 12],
+    purpose: "Question bank and topic mapping",
+    format_version: "1.0",
+    verification_note:
+      "Expanded study outline. Verify the official subject title, chapter names, and topic coverage against the latest NEB curriculum before treating this as an exact official syllabus.",
   },
-  "grades": {
+  grades: {
     "11": {
-      "grade": 11,
-      "subject": "Business Studies",
-      "branches": [
+      grade: 11,
+      subject: "Business Studies",
+      branches: [
         {
-          "branchName": "Introduction to Business",
-          "chapters": [
+          branchName: "Introduction to Business",
+          chapters: [
             {
-              "chapterNumber": 1,
-              "chapterName": "Introduction to Business",
-              "topics": [
+              chapterNumber: 1,
+              chapterName: "Introduction to Business",
+              topics: [
                 "Meaning and definition of business",
                 "Characteristics of business",
                 "Objectives of business",
@@ -32,13 +35,13 @@
                 "Difference between business, profession, and employment",
                 "Role of business in economic development",
                 "Business activities in Nepal",
-                "Ethics and responsibility in business"
-              ]
+                "Ethics and responsibility in business",
+              ],
             },
             {
-              "chapterNumber": 2,
-              "chapterName": "Business Environment",
-              "topics": [
+              chapterNumber: 2,
+              chapterName: "Business Environment",
+              topics: [
                 "Meaning and importance of business environment",
                 "Internal business environment",
                 "External business environment",
@@ -53,13 +56,13 @@
                 "SWOT analysis",
                 "PESTLE analysis",
                 "Environmental scanning",
-                "Impact of the business environment on Nepalese enterprises"
-              ]
+                "Impact of the business environment on Nepalese enterprises",
+              ],
             },
             {
-              "chapterNumber": 3,
-              "chapterName": "Forms of Business Ownership",
-              "topics": [
+              chapterNumber: 3,
+              chapterName: "Forms of Business Ownership",
+              topics: [
                 "Meaning of business ownership",
                 "Sole proprietorship",
                 "Features of sole proprietorship",
@@ -77,13 +80,13 @@
                 "Joint ventures",
                 "Comparison of business ownership forms",
                 "Factors affecting the choice of ownership",
-                "Business registration in Nepal"
-              ]
+                "Business registration in Nepal",
+              ],
             },
             {
-              "chapterNumber": 4,
-              "chapterName": "Business Organization and Its Structure",
-              "topics": [
+              chapterNumber: 4,
+              chapterName: "Business Organization and Its Structure",
+              topics: [
                 "Meaning and importance of business organization",
                 "Organizational structure",
                 "Line organization",
@@ -98,18 +101,18 @@
                 "Centralization and decentralization",
                 "Departmentation",
                 "Coordination in organizations",
-                "Factors affecting organizational structure"
-              ]
-            }
-          ]
+                "Factors affecting organizational structure",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Entrepreneurship and Small Business",
-          "chapters": [
+          branchName: "Entrepreneurship and Small Business",
+          chapters: [
             {
-              "chapterNumber": 5,
-              "chapterName": "Entrepreneurship",
-              "topics": [
+              chapterNumber: 5,
+              chapterName: "Entrepreneurship",
+              topics: [
                 "Meaning and definition of entrepreneurship",
                 "Meaning and characteristics of an entrepreneur",
                 "Entrepreneurship and business ownership",
@@ -125,13 +128,13 @@
                 "Challenges faced by Nepalese entrepreneurs",
                 "Women entrepreneurship",
                 "Youth entrepreneurship",
-                "Social entrepreneurship"
-              ]
+                "Social entrepreneurship",
+              ],
             },
             {
-              "chapterNumber": 6,
-              "chapterName": "Small Business and Enterprise Development",
-              "topics": [
+              chapterNumber: 6,
+              chapterName: "Small Business and Enterprise Development",
+              topics: [
                 "Meaning and characteristics of small business",
                 "Importance of small businesses",
                 "Micro, small, and medium enterprises",
@@ -148,13 +151,13 @@
                 "Marketing for small businesses",
                 "Common problems faced by small businesses",
                 "Government support for entrepreneurship",
-                "Business growth and expansion"
-              ]
+                "Business growth and expansion",
+              ],
             },
             {
-              "chapterNumber": 7,
-              "chapterName": "Business Plan and Project Proposal",
-              "topics": [
+              chapterNumber: 7,
+              chapterName: "Business Plan and Project Proposal",
+              topics: [
                 "Meaning and importance of a business plan",
                 "Objectives of a business plan",
                 "Components of a business plan",
@@ -172,18 +175,18 @@
                 "Profit estimation",
                 "Risk assessment",
                 "Business plan implementation",
-                "Preparation of a sample business plan"
-              ]
-            }
-          ]
+                "Preparation of a sample business plan",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Management Fundamentals",
-          "chapters": [
+          branchName: "Management Fundamentals",
+          chapters: [
             {
-              "chapterNumber": 8,
-              "chapterName": "Introduction to Management",
-              "topics": [
+              chapterNumber: 8,
+              chapterName: "Introduction to Management",
+              topics: [
                 "Meaning and definition of management",
                 "Nature of management",
                 "Characteristics of management",
@@ -199,13 +202,13 @@
                 "Managerial skills",
                 "Managerial roles",
                 "Management and administration",
-                "Management and organizational performance"
-              ]
+                "Management and organizational performance",
+              ],
             },
             {
-              "chapterNumber": 9,
-              "chapterName": "Evolution of Management Thought",
-              "topics": [
+              chapterNumber: 9,
+              chapterName: "Evolution of Management Thought",
+              topics: [
                 "Meaning of management thought",
                 "Classical management theory",
                 "Scientific management",
@@ -220,13 +223,13 @@
                 "Systems approach",
                 "Contingency approach",
                 "Modern management concepts",
-                "Relevance of management theories to Nepalese organizations"
-              ]
+                "Relevance of management theories to Nepalese organizations",
+              ],
             },
             {
-              "chapterNumber": 10,
-              "chapterName": "Planning and Decision-Making",
-              "topics": [
+              chapterNumber: 10,
+              chapterName: "Planning and Decision-Making",
+              topics: [
                 "Meaning and importance of planning",
                 "Characteristics of planning",
                 "Objectives of planning",
@@ -245,13 +248,13 @@
                 "Rational decision-making",
                 "Decision-making under risk and uncertainty",
                 "Group decision-making",
-                "Problems in decision-making"
-              ]
+                "Problems in decision-making",
+              ],
             },
             {
-              "chapterNumber": 11,
-              "chapterName": "Organizing and Staffing",
-              "topics": [
+              chapterNumber: 11,
+              chapterName: "Organizing and Staffing",
+              topics: [
                 "Meaning and importance of organizing",
                 "Organizing process",
                 "Division of work",
@@ -270,18 +273,18 @@
                 "Placement and orientation",
                 "Training and development",
                 "Performance appraisal",
-                "Employee retention"
-              ]
-            }
-          ]
+                "Employee retention",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Business Operations",
-          "chapters": [
+          branchName: "Business Operations",
+          chapters: [
             {
-              "chapterNumber": 12,
-              "chapterName": "Directing, Leadership and Motivation",
-              "topics": [
+              chapterNumber: 12,
+              chapterName: "Directing, Leadership and Motivation",
+              topics: [
                 "Meaning and importance of directing",
                 "Elements of directing",
                 "Supervision",
@@ -299,13 +302,13 @@
                 "Financial incentives",
                 "Non-financial incentives",
                 "Employee morale",
-                "Motivation and productivity"
-              ]
+                "Motivation and productivity",
+              ],
             },
             {
-              "chapterNumber": 13,
-              "chapterName": "Communication in Business",
-              "topics": [
+              chapterNumber: 13,
+              chapterName: "Communication in Business",
+              topics: [
                 "Meaning and importance of communication",
                 "Communication process",
                 "Sender, message, channel, receiver, and feedback",
@@ -323,13 +326,13 @@
                 "Business letters",
                 "Business email etiquette",
                 "Meetings and minutes",
-                "Reports and presentations"
-              ]
+                "Reports and presentations",
+              ],
             },
             {
-              "chapterNumber": 14,
-              "chapterName": "Controlling and Coordination",
-              "topics": [
+              chapterNumber: 14,
+              chapterName: "Controlling and Coordination",
+              topics: [
                 "Meaning and importance of controlling",
                 "Characteristics of control",
                 "Control process",
@@ -347,18 +350,18 @@
                 "Meaning and importance of coordination",
                 "Coordination techniques",
                 "Coordination across departments",
-                "Relationship between planning and control"
-              ]
-            }
-          ]
+                "Relationship between planning and control",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Business Finance and Accounting",
-          "chapters": [
+          branchName: "Business Finance and Accounting",
+          chapters: [
             {
-              "chapterNumber": 15,
-              "chapterName": "Introduction to Business Finance",
-              "topics": [
+              chapterNumber: 15,
+              chapterName: "Introduction to Business Finance",
+              topics: [
                 "Meaning and importance of business finance",
                 "Objectives of financial management",
                 "Financial planning",
@@ -375,13 +378,13 @@
                 "Debt financing",
                 "Comparison of debt and equity",
                 "Factors affecting capital structure",
-                "Financial institutions in Nepal"
-              ]
+                "Financial institutions in Nepal",
+              ],
             },
             {
-              "chapterNumber": 16,
-              "chapterName": "Introduction to Business Accounting",
-              "topics": [
+              chapterNumber: 16,
+              chapterName: "Introduction to Business Accounting",
+              topics: [
                 "Meaning and objectives of accounting",
                 "Importance of accounting information",
                 "Users of accounting information",
@@ -399,18 +402,18 @@
                 "Preparation of basic financial statements",
                 "Income statement",
                 "Balance sheet",
-                "Uses and limitations of financial statements"
-              ]
-            }
-          ]
+                "Uses and limitations of financial statements",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Business Ethics and Legal Environment",
-          "chapters": [
+          branchName: "Business Ethics and Legal Environment",
+          chapters: [
             {
-              "chapterNumber": 17,
-              "chapterName": "Business Ethics and Social Responsibility",
-              "topics": [
+              chapterNumber: 17,
+              chapterName: "Business Ethics and Social Responsibility",
+              topics: [
                 "Meaning of business ethics",
                 "Importance of ethical business practices",
                 "Ethical principles in business",
@@ -427,13 +430,13 @@
                 "Corruption and unethical practices",
                 "Ethical leadership",
                 "Business sustainability",
-                "Ethical challenges in Nepalese businesses"
-              ]
+                "Ethical challenges in Nepalese businesses",
+              ],
             },
             {
-              "chapterNumber": 18,
-              "chapterName": "Legal Environment of Business in Nepal",
-              "topics": [
+              chapterNumber: 18,
+              chapterName: "Legal Environment of Business in Nepal",
+              topics: [
                 "Importance of business law",
                 "Contract and contractual obligations",
                 "Fundamental elements of a valid contract",
@@ -450,24 +453,24 @@
                 "Trademarks and brand protection",
                 "Environmental compliance",
                 "Business dispute resolution",
-                "Regulatory institutions relevant to businesses in Nepal"
-              ]
-            }
-          ]
-        }
-      ]
+                "Regulatory institutions relevant to businesses in Nepal",
+              ],
+            },
+          ],
+        },
+      ],
     },
     "12": {
-      "grade": 12,
-      "subject": "Business Studies",
-      "branches": [
+      grade: 12,
+      subject: "Business Studies",
+      branches: [
         {
-          "branchName": "Advanced Management",
-          "chapters": [
+          branchName: "Advanced Management",
+          chapters: [
             {
-              "chapterNumber": 1,
-              "chapterName": "Management and Organizational Effectiveness",
-              "topics": [
+              chapterNumber: 1,
+              chapterName: "Management and Organizational Effectiveness",
+              topics: [
                 "Meaning and objectives of management",
                 "Management functions",
                 "Managerial effectiveness",
@@ -481,13 +484,13 @@
                 "Managerial decision-making",
                 "Organizational problem-solving",
                 "Contemporary management challenges",
-                "Management practices in Nepalese organizations"
-              ]
+                "Management practices in Nepalese organizations",
+              ],
             },
             {
-              "chapterNumber": 2,
-              "chapterName": "Strategic Management",
-              "topics": [
+              chapterNumber: 2,
+              chapterName: "Strategic Management",
+              topics: [
                 "Meaning of strategic management",
                 "Strategic planning process",
                 "Vision and mission statements",
@@ -504,13 +507,13 @@
                 "Strategy implementation",
                 "Strategy evaluation and control",
                 "Strategic leadership",
-                "Managing organizational change"
-              ]
+                "Managing organizational change",
+              ],
             },
             {
-              "chapterNumber": 3,
-              "chapterName": "Organizational Behaviour",
-              "topics": [
+              chapterNumber: 3,
+              chapterName: "Organizational Behaviour",
+              topics: [
                 "Meaning and scope of organizational behaviour",
                 "Individual behaviour at work",
                 "Personality and perception",
@@ -527,18 +530,18 @@
                 "Organizational culture",
                 "Organizational change",
                 "Employee engagement",
-                "Workplace diversity and inclusion"
-              ]
-            }
-          ]
+                "Workplace diversity and inclusion",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Human Resource Management",
-          "chapters": [
+          branchName: "Human Resource Management",
+          chapters: [
             {
-              "chapterNumber": 4,
-              "chapterName": "Human Resource Planning and Recruitment",
-              "topics": [
+              chapterNumber: 4,
+              chapterName: "Human Resource Planning and Recruitment",
+              topics: [
                 "Meaning and importance of human resource management",
                 "Human resource planning",
                 "Workforce forecasting",
@@ -555,13 +558,13 @@
                 "Reference checks",
                 "Placement and induction",
                 "Equal employment opportunity",
-                "Challenges in recruitment and selection"
-              ]
+                "Challenges in recruitment and selection",
+              ],
             },
             {
-              "chapterNumber": 5,
-              "chapterName": "Training, Development and Performance Management",
-              "topics": [
+              chapterNumber: 5,
+              chapterName: "Training, Development and Performance Management",
+              topics: [
                 "Meaning and importance of training",
                 "Training needs assessment",
                 "On-the-job training",
@@ -576,13 +579,13 @@
                 "Employee promotion and transfer",
                 "Succession planning",
                 "Training effectiveness evaluation",
-                "Continuous professional development"
-              ]
+                "Continuous professional development",
+              ],
             },
             {
-              "chapterNumber": 6,
-              "chapterName": "Compensation, Motivation and Employee Relations",
-              "topics": [
+              chapterNumber: 6,
+              chapterName: "Compensation, Motivation and Employee Relations",
+              topics: [
                 "Meaning of employee compensation",
                 "Wages and salaries",
                 "Financial incentives",
@@ -600,18 +603,18 @@
                 "Labour-management cooperation",
                 "Conflict resolution",
                 "Employee retention",
-                "Work-life balance"
-              ]
-            }
-          ]
+                "Work-life balance",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Marketing and Business Development",
-          "chapters": [
+          branchName: "Marketing and Business Development",
+          chapters: [
             {
-              "chapterNumber": 7,
-              "chapterName": "Marketing Management",
-              "topics": [
+              chapterNumber: 7,
+              chapterName: "Marketing Management",
+              topics: [
                 "Meaning and objectives of marketing management",
                 "Marketing planning",
                 "Marketing environment",
@@ -627,13 +630,13 @@
                 "Promotion decisions",
                 "Marketing strategy implementation",
                 "Marketing control",
-                "Marketing performance evaluation"
-              ]
+                "Marketing performance evaluation",
+              ],
             },
             {
-              "chapterNumber": 8,
-              "chapterName": "Product, Branding and Pricing Decisions",
-              "topics": [
+              chapterNumber: 8,
+              chapterName: "Product, Branding and Pricing Decisions",
+              topics: [
                 "Product classification",
                 "Product planning",
                 "Product development",
@@ -652,13 +655,13 @@
                 "Penetration pricing",
                 "Price skimming",
                 "Promotional pricing",
-                "Pricing ethics"
-              ]
+                "Pricing ethics",
+              ],
             },
             {
-              "chapterNumber": 9,
-              "chapterName": "Promotion and Distribution Management",
-              "topics": [
+              chapterNumber: 9,
+              chapterName: "Promotion and Distribution Management",
+              topics: [
                 "Promotion mix",
                 "Advertising",
                 "Personal selling",
@@ -674,13 +677,13 @@
                 "Supply chain management",
                 "Customer service",
                 "E-commerce distribution",
-                "Distribution performance evaluation"
-              ]
+                "Distribution performance evaluation",
+              ],
             },
             {
-              "chapterNumber": 10,
-              "chapterName": "Digital Business and E-Commerce",
-              "topics": [
+              chapterNumber: 10,
+              chapterName: "Digital Business and E-Commerce",
+              topics: [
                 "Meaning of digital business",
                 "Meaning of e-commerce",
                 "Types of e-commerce",
@@ -696,18 +699,18 @@
                 "Customer relationship management",
                 "Online security and privacy",
                 "Consumer protection in e-commerce",
-                "Opportunities and challenges of digital business in Nepal"
-              ]
-            }
-          ]
+                "Opportunities and challenges of digital business in Nepal",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Finance and Business Decision-Making",
-          "chapters": [
+          branchName: "Finance and Business Decision-Making",
+          chapters: [
             {
-              "chapterNumber": 11,
-              "chapterName": "Financial Management",
-              "topics": [
+              chapterNumber: 11,
+              chapterName: "Financial Management",
+              topics: [
                 "Meaning and objectives of financial management",
                 "Financial planning",
                 "Capital budgeting",
@@ -725,13 +728,13 @@
                 "Inventory management",
                 "Dividend decisions",
                 "Financial control",
-                "Financial management challenges in Nepal"
-              ]
+                "Financial management challenges in Nepal",
+              ],
             },
             {
-              "chapterNumber": 12,
-              "chapterName": "Financial Statement Analysis",
-              "topics": [
+              chapterNumber: 12,
+              chapterName: "Financial Statement Analysis",
+              topics: [
                 "Meaning and objectives of financial statement analysis",
                 "Income statement",
                 "Statement of financial position",
@@ -747,13 +750,13 @@
                 "Cash flow analysis",
                 "Interpretation of financial ratios",
                 "Limitations of financial statement analysis",
-                "Using financial information for business decisions"
-              ]
+                "Using financial information for business decisions",
+              ],
             },
             {
-              "chapterNumber": 13,
-              "chapterName": "Investment and Risk Management",
-              "topics": [
+              chapterNumber: 13,
+              chapterName: "Investment and Risk Management",
+              topics: [
                 "Meaning of investment",
                 "Types of business investment",
                 "Investment objectives",
@@ -771,18 +774,18 @@
                 "Net present value",
                 "Internal rate of return",
                 "Investment decision-making",
-                "Business continuity planning"
-              ]
-            }
-          ]
+                "Business continuity planning",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Business Operations and Innovation",
-          "chapters": [
+          branchName: "Business Operations and Innovation",
+          chapters: [
             {
-              "chapterNumber": 14,
-              "chapterName": "Operations and Production Management",
-              "topics": [
+              chapterNumber: 14,
+              chapterName: "Operations and Production Management",
+              topics: [
                 "Meaning and importance of operations management",
                 "Production systems",
                 "Goods and services production",
@@ -800,13 +803,13 @@
                 "Process improvement",
                 "Lean operations",
                 "Waste reduction",
-                "Operations management challenges"
-              ]
+                "Operations management challenges",
+              ],
             },
             {
-              "chapterNumber": 15,
-              "chapterName": "Innovation and Technology in Business",
-              "topics": [
+              chapterNumber: 15,
+              chapterName: "Innovation and Technology in Business",
+              topics: [
                 "Meaning of innovation",
                 "Types of innovation",
                 "Product innovation",
@@ -823,13 +826,13 @@
                 "Intellectual property protection",
                 "Innovation management",
                 "Technology-related business risks",
-                "Innovation opportunities in Nepal"
-              ]
+                "Innovation opportunities in Nepal",
+              ],
             },
             {
-              "chapterNumber": 16,
-              "chapterName": "Quality, Productivity and Process Improvement",
-              "topics": [
+              chapterNumber: 16,
+              chapterName: "Quality, Productivity and Process Improvement",
+              topics: [
                 "Meaning of quality",
                 "Quality standards",
                 "Quality planning",
@@ -846,18 +849,18 @@
                 "Employee involvement in quality",
                 "Quality costs",
                 "Performance measurement",
-                "Service quality improvement"
-              ]
-            }
-          ]
+                "Service quality improvement",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Business Law and Governance",
-          "chapters": [
+          branchName: "Business Law and Governance",
+          chapters: [
             {
-              "chapterNumber": 17,
-              "chapterName": "Business Law and Regulatory Compliance",
-              "topics": [
+              chapterNumber: 17,
+              chapterName: "Business Law and Regulatory Compliance",
+              topics: [
                 "Meaning and importance of business law",
                 "Sources of business law",
                 "Contract law fundamentals",
@@ -875,13 +878,13 @@
                 "Data protection and privacy",
                 "Environmental compliance",
                 "Business dispute resolution",
-                "Legal compliance challenges in Nepal"
-              ]
+                "Legal compliance challenges in Nepal",
+              ],
             },
             {
-              "chapterNumber": 18,
-              "chapterName": "Corporate Governance and Business Ethics",
-              "topics": [
+              chapterNumber: 18,
+              chapterName: "Corporate Governance and Business Ethics",
+              topics: [
                 "Meaning of corporate governance",
                 "Importance of corporate governance",
                 "Board of directors",
@@ -898,18 +901,18 @@
                 "Corporate social responsibility",
                 "Environmental, social, and governance concepts",
                 "Sustainable business practices",
-                "Corporate governance challenges in Nepal"
-              ]
-            }
-          ]
+                "Corporate governance challenges in Nepal",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "International Business and Economic Environment",
-          "chapters": [
+          branchName: "International Business and Economic Environment",
+          chapters: [
             {
-              "chapterNumber": 19,
-              "chapterName": "International Business",
-              "topics": [
+              chapterNumber: 19,
+              chapterName: "International Business",
+              topics: [
                 "Meaning and scope of international business",
                 "Domestic and international business",
                 "Drivers of internationalization",
@@ -927,13 +930,13 @@
                 "Foreign exchange risk",
                 "International business negotiations",
                 "International trade barriers",
-                "International business opportunities for Nepalese enterprises"
-              ]
+                "International business opportunities for Nepalese enterprises",
+              ],
             },
             {
-              "chapterNumber": 20,
-              "chapterName": "Globalization and Business in Nepal",
-              "topics": [
+              chapterNumber: 20,
+              chapterName: "Globalization and Business in Nepal",
+              topics: [
                 "Meaning of globalization",
                 "Drivers of globalization",
                 "Benefits of globalization",
@@ -949,18 +952,18 @@
                 "Opportunities for Nepalese exporters",
                 "Challenges facing domestic industries",
                 "Globalization and employment",
-                "Strategies for competing in international markets"
-              ]
-            }
-          ]
+                "Strategies for competing in international markets",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Business Research and Entrepreneurship",
-          "chapters": [
+          branchName: "Business Research and Entrepreneurship",
+          chapters: [
             {
-              "chapterNumber": 21,
-              "chapterName": "Business Research and Decision Analysis",
-              "topics": [
+              chapterNumber: 21,
+              chapterName: "Business Research and Decision Analysis",
+              topics: [
                 "Meaning and importance of business research",
                 "Business research process",
                 "Problem identification",
@@ -976,13 +979,13 @@
                 "Business report writing",
                 "Research ethics",
                 "Evidence-based decision-making",
-                "Limitations of business research"
-              ]
+                "Limitations of business research",
+              ],
             },
             {
-              "chapterNumber": 22,
-              "chapterName": "Entrepreneurship and Business Growth",
-              "topics": [
+              chapterNumber: 22,
+              chapterName: "Entrepreneurship and Business Growth",
+              topics: [
                 "Entrepreneurial opportunities",
                 "Opportunity assessment",
                 "Business model development",
@@ -1002,18 +1005,18 @@
                 "Strategic partnerships",
                 "Business succession",
                 "Common reasons for business failure",
-                "Startup ecosystem in Nepal"
-              ]
-            }
-          ]
+                "Startup ecosystem in Nepal",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Sustainability and Contemporary Business Issues",
-          "chapters": [
+          branchName: "Sustainability and Contemporary Business Issues",
+          chapters: [
             {
-              "chapterNumber": 23,
-              "chapterName": "Corporate Social Responsibility and Sustainability",
-              "topics": [
+              chapterNumber: 23,
+              chapterName: "Corporate Social Responsibility and Sustainability",
+              topics: [
                 "Meaning of corporate social responsibility",
                 "Stakeholder theory",
                 "Economic responsibilities of business",
@@ -1029,13 +1032,13 @@
                 "Community engagement",
                 "Sustainability reporting",
                 "Green business opportunities",
-                "Sustainable business practices in Nepal"
-              ]
+                "Sustainable business practices in Nepal",
+              ],
             },
             {
-              "chapterNumber": 24,
-              "chapterName": "Contemporary Issues in Business",
-              "topics": [
+              chapterNumber: 24,
+              chapterName: "Contemporary Issues in Business",
+              topics: [
                 "Digital transformation",
                 "Artificial intelligence and automation",
                 "Cybersecurity risks",
@@ -1052,18 +1055,18 @@
                 "Climate change and business resilience",
                 "Disaster risk management",
                 "Ethical challenges in modern business",
-                "Future business opportunities in Nepal"
-              ]
-            }
-          ]
+                "Future business opportunities in Nepal",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Business Applications and Examination Practice",
-          "chapters": [
+          branchName: "Business Applications and Examination Practice",
+          chapters: [
             {
-              "chapterNumber": 25,
-              "chapterName": "Business Case Studies and Practical Applications",
-              "topics": [
+              chapterNumber: 25,
+              chapterName: "Business Case Studies and Practical Applications",
+              topics: [
                 "Analysis of a sole proprietorship",
                 "Analysis of a partnership business",
                 "Analysis of a company",
@@ -1079,13 +1082,13 @@
                 "Digital transformation case study",
                 "Sustainability case study",
                 "Problem identification and solution development",
-                "Preparation of a business report"
-              ]
+                "Preparation of a business report",
+              ],
             },
             {
-              "chapterNumber": 26,
-              "chapterName": "Business Studies Theory and Examination Practice",
-              "topics": [
+              chapterNumber: 26,
+              chapterName: "Business Studies Theory and Examination Practice",
+              topics: [
                 "Definitions of key business terms",
                 "Short-answer questions on business concepts",
                 "Differences between business and management concepts",
@@ -1101,12 +1104,12 @@
                 "Business case analysis",
                 "Numerical problems involving business finance",
                 "Long-answer business questions",
-                "Model examination questions"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  }
-}
+                "Model examination questions",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+};

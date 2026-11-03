@@ -1,43 +1,37 @@
-import * as fs from "fs";
-import * as path from "path";
-import { config } from "../config/env.config.js";
+import { allQuestions, questionsBySubject } from "../data/questions/index.js";
 import type { Question, QuestionCollection } from "../types/quiz.types.js";
 import { normalizeQuestionText } from "../utils/text.util.js";
-import { logger } from "../utils/logger.util.js";
 
 export class QuestionRepository {
+  private masterQuestions: Question[] = [];
+  private subjectQuestionsMap: Map<string, Question[]> = new Map();
+
   constructor() {
-    this.ensureDirectoryExists(config.questionsDir);
+    this.initData();
   }
 
-  private ensureDirectoryExists(dir: string): void {
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true });
+  private initData(): void {
+    // Clone all master questions into in-memory list
+    this.masterQuestions = [...allQuestions];
+
+    // Initialize subject questions map
+    for (const [subject, list] of Object.entries(questionsBySubject)) {
+      this.subjectQuestionsMap.set(subject.toLowerCase(), [...list]);
     }
   }
 
   /**
-   * Loads questions from subject-specific file (e.g. questions/physics.json)
+   * Loads questions for a subject from the in-memory list
    */
   public loadSubjectQuestions(
-    questionsFileName: string,
+    _questionsFileName: string,
     subjectName: string,
   ): QuestionCollection {
-    const filePath = path.join(config.questionsDir, questionsFileName);
-    if (fs.existsSync(filePath)) {
-      try {
-        const raw = fs.readFileSync(filePath, "utf-8");
-        const parsed = JSON.parse(raw);
-        if (parsed && Array.isArray(parsed.questions)) {
-          return parsed as QuestionCollection;
-        }
-      } catch (e) {
-        logger.warn(
-          `Could not parse ${filePath}, fallback to empty collection.`,
-          e,
-        );
-      }
-    }
+    const list =
+      this.subjectQuestionsMap.get(subjectName.toLowerCase()) ||
+      this.masterQuestions.filter(
+        (q) => q.subject.toLowerCase() === subjectName.toLowerCase(),
+      );
 
     return {
       collection_name: `Nepal Grade 11–12 Practice MCQs - ${subjectName}`,
@@ -52,83 +46,53 @@ export class QuestionRepository {
         class: "11 or 12",
         question_type: "MCQ",
       },
-      total_questions: 0,
-      questions: [],
+      total_questions: list.length,
+      questions: [...list],
     };
   }
 
   /**
-   * Saves updated question collection to subject JSON file
+   * Updates in-memory question collection for a subject
    */
   public saveSubjectQuestions(
-    questionsFileName: string,
+    _questionsFileName: string,
     collection: QuestionCollection,
   ): void {
-    const filePath = path.join(config.questionsDir, questionsFileName);
     collection.total_questions = collection.questions.length;
-    fs.writeFileSync(
-      filePath,
-      JSON.stringify(collection, null, 2) + "\n",
-      "utf-8",
+    const subject = collection.subject || "Unknown";
+    this.subjectQuestionsMap.set(
+      subject.toLowerCase(),
+      [...collection.questions],
     );
+
+    // Keep master list in sync
+    this.appendToMasterCollection(collection.questions);
   }
 
   /**
-   * Appends newly generated questions to the master questions file
+   * Appends newly generated questions to the in-memory master collection
    */
   public appendToMasterCollection(newQuestions: Question[]): void {
     if (newQuestions.length === 0) return;
 
-    const masterPath = config.masterDataFile;
-    let masterData: QuestionCollection = {
-      collection_name: "Nepal Grade 11–12 Science Practice MCQs",
-      version: "2.0",
-      language: "en/ne",
-      intended_use:
-        "Comprehensive NEB-aligned science practice question bank for Nepal Grade 11 & 12",
-      schema_notes: {
-        correct_options:
-          "Array of option keys; supports single- and multi-select answers",
-        is_multi_select: "True when more than one option is correct",
-        class: "11 or 12",
-        question_type: "MCQ",
-      },
-      total_questions: 0,
-      questions: [],
-    };
-
-    if (fs.existsSync(masterPath)) {
-      try {
-        const raw = fs.readFileSync(masterPath, "utf-8");
-        const parsed = JSON.parse(raw);
-        if (parsed && Array.isArray(parsed.questions)) {
-          masterData = parsed;
-        } else if (Array.isArray(parsed)) {
-          masterData.questions = parsed;
-        }
-      } catch (e) {
-        logger.warn(`Could not parse master file ${masterPath}:`, e);
-      }
-    }
-
-    const existingIds = new Set(masterData.questions.map((q) => q.id));
+    const existingIds = new Set(this.masterQuestions.map((q) => q.id));
     for (const q of newQuestions) {
       if (!existingIds.has(q.id)) {
-        masterData.questions.push(q);
+        this.masterQuestions.push(q);
         existingIds.add(q.id);
+
+        const subKey = q.subject.toLowerCase();
+        const currentSubList = this.subjectQuestionsMap.get(subKey) || [];
+        if (!currentSubList.some((sq) => sq.id === q.id)) {
+          currentSubList.push(q);
+          this.subjectQuestionsMap.set(subKey, currentSubList);
+        }
       }
     }
-
-    masterData.total_questions = masterData.questions.length;
-    fs.writeFileSync(
-      masterPath,
-      JSON.stringify(masterData, null, 2) + "\n",
-      "utf-8",
-    );
   }
 
   /**
-   * Retrieves questions with filtering and pagination
+   * Retrieves questions with filtering and pagination directly from regular in-memory list
    */
   public findQuestions(filters: {
     subject?: string | undefined;
@@ -139,19 +103,7 @@ export class QuestionRepository {
     offset?: number | undefined;
     random?: boolean | undefined;
   }): { total: number; questions: Question[] } {
-    const masterPath = config.masterDataFile;
-    let allQuestions: Question[] = [];
-
-    if (fs.existsSync(masterPath)) {
-      try {
-        const parsed = JSON.parse(fs.readFileSync(masterPath, "utf-8"));
-        allQuestions = Array.isArray(parsed) ? parsed : parsed.questions || [];
-      } catch (err) {
-        logger.error(`Error reading master questions:`, err);
-      }
-    }
-
-    let filtered = allQuestions;
+    let filtered = this.masterQuestions;
 
     if (filters.subject) {
       const subLower = filters.subject.toLowerCase();
@@ -207,22 +159,11 @@ export class QuestionRepository {
       if (norm) seenQuestions.add(norm);
     }
 
-    // 2. Index master questions
-    const masterPath = config.masterDataFile;
-    if (fs.existsSync(masterPath)) {
-      try {
-        const parsed = JSON.parse(fs.readFileSync(masterPath, "utf-8"));
-        const list: Question[] = Array.isArray(parsed)
-          ? parsed
-          : parsed.questions || [];
-        for (const q of list) {
-          if (q.id) allUsedIds.add(q.id);
-          const norm = normalizeQuestionText(q.question);
-          if (norm) seenQuestions.add(norm);
-        }
-      } catch (e) {
-        logger.warn(`Could not index master questions:`, e);
-      }
+    // 2. Index in-memory master questions
+    for (const q of this.masterQuestions) {
+      if (q.id) allUsedIds.add(q.id);
+      const norm = normalizeQuestionText(q.question);
+      if (norm) seenQuestions.add(norm);
     }
 
     return { seenQuestions, allUsedIds };

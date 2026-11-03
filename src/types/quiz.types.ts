@@ -33,40 +33,46 @@ export interface QuestionCollection {
   questions: Question[];
 }
 
-export interface SyllabusTopic {
-  id: string;
-  topicNumber: number;
-  topic: string;
-  brief: string;
-}
+export type SyllabusTopic =
+  | string
+  | {
+      id?: string;
+      topicNumber?: number;
+      topic: string;
+      brief?: string;
+      [key: string]: any;
+    };
 
 export interface SyllabusChapter {
-  id: string;
+  id?: string;
   chapterNumber: number;
   chapterName: string;
-  topics: SyllabusTopic[];
+  topics?: SyllabusTopic[];
+  [key: string]: any;
 }
 
 export interface SyllabusBranch {
-  id: string;
-  branchNumber: number;
+  id?: string;
+  branchNumber?: number;
   branchName: string;
-  chapters: SyllabusChapter[];
+  chapters?: SyllabusChapter[];
+  [key: string]: any;
 }
 
 export interface SyllabusGrade {
-  id: string;
-  grade: number;
-  subject: string;
-  branches: SyllabusBranch[];
+  id?: string;
+  grade?: number;
+  subject?: string;
+  branches?: SyllabusBranch[];
+  [key: string]: any;
 }
 
 export interface SyllabusMetadata {
-  country: string;
-  curriculum: string;
+  country?: string;
+  curriculum?: string;
   level?: string;
-  subject: string;
-  subjectCode: string;
+  subject?: string;
+  subjectCode?: string;
   version?: string;
   format?: string;
   description?: string;
@@ -74,13 +80,16 @@ export interface SyllabusMetadata {
   grades?: number[];
   language?: string;
   formatVersion?: string;
+  purpose?: string;
+  [key: string]: any;
 }
 
 export interface SyllabusFile {
   metadata: SyllabusMetadata;
   grades: {
-    "11": SyllabusGrade;
-    "12": SyllabusGrade;
+    "11"?: SyllabusGrade;
+    "12"?: SyllabusGrade;
+    [key: string]: any;
   };
 }
 

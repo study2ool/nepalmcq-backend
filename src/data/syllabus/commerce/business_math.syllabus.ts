@@ -1,25 +1,28 @@
-{
-  "metadata": {
-    "country": "Nepal",
-    "curriculum": "NEB",
-    "subject": "Business Mathematics",
-    "grades": [11, 12],
-    "purpose": "Question bank and topic mapping",
-    "format_version": "1.0",
-    "verification_note": "Expanded study outline. Verify chapter names, topics, and coverage against the latest official NEB curriculum before treating this as the exact syllabus."
+import type { SyllabusFile } from "../../../types/quiz.types.js";
+
+export const commerce_business_mathSyllabus: SyllabusFile = {
+  metadata: {
+    country: "Nepal",
+    curriculum: "NEB",
+    subject: "Business Mathematics",
+    grades: [11, 12],
+    purpose: "Question bank and topic mapping",
+    format_version: "1.0",
+    verification_note:
+      "Expanded study outline. Verify chapter names, topics, and coverage against the latest official NEB curriculum before treating this as the exact syllabus.",
   },
-  "grades": {
+  grades: {
     "11": {
-      "grade": 11,
-      "subject": "Business Mathematics",
-      "branches": [
+      grade: 11,
+      subject: "Business Mathematics",
+      branches: [
         {
-          "branchName": "Commercial Arithmetic",
-          "chapters": [
+          branchName: "Commercial Arithmetic",
+          chapters: [
             {
-              "chapterNumber": 1,
-              "chapterName": "Percentage and Its Applications",
-              "topics": [
+              chapterNumber: 1,
+              chapterName: "Percentage and Its Applications",
+              topics: [
                 "Meaning of percentage",
                 "Conversion among fractions, decimals, and percentages",
                 "Percentage increase and decrease",
@@ -31,13 +34,13 @@
                 "Commission and brokerage",
                 "Value-added tax calculations",
                 "Taxable income calculations",
-                "Applications of percentage in business"
-              ]
+                "Applications of percentage in business",
+              ],
             },
             {
-              "chapterNumber": 2,
-              "chapterName": "Ratio, Proportion and Variation",
-              "topics": [
+              chapterNumber: 2,
+              chapterName: "Ratio, Proportion and Variation",
+              topics: [
                 "Meaning and properties of ratios",
                 "Simplification of ratios",
                 "Comparison of ratios",
@@ -48,13 +51,13 @@
                 "Division of quantities in a given ratio",
                 "Partnership sharing ratios",
                 "Ratios involving income and expenditure",
-                "Applications in business calculations"
-              ]
+                "Applications in business calculations",
+              ],
             },
             {
-              "chapterNumber": 3,
-              "chapterName": "Commission, Brokerage and Discount",
-              "topics": [
+              chapterNumber: 3,
+              chapterName: "Commission, Brokerage and Discount",
+              topics: [
                 "Meaning of commission",
                 "Commission rate and commission amount",
                 "Commission on sales",
@@ -66,13 +69,13 @@
                 "Successive discounts",
                 "Net price after discounts",
                 "Comparison of discount offers",
-                "Business applications of commission and discount"
-              ]
+                "Business applications of commission and discount",
+              ],
             },
             {
-              "chapterNumber": 4,
-              "chapterName": "Taxation and Value-Added Tax",
-              "topics": [
+              chapterNumber: 4,
+              chapterName: "Taxation and Value-Added Tax",
+              topics: [
                 "Meaning of taxation",
                 "Types of taxes",
                 "Direct and indirect taxes",
@@ -86,18 +89,18 @@
                 "VAT-exclusive prices",
                 "Input VAT and output VAT",
                 "VAT payable calculations",
-                "Tax calculations in business transactions"
-              ]
-            }
-          ]
+                "Tax calculations in business transactions",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Financial Mathematics",
-          "chapters": [
+          branchName: "Financial Mathematics",
+          chapters: [
             {
-              "chapterNumber": 5,
-              "chapterName": "Simple Interest",
-              "topics": [
+              chapterNumber: 5,
+              chapterName: "Simple Interest",
+              topics: [
                 "Meaning of principal, rate, time, and interest",
                 "Simple interest formula",
                 "Calculation of simple interest",
@@ -107,13 +110,13 @@
                 "Amount under simple interest",
                 "Time expressed in months and days",
                 "Comparison of simple interest offers",
-                "Applications of simple interest in lending and borrowing"
-              ]
+                "Applications of simple interest in lending and borrowing",
+              ],
             },
             {
-              "chapterNumber": 6,
-              "chapterName": "Compound Interest",
-              "topics": [
+              chapterNumber: 6,
+              chapterName: "Compound Interest",
+              topics: [
                 "Meaning of compound interest",
                 "Simple interest versus compound interest",
                 "Compound amount formula",
@@ -125,13 +128,13 @@
                 "Calculation of principal",
                 "Calculation of rate and time",
                 "Growth of investment under compound interest",
-                "Applications of compound interest in finance"
-              ]
+                "Applications of compound interest in finance",
+              ],
             },
             {
-              "chapterNumber": 7,
-              "chapterName": "Depreciation and Appreciation",
-              "topics": [
+              chapterNumber: 7,
+              chapterName: "Depreciation and Appreciation",
+              topics: [
                 "Meaning of depreciation",
                 "Meaning of appreciation",
                 "Depreciation of business assets",
@@ -143,13 +146,13 @@
                 "Asset appreciation over time",
                 "Successive depreciation and appreciation",
                 "Comparison of depreciation methods",
-                "Applications in business asset valuation"
-              ]
+                "Applications in business asset valuation",
+              ],
             },
             {
-              "chapterNumber": 8,
-              "chapterName": "Annuities",
-              "topics": [
+              chapterNumber: 8,
+              chapterName: "Annuities",
+              topics: [
                 "Meaning of annuity",
                 "Regular payments and payment periods",
                 "Ordinary annuity",
@@ -161,18 +164,18 @@
                 "Periodic deposits",
                 "Periodic withdrawals",
                 "Installment payments",
-                "Applications of annuities in saving and investment"
-              ]
-            }
-          ]
+                "Applications of annuities in saving and investment",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Algebra and Equations",
-          "chapters": [
+          branchName: "Algebra and Equations",
+          chapters: [
             {
-              "chapterNumber": 9,
-              "chapterName": "Sets and Business Applications",
-              "topics": [
+              chapterNumber: 9,
+              chapterName: "Sets and Business Applications",
+              topics: [
                 "Meaning and notation of sets",
                 "Representation of sets",
                 "Finite and infinite sets",
@@ -186,13 +189,13 @@
                 "Cardinality of sets",
                 "Two-set problems",
                 "Three-set problems",
-                "Applications of sets to business surveys"
-              ]
+                "Applications of sets to business surveys",
+              ],
             },
             {
-              "chapterNumber": 10,
-              "chapterName": "Functions and Graphs",
-              "topics": [
+              chapterNumber: 10,
+              chapterName: "Functions and Graphs",
+              topics: [
                 "Meaning of a function",
                 "Domain and range",
                 "Independent and dependent variables",
@@ -206,13 +209,13 @@
                 "Revenue functions",
                 "Cost functions",
                 "Profit functions",
-                "Break-even interpretation of graphs"
-              ]
+                "Break-even interpretation of graphs",
+              ],
             },
             {
-              "chapterNumber": 11,
-              "chapterName": "Linear Equations and Inequalities",
-              "topics": [
+              chapterNumber: 11,
+              chapterName: "Linear Equations and Inequalities",
+              topics: [
                 "Linear equations in one variable",
                 "Linear equations in two variables",
                 "Simultaneous linear equations",
@@ -224,13 +227,13 @@
                 "Formulation of equations from word problems",
                 "Business problems involving cost and revenue",
                 "Demand and supply equations",
-                "Applications of simultaneous equations"
-              ]
+                "Applications of simultaneous equations",
+              ],
             },
             {
-              "chapterNumber": 12,
-              "chapterName": "Quadratic Equations",
-              "topics": [
+              chapterNumber: 12,
+              chapterName: "Quadratic Equations",
+              topics: [
                 "Meaning and standard form of a quadratic equation",
                 "Factorization method",
                 "Completing the square",
@@ -241,13 +244,13 @@
                 "Graph of a quadratic function",
                 "Maximum and minimum values",
                 "Business applications of quadratic equations",
-                "Revenue and profit optimization problems"
-              ]
+                "Revenue and profit optimization problems",
+              ],
             },
             {
-              "chapterNumber": 13,
-              "chapterName": "Sequences and Series",
-              "topics": [
+              chapterNumber: 13,
+              chapterName: "Sequences and Series",
+              topics: [
                 "Meaning of a sequence",
                 "Arithmetic progression",
                 "Nth term of an arithmetic progression",
@@ -259,18 +262,18 @@
                 "Finding missing terms",
                 "Applications to regular savings",
                 "Business growth patterns",
-                "Installment and payment sequences"
-              ]
-            }
-          ]
+                "Installment and payment sequences",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Matrices and Determinants",
-          "chapters": [
+          branchName: "Matrices and Determinants",
+          chapters: [
             {
-              "chapterNumber": 14,
-              "chapterName": "Matrices",
-              "topics": [
+              chapterNumber: 14,
+              chapterName: "Matrices",
+              topics: [
                 "Meaning and notation of matrices",
                 "Order of a matrix",
                 "Types of matrices",
@@ -283,13 +286,13 @@
                 "Matrix multiplication",
                 "Transpose of a matrix",
                 "Properties of matrix operations",
-                "Applications of matrices to business data"
-              ]
+                "Applications of matrices to business data",
+              ],
             },
             {
-              "chapterNumber": 15,
-              "chapterName": "Determinants and Matrix Inversion",
-              "topics": [
+              chapterNumber: 15,
+              chapterName: "Determinants and Matrix Inversion",
+              topics: [
                 "Meaning of a determinant",
                 "Determinants of order two",
                 "Determinants of order three",
@@ -300,18 +303,18 @@
                 "Inverse of a matrix",
                 "Solving simultaneous equations using matrices",
                 "Cramer's rule",
-                "Business applications of simultaneous equations"
-              ]
-            }
-          ]
+                "Business applications of simultaneous equations",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Coordinate Geometry and Calculus Foundations",
-          "chapters": [
+          branchName: "Coordinate Geometry and Calculus Foundations",
+          chapters: [
             {
-              "chapterNumber": 16,
-              "chapterName": "Coordinate Geometry",
-              "topics": [
+              chapterNumber: 16,
+              chapterName: "Coordinate Geometry",
+              topics: [
                 "Cartesian coordinate system",
                 "Coordinates of points",
                 "Distance between two points",
@@ -322,13 +325,13 @@
                 "Parallel and perpendicular lines",
                 "X-intercept and Y-intercept",
                 "Graphical interpretation of linear relationships",
-                "Applications of straight lines in business"
-              ]
+                "Applications of straight lines in business",
+              ],
             },
             {
-              "chapterNumber": 17,
-              "chapterName": "Introduction to Limits and Derivatives",
-              "topics": [
+              chapterNumber: 17,
+              chapterName: "Introduction to Limits and Derivatives",
+              topics: [
                 "Meaning of a limit",
                 "Limit notation",
                 "Evaluation of simple limits",
@@ -342,18 +345,18 @@
                 "Marginal cost",
                 "Marginal revenue",
                 "Marginal profit",
-                "Interpretation of derivatives in business"
-              ]
-            }
-          ]
+                "Interpretation of derivatives in business",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Statistics and Data Analysis",
-          "chapters": [
+          branchName: "Statistics and Data Analysis",
+          chapters: [
             {
-              "chapterNumber": 18,
-              "chapterName": "Introduction to Statistics",
-              "topics": [
+              chapterNumber: 18,
+              chapterName: "Introduction to Statistics",
+              topics: [
                 "Meaning and scope of statistics",
                 "Importance of statistics in business",
                 "Population and sample",
@@ -365,13 +368,13 @@
                 "Tabulation of data",
                 "Frequency distribution",
                 "Presentation of business data",
-                "Limitations of statistics"
-              ]
+                "Limitations of statistics",
+              ],
             },
             {
-              "chapterNumber": 19,
-              "chapterName": "Measures of Central Tendency",
-              "topics": [
+              chapterNumber: 19,
+              chapterName: "Measures of Central Tendency",
+              topics: [
                 "Meaning of central tendency",
                 "Arithmetic mean",
                 "Mean for ungrouped data",
@@ -383,13 +386,13 @@
                 "Mode for grouped data",
                 "Empirical relationship among mean, median, and mode",
                 "Comparison of measures of central tendency",
-                "Applications to business data"
-              ]
+                "Applications to business data",
+              ],
             },
             {
-              "chapterNumber": 20,
-              "chapterName": "Measures of Dispersion",
-              "topics": [
+              chapterNumber: 20,
+              chapterName: "Measures of Dispersion",
+              topics: [
                 "Meaning and importance of dispersion",
                 "Range",
                 "Quartile deviation",
@@ -400,13 +403,13 @@
                 "Absolute and relative measures of dispersion",
                 "Comparison of variability between datasets",
                 "Interpretation of business data",
-                "Applications to sales and financial performance"
-              ]
+                "Applications to sales and financial performance",
+              ],
             },
             {
-              "chapterNumber": 21,
-              "chapterName": "Correlation and Regression",
-              "topics": [
+              chapterNumber: 21,
+              chapterName: "Correlation and Regression",
+              topics: [
                 "Meaning of correlation",
                 "Positive and negative correlation",
                 "Zero correlation",
@@ -418,13 +421,13 @@
                 "Regression equations",
                 "Correlation versus regression",
                 "Prediction using regression",
-                "Applications to sales, price, and demand analysis"
-              ]
+                "Applications to sales, price, and demand analysis",
+              ],
             },
             {
-              "chapterNumber": 22,
-              "chapterName": "Index Numbers",
-              "topics": [
+              chapterNumber: 22,
+              chapterName: "Index Numbers",
+              topics: [
                 "Meaning and uses of index numbers",
                 "Price index numbers",
                 "Quantity index numbers",
@@ -438,24 +441,24 @@
                 "Consumer price index",
                 "Cost-of-living index",
                 "Interpretation of index numbers",
-                "Applications in business and economic analysis"
-              ]
-            }
-          ]
-        }
-      ]
+                "Applications in business and economic analysis",
+              ],
+            },
+          ],
+        },
+      ],
     },
     "12": {
-      "grade": 12,
-      "subject": "Business Mathematics",
-      "branches": [
+      grade: 12,
+      subject: "Business Mathematics",
+      branches: [
         {
-          "branchName": "Advanced Financial Mathematics",
-          "chapters": [
+          branchName: "Advanced Financial Mathematics",
+          chapters: [
             {
-              "chapterNumber": 1,
-              "chapterName": "Advanced Compound Interest and Present Value",
-              "topics": [
+              chapterNumber: 1,
+              chapterName: "Advanced Compound Interest and Present Value",
+              topics: [
                 "Compound amount calculations",
                 "Nominal and effective interest rates",
                 "Different compounding frequencies",
@@ -465,13 +468,13 @@
                 "Equivalent interest rates",
                 "Comparison of investment alternatives",
                 "Time value of money",
-                "Applications in financial decision-making"
-              ]
+                "Applications in financial decision-making",
+              ],
             },
             {
-              "chapterNumber": 2,
-              "chapterName": "Annuities and Sinking Funds",
-              "topics": [
+              chapterNumber: 2,
+              chapterName: "Annuities and Sinking Funds",
+              topics: [
                 "Ordinary annuity",
                 "Annuity due",
                 "Deferred annuity",
@@ -482,13 +485,13 @@
                 "Sinking fund installment",
                 "Accumulated value of regular deposits",
                 "Retirement and savings calculations",
-                "Applications of annuities in finance"
-              ]
+                "Applications of annuities in finance",
+              ],
             },
             {
-              "chapterNumber": 3,
-              "chapterName": "Loans and Amortization",
-              "topics": [
+              chapterNumber: 3,
+              chapterName: "Loans and Amortization",
+              topics: [
                 "Meaning and types of loans",
                 "Principal and interest components",
                 "Loan repayment schedules",
@@ -498,13 +501,13 @@
                 "Interest on reducing balances",
                 "Comparison of repayment plans",
                 "Early loan repayment",
-                "Applications to business and personal borrowing"
-              ]
+                "Applications to business and personal borrowing",
+              ],
             },
             {
-              "chapterNumber": 4,
-              "chapterName": "Shares, Dividends and Investments",
-              "topics": [
+              chapterNumber: 4,
+              chapterName: "Shares, Dividends and Investments",
+              topics: [
                 "Meaning of shares",
                 "Ordinary and preference shares",
                 "Face value and market value",
@@ -516,13 +519,13 @@
                 "Return on investment",
                 "Yield calculations",
                 "Comparison of investment opportunities",
-                "Basic stock market calculations"
-              ]
+                "Basic stock market calculations",
+              ],
             },
             {
-              "chapterNumber": 5,
-              "chapterName": "Bonds and Securities",
-              "topics": [
+              chapterNumber: 5,
+              chapterName: "Bonds and Securities",
+              topics: [
                 "Meaning of bonds and securities",
                 "Face value and maturity value",
                 "Coupon rate",
@@ -532,18 +535,18 @@
                 "Maturity period",
                 "Investment return",
                 "Risk and return comparison",
-                "Applications in investment analysis"
-              ]
-            }
-          ]
+                "Applications in investment analysis",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Calculus and Business Optimization",
-          "chapters": [
+          branchName: "Calculus and Business Optimization",
+          chapters: [
             {
-              "chapterNumber": 6,
-              "chapterName": "Differentiation",
-              "topics": [
+              chapterNumber: 6,
+              chapterName: "Differentiation",
+              topics: [
                 "Meaning of differentiation",
                 "Derivative from first principles",
                 "Power rule",
@@ -556,13 +559,13 @@
                 "Derivatives of rational functions",
                 "Higher-order derivatives",
                 "Implicit differentiation",
-                "Applications of derivatives in business"
-              ]
+                "Applications of derivatives in business",
+              ],
             },
             {
-              "chapterNumber": 7,
-              "chapterName": "Applications of Differentiation",
-              "topics": [
+              chapterNumber: 7,
+              chapterName: "Applications of Differentiation",
+              topics: [
                 "Rate of change",
                 "Increasing and decreasing functions",
                 "Stationary points",
@@ -577,13 +580,13 @@
                 "Revenue maximization",
                 "Profit maximization",
                 "Cost minimization",
-                "Elasticity concepts where applicable"
-              ]
+                "Elasticity concepts where applicable",
+              ],
             },
             {
-              "chapterNumber": 8,
-              "chapterName": "Integration and Its Applications",
-              "topics": [
+              chapterNumber: 8,
+              chapterName: "Integration and Its Applications",
+              topics: [
                 "Meaning of integration",
                 "Indefinite integrals",
                 "Basic rules of integration",
@@ -595,18 +598,18 @@
                 "Area under a curve",
                 "Recovering total cost from marginal cost",
                 "Recovering total revenue from marginal revenue",
-                "Business applications of integration"
-              ]
-            }
-          ]
+                "Business applications of integration",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Linear Programming and Optimization",
-          "chapters": [
+          branchName: "Linear Programming and Optimization",
+          chapters: [
             {
-              "chapterNumber": 9,
-              "chapterName": "Linear Programming",
-              "topics": [
+              chapterNumber: 9,
+              chapterName: "Linear Programming",
+              topics: [
                 "Meaning and applications of linear programming",
                 "Decision variables",
                 "Objective function",
@@ -620,13 +623,13 @@
                 "Minimization problems",
                 "Infeasible solutions",
                 "Unbounded solutions",
-                "Business resource allocation problems"
-              ]
+                "Business resource allocation problems",
+              ],
             },
             {
-              "chapterNumber": 10,
-              "chapterName": "Transportation and Assignment Problems",
-              "topics": [
+              chapterNumber: 10,
+              chapterName: "Transportation and Assignment Problems",
+              topics: [
                 "Meaning of transportation problems",
                 "Supply and demand constraints",
                 "Transportation cost matrix",
@@ -639,18 +642,18 @@
                 "Meaning of assignment problems",
                 "Assignment cost matrix",
                 "Hungarian method",
-                "Business applications of transportation and assignment"
-              ]
-            }
-          ]
+                "Business applications of transportation and assignment",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Probability and Decision Theory",
-          "chapters": [
+          branchName: "Probability and Decision Theory",
+          chapters: [
             {
-              "chapterNumber": 11,
-              "chapterName": "Probability",
-              "topics": [
+              chapterNumber: 11,
+              chapterName: "Probability",
+              topics: [
                 "Meaning of probability",
                 "Random experiments",
                 "Sample space",
@@ -663,13 +666,13 @@
                 "Independent and dependent events",
                 "Mutually exclusive events",
                 "Complementary events",
-                "Applications of probability in business decisions"
-              ]
+                "Applications of probability in business decisions",
+              ],
             },
             {
-              "chapterNumber": 12,
-              "chapterName": "Probability Distributions",
-              "topics": [
+              chapterNumber: 12,
+              chapterName: "Probability Distributions",
+              topics: [
                 "Meaning of a random variable",
                 "Discrete random variables",
                 "Continuous random variables",
@@ -681,13 +684,13 @@
                 "Poisson distribution",
                 "Normal distribution",
                 "Mean and standard deviation of distributions",
-                "Business applications of probability distributions"
-              ]
+                "Business applications of probability distributions",
+              ],
             },
             {
-              "chapterNumber": 13,
-              "chapterName": "Decision Theory",
-              "topics": [
+              chapterNumber: 13,
+              chapterName: "Decision Theory",
+              topics: [
                 "Meaning of decision theory",
                 "Decision alternatives",
                 "States of nature",
@@ -701,18 +704,18 @@
                 "Expected monetary value",
                 "Expected opportunity loss",
                 "Decision trees",
-                "Business applications of decision theory"
-              ]
-            }
-          ]
+                "Business applications of decision theory",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Statistical Analysis and Forecasting",
-          "chapters": [
+          branchName: "Statistical Analysis and Forecasting",
+          chapters: [
             {
-              "chapterNumber": 14,
-              "chapterName": "Time Series Analysis",
-              "topics": [
+              chapterNumber: 14,
+              chapterName: "Time Series Analysis",
+              topics: [
                 "Meaning and components of a time series",
                 "Secular trend",
                 "Seasonal variation",
@@ -724,13 +727,13 @@
                 "Linear trend equation",
                 "Trend estimation",
                 "Forecasting business activity",
-                "Limitations of time series analysis"
-              ]
+                "Limitations of time series analysis",
+              ],
             },
             {
-              "chapterNumber": 15,
-              "chapterName": "Statistical Quality Control",
-              "topics": [
+              chapterNumber: 15,
+              chapterName: "Statistical Quality Control",
+              topics: [
                 "Meaning of quality control",
                 "Statistical quality control",
                 "Process variation",
@@ -742,13 +745,13 @@
                 "Acceptance sampling concepts",
                 "Process monitoring",
                 "Interpretation of control charts",
-                "Applications in production and business operations"
-              ]
+                "Applications in production and business operations",
+              ],
             },
             {
-              "chapterNumber": 16,
-              "chapterName": "Sampling and Estimation",
-              "topics": [
+              chapterNumber: 16,
+              chapterName: "Sampling and Estimation",
+              topics: [
                 "Population and sample",
                 "Sampling frame",
                 "Census and sample surveys",
@@ -762,13 +765,13 @@
                 "Point estimation",
                 "Interval estimation concepts",
                 "Sample size considerations",
-                "Applications of sampling in market research"
-              ]
+                "Applications of sampling in market research",
+              ],
             },
             {
-              "chapterNumber": 17,
-              "chapterName": "Hypothesis Testing",
-              "topics": [
+              chapterNumber: 17,
+              chapterName: "Hypothesis Testing",
+              topics: [
                 "Meaning of statistical hypothesis",
                 "Null and alternative hypotheses",
                 "Significance level",
@@ -780,18 +783,18 @@
                 "Tests concerning a population mean",
                 "Tests concerning proportions",
                 "Interpretation of test results",
-                "Applications to business research"
-              ]
-            }
-          ]
+                "Applications to business research",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Business Models and Quantitative Decision-Making",
-          "chapters": [
+          branchName: "Business Models and Quantitative Decision-Making",
+          chapters: [
             {
-              "chapterNumber": 18,
-              "chapterName": "Cost, Revenue and Profit Analysis",
-              "topics": [
+              chapterNumber: 18,
+              chapterName: "Cost, Revenue and Profit Analysis",
+              topics: [
                 "Fixed cost",
                 "Variable cost",
                 "Total cost",
@@ -806,13 +809,13 @@
                 "Break-even sales volume",
                 "Margin of safety",
                 "Target profit analysis",
-                "Applications of cost-volume-profit analysis"
-              ]
+                "Applications of cost-volume-profit analysis",
+              ],
             },
             {
-              "chapterNumber": 19,
-              "chapterName": "Demand, Supply and Elasticity",
-              "topics": [
+              chapterNumber: 19,
+              chapterName: "Demand, Supply and Elasticity",
+              topics: [
                 "Demand function",
                 "Supply function",
                 "Demand and supply equations",
@@ -825,13 +828,13 @@
                 "Price elasticity of supply",
                 "Interpretation of elasticity",
                 "Revenue and elasticity relationships",
-                "Business pricing decisions"
-              ]
+                "Business pricing decisions",
+              ],
             },
             {
-              "chapterNumber": 20,
-              "chapterName": "Mathematical Models for Business",
-              "topics": [
+              chapterNumber: 20,
+              chapterName: "Mathematical Models for Business",
+              topics: [
                 "Meaning of mathematical modelling",
                 "Identification of business variables",
                 "Formulation of mathematical relationships",
@@ -844,18 +847,18 @@
                 "Optimization models",
                 "Interpretation of model results",
                 "Assumptions and limitations of models",
-                "Business case problems using mathematical models"
-              ]
-            }
-          ]
+                "Business case problems using mathematical models",
+              ],
+            },
+          ],
         },
         {
-          "branchName": "Revision and Examination Practice",
-          "chapters": [
+          branchName: "Revision and Examination Practice",
+          chapters: [
             {
-              "chapterNumber": 21,
-              "chapterName": "Integrated Business Mathematics Problems",
-              "topics": [
+              chapterNumber: 21,
+              chapterName: "Integrated Business Mathematics Problems",
+              topics: [
                 "Commercial arithmetic problems",
                 "Tax and discount calculations",
                 "Simple and compound interest problems",
@@ -868,13 +871,13 @@
                 "Probability problems",
                 "Statistical analysis problems",
                 "Cost and revenue problems",
-                "Business case-based numerical problems"
-              ]
+                "Business case-based numerical problems",
+              ],
             },
             {
-              "chapterNumber": 22,
-              "chapterName": "Model Questions and Examination Practice",
-              "topics": [
+              chapterNumber: 22,
+              chapterName: "Model Questions and Examination Practice",
+              topics: [
                 "Short-answer numerical questions",
                 "Long-answer numerical questions",
                 "Formula-based questions",
@@ -886,12 +889,12 @@
                 "Mixed-topic problem solving",
                 "Past-paper style questions",
                 "Timed practice tests",
-                "Common calculation errors and checking methods"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  }
-}
+                "Common calculation errors and checking methods",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+};

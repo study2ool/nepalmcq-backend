@@ -1,0 +1,7261 @@
+import type { Question } from "../../types/quiz.types.js";
+
+export const englishQuestions: Question[] = [
+  {
+    id: "eng-11-01",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Agreement with neither-nor constructions",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T07",
+    question:
+      "Choose the grammatically correct sentence adhering to subject-verb agreement:",
+    options: [
+      {
+        key: "A",
+        text: "Neither the teacher nor the students was present in the seminar.",
+      },
+      {
+        key: "B",
+        text: "Neither the teacher nor the students were present in the seminar.",
+      },
+      {
+        key: "C",
+        text: "Neither the teacher nor the students is present in the seminar.",
+      },
+      {
+        key: "D",
+        text: "Neither the teacher nor the students has attended.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'When two subjects are joined by "neither... nor", the verb agrees in number and person with the nearer subject ("students", plural), hence "were present".',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Model; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-11-02",
+    class: 11,
+    subject: "English",
+    topic: "Reported Speech",
+    subtopic: "Reporting verbs",
+    topicId: "ENG11-CH11",
+    subtopicId: "ENG11-CH11-T12",
+    question:
+      'Transform into indirect speech: She said, "If I were you, I would consult a physician."',
+    options: [
+      {
+        key: "A",
+        text: "She advised me to consult a physician.",
+      },
+      {
+        key: "B",
+        text: "She told me that if she had been me she will consult a physician.",
+      },
+      {
+        key: "C",
+        text: "She said that if she was me she would have consulted.",
+      },
+      {
+        key: "D",
+        text: "She asked whether I consult a physician.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The structure "If I were you, I would..." functions pragmatically as advice; reporting it directly with the reporting verb "advised + object + to-infinitive" is standard NEB English usage.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Model; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-11-03",
+    class: 11,
+    subject: "English",
+    topic: "Conditional Sentences",
+    subtopic: "Third conditional",
+    topicId: "ENG11-CH12",
+    subtopicId: "ENG11-CH12-T04",
+    question:
+      'Identify the grammatically complete conditional: "Had the pilot received timely meteorological radar warnings, the emergency landing ______."',
+    options: [
+      {
+        key: "A",
+        text: "would be avoided",
+      },
+      {
+        key: "B",
+        text: "would have been avoided",
+      },
+      {
+        key: "C",
+        text: "will have been avoided",
+      },
+      {
+        key: "D",
+        text: "had avoided",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'Inverted third conditional ("Had + Subject + V3") corresponds to "If + had + V3", which requires "would have + past participle" in the result clause.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note:
+      "Entrance Standard; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-11-04",
+    class: 11,
+    subject: "English",
+    topic: "Short Stories",
+    subtopic: "Theme and message",
+    topicId: "ENG11-CH22",
+    subtopicId: "ENG11-CH22-T05",
+    question:
+      'In Edgar Allan Poe\'s short story "The Oval Portrait" prescribed in NEB Class 11, what fatal obsession consumes the painter?',
+    options: [
+      {
+        key: "A",
+        text: "Acquiring priceless antique frames",
+      },
+      {
+        key: "B",
+        text: "Stealing life and vitality from his young bride into the canvas",
+      },
+      {
+        key: "C",
+        text: "Escaping from a haunted Gothic castle",
+      },
+      {
+        key: "D",
+        text: "Finding alchemical gold in pigment mixtures",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'In "The Oval Portrait", the painter is so monomaniacally consumed by transferring the lifelikeness of his bride onto the canvas that the portrait absorbs her vitality, causing her to perish at the final brushstroke.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Model; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-11-05",
+    class: 11,
+    subject: "English",
+    topic: "Prepositions",
+    subtopic: "Prepositional phrases",
+    topicId: "ENG11-CH08",
+    subtopicId: "ENG11-CH08-T08",
+    question:
+      'Select the appropriate preposition: "The dispute was settled amicably ______ accordance with the national environmental guidelines."',
+    options: [
+      {
+        key: "A",
+        text: "in",
+      },
+      {
+        key: "B",
+        text: "on",
+      },
+      {
+        key: "C",
+        text: "with",
+      },
+      {
+        key: "D",
+        text: "by",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The fixed prepositional phrase in English idiom is "in accordance with".',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Model; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-12-01",
+    class: 12,
+    subject: "English",
+    topic: "Advanced Tenses and Verb Forms",
+    subtopic: "Verb patterns",
+    topicId: "ENG12-CH03",
+    subtopicId: "ENG12-CH03-T12",
+    question:
+      'Choose the correct verb form: "The principal had the electrician ______ the broken wiring in the laboratory before practical exams began."',
+    options: [
+      {
+        key: "A",
+        text: "repair",
+      },
+      {
+        key: "B",
+        text: "to repair",
+      },
+      {
+        key: "C",
+        text: "repaired",
+      },
+      {
+        key: "D",
+        text: "repairing",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The causative structure "have + person (agent) + base form of verb (bare infinitive)" requires "repair". ("Have someone do something").',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Model; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-12-02",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Sentence transformation",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T10",
+    question:
+      'Complete the sentence with correct inverted word order: "Seldom ______ such overwhelming unanimity in parliament."',
+    options: [
+      {
+        key: "A",
+        text: "we have witnessed",
+      },
+      {
+        key: "B",
+        text: "have we witnessed",
+      },
+      {
+        key: "C",
+        text: "did we witnessed",
+      },
+      {
+        key: "D",
+        text: "we had witnessed",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'Negative and restrictive adverbs (seldom, rarely, hardly, scarcely, never) placed at the beginning of a clause trigger subject-auxiliary inversion: "Seldom have we witnessed...".',
+    difficulty: "Hard",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note:
+      "Entrance Standard; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-12-03",
+    class: 12,
+    subject: "English",
+    topic: "Short Stories",
+    subtopic: "Conflict",
+    topicId: "ENG12-CH16",
+    subtopicId: "ENG12-CH16-T05",
+    question:
+      'In Kate Chopin\'s story "A Respectable Woman" (NEB Class 12), what complex inner struggle does Mrs. Baroda experience toward Gouverneur?',
+    options: [
+      {
+        key: "A",
+        text: "Disgust at his excessive boasting",
+      },
+      {
+        key: "B",
+        text: "An unexpected, unsettling physical and emotional attraction that conflicts with social propriety",
+      },
+      {
+        key: "C",
+        text: "Envy over his financial wealth",
+      },
+      {
+        key: "D",
+        text: "Anger regarding an old family feud",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'Mrs. Baroda struggles between her conventional societal identity as a "respectable woman" and an irresistible sensual and emotional fascination with her husband\'s calm friend Gouverneur.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Model; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-12-04",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Passive voice with reporting verbs",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T04",
+    question:
+      'Convert into Passive Voice: "They believe that the archaeological site dates back to the Lichchhavi era."',
+    options: [
+      {
+        key: "A",
+        text: "The archaeological site was believed to date back to the Lichchhavi era.",
+      },
+      {
+        key: "B",
+        text: "It is believed that the archaeological site dates back to the Lichchhavi era.",
+      },
+      {
+        key: "C",
+        text: "The Lichchhavi era is believed to be dated back.",
+      },
+      {
+        key: "D",
+        text: "Archaeological site had been believed.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'Impersonal passive with reporting verbs: "They believe that..." transforms to "It is believed that..." preserving present tense.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Model; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "eng-12-05",
+    class: 12,
+    subject: "English",
+    topic: "Vocabulary and Text Analysis",
+    subtopic: "Synonyms and antonyms",
+    topicId: "ENG12-CH02",
+    subtopicId: "ENG12-CH02-T01",
+    question:
+      'What is the closest antonym of the word "EPHEMERAL" as frequently encountered in literary texts?',
+    options: [
+      {
+        key: "A",
+        text: "Transient",
+      },
+      {
+        key: "B",
+        text: "Perpetual",
+      },
+      {
+        key: "C",
+        text: "Fleeting",
+      },
+      {
+        key: "D",
+        text: "Momentary",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      '"Ephemeral" signifies lasting for a very short time. Its direct antonym is "Perpetual" or "Eternal" (lasting indefinitely).',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note:
+      "Entrance Standard; Official Nepal NEB CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-031",
+    class: 12,
+    subject: "English",
+    topic: "Advanced Tenses and Verb Forms",
+    subtopic: "Gerunds",
+    topicId: "ENG12-CH03",
+    subtopicId: "ENG12-CH03-T09",
+    question: "Choose the correct form: 'I look forward to ___ you.'",
+    options: [
+      {
+        key: "A",
+        text: "see",
+      },
+      {
+        key: "B",
+        text: "seeing",
+      },
+      {
+        key: "C",
+        text: "saw",
+      },
+      {
+        key: "D",
+        text: "seen",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Look forward to' is followed by a gerund.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-032",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question: "Choose the synonym of 'begin'.",
+    options: [
+      {
+        key: "A",
+        text: "Finish",
+      },
+      {
+        key: "B",
+        text: "Commence",
+      },
+      {
+        key: "C",
+        text: "Delay",
+      },
+      {
+        key: "D",
+        text: "Stop",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Commence' means to begin.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-033",
+    class: 11,
+    subject: "English",
+    topic: "Articles and Determiners",
+    subtopic: "Use of a and an",
+    topicId: "ENG11-CH07",
+    subtopicId: "ENG11-CH07-T04",
+    question: 'Report: She said to me, "Where are you going?"',
+    options: [
+      {
+        key: "A",
+        text: "She asked me where was I going.",
+      },
+      {
+        key: "B",
+        text: "She asked me where I was going.",
+      },
+      {
+        key: "C",
+        text: "She told me where I am going.",
+      },
+      {
+        key: "D",
+        text: "She said me where I was going.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "Reported questions use statement word order and shift the tense back.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-034",
+    class: 11,
+    subject: "English",
+    topic: "Short Stories",
+    subtopic: "Point of view",
+    topicId: "ENG11-CH22",
+    subtopicId: "ENG11-CH22-T04",
+    question: "Which of the following is a metaphor?",
+    options: [
+      {
+        key: "A",
+        text: "He runs like the wind.",
+      },
+      {
+        key: "B",
+        text: "The classroom was a zoo.",
+      },
+      {
+        key: "C",
+        text: "As busy as a bee",
+      },
+      {
+        key: "D",
+        text: "He is very tall.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "A metaphor equates two things without 'like' or 'as'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-035",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Common subject-verb agreement errors",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T09",
+    question:
+      "Choose the correct verb: 'One of my friends ___ coming tomorrow.'",
+    options: [
+      {
+        key: "A",
+        text: "are",
+      },
+      {
+        key: "B",
+        text: "is",
+      },
+      {
+        key: "C",
+        text: "were",
+      },
+      {
+        key: "D",
+        text: "have",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "The subject is 'one', which is singular.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-036",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Guessing word meaning from context",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T08",
+    question: "What does 'frugal' mean?",
+    options: [
+      {
+        key: "A",
+        text: "Wasteful",
+      },
+      {
+        key: "B",
+        text: "Economical",
+      },
+      {
+        key: "C",
+        text: "Generous",
+      },
+      {
+        key: "D",
+        text: "Careless",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Frugal' means careful about spending money.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-037",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Articles",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T10",
+    question: "Choose the correct article: 'She plays ___ violin.'",
+    options: [
+      {
+        key: "A",
+        text: "a",
+      },
+      {
+        key: "B",
+        text: "an",
+      },
+      {
+        key: "C",
+        text: "the",
+      },
+      {
+        key: "D",
+        text: "No article",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation: "'The' is used with musical instruments.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-038",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Conjunctions",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T07",
+    question: "Complete the sentence: 'Study hard, ___ you will fail.'",
+    options: [
+      {
+        key: "A",
+        text: "and",
+      },
+      {
+        key: "B",
+        text: "or",
+      },
+      {
+        key: "C",
+        text: "but",
+      },
+      {
+        key: "D",
+        text: "so",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Or' presents an alternative consequence: study hard or you will fail.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-031",
+    class: 11,
+    subject: "English",
+    topic: "Tenses and Aspect",
+    subtopic: "Sequence of tenses",
+    topicId: "ENG11-CH05",
+    subtopicId: "ENG11-CH05-T14",
+    question:
+      "Choose the correct form: 'By the time we reached, the film ___.'",
+    options: [
+      {
+        key: "A",
+        text: "started",
+      },
+      {
+        key: "B",
+        text: "has started",
+      },
+      {
+        key: "C",
+        text: "had started",
+      },
+      {
+        key: "D",
+        text: "was starting",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "The past perfect shows an action completed before another past action.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-032",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Antonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T02",
+    question: "Choose the antonym of 'transparent'.",
+    options: [
+      {
+        key: "A",
+        text: "Clear",
+      },
+      {
+        key: "B",
+        text: "Opaque",
+      },
+      {
+        key: "C",
+        text: "Thin",
+      },
+      {
+        key: "D",
+        text: "Glassy",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Opaque' means not allowing light to pass through.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-033",
+    class: 12,
+    subject: "English",
+    topic: "Letters, Applications and Emails",
+    subtopic: "Letters to the editor",
+    topicId: "ENG12-CH12",
+    subtopicId: "ENG12-CH12-T02",
+    question:
+      "Complete the sentence: 'Not only ___ she sing, but she also danced.'",
+    options: [
+      {
+        key: "A",
+        text: "does",
+      },
+      {
+        key: "B",
+        text: "did",
+      },
+      {
+        key: "C",
+        text: "do",
+      },
+      {
+        key: "D",
+        text: "was",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "After 'Not only' at the start, the auxiliary comes before the subject: 'did she sing'.",
+    difficulty: "Hard",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-034",
+    class: 12,
+    subject: "English",
+    topic: "Drama",
+    subtopic: "Elements of drama",
+    topicId: "ENG12-CH19",
+    subtopicId: "ENG12-CH19-T01",
+    question: "Shakespeare's 'Macbeth' is a:",
+    options: [
+      {
+        key: "A",
+        text: "Comedy",
+      },
+      {
+        key: "B",
+        text: "Tragedy",
+      },
+      {
+        key: "C",
+        text: "Epic",
+      },
+      {
+        key: "D",
+        text: "Satire",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Macbeth' is one of Shakespeare's great tragedies.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-035",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Guessing word meaning from context",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T08",
+    question: "What does 'magnanimous' mean?",
+    options: [
+      {
+        key: "A",
+        text: "Petty",
+      },
+      {
+        key: "B",
+        text: "Generous and forgiving",
+      },
+      {
+        key: "C",
+        text: "Huge",
+      },
+      {
+        key: "D",
+        text: "Cowardly",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "A magnanimous person is generous, especially toward a rival or someone less powerful.",
+    difficulty: "Hard",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-036",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Error identification and correction",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T15",
+    question: "Identify the error in: 'He is more taller than his brother.'",
+    options: [
+      {
+        key: "A",
+        text: "Wrong tense",
+      },
+      {
+        key: "B",
+        text: "Double comparative",
+      },
+      {
+        key: "C",
+        text: "Wrong preposition",
+      },
+      {
+        key: "D",
+        text: "No error",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'More taller' uses two comparative markers; it should be 'taller'.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-037",
+    class: 12,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Agreement with singular subjects",
+    topicId: "ENG12-CH04",
+    subtopicId: "ENG12-CH04-T01",
+    question: "In 'Swimming is good exercise', the word 'Swimming' is a:",
+    options: [
+      {
+        key: "A",
+        text: "Verb",
+      },
+      {
+        key: "B",
+        text: "Gerund",
+      },
+      {
+        key: "C",
+        text: "Participle adjective",
+      },
+      {
+        key: "D",
+        text: "Infinitive",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "An -ing form used as a noun (the subject) is a gerund.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-038",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question: "Which words are synonyms of 'brave'? (Select all that apply)",
+    options: [
+      {
+        key: "A",
+        text: "Courageous",
+      },
+      {
+        key: "B",
+        text: "Valiant",
+      },
+      {
+        key: "C",
+        text: "Timid",
+      },
+      {
+        key: "D",
+        text: "Fearless",
+      },
+    ],
+    correct_options: ["A", "B", "D"],
+    is_multi_select: true,
+    explanation: "'Timid' is the opposite of brave.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-028",
+    class: 11,
+    subject: "English",
+    topic: "Clauses and Sentence Structure",
+    subtopic: "Sentence transformation",
+    topicId: "ENG11-CH13",
+    subtopicId: "ENG11-CH13-T12",
+    question:
+      "Complete the sentence: 'No sooner had she left ___ the phone rang.'",
+    options: [
+      {
+        key: "A",
+        text: "when",
+      },
+      {
+        key: "B",
+        text: "than",
+      },
+      {
+        key: "C",
+        text: "then",
+      },
+      {
+        key: "D",
+        text: "as",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'No sooner' is followed by 'than'.",
+    difficulty: "Hard",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-029",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Guessing word meaning from context",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T08",
+    question: "What does 'procrastinate' mean?",
+    options: [
+      {
+        key: "A",
+        text: "Hurry",
+      },
+      {
+        key: "B",
+        text: "Delay",
+      },
+      {
+        key: "C",
+        text: "Finish",
+      },
+      {
+        key: "D",
+        text: "Cancel",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "To procrastinate is to put off doing something.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-030",
+    class: 11,
+    subject: "English",
+    topic: "Articles and Determiners",
+    subtopic: "Use of a and an",
+    topicId: "ENG11-CH07",
+    subtopicId: "ENG11-CH07-T04",
+    question: 'Report: He said, "I will come."',
+    options: [
+      {
+        key: "A",
+        text: "He said that he will come.",
+      },
+      {
+        key: "B",
+        text: "He said that he would come.",
+      },
+      {
+        key: "C",
+        text: "He said that I would come.",
+      },
+      {
+        key: "D",
+        text: "He says he would come.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "In reported speech, 'will' changes to 'would' and 'I' to 'he'.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-028",
+    class: 12,
+    subject: "English",
+    topic: "Prepositions, Articles and Determiners",
+    subtopic: "Common usage errors",
+    topicId: "ENG12-CH08",
+    subtopicId: "ENG12-CH08-T12",
+    question:
+      "Which of the following sentences are grammatically correct? (Select all that apply)",
+    options: [
+      {
+        key: "A",
+        text: "He has been working since two hours.",
+      },
+      {
+        key: "B",
+        text: "She is taller than I.",
+      },
+      {
+        key: "C",
+        text: "Each of the boys has a bat.",
+      },
+      {
+        key: "D",
+        text: "He suggested me to go.",
+      },
+    ],
+    correct_options: ["B", "C"],
+    is_multi_select: true,
+    explanation:
+      "'Taller than I' and 'Each ... has' are correct; the other two contain errors ('for two hours'; 'suggested that I go').",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-029",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Guessing word meaning from context",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T08",
+    question: "What does 'ubiquitous' mean?",
+    options: [
+      {
+        key: "A",
+        text: "Rare",
+      },
+      {
+        key: "B",
+        text: "Present everywhere",
+      },
+      {
+        key: "C",
+        text: "Harmful",
+      },
+      {
+        key: "D",
+        text: "Ancient",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Ubiquitous' means found everywhere.",
+    difficulty: "Hard",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-030",
+    class: 11,
+    subject: "English",
+    topic: "Paragraph Writing",
+    subtopic: "Use of linking words",
+    topicId: "ENG11-CH16",
+    subtopicId: "ENG11-CH16-T07",
+    question: "Choose the correct word: '___ the rain, we played the match.'",
+    options: [
+      {
+        key: "A",
+        text: "Although",
+      },
+      {
+        key: "B",
+        text: "Despite",
+      },
+      {
+        key: "C",
+        text: "Though",
+      },
+      {
+        key: "D",
+        text: "However",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Despite' is followed by a noun phrase such as 'the rain'.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-019",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Prepositions",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T06",
+    question: "Choose the correct preposition: 'He is senior ___ me.'",
+    options: [
+      {
+        key: "A",
+        text: "than",
+      },
+      {
+        key: "B",
+        text: "to",
+      },
+      {
+        key: "C",
+        text: "from",
+      },
+      {
+        key: "D",
+        text: "with",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Senior' takes 'to', not 'than'.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-020",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Common subject-verb agreement errors",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T09",
+    question: "Choose the correct verb: 'Neither he nor I ___ wrong.'",
+    options: [
+      {
+        key: "A",
+        text: "is",
+      },
+      {
+        key: "B",
+        text: "are",
+      },
+      {
+        key: "C",
+        text: "am",
+      },
+      {
+        key: "D",
+        text: "be",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "With 'neither...nor', the verb agrees with the nearer subject 'I', so 'am'.",
+    difficulty: "Hard",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-021",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question: "Choose the synonym of 'enormous'.",
+    options: [
+      {
+        key: "A",
+        text: "Tiny",
+      },
+      {
+        key: "B",
+        text: "Huge",
+      },
+      {
+        key: "C",
+        text: "Fragile",
+      },
+      {
+        key: "D",
+        text: "Modest",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Enormous' means very large.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-022",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Antonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T02",
+    question: "Choose the antonym of 'generous'.",
+    options: [
+      {
+        key: "A",
+        text: "Kind",
+      },
+      {
+        key: "B",
+        text: "Stingy",
+      },
+      {
+        key: "C",
+        text: "Rich",
+      },
+      {
+        key: "D",
+        text: "Noble",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Generous' is the opposite of 'stingy'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-023",
+    class: 11,
+    subject: "English",
+    topic: "Articles and Determiners",
+    subtopic: "Use of the",
+    topicId: "ENG11-CH07",
+    subtopicId: "ENG11-CH07-T05",
+    question: "What is the plural of 'child'?",
+    options: [
+      {
+        key: "A",
+        text: "Childs",
+      },
+      {
+        key: "B",
+        text: "Children",
+      },
+      {
+        key: "C",
+        text: "Childes",
+      },
+      {
+        key: "D",
+        text: "Childrens",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Child' has the irregular plural 'children'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-024",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Identification of parts of speech",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T11",
+    question: "Which sentence contains a simile?",
+    options: [
+      {
+        key: "A",
+        text: "Time is money.",
+      },
+      {
+        key: "B",
+        text: "He fought like a lion.",
+      },
+      {
+        key: "C",
+        text: "The stars danced.",
+      },
+      {
+        key: "D",
+        text: "Life is a journey.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "A simile compares using 'like' or 'as'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-025",
+    class: 11,
+    subject: "English",
+    topic: "Tenses and Aspect",
+    subtopic: "Choosing appropriate verb forms",
+    topicId: "ENG11-CH05",
+    subtopicId: "ENG11-CH05-T15",
+    question: "What is the past participle of 'write'?",
+    options: [
+      {
+        key: "A",
+        text: "Wrote",
+      },
+      {
+        key: "B",
+        text: "Written",
+      },
+      {
+        key: "C",
+        text: "Writed",
+      },
+      {
+        key: "D",
+        text: "Writing",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "write – wrote – written.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-026",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Prepositions",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T06",
+    question: "Choose the correct preposition: 'He is afraid ___ snakes.'",
+    options: [
+      {
+        key: "A",
+        text: "from",
+      },
+      {
+        key: "B",
+        text: "of",
+      },
+      {
+        key: "C",
+        text: "with",
+      },
+      {
+        key: "D",
+        text: "at",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Afraid of' is the correct collocation.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-027",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Agreement with singular subjects",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T01",
+    question: "Change into passive: 'She sings a song.'",
+    options: [
+      {
+        key: "A",
+        text: "A song sung by her.",
+      },
+      {
+        key: "B",
+        text: "A song is sung by her.",
+      },
+      {
+        key: "C",
+        text: "A song was sung by her.",
+      },
+      {
+        key: "D",
+        text: "A song is singing by her.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "Simple present passive: is/are + past participle.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-019",
+    class: 11,
+    subject: "English",
+    topic: "Question Formation and Question Tags",
+    subtopic: "Auxiliary verbs in questions",
+    topicId: "ENG11-CH14",
+    subtopicId: "ENG11-CH14-T05",
+    question: "Complete the sentence: 'If I were a bird, I ___ fly to you.'",
+    options: [
+      {
+        key: "A",
+        text: "will",
+      },
+      {
+        key: "B",
+        text: "would",
+      },
+      {
+        key: "C",
+        text: "can",
+      },
+      {
+        key: "D",
+        text: "had",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "The second conditional uses 'would' in the main clause.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-020",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Vocabulary-based questions",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T19",
+    question: "What does the idiom 'break the ice' mean?",
+    options: [
+      {
+        key: "A",
+        text: "To break something frozen",
+      },
+      {
+        key: "B",
+        text: "To end a quarrel",
+      },
+      {
+        key: "C",
+        text: "To start a friendly conversation",
+      },
+      {
+        key: "D",
+        text: "To feel cold",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation: "It means to ease tension and start a conversation.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-021",
+    class: 12,
+    subject: "English",
+    topic: "Advanced Tenses and Verb Forms",
+    subtopic: "Participles",
+    topicId: "ENG12-CH03",
+    subtopicId: "ENG12-CH03-T10",
+    question:
+      "In 'Seeing the tiger, the boy ran away', the word 'Seeing' is a:",
+    options: [
+      {
+        key: "A",
+        text: "Gerund",
+      },
+      {
+        key: "B",
+        text: "Present participle",
+      },
+      {
+        key: "C",
+        text: "Infinitive",
+      },
+      {
+        key: "D",
+        text: "Noun",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "It modifies 'the boy', so it is a present participle.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-022",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Guessing word meaning from context",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T08",
+    question: "What does 'altruistic' mean?",
+    options: [
+      {
+        key: "A",
+        text: "Selfish",
+      },
+      {
+        key: "B",
+        text: "Selfless, caring about others",
+      },
+      {
+        key: "C",
+        text: "Greedy",
+      },
+      {
+        key: "D",
+        text: "Lazy",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Altruistic' means showing selfless concern for others.",
+    difficulty: "Hard",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-023",
+    class: 12,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Either-or and neither-nor constructions",
+    topicId: "ENG12-CH04",
+    subtopicId: "ENG12-CH04-T06",
+    question: "Choose the correct form: 'She suggested ___ to the park.'",
+    options: [
+      {
+        key: "A",
+        text: "to go",
+      },
+      {
+        key: "B",
+        text: "going",
+      },
+      {
+        key: "C",
+        text: "go",
+      },
+      {
+        key: "D",
+        text: "went",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Suggest' is followed by a gerund.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-024",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Identification of parts of speech",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T11",
+    question: "Which of the following is an oxymoron?",
+    options: [
+      {
+        key: "A",
+        text: "Pretty girl",
+      },
+      {
+        key: "B",
+        text: "Very big",
+      },
+      {
+        key: "C",
+        text: "Running water",
+      },
+      {
+        key: "D",
+        text: "Deafening silence",
+      },
+    ],
+    correct_options: ["D"],
+    is_multi_select: false,
+    explanation:
+      "An oxymoron combines contradictory terms, as in 'deafening silence'.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-025",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Common subject-verb agreement errors",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T09",
+    question: "Choose the correct verb: 'The news ___ true.'",
+    options: [
+      {
+        key: "A",
+        text: "are",
+      },
+      {
+        key: "B",
+        text: "is",
+      },
+      {
+        key: "C",
+        text: "were",
+      },
+      {
+        key: "D",
+        text: "have",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'News' is an uncountable noun and takes a singular verb.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-026",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Homophones",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T04",
+    question: "Which word is a homophone of 'knight'?",
+    options: [
+      {
+        key: "A",
+        text: "Knit",
+      },
+      {
+        key: "B",
+        text: "Night",
+      },
+      {
+        key: "C",
+        text: "Kite",
+      },
+      {
+        key: "D",
+        text: "Knot",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Knight' and 'night' sound the same.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-027",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Pronouns",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T02",
+    question: "Choose the correct word: 'To ___ did you give the book?'",
+    options: [
+      {
+        key: "A",
+        text: "who",
+      },
+      {
+        key: "B",
+        text: "whom",
+      },
+      {
+        key: "C",
+        text: "whose",
+      },
+      {
+        key: "D",
+        text: "which",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Whom' is the object form after a preposition.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-015",
+    class: 11,
+    subject: "English",
+    topic: "Question Formation and Question Tags",
+    subtopic: "Question tags with affirmative statements",
+    topicId: "ENG11-CH14",
+    subtopicId: "ENG11-CH14-T06",
+    question: "Add the correct tag: 'Let's go, ___?'",
+    options: [
+      {
+        key: "A",
+        text: "will we",
+      },
+      {
+        key: "B",
+        text: "shall we",
+      },
+      {
+        key: "C",
+        text: "don't we",
+      },
+      {
+        key: "D",
+        text: "can't we",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "The tag for 'Let's ...' is 'shall we?'.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-016",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Guessing word meaning from context",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T08",
+    question: "What does 'ephemeral' mean?",
+    options: [
+      {
+        key: "A",
+        text: "Eternal",
+      },
+      {
+        key: "B",
+        text: "Short-lived",
+      },
+      {
+        key: "C",
+        text: "Heavy",
+      },
+      {
+        key: "D",
+        text: "Beautiful",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Ephemeral' describes something lasting a very short time.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-017",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Common subject-verb agreement errors",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T09",
+    question: "Choose the correct verb: 'Each of the students ___ a book.'",
+    options: [
+      {
+        key: "A",
+        text: "have",
+      },
+      {
+        key: "B",
+        text: "has",
+      },
+      {
+        key: "C",
+        text: "are",
+      },
+      {
+        key: "D",
+        text: "were",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Each' is singular, so it takes 'has'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-018",
+    class: 11,
+    subject: "English",
+    topic: "Tenses and Aspect",
+    subtopic: "Sequence of tenses",
+    topicId: "ENG11-CH05",
+    subtopicId: "ENG11-CH05-T14",
+    question: "Choose the correct form: 'I ___ for you since morning.'",
+    options: [
+      {
+        key: "A",
+        text: "am waiting",
+      },
+      {
+        key: "B",
+        text: "have been waiting",
+      },
+      {
+        key: "C",
+        text: "was waiting",
+      },
+      {
+        key: "D",
+        text: "wait",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "An action continuing from a past point up to now uses the present perfect continuous.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-015",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Identification of parts of speech",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T11",
+    question: "'I am so hungry that I could eat a horse' is an example of:",
+    options: [
+      {
+        key: "A",
+        text: "Metaphor",
+      },
+      {
+        key: "B",
+        text: "Hyperbole",
+      },
+      {
+        key: "C",
+        text: "Irony",
+      },
+      {
+        key: "D",
+        text: "Onomatopoeia",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "Deliberate exaggeration is hyperbole.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-016",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Sentence combining",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T09",
+    question:
+      "Complete the sentence: 'Hardly had he arrived ___ it started raining.'",
+    options: [
+      {
+        key: "A",
+        text: "than",
+      },
+      {
+        key: "B",
+        text: "when",
+      },
+      {
+        key: "C",
+        text: "then",
+      },
+      {
+        key: "D",
+        text: "as",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Hardly' is followed by 'when'; 'no sooner' is followed by 'than'.",
+    difficulty: "Hard",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-017",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Antonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T02",
+    question: "Choose the antonym of 'verbose'.",
+    options: [
+      {
+        key: "A",
+        text: "Wordy",
+      },
+      {
+        key: "B",
+        text: "Concise",
+      },
+      {
+        key: "C",
+        text: "Loud",
+      },
+      {
+        key: "D",
+        text: "Lengthy",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Verbose' means using too many words; 'concise' is the opposite.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-018",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Reported commands and requests",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T08",
+    question: 'Report: She asked, "Where do you live?"',
+    options: [
+      {
+        key: "A",
+        text: "She asked me where did I live.",
+      },
+      {
+        key: "B",
+        text: "She asked me where I lived.",
+      },
+      {
+        key: "C",
+        text: "She asked me where I live.",
+      },
+      {
+        key: "D",
+        text: "She asked where do I live.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "In reported questions, use statement word order and shift the tense back.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-009",
+    class: 11,
+    subject: "English",
+    topic: "Prepositions",
+    subtopic: "Prepositions of time",
+    topicId: "ENG11-CH08",
+    subtopicId: "ENG11-CH08-T01",
+    question: "Choose the correct word: 'She has lived here ___ 2015.'",
+    options: [
+      {
+        key: "A",
+        text: "for",
+      },
+      {
+        key: "B",
+        text: "since",
+      },
+      {
+        key: "C",
+        text: "from",
+      },
+      {
+        key: "D",
+        text: "in",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Since' is used with a specific point in time.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-010",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question: "Choose the synonym of 'rapid'.",
+    options: [
+      {
+        key: "A",
+        text: "Slow",
+      },
+      {
+        key: "B",
+        text: "Quick",
+      },
+      {
+        key: "C",
+        text: "Weak",
+      },
+      {
+        key: "D",
+        text: "Calm",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Rapid' means fast or quick.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-011",
+    class: 12,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Either-or and neither-nor constructions",
+    topicId: "ENG12-CH04",
+    subtopicId: "ENG12-CH04-T06",
+    question: "Choose the correct form: 'He enjoys ___ football.'",
+    options: [
+      {
+        key: "A",
+        text: "to play",
+      },
+      {
+        key: "B",
+        text: "play",
+      },
+      {
+        key: "C",
+        text: "playing",
+      },
+      {
+        key: "D",
+        text: "played",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation: "'Enjoy' is followed by a gerund (-ing form).",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-012",
+    class: 11,
+    subject: "English",
+    topic: "Short Stories",
+    subtopic: "Point of view",
+    topicId: "ENG11-CH22",
+    subtopicId: "ENG11-CH22-T04",
+    question: "A poem of fourteen lines is called a:",
+    options: [
+      {
+        key: "A",
+        text: "Ballad",
+      },
+      {
+        key: "B",
+        text: "Sonnet",
+      },
+      {
+        key: "C",
+        text: "Elegy",
+      },
+      {
+        key: "D",
+        text: "Ode",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "A sonnet has fourteen lines.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-013",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Functions of words in sentences",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T12",
+    question: "Choose the correct form: 'She is the ___ student in the class.'",
+    options: [
+      {
+        key: "A",
+        text: "more intelligent",
+      },
+      {
+        key: "B",
+        text: "most intelligent",
+      },
+      {
+        key: "C",
+        text: "intelligenter",
+      },
+      {
+        key: "D",
+        text: "much intelligent",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "The superlative of 'intelligent' is 'most intelligent'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-014",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Conjunctions",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T07",
+    question:
+      "Choose the correct conjunction: 'He was tired, ___ he continued working.'",
+    options: [
+      {
+        key: "A",
+        text: "because",
+      },
+      {
+        key: "B",
+        text: "so",
+      },
+      {
+        key: "C",
+        text: "yet",
+      },
+      {
+        key: "D",
+        text: "or",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "'Yet' shows contrast between being tired and continuing to work.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-009",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Active and passive voice",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T01",
+    question: "Change into passive: 'They are building a bridge.'",
+    options: [
+      {
+        key: "A",
+        text: "A bridge is built by them.",
+      },
+      {
+        key: "B",
+        text: "A bridge is being built by them.",
+      },
+      {
+        key: "C",
+        text: "A bridge was built by them.",
+      },
+      {
+        key: "D",
+        text: "A bridge has been built by them.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "Present continuous passive: is/are + being + past participle.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-010",
+    class: 12,
+    subject: "English",
+    topic: "Vocabulary and Text Analysis",
+    subtopic: "Phrasal verbs",
+    topicId: "ENG12-CH02",
+    subtopicId: "ENG12-CH02-T04",
+    question: "The phrasal verb 'give up' means:",
+    options: [
+      {
+        key: "A",
+        text: "Begin",
+      },
+      {
+        key: "B",
+        text: "Stop trying",
+      },
+      {
+        key: "C",
+        text: "Donate",
+      },
+      {
+        key: "D",
+        text: "Return",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Give up' means to stop trying or quit.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-011",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Noun clauses",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T01",
+    question:
+      "In 'Although it was raining, we went out', 'Although it was raining' is a/an:",
+    options: [
+      {
+        key: "A",
+        text: "Main clause",
+      },
+      {
+        key: "B",
+        text: "Noun clause",
+      },
+      {
+        key: "C",
+        text: "Adverbial clause",
+      },
+      {
+        key: "D",
+        text: "Relative clause",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "It is a subordinate clause of concession, which functions adverbially.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-012",
+    class: 11,
+    subject: "English",
+    topic: "Short Stories",
+    subtopic: "Point of view",
+    topicId: "ENG11-CH22",
+    subtopicId: "ENG11-CH22-T04",
+    question:
+      "A story narrated by a character using 'I' is told from which point of view?",
+    options: [
+      {
+        key: "A",
+        text: "First person",
+      },
+      {
+        key: "B",
+        text: "Third person",
+      },
+      {
+        key: "C",
+        text: "Omniscient",
+      },
+      {
+        key: "D",
+        text: "Second person",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation: "Narration with 'I' is first-person point of view.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-013",
+    class: 12,
+    subject: "English",
+    topic: "Prepositions, Articles and Determiners",
+    subtopic: "Quantifiers",
+    topicId: "ENG12-CH08",
+    subtopicId: "ENG12-CH08-T07",
+    question:
+      "Choose the correct word: 'I have ___ friends in this city, so I feel lonely.'",
+    options: [
+      {
+        key: "A",
+        text: "little",
+      },
+      {
+        key: "B",
+        text: "few",
+      },
+      {
+        key: "C",
+        text: "much",
+      },
+      {
+        key: "D",
+        text: "a little",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Few' is used with plural countable nouns to mean almost none.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-014",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Vocabulary-based questions",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T19",
+    question: "Which is the correctly spelled word?",
+    options: [
+      {
+        key: "A",
+        text: "Accomodation",
+      },
+      {
+        key: "B",
+        text: "Acommodation",
+      },
+      {
+        key: "C",
+        text: "Accommodation",
+      },
+      {
+        key: "D",
+        text: "Accommadation",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "The correct spelling has double c and double m: accommodation.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-003",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Articles",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T10",
+    question: "Choose the correct article: 'He is ___ honest man.'",
+    options: [
+      {
+        key: "A",
+        text: "A",
+      },
+      {
+        key: "B",
+        text: "An",
+      },
+      {
+        key: "C",
+        text: "The",
+      },
+      {
+        key: "D",
+        text: "No article",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Honest' begins with a vowel sound (silent h), so 'an' is used.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-004",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Antonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T02",
+    question: "Choose the antonym of 'scarce'.",
+    options: [
+      {
+        key: "A",
+        text: "Rare",
+      },
+      {
+        key: "B",
+        text: "Abundant",
+      },
+      {
+        key: "C",
+        text: "Little",
+      },
+      {
+        key: "D",
+        text: "Poor",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Scarce' means insufficient; its opposite is 'abundant'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-005",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Prepositions",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T06",
+    question: "Choose the correct preposition: 'She is good ___ mathematics.'",
+    options: [
+      {
+        key: "A",
+        text: "in",
+      },
+      {
+        key: "B",
+        text: "at",
+      },
+      {
+        key: "C",
+        text: "on",
+      },
+      {
+        key: "D",
+        text: "of",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "The standard collocation is 'good at'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-006",
+    class: 11,
+    subject: "English",
+    topic: "Question Formation and Question Tags",
+    subtopic: "Auxiliary verbs in questions",
+    topicId: "ENG11-CH14",
+    subtopicId: "ENG11-CH14-T05",
+    question: "Complete the sentence: 'If it rains tomorrow, we ___ at home.'",
+    options: [
+      {
+        key: "A",
+        text: "would stay",
+      },
+      {
+        key: "B",
+        text: "will stay",
+      },
+      {
+        key: "C",
+        text: "stayed",
+      },
+      {
+        key: "D",
+        text: "had stayed",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "A first conditional uses present simple in the if-clause and 'will' in the main clause.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-007",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Identification of parts of speech",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T11",
+    question: "'The wind whispered through the trees' is an example of:",
+    options: [
+      {
+        key: "A",
+        text: "Simile",
+      },
+      {
+        key: "B",
+        text: "Metaphor",
+      },
+      {
+        key: "C",
+        text: "Personification",
+      },
+      {
+        key: "D",
+        text: "Hyperbole",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "Giving human action (whispering) to the wind is personification.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-008",
+    class: 11,
+    subject: "English",
+    topic: "Reported Speech",
+    subtopic: "Indirect speech",
+    topicId: "ENG11-CH11",
+    subtopicId: "ENG11-CH11-T02",
+    question: 'Change into indirect speech: He said, "I am tired."',
+    options: [
+      {
+        key: "A",
+        text: "He said that he is tired.",
+      },
+      {
+        key: "B",
+        text: "He said that he was tired.",
+      },
+      {
+        key: "C",
+        text: "He said that I was tired.",
+      },
+      {
+        key: "D",
+        text: "He said he has been tired.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "In reported speech after a past reporting verb, 'am' changes to 'was' and 'I' to 'he'.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-003",
+    class: 12,
+    subject: "English",
+    topic: "Conditional Sentences and Modals",
+    subtopic: "Modal verbs for permission",
+    topicId: "ENG12-CH06",
+    subtopicId: "ENG12-CH06-T11",
+    question: "Choose the correct modal: 'You ___ obey the traffic rules.'",
+    options: [
+      {
+        key: "A",
+        text: "must",
+      },
+      {
+        key: "B",
+        text: "may",
+      },
+      {
+        key: "C",
+        text: "might",
+      },
+      {
+        key: "D",
+        text: "could",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation: "'Must' expresses obligation.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-004",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Vocabulary-based questions",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T19",
+    question: "The idiom 'a piece of cake' means:",
+    options: [
+      {
+        key: "A",
+        text: "Very difficult",
+      },
+      {
+        key: "B",
+        text: "Very easy",
+      },
+      {
+        key: "C",
+        text: "A dessert",
+      },
+      {
+        key: "D",
+        text: "Expensive",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "It describes something that is very easy to do.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-005",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Relative clauses",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T04",
+    question:
+      "Choose the correct word: 'The man ___ car was stolen reported it to the police.'",
+    options: [
+      {
+        key: "A",
+        text: "who",
+      },
+      {
+        key: "B",
+        text: "whom",
+      },
+      {
+        key: "C",
+        text: "whose",
+      },
+      {
+        key: "D",
+        text: "which",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation: "'Whose' shows possession (the man's car).",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-006",
+    class: 11,
+    subject: "English",
+    topic: "Question Formation and Question Tags",
+    subtopic: "Question tags with negative statements",
+    topicId: "ENG11-CH14",
+    subtopicId: "ENG11-CH14-T07",
+    question: "Add the correct question tag: 'She is a teacher, ___?'",
+    options: [
+      {
+        key: "A",
+        text: "is she",
+      },
+      {
+        key: "B",
+        text: "isn't she",
+      },
+      {
+        key: "C",
+        text: "doesn't she",
+      },
+      {
+        key: "D",
+        text: "wasn't she",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "A positive statement takes a negative tag with the same auxiliary.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-007",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Guessing word meaning from context",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T08",
+    question: "A person who can speak two languages is called:",
+    options: [
+      {
+        key: "A",
+        text: "Bilingual",
+      },
+      {
+        key: "B",
+        text: "Linguist",
+      },
+      {
+        key: "C",
+        text: "Polyglot",
+      },
+      {
+        key: "D",
+        text: "Interpreter",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation: "'Bilingual' means able to speak two languages.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-008",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Common subject-verb agreement errors",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T09",
+    question: "Choose the correct verb: 'Neither of the boys ___ present.'",
+    options: [
+      {
+        key: "A",
+        text: "are",
+      },
+      {
+        key: "B",
+        text: "were",
+      },
+      {
+        key: "C",
+        text: "is",
+      },
+      {
+        key: "D",
+        text: "have been",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation: "'Neither' is singular and takes a singular verb.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-001",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Common subject-verb agreement errors",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T09",
+    question: "Choose the correct sentence.",
+    options: [
+      {
+        key: "A",
+        text: "She go to school every day.",
+      },
+      {
+        key: "B",
+        text: "She goes to school every day.",
+      },
+      {
+        key: "C",
+        text: "She going to school every day.",
+      },
+      {
+        key: "D",
+        text: "She gone to school every day.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "A singular third-person subject takes the verb with -s in the simple present.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-002",
+    class: 11,
+    subject: "English",
+    topic: "Tenses and Aspect",
+    subtopic: "Sequence of tenses",
+    topicId: "ENG11-CH05",
+    subtopicId: "ENG11-CH05-T14",
+    question:
+      "Choose the correct form: 'I ___ my homework before dinner yesterday.'",
+    options: [
+      {
+        key: "A",
+        text: "finish",
+      },
+      {
+        key: "B",
+        text: "finishes",
+      },
+      {
+        key: "C",
+        text: "had finished",
+      },
+      {
+        key: "D",
+        text: "will finish",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "The past perfect 'had finished' shows an action completed before another past action.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-001",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question: "Choose the synonym of 'benevolent'.",
+    options: [
+      {
+        key: "A",
+        text: "Cruel",
+      },
+      {
+        key: "B",
+        text: "Kind",
+      },
+      {
+        key: "C",
+        text: "Lazy",
+      },
+      {
+        key: "D",
+        text: "Angry",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "'Benevolent' means well-meaning and kindly.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-002",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Active and passive voice",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T01",
+    question: "What is the passive form of 'He wrote a letter'?",
+    options: [
+      {
+        key: "A",
+        text: "A letter was written by him.",
+      },
+      {
+        key: "B",
+        text: "A letter is written by him.",
+      },
+      {
+        key: "C",
+        text: "A letter has been written by him.",
+      },
+      {
+        key: "D",
+        text: "A letter wrote him.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Simple past active becomes 'was/were + past participle' in the passive.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-076",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Common subject-verb agreement errors",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T09",
+    question: "Choose the grammatically correct sentence.",
+    options: [
+      {
+        key: "A",
+        text: "Neither of the boys are ready.",
+      },
+      {
+        key: "B",
+        text: "Neither of the boys is ready.",
+      },
+      {
+        key: "C",
+        text: "Neither of the boys were ready.",
+      },
+      {
+        key: "D",
+        text: "Neither of the boys have ready.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "In standard formal English, neither is generally treated as singular in this construction, taking is.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-077",
+    class: 11,
+    subject: "English",
+    topic: "Tenses and Aspect",
+    subtopic: "Sequence of tenses",
+    topicId: "ENG11-CH05",
+    subtopicId: "ENG11-CH05-T14",
+    question: "Complete the sentence: By the time we arrived, the film ____.",
+    options: [
+      {
+        key: "A",
+        text: "starts",
+      },
+      {
+        key: "B",
+        text: "has started",
+      },
+      {
+        key: "C",
+        text: "had started",
+      },
+      {
+        key: "D",
+        text: "will start",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "The past perfect indicates that the film started before another past event, our arrival.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-078",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question: "Choose the closest synonym of 'diligent'.",
+    options: [
+      {
+        key: "A",
+        text: "Careless",
+      },
+      {
+        key: "B",
+        text: "Hardworking",
+      },
+      {
+        key: "C",
+        text: "Impatient",
+      },
+      {
+        key: "D",
+        text: "Uncertain",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "Diligent means showing careful and persistent effort; hardworking is the closest option.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-080",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Prepositions",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T06",
+    question:
+      "Choose the correct preposition: She is interested ____ learning languages.",
+    options: [
+      {
+        key: "A",
+        text: "on",
+      },
+      {
+        key: "B",
+        text: "at",
+      },
+      {
+        key: "C",
+        text: "in",
+      },
+      {
+        key: "D",
+        text: "for",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "The standard expression is interested in something or in doing something.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-081",
+    class: 11,
+    subject: "English",
+    topic: "Active and Passive Voice",
+    subtopic: "Uses of passive voice",
+    topicId: "ENG11-CH10",
+    subtopicId: "ENG11-CH10-T10",
+    question:
+      "Choose the correct passive form of 'They built the bridge in 2020.'",
+    options: [
+      {
+        key: "A",
+        text: "The bridge built in 2020.",
+      },
+      {
+        key: "B",
+        text: "The bridge was built in 2020.",
+      },
+      {
+        key: "C",
+        text: "The bridge is build in 2020.",
+      },
+      {
+        key: "D",
+        text: "The bridge has build in 2020.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "The simple past passive uses was/were + past participle: was built.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-082",
+    class: 11,
+    subject: "English",
+    topic: "Question Formation and Question Tags",
+    subtopic: "Auxiliary verbs in questions",
+    topicId: "ENG11-CH14",
+    subtopicId: "ENG11-CH14-T05",
+    question:
+      "Complete the first conditional sentence: If it rains tomorrow, we ____ at home.",
+    options: [
+      {
+        key: "A",
+        text: "stayed",
+      },
+      {
+        key: "B",
+        text: "would stayed",
+      },
+      {
+        key: "C",
+        text: "will stay",
+      },
+      {
+        key: "D",
+        text: "had stayed",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "The first conditional normally uses present simple in the if-clause and will + base verb in the result clause.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-083",
+    class: 11,
+    subject: "English",
+    topic: "Letters and Emails",
+    subtopic: "Formal letters",
+    topicId: "ENG11-CH18",
+    subtopicId: "ENG11-CH18-T01",
+    question:
+      "Which feature is most appropriate in a formal application letter?",
+    options: [
+      {
+        key: "A",
+        text: "Slang and emojis",
+      },
+      {
+        key: "B",
+        text: "Clear purpose and polite formal language",
+      },
+      {
+        key: "C",
+        text: "Unrelated personal stories",
+      },
+      {
+        key: "D",
+        text: "No greeting or purpose",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "A formal application should state its purpose clearly and use respectful, professional language.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-084",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Reading for the main idea",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T01",
+    question:
+      "A passage says, 'Mina carried an umbrella and hurried indoors as the clouds darkened.' Which inference is best supported?",
+    options: [
+      {
+        key: "A",
+        text: "Mina dislikes all weather",
+      },
+      {
+        key: "B",
+        text: "Mina may expect rain",
+      },
+      {
+        key: "C",
+        text: "Mina has lost her umbrella",
+      },
+      {
+        key: "D",
+        text: "It is definitely snowing",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "The umbrella and darkening clouds support the inference that Mina anticipates rain, without proving it with certainty.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-076",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Reported commands and requests",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T08",
+    question: "Choose the correct reported speech: He said, 'I am tired.'",
+    options: [
+      {
+        key: "A",
+        text: "He said that he is tired.",
+      },
+      {
+        key: "B",
+        text: "He said that I was tired.",
+      },
+      {
+        key: "C",
+        text: "He said that he was tired.",
+      },
+      {
+        key: "D",
+        text: "He says that he had tired.",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "With a past reporting verb, present simple or continuous commonly backshifts to the corresponding past form; am becomes was here.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-077",
+    class: 12,
+    subject: "English",
+    topic: "Conditional Sentences and Modals",
+    subtopic: "Modal verbs for permission",
+    topicId: "ENG12-CH06",
+    subtopicId: "ENG12-CH06-T11",
+    question: "Which sentence expresses a strong obligation?",
+    options: [
+      {
+        key: "A",
+        text: "You must submit the form today.",
+      },
+      {
+        key: "B",
+        text: "You might submit the form someday.",
+      },
+      {
+        key: "C",
+        text: "You could submit the form.",
+      },
+      {
+        key: "D",
+        text: "You would submit the form if asked.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation: "Must commonly expresses strong obligation or necessity.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-078",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Relative clauses",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T04",
+    question:
+      "Choose the correct relative pronoun: The woman ____ helped me was very kind.",
+    options: [
+      {
+        key: "A",
+        text: "whose",
+      },
+      {
+        key: "B",
+        text: "who",
+      },
+      {
+        key: "C",
+        text: "where",
+      },
+      {
+        key: "D",
+        text: "which",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "Who refers to a person functioning as the subject of the relative clause.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-079",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Vocabulary-based questions",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T19",
+    question: "What does the idiom 'once in a blue moon' mean?",
+    options: [
+      {
+        key: "A",
+        text: "Very frequently",
+      },
+      {
+        key: "B",
+        text: "Very rarely",
+      },
+      {
+        key: "C",
+        text: "At midnight",
+      },
+      {
+        key: "D",
+        text: "Immediately",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation: "The idiom means that something happens very infrequently.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-080",
+    class: 12,
+    subject: "English",
+    topic: "Creative and Descriptive Writing",
+    subtopic: "Writing from a prompt",
+    topicId: "ENG12-CH15",
+    subtopicId: "ENG12-CH15-T05",
+    question:
+      "What is the main purpose of a thesis statement in an argumentative essay?",
+    options: [
+      {
+        key: "A",
+        text: "To list every reference in alphabetical order",
+      },
+      {
+        key: "B",
+        text: "To state the central claim or position",
+      },
+      {
+        key: "C",
+        text: "To replace all supporting evidence",
+      },
+      {
+        key: "D",
+        text: "To introduce an unrelated topic",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "A thesis statement communicates the essay's central claim, which the body paragraphs support with reasoning and evidence.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-081",
+    class: 12,
+    subject: "English",
+    topic: "Punctuation and Editing",
+    subtopic: "Parallel structure",
+    topicId: "ENG12-CH09",
+    subtopicId: "ENG12-CH09-T09",
+    question: "Choose the sentence with correct parallel structure.",
+    options: [
+      {
+        key: "A",
+        text: "She likes reading, to swim, and cycling.",
+      },
+      {
+        key: "B",
+        text: "She likes to read, swimming, and cycling.",
+      },
+      {
+        key: "C",
+        text: "She likes reading, swimming, and cycling.",
+      },
+      {
+        key: "D",
+        text: "She likes read, swim, and cycling.",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "The three items use the same grammatical form: gerunds ending in -ing.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-082",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Reading for the main idea",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T01",
+    question:
+      "When identifying a passage's main idea, a reader should primarily look for:",
+    options: [
+      {
+        key: "A",
+        text: "The central point developed throughout the passage",
+      },
+      {
+        key: "B",
+        text: "The longest word in the passage",
+      },
+      {
+        key: "C",
+        text: "An isolated minor detail",
+      },
+      {
+        key: "D",
+        text: "The final punctuation mark",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The main idea is the central message or point that the supporting details develop.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-083",
+    class: 12,
+    subject: "English",
+    topic: "Punctuation and Editing",
+    subtopic: "Punctuation in reported speech",
+    topicId: "ENG12-CH09",
+    subtopicId: "ENG12-CH09-T06",
+    question: "Which sentence uses the apostrophe correctly?",
+    options: [
+      {
+        key: "A",
+        text: "The students books are here.",
+      },
+      {
+        key: "B",
+        text: "The student's books are here. (one student)",
+      },
+      {
+        key: "C",
+        text: "The students's books are here.",
+      },
+      {
+        key: "D",
+        text: "The student's' books are here.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "For possession by one student, add apostrophe-s: student's books.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-039",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question: "Choose the closest synonym of 'abundant'.",
+    options: [
+      {
+        key: "A",
+        text: "Scarce",
+      },
+      {
+        key: "B",
+        text: "Plentiful",
+      },
+      {
+        key: "C",
+        text: "Tiny",
+      },
+      {
+        key: "D",
+        text: "Empty",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Abundant' means existing in large quantities; 'plentiful' has a similar meaning.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-040",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Prepositions",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T06",
+    question:
+      "Complete the sentence: 'She is interested ___ learning new languages.'",
+    options: [
+      {
+        key: "A",
+        text: "on",
+      },
+      {
+        key: "B",
+        text: "at",
+      },
+      {
+        key: "C",
+        text: "in",
+      },
+      {
+        key: "D",
+        text: "for",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "The standard expression is 'interested in' followed by a noun or gerund.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-041",
+    class: 11,
+    subject: "English",
+    topic: "Tenses and Aspect",
+    subtopic: "Present perfect tense",
+    topicId: "ENG11-CH05",
+    subtopicId: "ENG11-CH05-T03",
+    question:
+      "Choose the correct completion: 'They ___ their assignment already.'",
+    options: [
+      {
+        key: "A",
+        text: "have completed",
+      },
+      {
+        key: "B",
+        text: "has completed",
+      },
+      {
+        key: "C",
+        text: "completes",
+      },
+      {
+        key: "D",
+        text: "completing",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The present perfect uses have/has plus the past participle. The subject 'they' takes 'have'.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-039",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Active and passive voice",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T01",
+    question:
+      "Choose the correct passive form of 'The teacher praised the student.'",
+    options: [
+      {
+        key: "A",
+        text: "The student praised the teacher.",
+      },
+      {
+        key: "B",
+        text: "The student was praised by the teacher.",
+      },
+      {
+        key: "C",
+        text: "The student is praising the teacher.",
+      },
+      {
+        key: "D",
+        text: "The teacher was praised by the student.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "The simple past passive uses was/were + past participle. The object 'the student' becomes the subject.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-042",
+    class: 11,
+    subject: "English",
+    topic: "Reported Speech",
+    subtopic: "Reporting statements",
+    topicId: "ENG11-CH11",
+    subtopicId: "ENG11-CH11-T03",
+    question: "Choose the correct reported form: He said, 'I am tired.'",
+    options: [
+      {
+        key: "A",
+        text: "He said that I am tired.",
+      },
+      {
+        key: "B",
+        text: "He said that he was tired.",
+      },
+      {
+        key: "C",
+        text: "He says that he tired.",
+      },
+      {
+        key: "D",
+        text: "He said that he is tire.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "In standard reported speech with a past reporting verb, 'I am' usually changes to 'he was' when the speaker is male.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-043",
+    class: 11,
+    subject: "English",
+    topic: "Punctuation and Mechanics",
+    subtopic: "Apostrophes",
+    topicId: "ENG11-CH15",
+    subtopicId: "ENG11-CH15-T09",
+    question:
+      "Which sentence correctly uses an apostrophe to show possession by one student?",
+    options: [
+      {
+        key: "A",
+        text: "The students book is new.",
+      },
+      {
+        key: "B",
+        text: "The student's book is new.",
+      },
+      {
+        key: "C",
+        text: "The students' book is new.",
+      },
+      {
+        key: "D",
+        text: "The student,s book is new.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "A singular possessive noun generally takes apostrophe + s: student's book.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-044",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Reading for the main idea",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T01",
+    question:
+      "Read the passage: 'Trees absorb carbon dioxide, provide habitats for wildlife, and help prevent soil erosion.' What is the main idea?",
+    options: [
+      {
+        key: "A",
+        text: "Trees have several environmental benefits.",
+      },
+      {
+        key: "B",
+        text: "Trees grow only in forests.",
+      },
+      {
+        key: "C",
+        text: "Wildlife always damages trees.",
+      },
+      {
+        key: "D",
+        text: "Soil erosion is necessary for forests.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The sentence lists several benefits of trees, so the broad main idea is their environmental importance.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-040",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Relative clauses",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T04",
+    question:
+      "Choose the correct relative pronoun: 'The woman ___ lives next door is a doctor.'",
+    options: [
+      {
+        key: "A",
+        text: "which",
+      },
+      {
+        key: "B",
+        text: "who",
+      },
+      {
+        key: "C",
+        text: "where",
+      },
+      {
+        key: "D",
+        text: "whose",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Who' is used for a person acting as the subject of the relative clause.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-041",
+    class: 12,
+    subject: "English",
+    topic: "Conditional Sentences and Modals",
+    subtopic: "Modal verbs for permission",
+    topicId: "ENG12-CH06",
+    subtopicId: "ENG12-CH06-T11",
+    question:
+      "Which modal best completes the sentence expressing a strong obligation: 'You ___ wear a seat belt while driving.'",
+    options: [
+      {
+        key: "A",
+        text: "must",
+      },
+      {
+        key: "B",
+        text: "might",
+      },
+      {
+        key: "C",
+        text: "could",
+      },
+      {
+        key: "D",
+        text: "would",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "'Must' expresses a strong obligation or requirement in this context.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-045",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Vocabulary-based questions",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T19",
+    question: "What does the idiom 'break the ice' usually mean?",
+    options: [
+      {
+        key: "A",
+        text: "To destroy something frozen",
+      },
+      {
+        key: "B",
+        text: "To begin a friendly interaction and reduce awkwardness",
+      },
+      {
+        key: "C",
+        text: "To end a friendship",
+      },
+      {
+        key: "D",
+        text: "To make a difficult problem worse",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Break the ice' means to ease tension or begin a conversation in a social situation.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-042",
+    class: 12,
+    subject: "English",
+    topic: "Letters, Applications and Emails",
+    subtopic: "Formal letters",
+    topicId: "ENG12-CH12",
+    subtopicId: "ENG12-CH12-T01",
+    question:
+      "Which opening is most appropriate for a formal application when the recipient's name is unknown?",
+    options: [
+      {
+        key: "A",
+        text: "Hey buddy,",
+      },
+      {
+        key: "B",
+        text: "Dear Sir or Madam,",
+      },
+      {
+        key: "C",
+        text: "What's up?",
+      },
+      {
+        key: "D",
+        text: "Hiya!",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "'Dear Sir or Madam' is a conventional formal salutation when the recipient's name is unknown.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-055",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Identification of parts of speech",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T11",
+    question: "The expression 'as brave as a lion' is an example of:",
+    options: [
+      {
+        key: "A",
+        text: "Metaphor",
+      },
+      {
+        key: "B",
+        text: "Simile",
+      },
+      {
+        key: "C",
+        text: "Irony",
+      },
+      {
+        key: "D",
+        text: "Oxymoron",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "A simile explicitly compares two things using words such as like or as.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-051",
+    class: 11,
+    subject: "English",
+    topic: "Question Formation and Question Tags",
+    subtopic: "Yes-no questions",
+    topicId: "ENG11-CH14",
+    subtopicId: "ENG11-CH14-T01",
+    question:
+      "Choose the correct completion: If I had known about the meeting, I ____ attended it.",
+    options: [
+      {
+        key: "A",
+        text: "will have",
+      },
+      {
+        key: "B",
+        text: "would have",
+      },
+      {
+        key: "C",
+        text: "would",
+      },
+      {
+        key: "D",
+        text: "had",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "The third conditional uses if + past perfect and would have + past participle to describe an unreal past situation.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-052",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Antonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T02",
+    question: "Choose the antonym of 'reluctant'.",
+    options: [
+      {
+        key: "A",
+        text: "Unwilling",
+      },
+      {
+        key: "B",
+        text: "Hesitant",
+      },
+      {
+        key: "C",
+        text: "Eager",
+      },
+      {
+        key: "D",
+        text: "Doubtful",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "Reluctant means unwilling or hesitant; eager expresses willingness and enthusiasm.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-053",
+    class: 11,
+    subject: "English",
+    topic: "Active and Passive Voice",
+    subtopic: "Identification of passive voice",
+    topicId: "ENG11-CH10",
+    subtopicId: "ENG11-CH10-T02",
+    question:
+      "Choose the correct passive form of 'They are repairing the road.'",
+    options: [
+      {
+        key: "A",
+        text: "The road repaired them.",
+      },
+      {
+        key: "B",
+        text: "The road is being repaired by them.",
+      },
+      {
+        key: "C",
+        text: "The road has repaired them.",
+      },
+      {
+        key: "D",
+        text: "The road was being repair.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "The present continuous passive is formed with am/is/are + being + past participle.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-054",
+    class: 12,
+    subject: "English",
+    topic: "Essay Writing",
+    subtopic: "Coherence and cohesion",
+    topicId: "ENG12-CH10",
+    subtopicId: "ENG12-CH10-T14",
+    question: "Which word best signals a contrast between two ideas?",
+    options: [
+      {
+        key: "A",
+        text: "Furthermore",
+      },
+      {
+        key: "B",
+        text: "Similarly",
+      },
+      {
+        key: "C",
+        text: "However",
+      },
+      {
+        key: "D",
+        text: "Therefore",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      "However is a transition word commonly used to introduce a contrasting idea.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-055",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Reported commands and requests",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T08",
+    question: "Choose the correct reported form of: He said, 'I am tired.'",
+    options: [
+      {
+        key: "A",
+        text: "He said that I am tired.",
+      },
+      {
+        key: "B",
+        text: "He said that he was tired.",
+      },
+      {
+        key: "C",
+        text: "He says that he tired.",
+      },
+      {
+        key: "D",
+        text: "He told that he is tired.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "In standard backshifted reported speech, am changes to was and the pronoun changes to he.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-085",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Reading for the main idea",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T01",
+    question: "What is the primary objective of skimming a passage?",
+    options: [
+      {
+        key: "A",
+        text: "To memorize specific dates and statistics",
+      },
+      {
+        key: "B",
+        text: "To quickly grasp the general idea or gist",
+      },
+      {
+        key: "C",
+        text: "To evaluate the syntactic complexity of sentences",
+      },
+      {
+        key: "D",
+        text: "To identify typographical and formatting errors",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "Skimming is a rapid reading technique employed to obtain an overall conceptual overview or general gist of a text.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-086",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question: 'Choose the appropriate antonym for the word "OBSOLETE":',
+    options: [
+      {
+        key: "A",
+        text: "Outdated",
+      },
+      {
+        key: "B",
+        text: "Contemporary",
+      },
+      {
+        key: "C",
+        text: "Ancient",
+      },
+      {
+        key: "D",
+        text: "Redundant",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      '"Obsolete" denotes no longer in use or out of date; its direct antonym is "contemporary" or "modern".',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-087",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Antonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T02",
+    question: 'Select the synonym for the formal academic word "METICULOUS":',
+    options: [
+      {
+        key: "A",
+        text: "Careless",
+      },
+      {
+        key: "B",
+        text: "Diligent and thorough",
+      },
+      {
+        key: "C",
+        text: "Impetuous",
+      },
+      {
+        key: "D",
+        text: "Negligent",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      '"Meticulous" characterizes showing great attention to detail, precision, and thorough care.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-088",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Nouns",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T01",
+    question:
+      'Identify the abstract noun in the sentence: "Her resilience inspired everyone in the community."',
+    options: [
+      {
+        key: "A",
+        text: "Community",
+      },
+      {
+        key: "B",
+        text: "Resilience",
+      },
+      {
+        key: "C",
+        text: "Inspired",
+      },
+      {
+        key: "D",
+        text: "Everyone",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      '"Resilience" represents an intangible quality, concept, or emotional state rather than a concrete physical object.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-089",
+    class: 11,
+    subject: "English",
+    topic: "Tenses and Aspect",
+    subtopic: "Simple present tense",
+    topicId: "ENG11-CH05",
+    subtopicId: "ENG11-CH05-T01",
+    question:
+      'Complete the sentence with the correct tense: "By the time the train arrived, we _______ on the platform for an hour."',
+    options: [
+      {
+        key: "A",
+        text: "had been waiting",
+      },
+      {
+        key: "B",
+        text: "have waited",
+      },
+      {
+        key: "C",
+        text: "are waiting",
+      },
+      {
+        key: "D",
+        text: "will wait",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The past perfect continuous ("had been waiting") expresses an ongoing action occurring prior to another defined past milestone.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-090",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Agreement with singular subjects",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T01",
+    question: "Choose the sentence with correct subject-verb agreement:",
+    options: [
+      {
+        key: "A",
+        text: "The committee have decided its final vote unanimously.",
+      },
+      {
+        key: "B",
+        text: "Each of the students has submitted their assignment.",
+      },
+      {
+        key: "C",
+        text: "Neither of the options were suitable.",
+      },
+      {
+        key: "D",
+        text: "Bread and butter are my everyday breakfast.",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      '"Each" is grammatically singular and correctly takes the singular third-person auxiliary "has submitted".',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-091",
+    class: 11,
+    subject: "English",
+    topic: "Articles and Determiners",
+    subtopic: "Definite article",
+    topicId: "ENG11-CH07",
+    subtopicId: "ENG11-CH07-T01",
+    question:
+      'Insert the appropriate article: "He is _______ honorable member of the constitutional drafting council."',
+    options: [
+      {
+        key: "A",
+        text: "a",
+      },
+      {
+        key: "B",
+        text: "an",
+      },
+      {
+        key: "C",
+        text: "the",
+      },
+      {
+        key: "D",
+        text: "no article needed",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'The word "honorable" begins phonetically with an unvoiced vowel sound /ɒ/, requiring the indefinite article "an".',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-092",
+    class: 11,
+    subject: "English",
+    topic: "Prepositions",
+    subtopic: "Prepositions of time",
+    topicId: "ENG11-CH08",
+    subtopicId: "ENG11-CH08-T01",
+    question:
+      'Choose the correct preposition: "She has been proficient _______ computational statistics since college."',
+    options: [
+      {
+        key: "A",
+        text: "at",
+      },
+      {
+        key: "B",
+        text: "in",
+      },
+      {
+        key: "C",
+        text: "on",
+      },
+      {
+        key: "D",
+        text: "with",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'The adjective "proficient" conventionally collocate with the preposition "in" when denoting field or subject mastery.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-093",
+    class: 11,
+    subject: "English",
+    topic: "Modal Verbs",
+    subtopic: "Can and could",
+    topicId: "ENG11-CH09",
+    subtopicId: "ENG11-CH09-T01",
+    question:
+      'Which modal verb expresses strong deduction in the sentence: "The lights are off; they _______ be asleep."',
+    options: [
+      {
+        key: "A",
+        text: "must",
+      },
+      {
+        key: "B",
+        text: "can",
+      },
+      {
+        key: "C",
+        text: "should",
+      },
+      {
+        key: "D",
+        text: "might",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      '"Must" denotes high logical certainty or strong affirmative deduction based on observable evidence.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-094",
+    class: 11,
+    subject: "English",
+    topic: "Active and Passive Voice",
+    subtopic: "Identification of active voice",
+    topicId: "ENG11-CH10",
+    subtopicId: "ENG11-CH10-T01",
+    question:
+      'Convert into passive voice: "The scientific panel published the groundbreaking report yesterday."',
+    options: [
+      {
+        key: "A",
+        text: "The groundbreaking report was published by the scientific panel yesterday.",
+      },
+      {
+        key: "B",
+        text: "The report has been published by the scientific panel.",
+      },
+      {
+        key: "C",
+        text: "The report had been published yesterday.",
+      },
+      {
+        key: "D",
+        text: "Yesterday published was the report.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'In simple past passive, the active object becomes the subject followed by "was/were + past participle" ("was published").',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-095",
+    class: 11,
+    subject: "English",
+    topic: "Reported Speech",
+    subtopic: "Direct speech",
+    topicId: "ENG11-CH11",
+    subtopicId: "ENG11-CH11-T01",
+    question:
+      'Transform into indirect speech: She said, "I have completed my research."',
+    options: [
+      {
+        key: "A",
+        text: "She said that she had completed her research.",
+      },
+      {
+        key: "B",
+        text: "She said that she has completed her research.",
+      },
+      {
+        key: "C",
+        text: "She said she completes her research.",
+      },
+      {
+        key: "D",
+        text: "She told that research was completed.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'In reported speech with a past reporting verb ("said"), present perfect ("have completed") shifts back to past perfect ("had completed").',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-096",
+    class: 11,
+    subject: "English",
+    topic: "Conditional Sentences",
+    subtopic: "Zero conditional",
+    topicId: "ENG11-CH12",
+    subtopicId: "ENG11-CH12-T01",
+    question:
+      'Select the correct conditional verb form: "If I _______ his contact details, I would have notified him."',
+    options: [
+      {
+        key: "A",
+        text: "had known",
+      },
+      {
+        key: "B",
+        text: "knew",
+      },
+      {
+        key: "C",
+        text: "have known",
+      },
+      {
+        key: "D",
+        text: "would know",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The third conditional expresses an unreal past condition using "had + past participle" in the if-clause and "would have + past participle" in the main clause.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-097",
+    class: 11,
+    subject: "English",
+    topic: "Clauses and Sentence Structure",
+    subtopic: "Phrases and clauses",
+    topicId: "ENG11-CH13",
+    subtopicId: "ENG11-CH13-T01",
+    question:
+      'Identify the subordinate clause: "Although it was raining heavily, the students completed the botanical field survey."',
+    options: [
+      {
+        key: "A",
+        text: "Although it was raining heavily",
+      },
+      {
+        key: "B",
+        text: "the students completed",
+      },
+      {
+        key: "C",
+        text: "the botanical field survey",
+      },
+      {
+        key: "D",
+        text: "completed the botanical field survey",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      '"Although it was raining heavily" is introduced by the subordinating conjunction "Although" and cannot stand alone as a sentence.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-098",
+    class: 11,
+    subject: "English",
+    topic: "Question Formation and Question Tags",
+    subtopic: "Yes-no questions",
+    topicId: "ENG11-CH14",
+    subtopicId: "ENG11-CH14-T01",
+    question:
+      'Choose the correct question tag: "You rarely visit the central library these days, _______?"',
+    options: [
+      {
+        key: "A",
+        text: "do you",
+      },
+      {
+        key: "B",
+        text: "don't you",
+      },
+      {
+        key: "C",
+        text: "didn't you",
+      },
+      {
+        key: "D",
+        text: "are you",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The adverb "rarely" confers negative polarity upon the clause, requiring an affirmative question tag ("do you").',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-099",
+    class: 11,
+    subject: "English",
+    topic: "Punctuation and Mechanics",
+    subtopic: "Capitalization",
+    topicId: "ENG11-CH15",
+    subtopicId: "ENG11-CH15-T01",
+    question:
+      "Which punctuation mark is most suitable to separate independent clauses closely linked in meaning without a coordinating conjunction?",
+    options: [
+      {
+        key: "A",
+        text: "Semicolon (;)",
+      },
+      {
+        key: "B",
+        text: "Comma (,)",
+      },
+      {
+        key: "C",
+        text: "Hyphen (-)",
+      },
+      {
+        key: "D",
+        text: "Slash (/)",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "A semicolon correctly links closely related independent clauses without producing a comma splice.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-100",
+    class: 11,
+    subject: "English",
+    topic: "Paragraph Writing",
+    subtopic: "Structure of a paragraph",
+    topicId: "ENG11-CH16",
+    subtopicId: "ENG11-CH16-T01",
+    question:
+      "The sentence that encapsulates and establishes the central focus of a paragraph is the:",
+    options: [
+      {
+        key: "A",
+        text: "Topic sentence",
+      },
+      {
+        key: "B",
+        text: "Transitional phrase",
+      },
+      {
+        key: "C",
+        text: "Concluding summary",
+      },
+      {
+        key: "D",
+        text: "Anecdote",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The topic sentence explicitly presents the core controlling idea around which all supporting details cohere.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-101",
+    class: 11,
+    subject: "English",
+    topic: "Essay Writing",
+    subtopic: "Essay structure",
+    topicId: "ENG11-CH17",
+    subtopicId: "ENG11-CH17-T01",
+    question:
+      "In formal academic essay architecture, a clear concise summary of the overarching claim is the:",
+    options: [
+      {
+        key: "A",
+        text: "Thesis statement",
+      },
+      {
+        key: "B",
+        text: "Rhetorical question",
+      },
+      {
+        key: "C",
+        text: "Epilogue",
+      },
+      {
+        key: "D",
+        text: "Bibliography",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The thesis statement articulates the author's central premise and analytical roadmap near the end of the introductory section.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-102",
+    class: 11,
+    subject: "English",
+    topic: "Letters and Emails",
+    subtopic: "Formal letters",
+    topicId: "ENG11-CH18",
+    subtopicId: "ENG11-CH18-T01",
+    question:
+      'In standard formal business letter writing, the appropriate complimentary close when addressing "Dear Sir/Madam" is:',
+    options: [
+      {
+        key: "A",
+        text: "Yours faithfully",
+      },
+      {
+        key: "B",
+        text: "Yours sincerely",
+      },
+      {
+        key: "C",
+        text: "Cheers",
+      },
+      {
+        key: "D",
+        text: "Warmest regards",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Traditional formal British/Commonwealth business convention pairs "Dear Sir/Madam" with "Yours faithfully".',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-103",
+    class: 11,
+    subject: "English",
+    topic: "Reports and Descriptions",
+    subtopic: "Report writing",
+    topicId: "ENG11-CH19",
+    subtopicId: "ENG11-CH19-T01",
+    question:
+      "An executive summary at the start of a technical report primarily serves to:",
+    options: [
+      {
+        key: "A",
+        text: "Provide a concise self-contained synopsis of objectives, findings, and recommendations",
+      },
+      {
+        key: "B",
+        text: "List all dictionary definitions of technical words",
+      },
+      {
+        key: "C",
+        text: "Present raw unformatted data tables",
+      },
+      {
+        key: "D",
+        text: "Acknowledge personal friendships",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The executive summary offers decision-makers an efficient overview of key findings, conclusions, and operational recommendations.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-104",
+    class: 11,
+    subject: "English",
+    topic: "Notices, Advertisements and Instructions",
+    subtopic: "Notice writing",
+    topicId: "ENG11-CH20",
+    subtopicId: "ENG11-CH20-T01",
+    question:
+      "Official public notices displayed on institutional noticeboards must be written in:",
+    options: [
+      {
+        key: "A",
+        text: "Formal, concise, and objective language",
+      },
+      {
+        key: "B",
+        text: "Conversational colloquial slang",
+      },
+      {
+        key: "C",
+        text: "Complex poetic rhyming verse",
+      },
+      {
+        key: "D",
+        text: "First-person stream of consciousness",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Notices prioritize clarity, brevity, objective factual accuracy, and unambiguous temporal instructions.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-105",
+    class: 11,
+    subject: "English",
+    topic: "Summarizing and Note-Making",
+    subtopic: "Identifying main ideas",
+    topicId: "ENG11-CH21",
+    subtopicId: "ENG11-CH21-T01",
+    question:
+      "Which note-taking technique arranges hierarchical relationships using headings, subheadings, and bulleted indentations?",
+    options: [
+      {
+        key: "A",
+        text: "Outline method",
+      },
+      {
+        key: "B",
+        text: "Sentence method",
+      },
+      {
+        key: "C",
+        text: "Verbatim transcription",
+      },
+      {
+        key: "D",
+        text: "Word association",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The outline method organizes major conceptual headings and sub-points logically using tiered indentations.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-106",
+    class: 11,
+    subject: "English",
+    topic: "Short Stories",
+    subtopic: "Plot and plot structure",
+    topicId: "ENG11-CH22",
+    subtopicId: "ENG11-CH22-T01",
+    question:
+      "In narrative structure, the turning point of highest emotional tension or conflict confrontation is the:",
+    options: [
+      {
+        key: "A",
+        text: "Exposition",
+      },
+      {
+        key: "B",
+        text: "Climax",
+      },
+      {
+        key: "C",
+        text: "Denouement",
+      },
+      {
+        key: "D",
+        text: "Inciting incident",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "The climax represents the narrative peak where dramatic tensions reach their highest stakes and determine character fates.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-107",
+    class: 11,
+    subject: "English",
+    topic: "Poetry",
+    subtopic: "Speaker and voice",
+    topicId: "ENG11-CH23",
+    subtopicId: "ENG11-CH23-T01",
+    question:
+      "A figure of speech directly attributing human feelings and intentional agency to non-human objects is:",
+    options: [
+      {
+        key: "A",
+        text: "Personification",
+      },
+      {
+        key: "B",
+        text: "Simile",
+      },
+      {
+        key: "C",
+        text: "Oxymoron",
+      },
+      {
+        key: "D",
+        text: "Hyperbole",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Personification attributes human qualities, emotions, and intentions to inanimate objects or abstract phenomena.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-108",
+    class: 11,
+    subject: "English",
+    topic: "Essays and Nonfiction",
+    subtopic: "Main argument and thesis",
+    topicId: "ENG11-CH24",
+    subtopicId: "ENG11-CH24-T01",
+    question:
+      "A piece of non-fiction prose reflecting an author's personal viewpoint and analytical persuasion on an issue is an:",
+    options: [
+      {
+        key: "A",
+        text: "Essay",
+      },
+      {
+        key: "B",
+        text: "Allegory",
+      },
+      {
+        key: "C",
+        text: "Ballad",
+      },
+      {
+        key: "D",
+        text: "Epic",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "An essay is a structured expository or argumentative prose composition exploring a specific subject from a critical standpoint.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-109",
+    class: 11,
+    subject: "English",
+    topic: "Drama and Dialogue",
+    subtopic: "Elements of drama",
+    topicId: "ENG11-CH25",
+    subtopicId: "ENG11-CH25-T01",
+    question:
+      "A dramatic speech delivered by an actor alone on stage revealing their innermost thoughts to the audience is a:",
+    options: [
+      {
+        key: "A",
+        text: "Soliloquy",
+      },
+      {
+        key: "B",
+        text: "Dialogue",
+      },
+      {
+        key: "C",
+        text: "Aside",
+      },
+      {
+        key: "D",
+        text: "Prologue",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "A soliloquy is a theatrical convention where a character voices their inner emotional thoughts while solitary onstage.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-110",
+    class: 11,
+    subject: "English",
+    topic: "Listening and Speaking",
+    subtopic: "Listening for main ideas",
+    topicId: "ENG11-CH26",
+    subtopicId: "ENG11-CH26-T01",
+    question: "Active listening requires an academic student to:",
+    options: [
+      {
+        key: "A",
+        text: "Pay close deliberate attention, discern key arguments, and withhold hasty conclusions",
+      },
+      {
+        key: "B",
+        text: "Interrupt the speaker continuously with rebuttal remarks",
+      },
+      {
+        key: "C",
+        text: "Transcribe every uttered word mechanically without reflection",
+      },
+      {
+        key: "D",
+        text: "Focus strictly on ambient background noise",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Active listening involves concentrated mental focus, parsing structural claims, and critically evaluating evidence.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-111",
+    class: 11,
+    subject: "English",
+    topic: "Functional English",
+    subtopic: "Greetings and introductions",
+    topicId: "ENG11-CH27",
+    subtopicId: "ENG11-CH27-T01",
+    question:
+      "Choose the most polite and standard functional phrase for expressing disagreement in formal academic debate:",
+    options: [
+      {
+        key: "A",
+        text: "I see your perspective, but the available evidence suggests otherwise.",
+      },
+      {
+        key: "B",
+        text: "You are completely wrong and making no sense.",
+      },
+      {
+        key: "C",
+        text: "Keep quiet because your point is invalid.",
+      },
+      {
+        key: "D",
+        text: "That idea is stupid.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Diplomatic discourse utilizes respectful hedging techniques to challenge arguments objectively without ad hominem confrontation.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-112",
+    class: 11,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Reading for specific information",
+    topicId: "ENG11-CH01",
+    subtopicId: "ENG11-CH01-T02",
+    question:
+      "When reading an academic research paper, scanning is specifically employed to:",
+    options: [
+      {
+        key: "A",
+        text: "Locate a specific date, name, number, or specialized keyword quickly",
+      },
+      {
+        key: "B",
+        text: "Appreciate the aesthetic rhythmic tone of the author",
+      },
+      {
+        key: "C",
+        text: "Formulate a complete stylistic critique of the vocabulary",
+      },
+      {
+        key: "D",
+        text: "Translate the entire article into another language",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Scanning involves visually sweeping text to spot predetermined target information without reading every sentence sequentially.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-113",
+    class: 11,
+    subject: "English",
+    topic: "Vocabulary Development",
+    subtopic: "Synonyms",
+    topicId: "ENG11-CH02",
+    subtopicId: "ENG11-CH02-T01",
+    question:
+      'Identify the word that means "having or showing keen discernment and sound practical judgment":',
+    options: [
+      {
+        key: "A",
+        text: "Sagacious",
+      },
+      {
+        key: "B",
+        text: "Frivolous",
+      },
+      {
+        key: "C",
+        text: "Gullible",
+      },
+      {
+        key: "D",
+        text: "Incompetent",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      '"Sagacious" denotes displaying acute mental discernment, wisdom, and insightful good judgment.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-114",
+    class: 11,
+    subject: "English",
+    topic: "Text Interpretation",
+    subtopic: "Interpreting descriptive texts",
+    topicId: "ENG11-CH03",
+    subtopicId: "ENG11-CH03-T01",
+    question: "In literary analysis, tone refers specifically to:",
+    options: [
+      {
+        key: "A",
+        text: "The author's underlying emotional attitude toward the subject or audience",
+      },
+      {
+        key: "B",
+        text: "The physical font style used in publication",
+      },
+      {
+        key: "C",
+        text: "The literal length of sentences in a chapter",
+      },
+      {
+        key: "D",
+        text: "The chronological sequence of chapter titles",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Tone reflects the emotional and psychological perspective conveyed by the writer's diction, syntax, and rhetorical stance.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-115",
+    class: 11,
+    subject: "English",
+    topic: "Parts of Speech",
+    subtopic: "Pronouns",
+    topicId: "ENG11-CH04",
+    subtopicId: "ENG11-CH04-T02",
+    question:
+      'Which underlined word is a reflexive pronoun in: "The researcher conducted the laboratory trial herself"?',
+    options: [
+      {
+        key: "A",
+        text: "The",
+      },
+      {
+        key: "B",
+        text: "researcher",
+      },
+      {
+        key: "C",
+        text: "laboratory",
+      },
+      {
+        key: "D",
+        text: "herself",
+      },
+    ],
+    correct_options: ["D"],
+    is_multi_select: false,
+    explanation:
+      '"Herself" functions as an intensive/reflexive pronoun referring back to the female agent subject.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-116",
+    class: 11,
+    subject: "English",
+    topic: "Tenses and Aspect",
+    subtopic: "Present continuous tense",
+    topicId: "ENG11-CH05",
+    subtopicId: "ENG11-CH05-T02",
+    question:
+      "Choose the correct sentence expressing a future action planned and scheduled by a timetable:",
+    options: [
+      {
+        key: "A",
+        text: "The international flight departs at 07:00 tomorrow morning.",
+      },
+      {
+        key: "B",
+        text: "The international flight will to depart.",
+      },
+      {
+        key: "C",
+        text: "The flight is departed tomorrow morning.",
+      },
+      {
+        key: "D",
+        text: "The flight departing at 07:00.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The simple present tense is idiomatically used to indicate fixed scheduled timetable events occurring in the near future.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-117",
+    class: 11,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Agreement with plural subjects",
+    topicId: "ENG11-CH06",
+    subtopicId: "ENG11-CH06-T02",
+    question:
+      'Choose the correct verb: "Neither the principal nor the subject lecturers _______ present at the orientation."',
+    options: [
+      {
+        key: "A",
+        text: "was",
+      },
+      {
+        key: "B",
+        text: "were",
+      },
+      {
+        key: "C",
+        text: "is",
+      },
+      {
+        key: "D",
+        text: "has been",
+      },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      'When subjects are linked by "neither... nor", the verb agrees with the nearer subject ("lecturers", plural), hence "were".',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-118",
+    class: 11,
+    subject: "English",
+    topic: "Articles and Determiners",
+    subtopic: "Indefinite articles",
+    topicId: "ENG11-CH07",
+    subtopicId: "ENG11-CH07-T02",
+    question:
+      'Complete the sentence: "_______ Himalayas constitute the youngest fold mountain range on Earth."',
+    options: [
+      {
+        key: "A",
+        text: "A",
+      },
+      {
+        key: "B",
+        text: "An",
+      },
+      {
+        key: "C",
+        text: "The",
+      },
+      {
+        key: "D",
+        text: "No article",
+      },
+    ],
+    correct_options: ["C"],
+    is_multi_select: false,
+    explanation:
+      'Definite article "The" is mandatory when referring to plural mountain ranges (e.g., The Himalayas, The Alps).',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-119",
+    class: 11,
+    subject: "English",
+    topic: "Prepositions",
+    subtopic: "Prepositions of place",
+    topicId: "ENG11-CH08",
+    subtopicId: "ENG11-CH08-T02",
+    question:
+      'Choose the correct preposition: "The debate concluded with a consensus _______ environmental regulations."',
+    options: [
+      {
+        key: "A",
+        text: "on",
+      },
+      {
+        key: "B",
+        text: "with",
+      },
+      {
+        key: "C",
+        text: "by",
+      },
+      {
+        key: "D",
+        text: "at",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The noun "consensus" pairs standardly with the preposition "on" (or "about") regarding a shared topical agreement.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-120",
+    class: 11,
+    subject: "English",
+    topic: "Modal Verbs",
+    subtopic: "May and might",
+    topicId: "ENG11-CH09",
+    subtopicId: "ENG11-CH09-T02",
+    question:
+      'Choose the modal conveying polite request: "_______ you mind reviewing this initial laboratory manuscript?"',
+    options: [
+      {
+        key: "A",
+        text: "Would",
+      },
+      {
+        key: "B",
+        text: "Must",
+      },
+      {
+        key: "C",
+        text: "Shall",
+      },
+      {
+        key: "D",
+        text: "Should",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The construction "Would you mind + gerund" is standard formal English for making a courteous request.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-121",
+    class: 11,
+    subject: "English",
+    topic: "Active and Passive Voice",
+    subtopic: "Identification of passive voice",
+    topicId: "ENG11-CH10",
+    subtopicId: "ENG11-CH10-T02",
+    question:
+      'Identify the passive equivalent of: "They are renovating the science laboratory."',
+    options: [
+      {
+        key: "A",
+        text: "The science laboratory is being renovated.",
+      },
+      {
+        key: "B",
+        text: "The science laboratory was renovated.",
+      },
+      {
+        key: "C",
+        text: "The science laboratory has been renovated.",
+      },
+      {
+        key: "D",
+        text: "The science laboratory is renovating.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Present continuous passive employs "is/are + being + past participle" ("is being renovated").',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-122",
+    class: 11,
+    subject: "English",
+    topic: "Reported Speech",
+    subtopic: "Indirect speech",
+    topicId: "ENG11-CH11",
+    subtopicId: "ENG11-CH11-T02",
+    question:
+      'Convert into indirect speech: He asked, "Where do you conduct your experiments?"',
+    options: [
+      {
+        key: "A",
+        text: "He asked where I conducted my experiments.",
+      },
+      {
+        key: "B",
+        text: "He asked where did I conduct my experiments.",
+      },
+      {
+        key: "C",
+        text: "He asked where do I conduct my experiments.",
+      },
+      {
+        key: "D",
+        text: "He asked if I conduct my experiments.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Wh-questions in indirect speech take affirmative word order without the auxiliary "do/did" (inversion removed).',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-123",
+    class: 11,
+    subject: "English",
+    topic: "Conditional Sentences",
+    subtopic: "First conditional",
+    topicId: "ENG11-CH12",
+    subtopicId: "ENG11-CH12-T02",
+    question:
+      'Complete the second conditional sentence: "If she _______ more time, she would write a comprehensive monograph."',
+    options: [
+      {
+        key: "A",
+        text: "had",
+      },
+      {
+        key: "B",
+        text: "has",
+      },
+      {
+        key: "C",
+        text: "will have",
+      },
+      {
+        key: "D",
+        text: "would have",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The second conditional represents hypothetical present/future states using simple past ("had") in the if-clause.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-124",
+    class: 11,
+    subject: "English",
+    topic: "Clauses and Sentence Structure",
+    subtopic: "Independent clauses",
+    topicId: "ENG11-CH13",
+    subtopicId: "ENG11-CH13-T02",
+    question:
+      'Identify the coordinating conjunction joining two independent clauses in: "The experiment succeeded, yet questions remained."',
+    options: [
+      {
+        key: "A",
+        text: "yet",
+      },
+      {
+        key: "B",
+        text: "succeeded",
+      },
+      {
+        key: "C",
+        text: "questions",
+      },
+      {
+        key: "D",
+        text: "remained",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      '"Yet" is one of the FANBOYS coordinating conjunctions connecting coordinate independent clauses.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG11-125",
+    class: 11,
+    subject: "English",
+    topic: "Question Formation and Question Tags",
+    subtopic: "Wh-questions",
+    topicId: "ENG11-CH14",
+    subtopicId: "ENG11-CH14-T02",
+    question:
+      'Choose the appropriate question tag for: "Let\'s finalize the laboratory protocol now, _______?"',
+    options: [
+      {
+        key: "A",
+        text: "shall we",
+      },
+      {
+        key: "B",
+        text: "will you",
+      },
+      {
+        key: "C",
+        text: "do we",
+      },
+      {
+        key: "D",
+        text: "aren't we",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Imperative proposals introduced by "Let\'s" conventionally take the question tag "shall we?".',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 11 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-084",
+    class: 12,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Identifying main ideas",
+    topicId: "ENG12-CH01",
+    subtopicId: "ENG12-CH01-T01",
+    question:
+      "What is the primary function of inferencing in advanced reading comprehension?",
+    options: [
+      {
+        key: "A",
+        text: "Drawing logical conclusions based on textual evidence and unstated implications",
+      },
+      {
+        key: "B",
+        text: "Counting the frequency of common prepositions",
+      },
+      {
+        key: "C",
+        text: "Checking formatting errors",
+      },
+      {
+        key: "D",
+        text: "Memorizing vocabulary alphabetically",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Inferencing involves synthesizing explicit textual clues with prior contextual knowledge to deduce implicit meanings.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-085",
+    class: 12,
+    subject: "English",
+    topic: "Vocabulary and Text Analysis",
+    subtopic: "Synonyms and antonyms",
+    topicId: "ENG12-CH02",
+    subtopicId: "ENG12-CH02-T01",
+    question:
+      'What is the prefix meaning "across" or "beyond" in words like "transatlantic" and "transport"?',
+    options: [
+      {
+        key: "A",
+        text: "Trans-",
+      },
+      {
+        key: "B",
+        text: "Sub-",
+      },
+      {
+        key: "C",
+        text: "Inter-",
+      },
+      {
+        key: "D",
+        text: "Pre-",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The Latin prefix "trans-" signifies across, through, beyond, or on the other side of an entity.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-086",
+    class: 12,
+    subject: "English",
+    topic: "Advanced Tenses and Verb Forms",
+    subtopic: "Present tense forms",
+    topicId: "ENG12-CH03",
+    subtopicId: "ENG12-CH03-T01",
+    question:
+      'Choose the correct form: "By the end of this semester, the scholars _______ their thesis defenses."',
+    options: [
+      {
+        key: "A",
+        text: "will have completed",
+      },
+      {
+        key: "B",
+        text: "will complete",
+      },
+      {
+        key: "C",
+        text: "have completed",
+      },
+      {
+        key: "D",
+        text: "had completed",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Future perfect ("will have completed") denotes an action anticipated to be accomplished before a specific future threshold.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-087",
+    class: 12,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Agreement with singular subjects",
+    topicId: "ENG12-CH04",
+    subtopicId: "ENG12-CH04-T01",
+    question: "Select the sentence with accurate subject-verb agreement:",
+    options: [
+      {
+        key: "A",
+        text: "The collection of scientific manuscripts is preserved in the national archives.",
+      },
+      {
+        key: "B",
+        text: "The collection of scientific manuscripts are preserved.",
+      },
+      {
+        key: "C",
+        text: "A variety of approaches was discussed.",
+      },
+      {
+        key: "D",
+        text: "The data is always plural in every linguistic context.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The head noun of the prepositional subject phrase is the singular collective noun "collection", which takes singular "is".',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-088",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Active and passive voice",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T01",
+    question:
+      'Identify the passive transformation: "People believe that the ancient ruins hold archaeological significance."',
+    options: [
+      {
+        key: "A",
+        text: "It is believed that the ancient ruins hold archaeological significance.",
+      },
+      {
+        key: "B",
+        text: "People were believed that ancient ruins hold significance.",
+      },
+      {
+        key: "C",
+        text: "Ruins are holding significance people believed.",
+      },
+      {
+        key: "D",
+        text: "Ancient ruins had believed to hold significance.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Impersonal passive structures utilize the dummy pronoun construction "It is + past participle + that-clause".',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-089",
+    class: 12,
+    subject: "English",
+    topic: "Conditional Sentences and Modals",
+    subtopic: "Zero conditional",
+    topicId: "ENG12-CH06",
+    subtopicId: "ENG12-CH06-T01",
+    question:
+      'Complete the sentence: "Had they _______ the warnings, the tragic disaster could have been averted."',
+    options: [
+      {
+        key: "A",
+        text: "heeded",
+      },
+      {
+        key: "B",
+        text: "heed",
+      },
+      {
+        key: "C",
+        text: "heeding",
+      },
+      {
+        key: "D",
+        text: "have heeded",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Inverted third conditional ("Had they heeded" = "If they had heeded") requires past participle following fronted auxiliary "Had".',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-090",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Noun clauses",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T01",
+    question:
+      'In the sentence "The scholar whose paper won the prize delivered the keynote," the clause is a:',
+    options: [
+      {
+        key: "A",
+        text: "Defining relative (adjective) clause",
+      },
+      {
+        key: "B",
+        text: "Noun clause",
+      },
+      {
+        key: "C",
+        text: "Adverb clause of concession",
+      },
+      {
+        key: "D",
+        text: "Independent clause",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      '"whose paper won the prize" modifies the noun "scholar", functioning restrictively as a defining relative clause.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-091",
+    class: 12,
+    subject: "English",
+    topic: "Prepositions, Articles and Determiners",
+    subtopic: "Prepositions of time",
+    topicId: "ENG12-CH08",
+    subtopicId: "ENG12-CH08-T01",
+    question:
+      'Choose the correct preposition: "Her scientific hypothesis is contingent _______ experimental corroboration."',
+    options: [
+      {
+        key: "A",
+        text: "upon / on",
+      },
+      {
+        key: "B",
+        text: "with",
+      },
+      {
+        key: "C",
+        text: "at",
+      },
+      {
+        key: "D",
+        text: "into",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The adjective "contingent" idiomatically governs the preposition "upon" or "on".',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-092",
+    class: 12,
+    subject: "English",
+    topic: "Punctuation and Editing",
+    subtopic: "Capitalization",
+    topicId: "ENG12-CH09",
+    subtopicId: "ENG12-CH09-T01",
+    question: "Which sentence correctly avoids a dangling modifier?",
+    options: [
+      {
+        key: "A",
+        text: "Having reviewed the laboratory findings, the researcher submitted the report.",
+      },
+      {
+        key: "B",
+        text: "Having reviewed the laboratory findings, the report was submitted.",
+      },
+      {
+        key: "C",
+        text: "Running across the field, the lightning struck the tree.",
+      },
+      {
+        key: "D",
+        text: "To write clearly, simple vocabulary should be used.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The introductory participial phrase logically modifies the grammatical subject "the researcher" who executed the review.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-093",
+    class: 12,
+    subject: "English",
+    topic: "Essay Writing",
+    subtopic: "Essay structure",
+    topicId: "ENG12-CH10",
+    subtopicId: "ENG12-CH10-T01",
+    question:
+      "In persuasive essay writing, a counterargument is included primarily to:",
+    options: [
+      {
+        key: "A",
+        text: "Acknowledge and systematically refute opposing viewpoints, strengthening the central claim",
+      },
+      {
+        key: "B",
+        text: "Confuse the readers regarding the author's stance",
+      },
+      {
+        key: "C",
+        text: "Lengthen the essay artificially",
+      },
+      {
+        key: "D",
+        text: "Introduce irrelevant digressions",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Addressing counterarguments demonstrates intellectual rigor and preemptively dismantling objections bolsters persuasive authority.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-094",
+    class: 12,
+    subject: "English",
+    topic: "Reports and Proposals",
+    subtopic: "Formal report structure",
+    topicId: "ENG12-CH11",
+    subtopicId: "ENG12-CH11-T01",
+    question: "What is the primary objective of a project proposal document?",
+    options: [
+      {
+        key: "A",
+        text: "To request authorization, resources, or funding by demonstrating project viability",
+      },
+      {
+        key: "B",
+        text: "To entertain readers with humorous fictional tales",
+      },
+      {
+        key: "C",
+        text: "To summarize already finished historical events",
+      },
+      {
+        key: "D",
+        text: "To outline personal autobiographical childhood memories",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Proposals justify the need, methodology, budget, and anticipated impact of an initiative to secure backing.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-095",
+    class: 12,
+    subject: "English",
+    topic: "Letters, Applications and Emails",
+    subtopic: "Formal letters",
+    topicId: "ENG12-CH12",
+    subtopicId: "ENG12-CH12-T01",
+    question:
+      "In a professional cover letter for an employment vacancy, the applicant should:",
+    options: [
+      {
+        key: "A",
+        text: "Highlight relevant qualifications and align expertise with employer objectives",
+      },
+      {
+        key: "B",
+        text: "Demand immediate salary terms in aggressive language",
+      },
+      {
+        key: "C",
+        text: "Include informal slang and personal family drama",
+      },
+      {
+        key: "D",
+        text: "Repeat the curriculum vitae word-for-word",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Cover letters connect an applicant's professional achievements strategically to the specific institutional needs of the role.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-096",
+    class: 12,
+    subject: "English",
+    topic: "Summary, Paraphrase and Note-Making",
+    subtopic: "Identifying key ideas",
+    topicId: "ENG12-CH13",
+    subtopicId: "ENG12-CH13-T01",
+    question:
+      "Paraphrasing differs from direct quoting because paraphrasing involves:",
+    options: [
+      {
+        key: "A",
+        text: "Restating an author's ideas in one's own distinct vocabulary and syntax while citing the source",
+      },
+      {
+        key: "B",
+        text: "Copying sentences inside quotation marks verbatim",
+      },
+      {
+        key: "C",
+        text: "Deleting all difficult vocabulary entirely",
+      },
+      {
+        key: "D",
+        text: "Changing the core meaning of the author intentionally",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Paraphrasing renders original conceptual meaning into fresh phrasing while rigorously attributing intellectual ownership.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-097",
+    class: 12,
+    subject: "English",
+    topic: "News, Notices and Public Communication",
+    subtopic: "News report structure",
+    topicId: "ENG12-CH14",
+    subtopicId: "ENG12-CH14-T01",
+    question: "In journalism, the inverted pyramid structure places:",
+    options: [
+      {
+        key: "A",
+        text: "The most critical facts (who, what, when, where) in the opening lead paragraph",
+      },
+      {
+        key: "B",
+        text: "The climax and conclusion at the very end of the column",
+      },
+      {
+        key: "C",
+        text: "Background historical details before any news event",
+      },
+      {
+        key: "D",
+        text: "The author's personal opinions as the primary headline",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The inverted pyramid presents essential news details first, followed sequentially by diminishing secondary context.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-098",
+    class: 12,
+    subject: "English",
+    topic: "Creative and Descriptive Writing",
+    subtopic: "Narrative writing",
+    topicId: "ENG12-CH15",
+    subtopicId: "ENG12-CH15-T01",
+    question: "Sensory imagery in creative descriptive writing engages:",
+    options: [
+      {
+        key: "A",
+        text: "Sight, sound, smell, taste, and touch",
+      },
+      {
+        key: "B",
+        text: "Strictly mathematical algebraic formulas",
+      },
+      {
+        key: "C",
+        text: "Verbatim dictionary entries",
+      },
+      {
+        key: "D",
+        text: "Legal regulatory jargon",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Sensory imagery evokes vivid experiential immersion by appealing directly to the reader's physical sensory faculties.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-099",
+    class: 12,
+    subject: "English",
+    topic: "Short Stories",
+    subtopic: "Plot and structure",
+    topicId: "ENG12-CH16",
+    subtopicId: "ENG12-CH16-T01",
+    question:
+      "In literature, an unreliable narrator is one whose credibility is compromised by:",
+    options: [
+      {
+        key: "A",
+        text: "Personal bias, mental limitation, deceit, or moral ambiguity",
+      },
+      {
+        key: "B",
+        text: "Perfect omniscience and objective factual reporting",
+      },
+      {
+        key: "C",
+        text: "Complete absence from the plot",
+      },
+      {
+        key: "D",
+        text: "Strict adherence to historical court records",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "An unreliable narrator conveys a distorted or self-serving perspective, prompting the reader to question their interpretation.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-100",
+    class: 12,
+    subject: "English",
+    topic: "Poetry",
+    subtopic: "Speaker and poetic voice",
+    topicId: "ENG12-CH17",
+    subtopicId: "ENG12-CH17-T01",
+    question:
+      "A poem consisting of 14 lines written in iambic pentameter with a structured rhyme scheme is a:",
+    options: [
+      {
+        key: "A",
+        text: "Sonnet",
+      },
+      {
+        key: "B",
+        text: "Ballad",
+      },
+      {
+        key: "C",
+        text: "Ode",
+      },
+      {
+        key: "D",
+        text: "Elegy",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "A sonnet is traditionally a 14-line poem adhering to specific rhyming frameworks (Petrarchan or Shakespearean).",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-101",
+    class: 12,
+    subject: "English",
+    topic: "Essays and Nonfiction",
+    subtopic: "Main argument",
+    topicId: "ENG12-CH18",
+    subtopicId: "ENG12-CH18-T01",
+    question: "An allegory is a literary narrative in which:",
+    options: [
+      {
+        key: "A",
+        text: "Characters and events symbolize broader spiritual, moral, or political meanings",
+      },
+      {
+        key: "B",
+        text: "Every character speaks in rhythmic rhyming verse",
+      },
+      {
+        key: "C",
+        text: "No moral lessons are explored",
+      },
+      {
+        key: "D",
+        text: "All plot points are non-fiction journalistic facts",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "An allegory operates on two levels: a literal surface narrative and an underlying symbolic allegorical dimension.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-102",
+    class: 12,
+    subject: "English",
+    topic: "Drama",
+    subtopic: "Elements of drama",
+    topicId: "ENG12-CH19",
+    subtopicId: "ENG12-CH19-T01",
+    question:
+      "In classical drama, the emotional release or cleansing of pity and fear experienced by the audience is termed:",
+    options: [
+      {
+        key: "A",
+        text: "Catharsis",
+      },
+      {
+        key: "B",
+        text: "Hamartia",
+      },
+      {
+        key: "C",
+        text: "Hubris",
+      },
+      {
+        key: "D",
+        text: "Anagnorisis",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Aristotle's Poetics defines catharsis as the purgation of pity and fear evoked by tragic dramatic spectacle.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-103",
+    class: 12,
+    subject: "English",
+    topic: "Listening and Speaking",
+    subtopic: "Listening for main ideas",
+    topicId: "ENG12-CH20",
+    subtopicId: "ENG12-CH20-T01",
+    question:
+      "During academic presentations, effective non-verbal delivery includes:",
+    options: [
+      {
+        key: "A",
+        text: "Maintaining steady eye contact, erect posture, and purposeful hand gestures",
+      },
+      {
+        key: "B",
+        text: "Reading monotonously from handwritten notes without looking up",
+      },
+      {
+        key: "C",
+        text: "Pacing erratically and speaking toward the projection wall",
+      },
+      {
+        key: "D",
+        text: "Crossing arms rigidly and mumbling silently",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Confident non-verbal delivery reinforces oral engagement and credibility through open posture and direct audience connection.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-104",
+    class: 12,
+    subject: "English",
+    topic: "Academic and Critical Thinking Skills",
+    subtopic: "Identifying claims and evidence",
+    topicId: "ENG12-CH21",
+    subtopicId: "ENG12-CH21-T01",
+    question:
+      "A logical fallacy wherein an argument attacks an opponent's personal character rather than addressing their premise is:",
+    options: [
+      {
+        key: "A",
+        text: "Ad hominem",
+      },
+      {
+        key: "B",
+        text: "Straw man",
+      },
+      {
+        key: "C",
+        text: "False dilemma",
+      },
+      {
+        key: "D",
+        text: "Post hoc ergo propter hoc",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "An ad hominem fallacy sidesteps substantive intellectual rebuttal by dishonestly attacking the individual asserting it.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-105",
+    class: 12,
+    subject: "English",
+    topic: "Reading Comprehension",
+    subtopic: "Identifying supporting details",
+    topicId: "ENG12-CH01",
+    subtopicId: "ENG12-CH01-T02",
+    question:
+      "Synthesizing information across multiple scholarly texts requires the student to:",
+    options: [
+      {
+        key: "A",
+        text: "Integrate diverse viewpoints to formulate a comprehensive nuanced perspective",
+      },
+      {
+        key: "B",
+        text: "Copy paragraphs from all sources in chronological order",
+      },
+      {
+        key: "C",
+        text: "Reject any study that presents unfamiliar terminology",
+      },
+      {
+        key: "D",
+        text: "Select only the shortest available article to review",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Synthesis combines distinct findings and arguments into a coherent, original critical interpretation.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-106",
+    class: 12,
+    subject: "English",
+    topic: "Vocabulary and Text Analysis",
+    subtopic: "Word formation",
+    topicId: "ENG12-CH02",
+    subtopicId: "ENG12-CH02-T02",
+    question:
+      'Identify the word with the correct derivational suffix forming an abstract noun from the verb "conclude":',
+    options: [
+      {
+        key: "A",
+        text: "Conclusion",
+      },
+      {
+        key: "B",
+        text: "Concludable",
+      },
+      {
+        key: "C",
+        text: "Conclusively",
+      },
+      {
+        key: "D",
+        text: "Concluding",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The nominal suffix "-ion" derives the abstract noun "conclusion" from the root verb "conclude".',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-107",
+    class: 12,
+    subject: "English",
+    topic: "Advanced Tenses and Verb Forms",
+    subtopic: "Past tense forms",
+    topicId: "ENG12-CH03",
+    subtopicId: "ENG12-CH03-T02",
+    question:
+      'Choose the appropriate past tense form: "Hardly had the bell rung when the examination _______."',
+    options: [
+      {
+        key: "A",
+        text: "began",
+      },
+      {
+        key: "B",
+        text: "has begun",
+      },
+      {
+        key: "C",
+        text: "begun",
+      },
+      {
+        key: "D",
+        text: "was beginning",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Correlative constructions with "Hardly had... when..." follow with simple past tense in the dependent temporal clause.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-108",
+    class: 12,
+    subject: "English",
+    topic: "Subject-Verb Agreement",
+    subtopic: "Agreement with plural subjects",
+    topicId: "ENG12-CH04",
+    subtopicId: "ENG12-CH04-T02",
+    question: "Select the sentence displaying correct subject-verb concord:",
+    options: [
+      {
+        key: "A",
+        text: "Ten kilometers is a demanding distance to run in high altitude.",
+      },
+      {
+        key: "B",
+        text: "Ten kilometers are a demanding distance.",
+      },
+      {
+        key: "C",
+        text: "Neither of the experimental variables were verified.",
+      },
+      {
+        key: "D",
+        text: "The board of directors have disbanded its meeting.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Quantities expressing a unified singular measurement of distance, time, or money take singular verbs ("is").',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-109",
+    class: 12,
+    subject: "English",
+    topic: "Voice and Reported Speech",
+    subtopic: "Passive constructions in different tenses",
+    topicId: "ENG12-CH05",
+    subtopicId: "ENG12-CH05-T02",
+    question:
+      'Transform into active voice: "The pristine alpine wilderness was safeguarded by indigenous conservationists."',
+    options: [
+      {
+        key: "A",
+        text: "Indigenous conservationists safeguarded the pristine alpine wilderness.",
+      },
+      {
+        key: "B",
+        text: "Pristine wilderness safeguards conservationists.",
+      },
+      {
+        key: "C",
+        text: "Indigenous conservationists are safeguarding the wilderness.",
+      },
+      {
+        key: "D",
+        text: "Safeguarded were the wilderness by conservationists.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'The agent "indigenous conservationists" moves to the subject position with simple past active verb "safeguarded".',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-110",
+    class: 12,
+    subject: "English",
+    topic: "Conditional Sentences and Modals",
+    subtopic: "First conditional",
+    topicId: "ENG12-CH06",
+    subtopicId: "ENG12-CH06-T02",
+    question:
+      'Choose the correct modal denoting moral obligation or advisability: "Citizens _______ preserve community heritage."',
+    options: [
+      {
+        key: "A",
+        text: "ought to",
+      },
+      {
+        key: "B",
+        text: "might",
+      },
+      {
+        key: "C",
+        text: "could",
+      },
+      {
+        key: "D",
+        text: "may",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      '"Ought to" expresses moral obligation, duty, or strongly recommended ethical behavior.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-111",
+    class: 12,
+    subject: "English",
+    topic: "Clauses and Sentence Transformation",
+    subtopic: "Adjective clauses",
+    topicId: "ENG12-CH07",
+    subtopicId: "ENG12-CH07-T02",
+    question: "Identify the sentence containing a nominal (noun) clause:",
+    options: [
+      {
+        key: "A",
+        text: "What you have accomplished in the laboratory is genuinely remarkable.",
+      },
+      {
+        key: "B",
+        text: "The laboratory that stands on the hill is newly built.",
+      },
+      {
+        key: "C",
+        text: "We left the hall when the lecture ended.",
+      },
+      {
+        key: "D",
+        text: "She spoke softly because the baby was sleeping.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      '"What you have accomplished in the laboratory" functions as the subject of the sentence, operating as a noun clause.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-112",
+    class: 12,
+    subject: "English",
+    topic: "Prepositions, Articles and Determiners",
+    subtopic: "Prepositions of place",
+    topicId: "ENG12-CH08",
+    subtopicId: "ENG12-CH08-T02",
+    question:
+      'Fill in the blank: "The committee agreed _______ the recommendations submitted by the panel."',
+    options: [
+      {
+        key: "A",
+        text: "to",
+      },
+      {
+        key: "B",
+        text: "with",
+      },
+      {
+        key: "C",
+        text: "on",
+      },
+      {
+        key: "D",
+        text: "at",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'One "agrees to" a proposal or recommendation, whereas one "agrees with" a person or opinion.',
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-113",
+    class: 12,
+    subject: "English",
+    topic: "Punctuation and Editing",
+    subtopic: "Commas and semicolons",
+    topicId: "ENG12-CH09",
+    subtopicId: "ENG12-CH09-T02",
+    question:
+      "Choose the correct sentence regarding comma usage with non-restrictive relative clauses:",
+    options: [
+      {
+        key: "A",
+        text: "Dr. Sharma, who discovered the fossil, delivered the keynote lecture.",
+      },
+      {
+        key: "B",
+        text: "Dr. Sharma who discovered the fossil delivered the keynote lecture.",
+      },
+      {
+        key: "C",
+        text: "Dr. Sharma, who discovered the fossil delivered the keynote lecture.",
+      },
+      {
+        key: "D",
+        text: "Dr. Sharma who discovered the fossil, delivered the lecture.",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Non-defining (non-restrictive) relative clauses provide parenthetical extra information and must be bracketed by commas on both sides.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-114",
+    class: 12,
+    subject: "English",
+    topic: "Essay Writing",
+    subtopic: "Thesis statements",
+    topicId: "ENG12-CH10",
+    subtopicId: "ENG12-CH10-T02",
+    question: "Coherence in academic prose is achieved predominantly through:",
+    options: [
+      {
+        key: "A",
+        text: "Logical sequencing of ideas, transitional connectors, and consistent pronouns",
+      },
+      {
+        key: "B",
+        text: "Using the longest possible Latinized words exclusively",
+      },
+      {
+        key: "C",
+        text: "Avoiding all punctuation marks",
+      },
+      {
+        key: "D",
+        text: "Writing paragraphs consisting of single words",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Coherence ensures smooth logical transitions and conceptual flow between sentences and paragraphs.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-115",
+    class: 12,
+    subject: "English",
+    topic: "Reports and Proposals",
+    subtopic: "Introduction and objectives",
+    topicId: "ENG12-CH11",
+    subtopicId: "ENG12-CH11-T02",
+    question:
+      "In formal technical report writing, the terms of reference section states:",
+    options: [
+      {
+        key: "A",
+        text: "The mandate, purpose, scope, and operational boundaries of the inquiry",
+      },
+      {
+        key: "B",
+        text: "The personal hobbies of the investigating officers",
+      },
+      {
+        key: "C",
+        text: "The dictionary bibliography of unrelated concepts",
+      },
+      {
+        key: "D",
+        text: "A creative narrative fiction prologue",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Terms of reference delineate the authorized scope, objectives, and parameters guiding an investigative report.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-116",
+    class: 12,
+    subject: "English",
+    topic: "Letters, Applications and Emails",
+    subtopic: "Letters to the editor",
+    topicId: "ENG12-CH12",
+    subtopicId: "ENG12-CH12-T02",
+    question: "In formal email etiquette, a subject line should ideally be:",
+    options: [
+      {
+        key: "A",
+        text: "Concise, specific, and accurately descriptive of the email's content",
+      },
+      {
+        key: "B",
+        text: "Left blank to create suspense",
+      },
+      {
+        key: "C",
+        text: "A very long continuous paragraph of 50 words",
+      },
+      {
+        key: "D",
+        text: "Written in all-capital exclamation marks",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Effective email subject lines inform the recipient immediately and precisely of the message's topic and urgency.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-117",
+    class: 12,
+    subject: "English",
+    topic: "Summary, Paraphrase and Note-Making",
+    subtopic: "Distinguishing main ideas from examples",
+    topicId: "ENG12-CH13",
+    subtopicId: "ENG12-CH13-T02",
+    question:
+      "When preparing an academic summary, a student must strictly avoid:",
+    options: [
+      {
+        key: "A",
+        text: "Inserting personal unsupported opinions or extraneous external commentary",
+      },
+      {
+        key: "B",
+        text: "Retaining the central thesis of the original author",
+      },
+      {
+        key: "C",
+        text: "Using objective and concise academic vocabulary",
+      },
+      {
+        key: "D",
+        text: "Condensing lengthy paragraphs into essential assertions",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Summaries must remain objective representations of source material without adding uncorroborated editorial opinions.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-118",
+    class: 12,
+    subject: "English",
+    topic: "News, Notices and Public Communication",
+    subtopic: "Headline writing",
+    topicId: "ENG12-CH14",
+    subtopicId: "ENG12-CH14-T02",
+    question:
+      "A journalistic news lead sentence answering the core journalistic questions is called the:",
+    options: [
+      {
+        key: "A",
+        text: "Summary lead",
+      },
+      {
+        key: "B",
+        text: "Blind lead",
+      },
+      {
+        key: "C",
+        text: "Poetic stanza",
+      },
+      {
+        key: "D",
+        text: "Epilogue",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The summary lead immediately answers Who, What, Where, When, Why, and How in concise, punchy prose.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-119",
+    class: 12,
+    subject: "English",
+    topic: "Creative and Descriptive Writing",
+    subtopic: "Descriptive writing",
+    topicId: "ENG12-CH15",
+    subtopicId: "ENG12-CH15-T02",
+    question: 'In creative writing, "showing rather than telling" means:',
+    options: [
+      {
+        key: "A",
+        text: "Dramatizing action, dialogue, and sensory experience instead of summarizing dry facts",
+      },
+      {
+        key: "B",
+        text: "Only providing bulleted checklists of traits",
+      },
+      {
+        key: "C",
+        text: "Avoiding all figurative imagery",
+      },
+      {
+        key: "D",
+        text: "Explaining morals through explicit preaching",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      '"Show, don\'t tell" immerses readers in vivid scenes and observable behaviors rather than plain exposition.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-120",
+    class: 12,
+    subject: "English",
+    topic: "Short Stories",
+    subtopic: "Setting and atmosphere",
+    topicId: "ENG12-CH16",
+    subtopicId: "ENG12-CH16-T02",
+    question:
+      "In prose fiction, the overarching universal idea or human insight explored by a narrative is the:",
+    options: [
+      {
+        key: "A",
+        text: "Theme",
+      },
+      {
+        key: "B",
+        text: "Plot",
+      },
+      {
+        key: "C",
+        text: "Conflict",
+      },
+      {
+        key: "D",
+        text: "Setting",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "The theme is the underlying philosophical meaning or central commentary on human nature woven through the story.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-121",
+    class: 12,
+    subject: "English",
+    topic: "Poetry",
+    subtopic: "Theme and central idea",
+    topicId: "ENG12-CH17",
+    subtopicId: "ENG12-CH17-T02",
+    question:
+      "In poetry, the intentional repetition of initial consonant sounds across successive words is:",
+    options: [
+      {
+        key: "A",
+        text: "Alliteration",
+      },
+      {
+        key: "B",
+        text: "Assonance",
+      },
+      {
+        key: "C",
+        text: "Onomatopoeia",
+      },
+      {
+        key: "D",
+        text: "Metonymy",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Alliteration is the stylistic repetition of consonant sounds at the beginning of adjacent or closely connected words.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-122",
+    class: 12,
+    subject: "English",
+    topic: "Essays and Nonfiction",
+    subtopic: "Purpose and audience",
+    topicId: "ENG12-CH18",
+    subtopicId: "ENG12-CH18-T02",
+    question:
+      "A rhetorical device balancing opposing ideas in parallel grammatical constructions is:",
+    options: [
+      {
+        key: "A",
+        text: "Antithesis",
+      },
+      {
+        key: "B",
+        text: "Hyperbole",
+      },
+      {
+        key: "C",
+        text: "Synecdoche",
+      },
+      {
+        key: "D",
+        text: "Litotes",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      'Antithesis ("Speech is silver, but silence is golden") pairs contrasting ideas in symmetric syntactic parallelism.',
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+  {
+    id: "ENG12-123",
+    class: 12,
+    subject: "English",
+    topic: "Drama",
+    subtopic: "Acts and scenes",
+    topicId: "ENG12-CH19",
+    subtopicId: "ENG12-CH19-T02",
+    question:
+      "In classical tragedy, the fatal tragic flaw leading to a protagonist's downfall is termed:",
+    options: [
+      {
+        key: "A",
+        text: "Hamartia",
+      },
+      {
+        key: "B",
+        text: "Peripeteia",
+      },
+      {
+        key: "C",
+        text: "Anagnorisis",
+      },
+      {
+        key: "D",
+        text: "Catharsis",
+      },
+    ],
+    correct_options: ["A"],
+    is_multi_select: false,
+    explanation:
+      "Hamartia represents the fatal character flaw or critical judgment error that triggers a tragic hero's undoing.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "Official Nepal NEB Grade 12 CDC Curriculum aligned.",
+  },
+];

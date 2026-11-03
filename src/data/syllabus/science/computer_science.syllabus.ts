@@ -1,0 +1,4566 @@
+import type { SyllabusFile } from "../../../types/quiz.types.js";
+
+export const science_computer_scienceSyllabus: SyllabusFile = {
+  metadata: {
+    country: "Nepal",
+    curriculum: "NEB",
+    level: "Grades 11 and 12",
+    subject: "Computer Science",
+    format: "Syllabus topic map for question bank generation",
+    version: "1.0",
+    note: "Expanded topic outline. Verify chapter titles and assessment specifications against the current official NEB curriculum.",
+    subjectCode: "CS",
+  },
+  grades: {
+    "11": {
+      id: "CS11",
+      grade: 11,
+      subject: "Computer Science",
+      branches: [
+        {
+          id: "CS11-B01",
+          branchNumber: 1,
+          branchName: "Computer Systems and Digital Society",
+          chapters: [
+            {
+              id: "CS11-CH01",
+              chapterNumber: 1,
+              chapterName: "Computer Fundamentals",
+              topics: [
+                {
+                  id: "CS11-CH01-T01",
+                  topicNumber: 1,
+                  topic: "Definition of a computer",
+                  brief:
+                    "A computer is an electronic device that accepts data, processes it according to instructions, stores it, and produces meaningful information.",
+                },
+                {
+                  id: "CS11-CH01-T02",
+                  topicNumber: 2,
+                  topic: "Characteristics of computers",
+                  brief:
+                    "Computers are known for their speed, accuracy, automation, diligence, versatility, and large storage capacity.",
+                },
+                {
+                  id: "CS11-CH01-T03",
+                  topicNumber: 3,
+                  topic: "Applications of computers",
+                  brief:
+                    "Computers are used in education, healthcare, business, banking, communication, scientific research, entertainment, and government services.",
+                },
+                {
+                  id: "CS11-CH01-T04",
+                  topicNumber: 4,
+                  topic: "Limitations of computers",
+                  brief:
+                    "Computers cannot independently think or make judgments like humans without programmed rules or suitable AI systems, and their results depend on input data and instructions.",
+                },
+                {
+                  id: "CS11-CH01-T05",
+                  topicNumber: 5,
+                  topic: "Evolution of computers",
+                  brief:
+                    "The evolution of computers describes their development from early calculating devices to modern electronic, portable, and intelligent computing systems.",
+                },
+                {
+                  id: "CS11-CH01-T06",
+                  topicNumber: 6,
+                  topic: "Generations of computers",
+                  brief:
+                    "Computer generations classify technological development into stages based on major technologies such as vacuum tubes, transistors, integrated circuits, microprocessors, and advanced intelligent systems.",
+                },
+                {
+                  id: "CS11-CH01-T07",
+                  topicNumber: 7,
+                  topic: "Classification of computers",
+                  brief:
+                    "Computers can be classified according to data processing methods, purpose, size, processing capacity, and intended applications.",
+                },
+                {
+                  id: "CS11-CH01-T08",
+                  topicNumber: 8,
+                  topic: "Analog computers",
+                  brief:
+                    "Analog computers process continuous physical quantities such as temperature, pressure, speed, or voltage.",
+                },
+                {
+                  id: "CS11-CH01-T09",
+                  topicNumber: 9,
+                  topic: "Digital computers",
+                  brief:
+                    "Digital computers process discrete data, generally represented using binary digits 0 and 1, to perform calculations and other operations.",
+                },
+                {
+                  id: "CS11-CH01-T10",
+                  topicNumber: 10,
+                  topic: "Hybrid computers",
+                  brief:
+                    "Hybrid computers combine analog processing capabilities with digital computation to handle both continuous and discrete data.",
+                },
+                {
+                  id: "CS11-CH01-T11",
+                  topicNumber: 11,
+                  topic: "Microcomputers",
+                  brief:
+                    "Microcomputers are relatively small computers built around a microprocessor, including desktops, laptops, tablets, and many personal computing devices.",
+                },
+                {
+                  id: "CS11-CH01-T12",
+                  topicNumber: 12,
+                  topic: "Mainframe computers",
+                  brief:
+                    "Mainframe computers are powerful systems designed to process large volumes of data and support many users and transactions simultaneously.",
+                },
+                {
+                  id: "CS11-CH01-T13",
+                  topicNumber: 13,
+                  topic: "Supercomputers",
+                  brief:
+                    "Supercomputers perform extremely complex calculations at very high speeds and are used in weather forecasting, scientific simulations, and advanced research.",
+                },
+                {
+                  id: "CS11-CH01-T14",
+                  topicNumber: 14,
+                  topic: "Computer hardware",
+                  brief:
+                    "Computer hardware refers to the physical components of a computer, such as the CPU, keyboard, monitor, motherboard, memory, and storage devices.",
+                },
+                {
+                  id: "CS11-CH01-T15",
+                  topicNumber: 15,
+                  topic: "Computer software",
+                  brief:
+                    "Computer software is a collection of programs and instructions that tells computer hardware how to perform specific tasks.",
+                },
+                {
+                  id: "CS11-CH01-T16",
+                  topicNumber: 16,
+                  topic: "Firmware",
+                  brief:
+                    "Firmware is specialized software stored in non-volatile memory that provides low-level control of a hardware device.",
+                },
+                {
+                  id: "CS11-CH01-T17",
+                  topicNumber: 17,
+                  topic: "Basic computer organization",
+                  brief:
+                    "Basic computer organization explains how input, processing, memory, storage, and output units work together to execute instructions and process data.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH02",
+              chapterNumber: 2,
+              chapterName: "Computer Architecture and Components",
+              topics: [
+                {
+                  id: "CS11-CH02-T01",
+                  topicNumber: 1,
+                  topic: "Input devices",
+                  brief:
+                    "Input devices allow users to enter data and instructions into a computer, such as through keyboards, mice, scanners, and microphones.",
+                },
+                {
+                  id: "CS11-CH02-T02",
+                  topicNumber: 2,
+                  topic: "Output devices",
+                  brief:
+                    "Output devices present processed information in forms such as text, images, sound, or printed documents. Examples include monitors, printers, and speakers.",
+                },
+                {
+                  id: "CS11-CH02-T03",
+                  topicNumber: 3,
+                  topic: "Central Processing Unit",
+                  brief:
+                    "The Central Processing Unit (CPU) executes instructions, performs calculations, and coordinates the activities of computer components.",
+                },
+                {
+                  id: "CS11-CH02-T04",
+                  topicNumber: 4,
+                  topic: "Arithmetic Logic Unit",
+                  brief:
+                    "The Arithmetic Logic Unit (ALU) performs arithmetic operations and logical comparisons required during data processing.",
+                },
+                {
+                  id: "CS11-CH02-T05",
+                  topicNumber: 5,
+                  topic: "Control Unit",
+                  brief:
+                    "The Control Unit directs and coordinates computer operations by interpreting instructions and controlling the movement of data between components.",
+                },
+                {
+                  id: "CS11-CH02-T06",
+                  topicNumber: 6,
+                  topic: "Registers",
+                  brief:
+                    "Registers are very small, high-speed storage locations inside the CPU that temporarily hold instructions, addresses, and data being processed.",
+                },
+                {
+                  id: "CS11-CH02-T07",
+                  topicNumber: 7,
+                  topic: "Memory unit",
+                  brief:
+                    "The memory unit stores instructions, data, and intermediate results needed during computer processing.",
+                },
+                {
+                  id: "CS11-CH02-T08",
+                  topicNumber: 8,
+                  topic: "Primary memory",
+                  brief:
+                    "Primary memory is directly accessible by the CPU and includes RAM and ROM, which serve different purposes in storing data and instructions.",
+                },
+                {
+                  id: "CS11-CH02-T09",
+                  topicNumber: 9,
+                  topic: "Secondary storage",
+                  brief:
+                    "Secondary storage provides long-term data storage and retains information when power is turned off. Examples include SSDs, hard disks, and memory cards.",
+                },
+                {
+                  id: "CS11-CH02-T10",
+                  topicNumber: 10,
+                  topic: "Cache memory",
+                  brief:
+                    "Cache memory is a small, high-speed memory that keeps frequently needed data and instructions close to the CPU to improve processing performance.",
+                },
+                {
+                  id: "CS11-CH02-T11",
+                  topicNumber: 11,
+                  topic: "RAM",
+                  brief:
+                    "Random Access Memory (RAM) temporarily stores programs and data currently in use and is generally volatile, meaning its contents disappear when power is removed.",
+                },
+                {
+                  id: "CS11-CH02-T12",
+                  topicNumber: 12,
+                  topic: "ROM",
+                  brief:
+                    "Read-Only Memory (ROM) is non-volatile memory used to store firmware and other instructions that must remain available without power.",
+                },
+                {
+                  id: "CS11-CH02-T13",
+                  topicNumber: 13,
+                  topic: "Motherboard",
+                  brief:
+                    "The motherboard is the main circuit board that connects the CPU, memory, storage interfaces, expansion components, and other computer hardware.",
+                },
+                {
+                  id: "CS11-CH02-T14",
+                  topicNumber: 14,
+                  topic: "System bus",
+                  brief:
+                    "A system bus provides communication pathways between computer components, commonly carrying data, addresses, and control signals.",
+                },
+                {
+                  id: "CS11-CH02-T15",
+                  topicNumber: 15,
+                  topic: "Instruction cycle",
+                  brief:
+                    "The instruction cycle is the sequence of operations a CPU performs to retrieve, interpret, and execute an instruction.",
+                },
+                {
+                  id: "CS11-CH02-T16",
+                  topicNumber: 16,
+                  topic: "Fetch-decode-execute cycle",
+                  brief:
+                    "The fetch-decode-execute cycle describes how the CPU fetches an instruction from memory, decodes its meaning, and executes the required operation.",
+                },
+                {
+                  id: "CS11-CH02-T17",
+                  topicNumber: 17,
+                  topic: "Computer ports and interfaces",
+                  brief:
+                    "Computer ports and interfaces enable devices to connect and exchange data or power through standards such as USB, HDMI, Ethernet, and audio connectors.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH03",
+              chapterNumber: 3,
+              chapterName: "Number Systems and Boolean Logic",
+              topics: [
+                {
+                  id: "CS11-CH03-T01",
+                  topicNumber: 1,
+                  topic: "Decimal number system",
+                  brief:
+                    "The decimal number system has base 10 and uses the digits 0 through 9, with each position representing a power of 10.",
+                },
+                {
+                  id: "CS11-CH03-T02",
+                  topicNumber: 2,
+                  topic: "Binary number system",
+                  brief:
+                    "The binary number system has base 2 and uses only the digits 0 and 1 to represent data and instructions in digital computers.",
+                },
+                {
+                  id: "CS11-CH03-T03",
+                  topicNumber: 3,
+                  topic: "Octal number system",
+                  brief:
+                    "The octal number system has base 8 and uses digits 0 through 7. Each octal digit corresponds to three binary bits.",
+                },
+                {
+                  id: "CS11-CH03-T04",
+                  topicNumber: 4,
+                  topic: "Hexadecimal number system",
+                  brief:
+                    "The hexadecimal number system has base 16 and uses digits 0–9 and letters A–F to represent values compactly.",
+                },
+                {
+                  id: "CS11-CH03-T05",
+                  topicNumber: 5,
+                  topic: "Conversion between number systems",
+                  brief:
+                    "Number-system conversion involves changing a number from one base to another using positional values, repeated division, or binary grouping methods.",
+                },
+                {
+                  id: "CS11-CH03-T06",
+                  topicNumber: 6,
+                  topic: "Binary addition",
+                  brief:
+                    "Binary addition adds binary digits using rules such as 0 + 0 = 0, 0 + 1 = 1, 1 + 1 = 10, and 1 + 1 + 1 = 11.",
+                },
+                {
+                  id: "CS11-CH03-T07",
+                  topicNumber: 7,
+                  topic: "Binary subtraction",
+                  brief:
+                    "Binary subtraction subtracts binary digits using borrowing when a digit cannot be subtracted directly from the corresponding digit in the minuend.",
+                },
+                {
+                  id: "CS11-CH03-T08",
+                  topicNumber: 8,
+                  topic: "Binary multiplication",
+                  brief:
+                    "Binary multiplication uses the rules for multiplying 0 and 1, followed by shifting and adding partial products when necessary.",
+                },
+                {
+                  id: "CS11-CH03-T09",
+                  topicNumber: 9,
+                  topic: "Binary division",
+                  brief:
+                    "Binary division follows a process similar to decimal long division but uses binary digits to calculate the quotient and remainder.",
+                },
+                {
+                  id: "CS11-CH03-T10",
+                  topicNumber: 10,
+                  topic: "One's complement",
+                  brief:
+                    "One's complement is obtained by changing every 0 in a binary number to 1 and every 1 to 0.",
+                },
+                {
+                  id: "CS11-CH03-T11",
+                  topicNumber: 11,
+                  topic: "Two's complement",
+                  brief:
+                    "Two's complement is formed by inverting the bits of a binary number and adding 1, and is commonly used to represent signed integers.",
+                },
+                {
+                  id: "CS11-CH03-T12",
+                  topicNumber: 12,
+                  topic: "Binary-coded decimal",
+                  brief:
+                    "Binary-coded decimal (BCD) represents each decimal digit separately using a four-bit binary code.",
+                },
+                {
+                  id: "CS11-CH03-T13",
+                  topicNumber: 13,
+                  topic: "ASCII",
+                  brief:
+                    "ASCII is a character-encoding standard that represents English letters, digits, punctuation, and control characters using numeric codes.",
+                },
+                {
+                  id: "CS11-CH03-T14",
+                  topicNumber: 14,
+                  topic: "Unicode",
+                  brief:
+                    "Unicode is a universal character standard that assigns code points to characters from many writing systems, symbols, and emojis.",
+                },
+                {
+                  id: "CS11-CH03-T15",
+                  topicNumber: 15,
+                  topic: "Boolean algebra",
+                  brief:
+                    "Boolean algebra is a mathematical system that works with true and false values and is used to describe and simplify digital logic circuits.",
+                },
+                {
+                  id: "CS11-CH03-T16",
+                  topicNumber: 16,
+                  topic: "Boolean operators",
+                  brief:
+                    "Boolean operators such as AND, OR, and NOT combine or modify logical values to produce a true or false result.",
+                },
+                {
+                  id: "CS11-CH03-T17",
+                  topicNumber: 17,
+                  topic: "AND gate",
+                  brief:
+                    "An AND gate produces output 1 only when all its inputs are 1; otherwise, its output is 0.",
+                },
+                {
+                  id: "CS11-CH03-T18",
+                  topicNumber: 18,
+                  topic: "OR gate",
+                  brief:
+                    "An OR gate produces output 1 when at least one input is 1 and produces output 0 when all inputs are 0.",
+                },
+                {
+                  id: "CS11-CH03-T19",
+                  topicNumber: 19,
+                  topic: "NOT gate",
+                  brief:
+                    "A NOT gate reverses its single input, producing 1 for input 0 and 0 for input 1.",
+                },
+                {
+                  id: "CS11-CH03-T20",
+                  topicNumber: 20,
+                  topic: "NAND gate",
+                  brief:
+                    "A NAND gate produces the opposite of an AND gate's output and gives 0 only when all inputs are 1.",
+                },
+                {
+                  id: "CS11-CH03-T21",
+                  topicNumber: 21,
+                  topic: "NOR gate",
+                  brief:
+                    "A NOR gate produces the opposite of an OR gate's output and gives 1 only when all inputs are 0.",
+                },
+                {
+                  id: "CS11-CH03-T22",
+                  topicNumber: 22,
+                  topic: "XOR gate",
+                  brief:
+                    "An XOR gate produces output 1 when its two inputs are different and output 0 when they are the same.",
+                },
+                {
+                  id: "CS11-CH03-T23",
+                  topicNumber: 23,
+                  topic: "XNOR gate",
+                  brief:
+                    "An XNOR gate produces output 1 when its two inputs are the same and output 0 when they are different.",
+                },
+                {
+                  id: "CS11-CH03-T24",
+                  topicNumber: 24,
+                  topic: "Truth tables",
+                  brief:
+                    "A truth table lists every possible combination of logical inputs and the corresponding output of a Boolean expression or logic gate.",
+                },
+                {
+                  id: "CS11-CH03-T25",
+                  topicNumber: 25,
+                  topic: "Basic Boolean expressions",
+                  brief:
+                    "Basic Boolean expressions combine logical variables and operators to represent conditions, evaluate logical results, and design digital circuits.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH04",
+              chapterNumber: 4,
+              chapterName: "Computer Software and Operating Systems",
+              topics: [
+                {
+                  id: "CS11-CH04-T01",
+                  topicNumber: 1,
+                  topic: "System software",
+                  brief:
+                    "System software manages computer hardware and provides a platform for applications. Operating systems, device drivers, and language translators are examples.",
+                },
+                {
+                  id: "CS11-CH04-T02",
+                  topicNumber: 2,
+                  topic: "Application software",
+                  brief:
+                    "Application software helps users perform specific tasks, such as writing documents, editing images, browsing the web, or managing accounts.",
+                },
+                {
+                  id: "CS11-CH04-T03",
+                  topicNumber: 3,
+                  topic: "Utility software",
+                  brief:
+                    "Utility software helps maintain, protect, and optimize computer systems through tasks such as backup, file compression, and malware scanning.",
+                },
+                {
+                  id: "CS11-CH04-T04",
+                  topicNumber: 4,
+                  topic: "Open-source software",
+                  brief:
+                    "Open-source software makes its source code available under a license that permits specified uses, inspection, modification, and redistribution.",
+                },
+                {
+                  id: "CS11-CH04-T05",
+                  topicNumber: 5,
+                  topic: "Proprietary software",
+                  brief:
+                    "Proprietary software is controlled by its owner or publisher, and its license restricts how users may access, modify, or redistribute it.",
+                },
+                {
+                  id: "CS11-CH04-T06",
+                  topicNumber: 6,
+                  topic: "Operating system concepts",
+                  brief:
+                    "An operating system is system software that manages hardware resources and provides services for application programs and users.",
+                },
+                {
+                  id: "CS11-CH04-T07",
+                  topicNumber: 7,
+                  topic: "Functions of an operating system",
+                  brief:
+                    "An operating system manages processes, memory, files, devices, security, user interfaces, and access to system resources.",
+                },
+                {
+                  id: "CS11-CH04-T08",
+                  topicNumber: 8,
+                  topic: "Types of operating systems",
+                  brief:
+                    "Operating systems can be classified by their operation and usage, including batch, multiprogramming, multitasking, time-sharing, real-time, and distributed systems.",
+                },
+                {
+                  id: "CS11-CH04-T09",
+                  topicNumber: 9,
+                  topic: "Batch operating systems",
+                  brief:
+                    "A batch operating system groups jobs and processes them in batches with limited or no direct interaction during execution.",
+                },
+                {
+                  id: "CS11-CH04-T10",
+                  topicNumber: 10,
+                  topic: "Multiprogramming",
+                  brief:
+                    "Multiprogramming keeps multiple programs in memory so the CPU can work on another job when the current one is waiting for input or output.",
+                },
+                {
+                  id: "CS11-CH04-T11",
+                  topicNumber: 11,
+                  topic: "Multitasking",
+                  brief:
+                    "Multitasking allows an operating system to manage multiple tasks by rapidly switching CPU attention among them or executing them in parallel on multiple cores.",
+                },
+                {
+                  id: "CS11-CH04-T12",
+                  topicNumber: 12,
+                  topic: "Time-sharing systems",
+                  brief:
+                    "Time-sharing systems allocate short CPU time slices to multiple users or processes to support interactive and responsive computing.",
+                },
+                {
+                  id: "CS11-CH04-T13",
+                  topicNumber: 13,
+                  topic: "Real-time operating systems",
+                  brief:
+                    "A real-time operating system is designed to respond to events within defined timing constraints, which is important in control and monitoring systems.",
+                },
+                {
+                  id: "CS11-CH04-T14",
+                  topicNumber: 14,
+                  topic: "Memory management",
+                  brief:
+                    "Memory management allocates and releases memory for processes, tracks memory usage, and helps prevent unauthorized or conflicting access.",
+                },
+                {
+                  id: "CS11-CH04-T15",
+                  topicNumber: 15,
+                  topic: "File management",
+                  brief:
+                    "File management organizes files and directories and controls operations such as creating, storing, retrieving, renaming, and deleting files.",
+                },
+                {
+                  id: "CS11-CH04-T16",
+                  topicNumber: 16,
+                  topic: "Process management",
+                  brief:
+                    "Process management creates, schedules, coordinates, and terminates processes while allocating CPU time and other resources.",
+                },
+                {
+                  id: "CS11-CH04-T17",
+                  topicNumber: 17,
+                  topic: "Device management",
+                  brief:
+                    "Device management coordinates input and output hardware using device drivers, system services, and resource-allocation mechanisms.",
+                },
+                {
+                  id: "CS11-CH04-T18",
+                  topicNumber: 18,
+                  topic: "User interfaces",
+                  brief:
+                    "A user interface enables people to interact with a computer through visual elements, text commands, touch, voice, or other input methods.",
+                },
+                {
+                  id: "CS11-CH04-T19",
+                  topicNumber: 19,
+                  topic: "Command-line interface",
+                  brief:
+                    "A command-line interface allows users to control a computer by typing text commands into a terminal or command interpreter.",
+                },
+                {
+                  id: "CS11-CH04-T20",
+                  topicNumber: 20,
+                  topic: "Graphical user interface",
+                  brief:
+                    "A graphical user interface lets users interact with a computer through visual elements such as windows, icons, menus, and buttons.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH05",
+              chapterNumber: 5,
+              chapterName: "Cybersecurity and Digital Society",
+              topics: [
+                {
+                  id: "CS11-CH05-T01",
+                  topicNumber: 1,
+                  topic: "Digital technology in society",
+                  brief:
+                    "Digital technology influences communication, education, healthcare, business, government, and entertainment by enabling electronic information processing and sharing.",
+                },
+                {
+                  id: "CS11-CH05-T02",
+                  topicNumber: 2,
+                  topic: "Information security",
+                  brief:
+                    "Information security protects information from unauthorized access, alteration, disclosure, destruction, or disruption.",
+                },
+                {
+                  id: "CS11-CH05-T03",
+                  topicNumber: 3,
+                  topic: "Cybersecurity concepts",
+                  brief:
+                    "Cybersecurity involves protecting computers, networks, applications, and data from digital attacks, misuse, and unauthorized access.",
+                },
+                {
+                  id: "CS11-CH05-T04",
+                  topicNumber: 4,
+                  topic: "Computer viruses",
+                  brief:
+                    "A computer virus is malicious code that attaches to a host file or program and spreads when that host is executed or shared.",
+                },
+                {
+                  id: "CS11-CH05-T05",
+                  topicNumber: 5,
+                  topic: "Worms and Trojan horses",
+                  brief:
+                    "A worm spreads between systems without needing to attach to a host file, while a Trojan horse disguises malicious functionality as legitimate software.",
+                },
+                {
+                  id: "CS11-CH05-T06",
+                  topicNumber: 6,
+                  topic: "Spyware and ransomware",
+                  brief:
+                    "Spyware secretly monitors activity or collects information, while ransomware blocks access to data or systems, often demanding payment to restore access.",
+                },
+                {
+                  id: "CS11-CH05-T07",
+                  topicNumber: 7,
+                  topic: "Phishing and social engineering",
+                  brief:
+                    "Phishing and social engineering use deceptive messages or psychological manipulation to trick people into revealing information or performing unsafe actions.",
+                },
+                {
+                  id: "CS11-CH05-T08",
+                  topicNumber: 8,
+                  topic: "Strong passwords",
+                  brief:
+                    "Strong passwords are difficult to guess and resist common attacks; long, unique passphrases stored in a password manager are often effective.",
+                },
+                {
+                  id: "CS11-CH05-T09",
+                  topicNumber: 9,
+                  topic: "Multi-factor authentication",
+                  brief:
+                    "Multi-factor authentication requires two or more different types of evidence to verify a user's identity, adding protection beyond a password.",
+                },
+                {
+                  id: "CS11-CH05-T10",
+                  topicNumber: 10,
+                  topic: "Encryption fundamentals",
+                  brief:
+                    "Encryption transforms readable data into ciphertext using a cryptographic method and key so that unauthorized parties cannot readily understand it.",
+                },
+                {
+                  id: "CS11-CH05-T11",
+                  topicNumber: 11,
+                  topic: "Antivirus software",
+                  brief:
+                    "Antivirus software detects, blocks, and removes many forms of malicious software using methods such as signature matching and behavior analysis.",
+                },
+                {
+                  id: "CS11-CH05-T12",
+                  topicNumber: 12,
+                  topic: "Firewalls",
+                  brief:
+                    "A firewall monitors and filters network traffic according to security rules to help prevent unauthorized connections.",
+                },
+                {
+                  id: "CS11-CH05-T13",
+                  topicNumber: 13,
+                  topic: "Data backup",
+                  brief:
+                    "Data backup involves creating additional copies of important files so they can be restored after accidental deletion, hardware failure, or a cyberattack.",
+                },
+                {
+                  id: "CS11-CH05-T14",
+                  topicNumber: 14,
+                  topic: "Privacy and personal information",
+                  brief:
+                    "Privacy and personal information protection involve controlling how identifying or sensitive data is collected, used, stored, and shared.",
+                },
+                {
+                  id: "CS11-CH05-T15",
+                  topicNumber: 15,
+                  topic: "Digital footprints",
+                  brief:
+                    "A digital footprint is the trail of information a person leaves online through activities such as browsing, posting, searching, and using digital services.",
+                },
+                {
+                  id: "CS11-CH05-T16",
+                  topicNumber: 16,
+                  topic: "Cyber ethics",
+                  brief:
+                    "Cyber ethics refers to responsible and fair behavior when using computers, networks, digital information, and online services.",
+                },
+                {
+                  id: "CS11-CH05-T17",
+                  topicNumber: 17,
+                  topic: "Responsible use of technology",
+                  brief:
+                    "Responsible technology use includes respecting others, protecting data, following applicable laws, checking information, and avoiding harmful online behavior.",
+                },
+                {
+                  id: "CS11-CH05-T18",
+                  topicNumber: 18,
+                  topic: "Cybercrime awareness",
+                  brief:
+                    "Cybercrime awareness helps people recognize digital offenses such as fraud, identity theft, unauthorized access, and online harassment and learn how to report them.",
+                },
+                {
+                  id: "CS11-CH05-T19",
+                  topicNumber: 19,
+                  topic: "Intellectual property",
+                  brief:
+                    "Intellectual property refers to creations of the mind, including software, writing, music, inventions, and designs, which may be protected by legal rights.",
+                },
+                {
+                  id: "CS11-CH05-T20",
+                  topicNumber: 20,
+                  topic: "Digital citizenship",
+                  brief:
+                    "Digital citizenship means using technology safely, respectfully, responsibly, and constructively while understanding one's rights and responsibilities online.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "CS11-B02",
+          branchNumber: 2,
+          branchName: "Programming and Problem Solving",
+          chapters: [
+            {
+              id: "CS11-CH06",
+              chapterNumber: 6,
+              chapterName: "Introduction to Programming",
+              topics: [
+                {
+                  id: "CS11-CH06-T01",
+                  topicNumber: 1,
+                  topic: "Concept of programming",
+                  brief:
+                    "Programming is the process of designing and writing instructions that a computer can execute to solve problems or perform tasks.",
+                },
+                {
+                  id: "CS11-CH06-T02",
+                  topicNumber: 2,
+                  topic: "Machine language",
+                  brief:
+                    "Machine language consists of binary instructions that a processor can execute directly, with instructions specific to its architecture.",
+                },
+                {
+                  id: "CS11-CH06-T03",
+                  topicNumber: 3,
+                  topic: "Assembly language",
+                  brief:
+                    "Assembly language uses symbolic mnemonics and operands to represent machine instructions and is translated into machine code by an assembler.",
+                },
+                {
+                  id: "CS11-CH06-T04",
+                  topicNumber: 4,
+                  topic: "High-level languages",
+                  brief:
+                    "High-level programming languages use syntax and abstractions that are easier for people to read and write than machine code.",
+                },
+                {
+                  id: "CS11-CH06-T05",
+                  topicNumber: 5,
+                  topic: "Compiled languages",
+                  brief:
+                    "Compiled-language programs are translated by a compiler into machine code or another target representation before execution, although compilation approaches vary.",
+                },
+                {
+                  id: "CS11-CH06-T06",
+                  topicNumber: 6,
+                  topic: "Interpreted languages",
+                  brief:
+                    "Interpreted-language programs are executed through an interpreter or runtime that processes their instructions, often without producing a standalone native executable first.",
+                },
+                {
+                  id: "CS11-CH06-T07",
+                  topicNumber: 7,
+                  topic: "Language translators",
+                  brief:
+                    "Language translators convert source programs or symbolic instructions into another form, such as machine code, bytecode, or executable instructions.",
+                },
+                {
+                  id: "CS11-CH06-T08",
+                  topicNumber: 8,
+                  topic: "Compiler",
+                  brief:
+                    "A compiler translates source code into a target representation and commonly reports errors or warnings found during translation.",
+                },
+                {
+                  id: "CS11-CH06-T09",
+                  topicNumber: 9,
+                  topic: "Interpreter",
+                  brief:
+                    "An interpreter executes a program through a runtime that reads or processes instructions and performs the specified operations.",
+                },
+                {
+                  id: "CS11-CH06-T10",
+                  topicNumber: 10,
+                  topic: "Assembler",
+                  brief:
+                    "An assembler converts assembly-language instructions and symbols into machine code or object code.",
+                },
+                {
+                  id: "CS11-CH06-T11",
+                  topicNumber: 11,
+                  topic: "Algorithms",
+                  brief:
+                    "An algorithm is a finite, ordered sequence of clear steps designed to solve a problem or complete a task.",
+                },
+                {
+                  id: "CS11-CH06-T12",
+                  topicNumber: 12,
+                  topic: "Flowcharts",
+                  brief:
+                    "A flowchart represents an algorithm visually using standardized symbols and arrows to show operations, decisions, and control flow.",
+                },
+                {
+                  id: "CS11-CH06-T13",
+                  topicNumber: 13,
+                  topic: "Pseudocode",
+                  brief:
+                    "Pseudocode describes an algorithm using structured, readable statements without requiring the exact syntax of a programming language.",
+                },
+                {
+                  id: "CS11-CH06-T14",
+                  topicNumber: 14,
+                  topic: "Problem-solving steps",
+                  brief:
+                    "Problem-solving steps typically include understanding the problem, analyzing requirements, designing an algorithm, implementing a solution, testing it, and improving it.",
+                },
+                {
+                  id: "CS11-CH06-T15",
+                  topicNumber: 15,
+                  topic: "Program development cycle",
+                  brief:
+                    "The program development cycle covers planning, analysis, design, coding, testing, debugging, documentation, deployment, and maintenance.",
+                },
+                {
+                  id: "CS11-CH06-T16",
+                  topicNumber: 16,
+                  topic: "Syntax errors",
+                  brief:
+                    "Syntax errors occur when code violates the grammar rules of a programming language and cannot be parsed correctly.",
+                },
+                {
+                  id: "CS11-CH06-T17",
+                  topicNumber: 17,
+                  topic: "Logical errors",
+                  brief:
+                    "Logical errors occur when a program runs but produces incorrect results because its algorithm or reasoning is wrong.",
+                },
+                {
+                  id: "CS11-CH06-T18",
+                  topicNumber: 18,
+                  topic: "Runtime errors",
+                  brief:
+                    "Runtime errors occur while a program is executing, for example when it divides by zero or attempts an invalid memory access.",
+                },
+                {
+                  id: "CS11-CH06-T19",
+                  topicNumber: 19,
+                  topic: "Testing and debugging",
+                  brief:
+                    "Testing checks whether software behaves as expected, while debugging identifies, investigates, and fixes the causes of defects.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH07",
+              chapterNumber: 7,
+              chapterName: "C Programming Fundamentals",
+              topics: [
+                {
+                  id: "CS11-CH07-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to C",
+                  brief:
+                    "C is a general-purpose procedural programming language widely used for system software, embedded applications, and performance-sensitive programs.",
+                },
+                {
+                  id: "CS11-CH07-T02",
+                  topicNumber: 2,
+                  topic: "Structure of a C program",
+                  brief:
+                    "A C program commonly contains preprocessor directives, declarations, function definitions, and a main function where execution begins.",
+                },
+                {
+                  id: "CS11-CH07-T03",
+                  topicNumber: 3,
+                  topic: "Header files",
+                  brief:
+                    "Header files provide declarations, macros, and type definitions that can be included in C source files using the #include directive.",
+                },
+                {
+                  id: "CS11-CH07-T04",
+                  topicNumber: 4,
+                  topic: "main function",
+                  brief:
+                    "The main function is the standard entry point of a hosted C program and contains or calls the code that runs when the program starts.",
+                },
+                {
+                  id: "CS11-CH07-T05",
+                  topicNumber: 5,
+                  topic: "Tokens in C",
+                  brief:
+                    "Tokens are the smallest meaningful units of C source code, including keywords, identifiers, constants, string literals, operators, and punctuators.",
+                },
+                {
+                  id: "CS11-CH07-T06",
+                  topicNumber: 6,
+                  topic: "Keywords",
+                  brief:
+                    "Keywords are reserved words in C, such as int, if, return, and while, that have predefined meanings and cannot be used as ordinary identifiers.",
+                },
+                {
+                  id: "CS11-CH07-T07",
+                  topicNumber: 7,
+                  topic: "Identifiers",
+                  brief:
+                    "Identifiers are programmer-defined names for variables, functions, arrays, and other program elements that follow C naming rules.",
+                },
+                {
+                  id: "CS11-CH07-T08",
+                  topicNumber: 8,
+                  topic: "Variables",
+                  brief:
+                    "Variables are named objects used to store values that a program can access and, when permitted, modify during execution.",
+                },
+                {
+                  id: "CS11-CH07-T09",
+                  topicNumber: 9,
+                  topic: "Constants",
+                  brief:
+                    "Constants are values that do not change during a particular use or execution context, including literal values and objects declared with const.",
+                },
+                {
+                  id: "CS11-CH07-T10",
+                  topicNumber: 10,
+                  topic: "Data types",
+                  brief:
+                    "Data types specify the kind of value an object can represent and influence its storage, permitted operations, and interpretation.",
+                },
+                {
+                  id: "CS11-CH07-T11",
+                  topicNumber: 11,
+                  topic: "Integer data types",
+                  brief:
+                    "C integer types, including char, short, int, and long variants, represent whole-number values with ranges determined by the implementation and type.",
+                },
+                {
+                  id: "CS11-CH07-T12",
+                  topicNumber: 12,
+                  topic: "Floating-point data types",
+                  brief:
+                    "Floating-point types such as float, double, and long double represent real-number approximations and support fractional values.",
+                },
+                {
+                  id: "CS11-CH07-T13",
+                  topicNumber: 13,
+                  topic: "Character data type",
+                  brief:
+                    "The char type stores an integer value capable of representing a basic execution character set character or a small integer value.",
+                },
+                {
+                  id: "CS11-CH07-T14",
+                  topicNumber: 14,
+                  topic: "Declaration and initialization",
+                  brief:
+                    "A declaration introduces an identifier and its type, while initialization provides its initial value when the object is defined.",
+                },
+                {
+                  id: "CS11-CH07-T15",
+                  topicNumber: 15,
+                  topic: "Input using scanf",
+                  brief:
+                    "The scanf function reads formatted input from standard input and stores converted values through the addresses supplied in its arguments.",
+                },
+                {
+                  id: "CS11-CH07-T16",
+                  topicNumber: 16,
+                  topic: "Output using printf",
+                  brief:
+                    "The printf function writes formatted text and values to standard output using format specifiers such as %d, %f, and %c.",
+                },
+                {
+                  id: "CS11-CH07-T17",
+                  topicNumber: 17,
+                  topic: "Escape sequences",
+                  brief:
+                    "Escape sequences represent special characters in C strings and character constants, such as newline (\\n), tab (\\t), and backslash (\\\\).",
+                },
+                {
+                  id: "CS11-CH07-T18",
+                  topicNumber: 18,
+                  topic: "Comments in C",
+                  brief:
+                    "Comments explain code for human readers and are ignored as executable instructions by the compiler; C supports // and /* ... */ comments.",
+                },
+                {
+                  id: "CS11-CH07-T19",
+                  topicNumber: 19,
+                  topic: "Compilation and execution",
+                  brief:
+                    "Compilation and execution involve translating C source code, linking required components, producing an executable when applicable, and running the program.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH08",
+              chapterNumber: 8,
+              chapterName: "Operators and Expressions in C",
+              topics: [
+                {
+                  id: "CS11-CH08-T01",
+                  topicNumber: 1,
+                  topic: "Arithmetic operators",
+                  brief:
+                    "Arithmetic operators perform mathematical operations such as addition (+), subtraction (-), multiplication (*), division (/), and remainder (%) for integer operands.",
+                },
+                {
+                  id: "CS11-CH08-T02",
+                  topicNumber: 2,
+                  topic: "Relational operators",
+                  brief:
+                    "Relational operators compare values using operators such as <, >, <=, >=, ==, and != and produce an integer result of 1 or 0 in C.",
+                },
+                {
+                  id: "CS11-CH08-T03",
+                  topicNumber: 3,
+                  topic: "Logical operators",
+                  brief:
+                    "Logical operators &&, ||, and ! combine or negate conditions and produce results representing false or true, with short-circuit evaluation for && and ||.",
+                },
+                {
+                  id: "CS11-CH08-T04",
+                  topicNumber: 4,
+                  topic: "Assignment operators",
+                  brief:
+                    "Assignment operators store values in modifiable objects, including simple assignment (=) and compound forms such as +=, -=, *=, and /=.",
+                },
+                {
+                  id: "CS11-CH08-T05",
+                  topicNumber: 5,
+                  topic: "Increment and decrement operators",
+                  brief:
+                    "The ++ and -- operators increase or decrease a variable by one, with prefix and postfix forms differing in the value of the expression.",
+                },
+                {
+                  id: "CS11-CH08-T06",
+                  topicNumber: 6,
+                  topic: "Conditional operator",
+                  brief:
+                    "The conditional operator (?:) selects one of two expressions based on whether a condition evaluates to true or false.",
+                },
+                {
+                  id: "CS11-CH08-T07",
+                  topicNumber: 7,
+                  topic: "Bitwise operators",
+                  brief:
+                    "Bitwise operators such as &, |, ^, ~, <<, and >> operate on the individual bits of integer operands.",
+                },
+                {
+                  id: "CS11-CH08-T08",
+                  topicNumber: 8,
+                  topic: "Operator precedence",
+                  brief:
+                    "Operator precedence determines how operators are grouped in an expression when parentheses do not specify the grouping.",
+                },
+                {
+                  id: "CS11-CH08-T09",
+                  topicNumber: 9,
+                  topic: "Operator associativity",
+                  brief:
+                    "Operator associativity determines grouping when operators of the same precedence appear together, such as left-to-right grouping for subtraction.",
+                },
+                {
+                  id: "CS11-CH08-T10",
+                  topicNumber: 10,
+                  topic: "Type conversion",
+                  brief:
+                    "Type conversion changes a value from one type to another, either implicitly through language rules or explicitly through a cast.",
+                },
+                {
+                  id: "CS11-CH08-T11",
+                  topicNumber: 11,
+                  topic: "Type casting",
+                  brief:
+                    "Type casting explicitly requests conversion to a specified type, as in (float)count, and may affect precision or value representation.",
+                },
+                {
+                  id: "CS11-CH08-T12",
+                  topicNumber: 12,
+                  topic: "Integer expressions",
+                  brief:
+                    "Integer expressions combine integer operands and operators; integer division discards the fractional part when both operands have integer types.",
+                },
+                {
+                  id: "CS11-CH08-T13",
+                  topicNumber: 13,
+                  topic: "Floating-point expressions",
+                  brief:
+                    "Floating-point expressions perform calculations using approximate real-number representations, which can introduce rounding differences.",
+                },
+                {
+                  id: "CS11-CH08-T14",
+                  topicNumber: 14,
+                  topic: "Evaluation of expressions",
+                  brief:
+                    "Expression evaluation determines a result according to C's operator rules, conversions, precedence, associativity, and sequencing requirements.",
+                },
+                {
+                  id: "CS11-CH08-T15",
+                  topicNumber: 15,
+                  topic: "Common operator errors",
+                  brief:
+                    "Common operator errors include confusing = with ==, overlooking integer division, misunderstanding precedence, and using invalid or unsafe operands.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH09",
+              chapterNumber: 9,
+              chapterName: "Control Statements in C",
+              topics: [
+                {
+                  id: "CS11-CH09-T01",
+                  topicNumber: 1,
+                  topic: "Sequential execution",
+                  brief:
+                    "Sequential execution runs statements in their written order unless a control statement or function call changes the flow.",
+                },
+                {
+                  id: "CS11-CH09-T02",
+                  topicNumber: 2,
+                  topic: "Decision-making statements",
+                  brief:
+                    "Decision-making statements select which code to execute based on conditions, allowing programs to respond differently to different inputs.",
+                },
+                {
+                  id: "CS11-CH09-T03",
+                  topicNumber: 3,
+                  topic: "if statement",
+                  brief:
+                    "The if statement executes a statement or block only when its controlling expression evaluates to a nonzero value.",
+                },
+                {
+                  id: "CS11-CH09-T04",
+                  topicNumber: 4,
+                  topic: "if-else statement",
+                  brief:
+                    "The if-else statement selects between two alternative statements or blocks depending on whether its condition is true or false.",
+                },
+                {
+                  id: "CS11-CH09-T05",
+                  topicNumber: 5,
+                  topic: "Nested if statements",
+                  brief:
+                    "Nested if statements place one conditional statement inside another to evaluate multiple related conditions.",
+                },
+                {
+                  id: "CS11-CH09-T06",
+                  topicNumber: 6,
+                  topic: "else-if ladder",
+                  brief:
+                    "An else-if ladder tests conditions in sequence and executes the first matching branch, with an optional final else branch.",
+                },
+                {
+                  id: "CS11-CH09-T07",
+                  topicNumber: 7,
+                  topic: "switch statement",
+                  brief:
+                    "The switch statement selects a branch based on an integer-type or enumeration-compatible controlling expression and matching case labels.",
+                },
+                {
+                  id: "CS11-CH09-T08",
+                  topicNumber: 8,
+                  topic: "Conditional operator",
+                  brief:
+                    "The conditional operator (?:) provides a compact expression-based alternative for selecting between two values according to a condition.",
+                },
+                {
+                  id: "CS11-CH09-T09",
+                  topicNumber: 9,
+                  topic: "while loop",
+                  brief:
+                    "A while loop repeatedly executes its body while its condition remains true, checking the condition before each iteration.",
+                },
+                {
+                  id: "CS11-CH09-T10",
+                  topicNumber: 10,
+                  topic: "do-while loop",
+                  brief:
+                    "A do-while loop executes its body at least once and checks the condition after each iteration.",
+                },
+                {
+                  id: "CS11-CH09-T11",
+                  topicNumber: 11,
+                  topic: "for loop",
+                  brief:
+                    "A for loop combines initialization, a continuation condition, and an update expression to control repeated execution.",
+                },
+                {
+                  id: "CS11-CH09-T12",
+                  topicNumber: 12,
+                  topic: "Nested loops",
+                  brief:
+                    "Nested loops place one loop inside another and are useful for processing grids, tables, patterns, and multidimensional arrays.",
+                },
+                {
+                  id: "CS11-CH09-T13",
+                  topicNumber: 13,
+                  topic: "break statement",
+                  brief:
+                    "The break statement immediately terminates the nearest enclosing loop or switch statement and transfers control to the following statement.",
+                },
+                {
+                  id: "CS11-CH09-T14",
+                  topicNumber: 14,
+                  topic: "continue statement",
+                  brief:
+                    "The continue statement skips the remaining statements in the current loop iteration and proceeds to the next iteration according to the loop type.",
+                },
+                {
+                  id: "CS11-CH09-T15",
+                  topicNumber: 15,
+                  topic: "goto statement",
+                  brief:
+                    "The goto statement transfers control to a labeled statement within the same function and should be used carefully to keep code understandable.",
+                },
+                {
+                  id: "CS11-CH09-T16",
+                  topicNumber: 16,
+                  topic: "Loop tracing",
+                  brief:
+                    "Loop tracing follows variable values and loop conditions step by step to determine the sequence of operations and final output.",
+                },
+                {
+                  id: "CS11-CH09-T17",
+                  topicNumber: 17,
+                  topic: "Pattern printing",
+                  brief:
+                    "Pattern printing uses loops and output statements to display arrangements of characters, numbers, or symbols in rows and columns.",
+                },
+                {
+                  id: "CS11-CH09-T18",
+                  topicNumber: 18,
+                  topic: "Menu-driven programs",
+                  brief:
+                    "Menu-driven programs present users with a list of operations and use input and control statements to perform the selected task.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH10",
+              chapterNumber: 10,
+              chapterName: "Arrays and Strings in C",
+              topics: [
+                {
+                  id: "CS11-CH10-T01",
+                  topicNumber: 1,
+                  topic: "Concept of arrays",
+                  brief:
+                    "An array stores a fixed number of elements of the same type in contiguous memory locations, accessed using an index.",
+                },
+                {
+                  id: "CS11-CH10-T02",
+                  topicNumber: 2,
+                  topic: "Array declaration",
+                  brief:
+                    "Array declaration specifies an array's element type, name, and size, such as int marks[10].",
+                },
+                {
+                  id: "CS11-CH10-T03",
+                  topicNumber: 3,
+                  topic: "Array initialization",
+                  brief:
+                    "Array initialization assigns initial values to array elements, often using a brace-enclosed list when the array is defined.",
+                },
+                {
+                  id: "CS11-CH10-T04",
+                  topicNumber: 4,
+                  topic: "One-dimensional arrays",
+                  brief:
+                    "A one-dimensional array stores a sequence of same-type elements accessed through a single index.",
+                },
+                {
+                  id: "CS11-CH10-T05",
+                  topicNumber: 5,
+                  topic: "Two-dimensional arrays",
+                  brief:
+                    "A two-dimensional array organizes elements in rows and columns and is commonly used to represent tables and matrices.",
+                },
+                {
+                  id: "CS11-CH10-T06",
+                  topicNumber: 6,
+                  topic: "Multidimensional arrays",
+                  brief:
+                    "Multidimensional arrays use two or more indices to organize elements into structures such as matrices and higher-dimensional data sets.",
+                },
+                {
+                  id: "CS11-CH10-T07",
+                  topicNumber: 7,
+                  topic: "Array traversal",
+                  brief:
+                    "Array traversal visits array elements one by one, usually using a loop, to read, display, modify, or process their values.",
+                },
+                {
+                  id: "CS11-CH10-T08",
+                  topicNumber: 8,
+                  topic: "Searching in arrays",
+                  brief:
+                    "Array searching locates a target value, commonly using linear search or binary search when the data is sorted.",
+                },
+                {
+                  id: "CS11-CH10-T09",
+                  topicNumber: 9,
+                  topic: "Sorting arrays",
+                  brief:
+                    "Array sorting rearranges elements into a chosen order, such as ascending or descending, using algorithms like bubble sort or selection sort.",
+                },
+                {
+                  id: "CS11-CH10-T10",
+                  topicNumber: 10,
+                  topic: "Matrix operations",
+                  brief:
+                    "Matrix operations include addition, subtraction, transposition, and multiplication, subject to the dimensions required for each operation.",
+                },
+                {
+                  id: "CS11-CH10-T11",
+                  topicNumber: 11,
+                  topic: "Character arrays",
+                  brief:
+                    "Character arrays store sequences of char values and can represent text when a terminating null character is included.",
+                },
+                {
+                  id: "CS11-CH10-T12",
+                  topicNumber: 12,
+                  topic: "Strings in C",
+                  brief:
+                    "A C string is a sequence of characters stored in a char array and terminated by the null character '\\0'.",
+                },
+                {
+                  id: "CS11-CH10-T13",
+                  topicNumber: 13,
+                  topic: "String input and output",
+                  brief:
+                    "String input and output use functions such as fgets and printf to read and display text, with care taken to avoid buffer overflow and format-string errors.",
+                },
+                {
+                  id: "CS11-CH10-T14",
+                  topicNumber: 14,
+                  topic: "String library functions",
+                  brief:
+                    "C string library functions declared in string.h perform operations such as measuring length, copying, concatenating, and comparing strings.",
+                },
+                {
+                  id: "CS11-CH10-T15",
+                  topicNumber: 15,
+                  topic: "strlen",
+                  brief:
+                    "The strlen function returns the number of characters in a null-terminated string, excluding the terminating null character.",
+                },
+                {
+                  id: "CS11-CH10-T16",
+                  topicNumber: 16,
+                  topic: "strcpy",
+                  brief:
+                    "The strcpy function copies a null-terminated source string into a destination array, which must have sufficient space for all characters and the terminator.",
+                },
+                {
+                  id: "CS11-CH10-T17",
+                  topicNumber: 17,
+                  topic: "strcat",
+                  brief:
+                    "The strcat function appends a source string to the end of a destination string, which must have enough capacity for the combined result.",
+                },
+                {
+                  id: "CS11-CH10-T18",
+                  topicNumber: 18,
+                  topic: "strcmp",
+                  brief:
+                    "The strcmp function compares two null-terminated strings and returns a negative value, zero, or a positive value depending on their lexicographic ordering.",
+                },
+                {
+                  id: "CS11-CH10-T19",
+                  topicNumber: 19,
+                  topic: "Array-based programming problems",
+                  brief:
+                    "Array-based programming problems involve processing collections of values to calculate totals, find extrema, search for elements, sort data, or manipulate matrices.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH11",
+              chapterNumber: 11,
+              chapterName: "Functions in C",
+              topics: [
+                {
+                  id: "CS11-CH11-T01",
+                  topicNumber: 1,
+                  topic: "Concept of functions",
+                  brief:
+                    "A function is a named block of code that performs a particular task and can be called from different parts of a program.",
+                },
+                {
+                  id: "CS11-CH11-T02",
+                  topicNumber: 2,
+                  topic: "Library functions",
+                  brief:
+                    "Library functions are predefined functions supplied by the C standard library or other libraries, such as printf, scanf, strlen, and sqrt.",
+                },
+                {
+                  id: "CS11-CH11-T03",
+                  topicNumber: 3,
+                  topic: "User-defined functions",
+                  brief:
+                    "User-defined functions are written by programmers to organize reusable operations and make programs easier to understand and maintain.",
+                },
+                {
+                  id: "CS11-CH11-T04",
+                  topicNumber: 4,
+                  topic: "Function declaration",
+                  brief:
+                    "A function declaration introduces a function's name, return type, and parameter types so the compiler can check how it is used.",
+                },
+                {
+                  id: "CS11-CH11-T05",
+                  topicNumber: 5,
+                  topic: "Function prototype",
+                  brief:
+                    "A function prototype is a declaration that specifies a function's return type and parameter types before the function is called.",
+                },
+                {
+                  id: "CS11-CH11-T06",
+                  topicNumber: 6,
+                  topic: "Function definition",
+                  brief:
+                    "A function definition provides the function's body, including the statements executed when the function is called.",
+                },
+                {
+                  id: "CS11-CH11-T07",
+                  topicNumber: 7,
+                  topic: "Function call",
+                  brief:
+                    "A function call transfers control to a function, supplies its arguments, and receives a return value when the function returns one.",
+                },
+                {
+                  id: "CS11-CH11-T08",
+                  topicNumber: 8,
+                  topic: "Arguments and parameters",
+                  brief:
+                    "Parameters are variables listed in a function definition, while arguments are the values or expressions supplied when the function is called.",
+                },
+                {
+                  id: "CS11-CH11-T09",
+                  topicNumber: 9,
+                  topic: "Return values",
+                  brief:
+                    "A return value is the result a function sends back to its caller using a return statement, unless the function has a void return type.",
+                },
+                {
+                  id: "CS11-CH11-T10",
+                  topicNumber: 10,
+                  topic: "Call by value",
+                  brief:
+                    "C passes function arguments by value, meaning parameters receive copies of argument values; pointers can be used to modify objects through their addresses.",
+                },
+                {
+                  id: "CS11-CH11-T11",
+                  topicNumber: 11,
+                  topic: "Passing arrays to functions",
+                  brief:
+                    "When an array is passed to a function in C, the parameter typically receives a pointer to its first element, so the array length often needs to be passed separately.",
+                },
+                {
+                  id: "CS11-CH11-T12",
+                  topicNumber: 12,
+                  topic: "Local variables",
+                  brief:
+                    "Local variables are declared within a block or function and are accessible according to their scope and storage duration.",
+                },
+                {
+                  id: "CS11-CH11-T13",
+                  topicNumber: 13,
+                  topic: "Global variables",
+                  brief:
+                    "Global variables are defined outside functions and can be accessed by functions where their declarations are visible, subject to scope and linkage rules.",
+                },
+                {
+                  id: "CS11-CH11-T14",
+                  topicNumber: 14,
+                  topic: "Variable scope",
+                  brief:
+                    "Variable scope determines where an identifier can be used in source code, with common scopes including block, file, and function-prototype scope.",
+                },
+                {
+                  id: "CS11-CH11-T15",
+                  topicNumber: 15,
+                  topic: "Recursive functions",
+                  brief:
+                    "A recursive function calls itself directly or indirectly and requires a suitable base case to prevent endless recursion.",
+                },
+                {
+                  id: "CS11-CH11-T16",
+                  topicNumber: 16,
+                  topic: "Modular programming",
+                  brief:
+                    "Modular programming divides a larger program into smaller, well-defined functions or modules that can be developed, tested, and maintained independently.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH12",
+              chapterNumber: 12,
+              chapterName: "Pointers and Structures",
+              topics: [
+                {
+                  id: "CS11-CH12-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to pointers",
+                  brief:
+                    "A pointer is a variable that stores the address of an object or function, allowing indirect access to data and supporting dynamic data structures.",
+                },
+                {
+                  id: "CS11-CH12-T02",
+                  topicNumber: 2,
+                  topic: "Pointer declaration",
+                  brief:
+                    "Pointer declaration specifies the type of object a pointer can point to, such as int *ptr for a pointer to int.",
+                },
+                {
+                  id: "CS11-CH12-T03",
+                  topicNumber: 3,
+                  topic: "Address operator",
+                  brief:
+                    "The address operator (&) obtains the address of an object that can be used to initialize or assign a suitable pointer.",
+                },
+                {
+                  id: "CS11-CH12-T04",
+                  topicNumber: 4,
+                  topic: "Dereference operator",
+                  brief:
+                    "The dereference operator (*) accesses the object pointed to by a valid pointer, and using it with an invalid pointer can cause undefined behavior.",
+                },
+                {
+                  id: "CS11-CH12-T05",
+                  topicNumber: 5,
+                  topic: "Pointer initialization",
+                  brief:
+                    "Pointer initialization assigns a valid address, a suitable null pointer value, or another permitted pointer value before the pointer is used.",
+                },
+                {
+                  id: "CS11-CH12-T06",
+                  topicNumber: 6,
+                  topic: "Pointers and arrays",
+                  brief:
+                    "Pointers and arrays are closely related in C because array expressions often convert to pointers to their first elements, enabling indexed and pointer-based access.",
+                },
+                {
+                  id: "CS11-CH12-T07",
+                  topicNumber: 7,
+                  topic: "Pointers and functions",
+                  brief:
+                    "Pointers can be passed to functions to provide indirect access to objects, support modification of caller-owned data, or represent callbacks through function pointers.",
+                },
+                {
+                  id: "CS11-CH12-T08",
+                  topicNumber: 8,
+                  topic: "Null pointers",
+                  brief:
+                    "A null pointer is a pointer value that is guaranteed not to point to an object or function and can be checked before attempting access.",
+                },
+                {
+                  id: "CS11-CH12-T09",
+                  topicNumber: 9,
+                  topic: "Introduction to structures",
+                  brief:
+                    "A structure in C is a user-defined type that groups related members, which may have different data types, under a single name.",
+                },
+                {
+                  id: "CS11-CH12-T10",
+                  topicNumber: 10,
+                  topic: "Structure declaration",
+                  brief:
+                    "A structure declaration defines a structure type and its members, which can later be used to declare variables of that type.",
+                },
+                {
+                  id: "CS11-CH12-T11",
+                  topicNumber: 11,
+                  topic: "Structure variables",
+                  brief:
+                    "Structure variables are objects of a structure type that store values for each declared member.",
+                },
+                {
+                  id: "CS11-CH12-T12",
+                  topicNumber: 12,
+                  topic: "Accessing structure members",
+                  brief:
+                    "The dot operator accesses a member of a structure object, while the arrow operator accesses a member through a pointer to a structure.",
+                },
+                {
+                  id: "CS11-CH12-T13",
+                  topicNumber: 13,
+                  topic: "Arrays of structures",
+                  brief:
+                    "An array of structures stores multiple records of the same structure type, such as a collection of student or employee details.",
+                },
+                {
+                  id: "CS11-CH12-T14",
+                  topicNumber: 14,
+                  topic: "Nested structures",
+                  brief:
+                    "Nested structures contain one structure as a member of another, allowing related information to be organized hierarchically.",
+                },
+                {
+                  id: "CS11-CH12-T15",
+                  topicNumber: 15,
+                  topic: "Structures and functions",
+                  brief:
+                    "Structures can be passed to functions by value, passed through pointers, and returned from functions to organize data processing.",
+                },
+                {
+                  id: "CS11-CH12-T16",
+                  topicNumber: 16,
+                  topic: "Introduction to unions",
+                  brief:
+                    "A union is a user-defined type whose members share the same memory region, so it is generally used to store one member value at a time.",
+                },
+                {
+                  id: "CS11-CH12-T17",
+                  topicNumber: 17,
+                  topic: "Enumeration types",
+                  brief:
+                    "An enumeration type, declared using enum, defines a set of named integer constants that make code more readable.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH13",
+              chapterNumber: 13,
+              chapterName: "File Handling in C",
+              topics: [
+                {
+                  id: "CS11-CH13-T01",
+                  topicNumber: 1,
+                  topic: "Concept of files",
+                  brief:
+                    "A file is a named collection of data stored on a storage device so that information can be retained and accessed beyond a program's execution.",
+                },
+                {
+                  id: "CS11-CH13-T02",
+                  topicNumber: 2,
+                  topic: "Text files and binary files",
+                  brief:
+                    "Text files store data as character sequences intended for textual interpretation, while binary files store data in byte-oriented representations.",
+                },
+                {
+                  id: "CS11-CH13-T03",
+                  topicNumber: 3,
+                  topic: "File pointers",
+                  brief:
+                    "A file pointer in C is typically a FILE pointer used to track and manage an opened stream for reading, writing, or other file operations.",
+                },
+                {
+                  id: "CS11-CH13-T04",
+                  topicNumber: 4,
+                  topic: "Opening files",
+                  brief:
+                    "Opening a file establishes a stream with a selected access mode, usually through fopen, and requires checking whether the operation succeeded.",
+                },
+                {
+                  id: "CS11-CH13-T05",
+                  topicNumber: 5,
+                  topic: "Closing files",
+                  brief:
+                    "Closing a file stream releases associated resources and helps ensure buffered output is completed by using fclose.",
+                },
+                {
+                  id: "CS11-CH13-T06",
+                  topicNumber: 6,
+                  topic: "File opening modes",
+                  brief:
+                    "File opening modes specify whether a stream is opened for reading, writing, or appending, with options for text or binary handling.",
+                },
+                {
+                  id: "CS11-CH13-T07",
+                  topicNumber: 7,
+                  topic: "Reading from files",
+                  brief:
+                    "Reading from files retrieves stored data using functions such as fscanf, fgets, fgetc, and fread, depending on the data format.",
+                },
+                {
+                  id: "CS11-CH13-T08",
+                  topicNumber: 8,
+                  topic: "Writing to files",
+                  brief:
+                    "Writing to files stores data through functions such as fprintf, fputs, fputc, and fwrite, depending on the required format.",
+                },
+                {
+                  id: "CS11-CH13-T09",
+                  topicNumber: 9,
+                  topic: "Appending to files",
+                  brief:
+                    "Appending writes new data at the end of an existing file without intentionally replacing its previous contents.",
+                },
+                {
+                  id: "CS11-CH13-T10",
+                  topicNumber: 10,
+                  topic: "fopen and fclose",
+                  brief:
+                    "The fopen function opens a file stream and returns a FILE pointer on success, while fclose closes the stream and reports whether closing succeeded.",
+                },
+                {
+                  id: "CS11-CH13-T11",
+                  topicNumber: 11,
+                  topic: "fprintf and fscanf",
+                  brief:
+                    "The fprintf function writes formatted data to a file stream, while fscanf reads formatted data from a stream into supplied objects.",
+                },
+                {
+                  id: "CS11-CH13-T12",
+                  topicNumber: 12,
+                  topic: "fgetc and fputc",
+                  brief:
+                    "The fgetc function reads the next character from a stream and returns an int value, while fputc writes a character to a stream.",
+                },
+                {
+                  id: "CS11-CH13-T13",
+                  topicNumber: 13,
+                  topic: "fgets and fputs",
+                  brief:
+                    "The fgets function reads a bounded line or character sequence into a buffer, while fputs writes a string to a stream.",
+                },
+                {
+                  id: "CS11-CH13-T14",
+                  topicNumber: 14,
+                  topic: "End-of-file detection",
+                  brief:
+                    "End-of-file detection uses return values from input functions and, when appropriate, feof to determine whether a stream has reached its end.",
+                },
+                {
+                  id: "CS11-CH13-T15",
+                  topicNumber: 15,
+                  topic: "File error handling",
+                  brief:
+                    "File error handling checks return values and stream status indicators to detect problems such as failed opening, reading, writing, or closing.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "CS11-B03",
+          branchNumber: 3,
+          branchName: "Database and Information Management",
+          chapters: [
+            {
+              id: "CS11-CH14",
+              chapterNumber: 14,
+              chapterName: "Database Fundamentals",
+              topics: [
+                {
+                  id: "CS11-CH14-T01",
+                  topicNumber: 1,
+                  topic: "Concept of data and information",
+                  brief:
+                    "Data consists of raw facts or observations, while information is data processed or organized to provide meaning and support decisions.",
+                },
+                {
+                  id: "CS11-CH14-T02",
+                  topicNumber: 2,
+                  topic: "Database concepts",
+                  brief:
+                    "A database is an organized collection of related data designed for efficient storage, retrieval, updating, and management.",
+                },
+                {
+                  id: "CS11-CH14-T03",
+                  topicNumber: 3,
+                  topic: "Database management systems",
+                  brief:
+                    "A Database Management System (DBMS) is software used to define, create, query, update, secure, and administer databases.",
+                },
+                {
+                  id: "CS11-CH14-T04",
+                  topicNumber: 4,
+                  topic: "Advantages of a DBMS",
+                  brief:
+                    "A DBMS can improve data sharing, consistency, security, integrity, backup, recovery, and controlled access while reducing unnecessary duplication.",
+                },
+                {
+                  id: "CS11-CH14-T05",
+                  topicNumber: 5,
+                  topic: "Database users",
+                  brief:
+                    "Database users include end users, application developers, database administrators, and other specialists who interact with or manage database systems.",
+                },
+                {
+                  id: "CS11-CH14-T06",
+                  topicNumber: 6,
+                  topic: "Database administrator",
+                  brief:
+                    "A database administrator manages database security, performance, availability, backups, recovery, permissions, and routine maintenance.",
+                },
+                {
+                  id: "CS11-CH14-T07",
+                  topicNumber: 7,
+                  topic: "File-based systems",
+                  brief:
+                    "A file-based system stores information in separate files managed by individual applications, which can make sharing, consistency, and centralized control more difficult.",
+                },
+                {
+                  id: "CS11-CH14-T08",
+                  topicNumber: 8,
+                  topic: "Database models",
+                  brief:
+                    "A database model defines how data is structured, related, stored, and accessed, with common examples including hierarchical, network, relational, and document models.",
+                },
+                {
+                  id: "CS11-CH14-T09",
+                  topicNumber: 9,
+                  topic: "Hierarchical database model",
+                  brief:
+                    "The hierarchical database model organizes records in a tree structure, with parent-child relationships and typically one parent for each child record.",
+                },
+                {
+                  id: "CS11-CH14-T10",
+                  topicNumber: 10,
+                  topic: "Network database model",
+                  brief:
+                    "The network database model organizes records as a graph of linked relationships, allowing a record to have multiple parent or owner relationships.",
+                },
+                {
+                  id: "CS11-CH14-T11",
+                  topicNumber: 11,
+                  topic: "Relational database model",
+                  brief:
+                    "The relational database model organizes data into tables of rows and columns and uses keys and relationships to connect related information.",
+                },
+                {
+                  id: "CS11-CH14-T12",
+                  topicNumber: 12,
+                  topic: "Tables, records, and fields",
+                  brief:
+                    "In a relational database, a table organizes related data, a record or row represents one entry, and a field or column represents a particular attribute.",
+                },
+                {
+                  id: "CS11-CH14-T13",
+                  topicNumber: 13,
+                  topic: "Primary keys",
+                  brief:
+                    "A primary key uniquely identifies each row in a table and must contain unique, non-null values.",
+                },
+                {
+                  id: "CS11-CH14-T14",
+                  topicNumber: 14,
+                  topic: "Foreign keys",
+                  brief:
+                    "A foreign key is a column or set of columns that references a key in another or the same table to help maintain referential integrity.",
+                },
+                {
+                  id: "CS11-CH14-T15",
+                  topicNumber: 15,
+                  topic: "Candidate keys",
+                  brief:
+                    "A candidate key is a minimal set of attributes that uniquely identifies a record, and one candidate key is selected as the primary key.",
+                },
+                {
+                  id: "CS11-CH14-T16",
+                  topicNumber: 16,
+                  topic: "Data integrity",
+                  brief:
+                    "Data integrity means maintaining the accuracy, consistency, validity, and reliability of stored data through rules and controls.",
+                },
+                {
+                  id: "CS11-CH14-T17",
+                  topicNumber: 17,
+                  topic: "Data redundancy",
+                  brief:
+                    "Data redundancy is the unnecessary duplication of data, which can increase storage requirements and create inconsistencies when copies are updated differently.",
+                },
+                {
+                  id: "CS11-CH14-T18",
+                  topicNumber: 18,
+                  topic: "Database security",
+                  brief:
+                    "Database security protects stored information through authentication, authorization, encryption, auditing, backups, and other safeguards.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH15",
+              chapterNumber: 15,
+              chapterName: "Introduction to SQL",
+              topics: [
+                {
+                  id: "CS11-CH15-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to SQL",
+                  brief:
+                    "Structured Query Language (SQL) is a language used with relational database systems to define structures, retrieve data, modify records, and manage access.",
+                },
+                {
+                  id: "CS11-CH15-T02",
+                  topicNumber: 2,
+                  topic: "Relational database tables",
+                  brief:
+                    "Relational database tables store related data in rows and columns, with defined data types and constraints for each column.",
+                },
+                {
+                  id: "CS11-CH15-T03",
+                  topicNumber: 3,
+                  topic: "Data types in SQL",
+                  brief:
+                    "SQL data types define the kinds of values columns can store, including integers, decimal numbers, character strings, dates, and Boolean-like values where supported.",
+                },
+                {
+                  id: "CS11-CH15-T04",
+                  topicNumber: 4,
+                  topic: "CREATE TABLE",
+                  brief:
+                    "CREATE TABLE is an SQL statement used to define a new table, its columns, their data types, and applicable constraints.",
+                },
+                {
+                  id: "CS11-CH15-T05",
+                  topicNumber: 5,
+                  topic: "INSERT INTO",
+                  brief:
+                    "INSERT INTO adds new rows to a table by specifying column values or by inserting results from a query.",
+                },
+                {
+                  id: "CS11-CH15-T06",
+                  topicNumber: 6,
+                  topic: "SELECT",
+                  brief:
+                    "SELECT retrieves data from one or more tables or query expressions and can return selected columns, calculated values, or aggregated results.",
+                },
+                {
+                  id: "CS11-CH15-T07",
+                  topicNumber: 7,
+                  topic: "WHERE clause",
+                  brief:
+                    "The WHERE clause filters rows according to a condition so that only matching records are selected, updated, or deleted.",
+                },
+                {
+                  id: "CS11-CH15-T08",
+                  topicNumber: 8,
+                  topic: "UPDATE",
+                  brief:
+                    "UPDATE changes existing rows in a table; a suitable WHERE clause is usually needed to restrict which records are modified.",
+                },
+                {
+                  id: "CS11-CH15-T09",
+                  topicNumber: 9,
+                  topic: "DELETE",
+                  brief:
+                    "DELETE removes rows from a table, and a WHERE clause can be used to limit removal to records matching a condition.",
+                },
+                {
+                  id: "CS11-CH15-T10",
+                  topicNumber: 10,
+                  topic: "ORDER BY",
+                  brief:
+                    "ORDER BY sorts query results by one or more columns in ascending or descending order.",
+                },
+                {
+                  id: "CS11-CH15-T11",
+                  topicNumber: 11,
+                  topic: "DISTINCT",
+                  brief:
+                    "DISTINCT removes duplicate result rows from a SELECT query based on the selected columns.",
+                },
+                {
+                  id: "CS11-CH15-T12",
+                  topicNumber: 12,
+                  topic: "Aggregate functions",
+                  brief:
+                    "Aggregate functions calculate a single result from a set of rows, for example by counting records or computing totals and averages.",
+                },
+                {
+                  id: "CS11-CH15-T13",
+                  topicNumber: 13,
+                  topic: "COUNT",
+                  brief:
+                    "COUNT returns the number of rows or non-null values, depending on whether COUNT(*) or COUNT(column) is used.",
+                },
+                {
+                  id: "CS11-CH15-T14",
+                  topicNumber: 14,
+                  topic: "SUM",
+                  brief:
+                    "SUM calculates the total of non-null numeric values in a selected set of rows.",
+                },
+                {
+                  id: "CS11-CH15-T15",
+                  topicNumber: 15,
+                  topic: "AVG",
+                  brief:
+                    "AVG calculates the average of non-null numeric values in a selected set of rows.",
+                },
+                {
+                  id: "CS11-CH15-T16",
+                  topicNumber: 16,
+                  topic: "MIN and MAX",
+                  brief:
+                    "MIN returns the smallest value and MAX returns the largest value in a set, according to the data type's comparison rules.",
+                },
+                {
+                  id: "CS11-CH15-T17",
+                  topicNumber: 17,
+                  topic: "GROUP BY",
+                  brief:
+                    "GROUP BY groups rows with matching values in specified columns so aggregate functions can calculate results for each group.",
+                },
+                {
+                  id: "CS11-CH15-T18",
+                  topicNumber: 18,
+                  topic: "Basic joins",
+                  brief:
+                    "SQL joins combine related rows from two or more tables using matching conditions, with common types including INNER JOIN and LEFT JOIN.",
+                },
+                {
+                  id: "CS11-CH15-T19",
+                  topicNumber: 19,
+                  topic: "Constraints",
+                  brief:
+                    "SQL constraints enforce rules on table data, including PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, and CHECK where supported.",
+                },
+                {
+                  id: "CS11-CH15-T20",
+                  topicNumber: 20,
+                  topic: "Practical database queries",
+                  brief:
+                    "Practical database queries apply SQL statements to real tasks such as inserting records, searching for information, sorting results, updating data, and generating summaries.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "CS11-B04",
+          branchNumber: 4,
+          branchName: "Networking and Internet",
+          chapters: [
+            {
+              id: "CS11-CH16",
+              chapterNumber: 16,
+              chapterName: "Computer Networks",
+              topics: [
+                {
+                  id: "CS11-CH16-T01",
+                  topicNumber: 1,
+                  topic: "Concept of computer networks",
+                  brief:
+                    "A computer network is a group of interconnected devices that communicate and share data, services, or resources using agreed protocols.",
+                },
+                {
+                  id: "CS11-CH16-T02",
+                  topicNumber: 2,
+                  topic: "Advantages of networking",
+                  brief:
+                    "Networking enables resource sharing, faster communication, collaborative work, centralized management, and access to shared information and services.",
+                },
+                {
+                  id: "CS11-CH16-T03",
+                  topicNumber: 3,
+                  topic: "LAN",
+                  brief:
+                    "A Local Area Network (LAN) connects devices across a limited area, such as a home, school, office, or campus building.",
+                },
+                {
+                  id: "CS11-CH16-T04",
+                  topicNumber: 4,
+                  topic: "MAN",
+                  brief:
+                    "A Metropolitan Area Network (MAN) connects networks across a city or metropolitan region.",
+                },
+                {
+                  id: "CS11-CH16-T05",
+                  topicNumber: 5,
+                  topic: "WAN",
+                  brief:
+                    "A Wide Area Network (WAN) connects devices or smaller networks over large geographical areas, often using telecommunications infrastructure.",
+                },
+                {
+                  id: "CS11-CH16-T06",
+                  topicNumber: 6,
+                  topic: "PAN",
+                  brief:
+                    "A Personal Area Network (PAN) connects personal devices over a short range, for example through Bluetooth or other short-range technologies.",
+                },
+                {
+                  id: "CS11-CH16-T07",
+                  topicNumber: 7,
+                  topic: "Network topologies",
+                  brief:
+                    "Network topology describes how devices and communication links are arranged physically or logically, affecting performance, cost, and reliability.",
+                },
+                {
+                  id: "CS11-CH16-T08",
+                  topicNumber: 8,
+                  topic: "Bus topology",
+                  brief:
+                    "Bus topology connects multiple devices to a shared main communication cable, making the layout simple but creating potential limits and a shared failure point.",
+                },
+                {
+                  id: "CS11-CH16-T09",
+                  topicNumber: 9,
+                  topic: "Star topology",
+                  brief:
+                    "Star topology connects each device to a central hub or switch, making management easier while making the central device important to network operation.",
+                },
+                {
+                  id: "CS11-CH16-T10",
+                  topicNumber: 10,
+                  topic: "Ring topology",
+                  brief:
+                    "Ring topology connects devices in a circular arrangement so data can travel from one device to another around the ring.",
+                },
+                {
+                  id: "CS11-CH16-T11",
+                  topicNumber: 11,
+                  topic: "Mesh topology",
+                  brief:
+                    "Mesh topology provides multiple links between network devices, offering alternative paths that can improve reliability but increase complexity and cost.",
+                },
+                {
+                  id: "CS11-CH16-T12",
+                  topicNumber: 12,
+                  topic: "Network devices",
+                  brief:
+                    "Network devices connect, direct, extend, or manage network communications, including switches, routers, access points, modems, and network interface cards.",
+                },
+                {
+                  id: "CS11-CH16-T13",
+                  topicNumber: 13,
+                  topic: "Network interface card",
+                  brief:
+                    "A Network Interface Card (NIC) provides a device with a wired or wireless network connection and the hardware functions needed to communicate over that network.",
+                },
+                {
+                  id: "CS11-CH16-T14",
+                  topicNumber: 14,
+                  topic: "Hub",
+                  brief:
+                    "A network hub connects devices in a local network and repeats incoming data to its other ports without intelligently directing it to a specific destination.",
+                },
+                {
+                  id: "CS11-CH16-T15",
+                  topicNumber: 15,
+                  topic: "Switch",
+                  brief:
+                    "A network switch connects devices in a LAN and forwards Ethernet frames toward the appropriate port using learned MAC addresses.",
+                },
+                {
+                  id: "CS11-CH16-T16",
+                  topicNumber: 16,
+                  topic: "Router",
+                  brief:
+                    "A router forwards packets between different networks using routing information and is commonly used to connect a local network to the Internet.",
+                },
+                {
+                  id: "CS11-CH16-T17",
+                  topicNumber: 17,
+                  topic: "Modem",
+                  brief:
+                    "A modem converts or adapts signals for transmission over a particular communication medium, enabling a connection to an Internet service provider or other network.",
+                },
+                {
+                  id: "CS11-CH16-T18",
+                  topicNumber: 18,
+                  topic: "Transmission media",
+                  brief:
+                    "Transmission media are the physical or wireless pathways through which data signals travel between network devices.",
+                },
+                {
+                  id: "CS11-CH16-T19",
+                  topicNumber: 19,
+                  topic: "Guided media",
+                  brief:
+                    "Guided media carry signals through a physical path, such as twisted-pair cables, coaxial cables, and optical fiber.",
+                },
+                {
+                  id: "CS11-CH16-T20",
+                  topicNumber: 20,
+                  topic: "Unguided media",
+                  brief:
+                    "Unguided media transmit signals through space without a physical cable, using technologies such as radio waves, microwaves, and infrared.",
+                },
+                {
+                  id: "CS11-CH16-T21",
+                  topicNumber: 21,
+                  topic: "Wired and wireless networking",
+                  brief:
+                    "Wired networking transmits data through physical cables, while wireless networking uses radio or other electromagnetic signals to connect devices without a data cable.",
+                },
+              ],
+            },
+            {
+              id: "CS11-CH17",
+              chapterNumber: 17,
+              chapterName: "Internet and Web Technology",
+              topics: [
+                {
+                  id: "CS11-CH17-T01",
+                  topicNumber: 1,
+                  topic: "Concept of the Internet",
+                  brief:
+                    "The Internet is a global system of interconnected networks that communicate using the Internet protocol suite, enabling services such as the web and email.",
+                },
+                {
+                  id: "CS11-CH17-T02",
+                  topicNumber: 2,
+                  topic: "History of the Internet",
+                  brief:
+                    "The Internet developed from early research networks, including ARPANET, and grew through standardized networking protocols into a worldwide communication infrastructure.",
+                },
+                {
+                  id: "CS11-CH17-T03",
+                  topicNumber: 3,
+                  topic: "World Wide Web",
+                  brief:
+                    "The World Wide Web is a system of interlinked resources accessed over the Internet through technologies such as URLs, HTTP or HTTPS, and web browsers.",
+                },
+                {
+                  id: "CS11-CH17-T04",
+                  topicNumber: 4,
+                  topic: "Web browsers",
+                  brief:
+                    "A web browser is software that requests, retrieves, and displays web pages and other web resources, allowing users to interact with online content.",
+                },
+                {
+                  id: "CS11-CH17-T05",
+                  topicNumber: 5,
+                  topic: "Search engines",
+                  brief:
+                    "Search engines discover, index, and rank online information to help users find relevant web pages in response to search queries.",
+                },
+                {
+                  id: "CS11-CH17-T06",
+                  topicNumber: 6,
+                  topic: "Web servers",
+                  brief:
+                    "A web server is software or a computer system that receives web requests and delivers resources or responses through protocols such as HTTP and HTTPS.",
+                },
+                {
+                  id: "CS11-CH17-T07",
+                  topicNumber: 7,
+                  topic: "Websites and web pages",
+                  brief:
+                    "A website is a collection of related web resources, while a web page is an individual document or resource that can be viewed through a browser.",
+                },
+                {
+                  id: "CS11-CH17-T08",
+                  topicNumber: 8,
+                  topic: "URL structure",
+                  brief:
+                    "A Uniform Resource Locator (URL) identifies a resource and can contain a scheme, host name, port, path, query string, and fragment.",
+                },
+                {
+                  id: "CS11-CH17-T09",
+                  topicNumber: 9,
+                  topic: "Domain names",
+                  brief:
+                    "A domain name is a human-readable name used to identify Internet services and is translated into relevant network information through the Domain Name System.",
+                },
+                {
+                  id: "CS11-CH17-T10",
+                  topicNumber: 10,
+                  topic: "IP addresses",
+                  brief:
+                    "An IP address identifies a network interface for communication using the Internet Protocol, with IPv4 and IPv6 as the main address formats.",
+                },
+                {
+                  id: "CS11-CH17-T11",
+                  topicNumber: 11,
+                  topic: "DNS",
+                  brief:
+                    "The Domain Name System (DNS) is a distributed naming system that translates domain names into IP addresses and provides other information about Internet services.",
+                },
+                {
+                  id: "CS11-CH17-T12",
+                  topicNumber: 12,
+                  topic: "HTTP and HTTPS",
+                  brief:
+                    "HTTP is a protocol for transferring web resources, while HTTPS uses HTTP over a protected TLS connection to provide encryption and server authentication.",
+                },
+                {
+                  id: "CS11-CH17-T13",
+                  topicNumber: 13,
+                  topic: "Email",
+                  brief:
+                    "Email is an electronic messaging service that allows users to send and receive messages and attachments using systems and protocols such as SMTP, IMAP, and POP3.",
+                },
+                {
+                  id: "CS11-CH17-T14",
+                  topicNumber: 14,
+                  topic: "Cloud computing fundamentals",
+                  brief:
+                    "Cloud computing provides on-demand access to computing resources such as servers, storage, databases, and software over a network, often with scalable usage-based services.",
+                },
+                {
+                  id: "CS11-CH17-T15",
+                  topicNumber: 15,
+                  topic: "Internet services",
+                  brief:
+                    "Internet services include the web, email, file transfer, voice and video communication, cloud applications, online learning, and digital commerce.",
+                },
+                {
+                  id: "CS11-CH17-T16",
+                  topicNumber: 16,
+                  topic: "Internet safety",
+                  brief:
+                    "Internet safety involves protecting personal information, using secure connections, recognizing scams, maintaining updated software, and avoiding unsafe downloads and links.",
+                },
+                {
+                  id: "CS11-CH17-T17",
+                  topicNumber: 17,
+                  topic: "Responsible online behavior",
+                  brief:
+                    "Responsible online behavior includes respecting others, verifying information, protecting privacy, following relevant laws and platform rules, and communicating courteously.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    "12": {
+      id: "CS12",
+      grade: 12,
+      subject: "Computer Science",
+      branches: [
+        {
+          id: "CS12-B01",
+          branchNumber: 1,
+          branchName: "Object-Oriented and Advanced Programming",
+          chapters: [
+            {
+              id: "CS12-CH01",
+              chapterNumber: 1,
+              chapterName: "Object-Oriented Programming",
+              topics: [
+                {
+                  id: "CS12-CH01-T01",
+                  topicNumber: 1,
+                  topic: "Procedural programming",
+                  brief:
+                    "Procedural programming organizes a program into procedures or functions that execute instructions in a structured sequence to solve a problem.",
+                },
+                {
+                  id: "CS12-CH01-T02",
+                  topicNumber: 2,
+                  topic: "Object-oriented programming concepts",
+                  brief:
+                    "Object-oriented programming organizes software around objects that combine data and behavior, using concepts such as classes, encapsulation, abstraction, inheritance, and polymorphism.",
+                },
+                {
+                  id: "CS12-CH01-T03",
+                  topicNumber: 3,
+                  topic: "Classes and objects",
+                  brief:
+                    "A class defines the structure and behavior of a category of objects, while an object is an individual instance of that class.",
+                },
+                {
+                  id: "CS12-CH01-T04",
+                  topicNumber: 4,
+                  topic: "Attributes and methods",
+                  brief:
+                    "Attributes represent the data or properties of an object, while methods define the operations or behaviors that the object can perform.",
+                },
+                {
+                  id: "CS12-CH01-T05",
+                  topicNumber: 5,
+                  topic: "Encapsulation",
+                  brief:
+                    "Encapsulation combines data and related methods into a unit and controls access to internal details through an appropriate interface.",
+                },
+                {
+                  id: "CS12-CH01-T06",
+                  topicNumber: 6,
+                  topic: "Abstraction",
+                  brief:
+                    "Abstraction hides unnecessary implementation details and exposes only the essential features required to use an object or system.",
+                },
+                {
+                  id: "CS12-CH01-T07",
+                  topicNumber: 7,
+                  topic: "Inheritance",
+                  brief:
+                    "Inheritance allows a class to derive properties and behavior from another class, supporting code reuse and hierarchical relationships.",
+                },
+                {
+                  id: "CS12-CH01-T08",
+                  topicNumber: 8,
+                  topic: "Polymorphism",
+                  brief:
+                    "Polymorphism allows the same interface or operation to produce different behaviors depending on the object or data type involved.",
+                },
+                {
+                  id: "CS12-CH01-T09",
+                  topicNumber: 9,
+                  topic: "Constructors",
+                  brief:
+                    "A constructor is a special method or function used to initialize a newly created object and establish its initial state.",
+                },
+                {
+                  id: "CS12-CH01-T10",
+                  topicNumber: 10,
+                  topic: "Destructors",
+                  brief:
+                    "A destructor is a special method used in languages that support destructors to perform cleanup when an object is destroyed.",
+                },
+                {
+                  id: "CS12-CH01-T11",
+                  topicNumber: 11,
+                  topic: "Method overloading",
+                  brief:
+                    "Method overloading allows multiple methods to share the same name but have different parameter lists, where the programming language supports it.",
+                },
+                {
+                  id: "CS12-CH01-T12",
+                  topicNumber: 12,
+                  topic: "Method overriding",
+                  brief:
+                    "Method overriding occurs when a subclass provides its own implementation of an inherited method, enabling specialized behavior.",
+                },
+                {
+                  id: "CS12-CH01-T13",
+                  topicNumber: 13,
+                  topic: "Access modifiers",
+                  brief:
+                    "Access modifiers control the visibility of classes, attributes, and methods, commonly using levels such as public, private, and protected.",
+                },
+                {
+                  id: "CS12-CH01-T14",
+                  topicNumber: 14,
+                  topic: "Advantages of object-oriented programming",
+                  brief:
+                    "Object-oriented programming can improve code reuse, modularity, maintainability, data protection, and the representation of real-world entities.",
+                },
+                {
+                  id: "CS12-CH01-T15",
+                  topicNumber: 15,
+                  topic: "Procedural versus object-oriented programming",
+                  brief:
+                    "Procedural programming emphasizes procedures and step-by-step instructions, while object-oriented programming emphasizes objects that combine data and behavior.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH02",
+              chapterNumber: 2,
+              chapterName: "Data Structures",
+              topics: [
+                {
+                  id: "CS12-CH02-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to data structures",
+                  brief:
+                    "A data structure is a way of organizing and storing data so that it can be accessed, modified, and processed efficiently.",
+                },
+                {
+                  id: "CS12-CH02-T02",
+                  topicNumber: 2,
+                  topic: "Primitive data types",
+                  brief:
+                    "Primitive data types are basic types supported directly by a programming language, such as integers, characters, floating-point numbers, and Boolean values where available.",
+                },
+                {
+                  id: "CS12-CH02-T03",
+                  topicNumber: 3,
+                  topic: "Linear data structures",
+                  brief:
+                    "Linear data structures organize elements in a sequence, with examples including arrays, linked lists, stacks, and queues.",
+                },
+                {
+                  id: "CS12-CH02-T04",
+                  topicNumber: 4,
+                  topic: "Non-linear data structures",
+                  brief:
+                    "Non-linear data structures organize data in hierarchical or interconnected relationships rather than a single sequence, as seen in trees and graphs.",
+                },
+                {
+                  id: "CS12-CH02-T05",
+                  topicNumber: 5,
+                  topic: "Arrays",
+                  brief:
+                    "An array stores a collection of elements, typically of the same type, in indexed positions and often in contiguous memory locations.",
+                },
+                {
+                  id: "CS12-CH02-T06",
+                  topicNumber: 6,
+                  topic: "Linked lists",
+                  brief:
+                    "A linked list consists of nodes that contain data and links to other nodes, allowing flexible insertion and deletion without requiring contiguous storage.",
+                },
+                {
+                  id: "CS12-CH02-T07",
+                  topicNumber: 7,
+                  topic: "Stacks",
+                  brief:
+                    "A stack is a linear data structure that follows the Last In, First Out (LIFO) principle, where the most recently added element is removed first.",
+                },
+                {
+                  id: "CS12-CH02-T08",
+                  topicNumber: 8,
+                  topic: "Stack operations",
+                  brief:
+                    "Common stack operations include push to add an element, pop to remove the top element, peek or top to inspect it, and checking whether the stack is empty.",
+                },
+                {
+                  id: "CS12-CH02-T09",
+                  topicNumber: 9,
+                  topic: "Queues",
+                  brief:
+                    "A queue is a linear data structure that generally follows the First In, First Out (FIFO) principle, processing elements in their arrival order.",
+                },
+                {
+                  id: "CS12-CH02-T10",
+                  topicNumber: 10,
+                  topic: "Queue operations",
+                  brief:
+                    "Common queue operations include enqueue to add an element, dequeue to remove the front element, peek to inspect the front, and checking whether the queue is empty.",
+                },
+                {
+                  id: "CS12-CH02-T11",
+                  topicNumber: 11,
+                  topic: "Trees",
+                  brief:
+                    "A tree is a hierarchical data structure made of nodes connected by edges, with a root node and parent-child relationships.",
+                },
+                {
+                  id: "CS12-CH02-T12",
+                  topicNumber: 12,
+                  topic: "Binary trees",
+                  brief:
+                    "A binary tree is a tree in which each node has at most two children, commonly referred to as the left and right children.",
+                },
+                {
+                  id: "CS12-CH02-T13",
+                  topicNumber: 13,
+                  topic: "Graphs",
+                  brief:
+                    "A graph is a data structure consisting of vertices and edges that represent relationships or connections between entities.",
+                },
+                {
+                  id: "CS12-CH02-T14",
+                  topicNumber: 14,
+                  topic: "Searching algorithms",
+                  brief:
+                    "Searching algorithms locate a target element in a collection of data using different strategies based on the collection's organization.",
+                },
+                {
+                  id: "CS12-CH02-T15",
+                  topicNumber: 15,
+                  topic: "Linear search",
+                  brief:
+                    "Linear search checks elements one by one until the target is found or the collection ends, and it works with both sorted and unsorted data.",
+                },
+                {
+                  id: "CS12-CH02-T16",
+                  topicNumber: 16,
+                  topic: "Binary search",
+                  brief:
+                    "Binary search repeatedly halves the search interval to locate a target in sorted data, achieving logarithmic time complexity under suitable conditions.",
+                },
+                {
+                  id: "CS12-CH02-T17",
+                  topicNumber: 17,
+                  topic: "Sorting algorithms",
+                  brief:
+                    "Sorting algorithms rearrange data into a specified order, such as ascending or descending, to support efficient processing and searching.",
+                },
+                {
+                  id: "CS12-CH02-T18",
+                  topicNumber: 18,
+                  topic: "Bubble sort",
+                  brief:
+                    "Bubble sort repeatedly compares adjacent elements and swaps them when they are in the wrong order until the collection is sorted.",
+                },
+                {
+                  id: "CS12-CH02-T19",
+                  topicNumber: 19,
+                  topic: "Selection sort",
+                  brief:
+                    "Selection sort repeatedly finds the smallest or largest element in the unsorted portion and places it in its correct position.",
+                },
+                {
+                  id: "CS12-CH02-T20",
+                  topicNumber: 20,
+                  topic: "Insertion sort",
+                  brief:
+                    "Insertion sort builds a sorted portion by taking each new element and inserting it into the appropriate position among previously sorted elements.",
+                },
+                {
+                  id: "CS12-CH02-T21",
+                  topicNumber: 21,
+                  topic: "Algorithm efficiency fundamentals",
+                  brief:
+                    "Algorithm efficiency describes the time and memory resources required by an algorithm, often analyzed using input size and asymptotic notation such as Big O.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH03",
+              chapterNumber: 3,
+              chapterName: "Advanced Programming Concepts",
+              topics: [
+                {
+                  id: "CS12-CH03-T01",
+                  topicNumber: 1,
+                  topic: "Modular programming",
+                  brief:
+                    "Modular programming divides a program into smaller, independent units with defined responsibilities, making development, testing, and maintenance easier.",
+                },
+                {
+                  id: "CS12-CH03-T02",
+                  topicNumber: 2,
+                  topic: "Recursion",
+                  brief:
+                    "Recursion occurs when a function calls itself directly or indirectly to solve smaller instances of a problem until a base case is reached.",
+                },
+                {
+                  id: "CS12-CH03-T03",
+                  topicNumber: 3,
+                  topic: "Parameter passing",
+                  brief:
+                    "Parameter passing describes how arguments are supplied to functions, including passing values or using references or pointers where supported by the language.",
+                },
+                {
+                  id: "CS12-CH03-T04",
+                  topicNumber: 4,
+                  topic: "Pointers and memory addresses",
+                  brief:
+                    "Pointers store memory addresses and enable indirect access to objects, allowing programs to work with arrays, dynamically allocated memory, and linked data structures.",
+                },
+                {
+                  id: "CS12-CH03-T05",
+                  topicNumber: 5,
+                  topic: "Dynamic memory allocation",
+                  brief:
+                    "Dynamic memory allocation obtains memory during program execution according to the program's needs, using mechanisms such as malloc and free in C.",
+                },
+                {
+                  id: "CS12-CH03-T06",
+                  topicNumber: 6,
+                  topic: "Structures and unions",
+                  brief:
+                    "Structures group multiple named members that can hold separate values, while unions allow different members to share the same memory region.",
+                },
+                {
+                  id: "CS12-CH03-T07",
+                  topicNumber: 7,
+                  topic: "Arrays of structures",
+                  brief:
+                    "An array of structures stores multiple records of the same structure type, making it useful for managing collections such as student or employee records.",
+                },
+                {
+                  id: "CS12-CH03-T08",
+                  topicNumber: 8,
+                  topic: "File handling",
+                  brief:
+                    "File handling allows programs to create, open, read, write, append, and close files to store and retrieve information persistently.",
+                },
+                {
+                  id: "CS12-CH03-T09",
+                  topicNumber: 9,
+                  topic: "Error handling",
+                  brief:
+                    "Error handling detects and responds to unexpected conditions, such as invalid input, failed file operations, or insufficient resources, to improve program reliability.",
+                },
+                {
+                  id: "CS12-CH03-T10",
+                  topicNumber: 10,
+                  topic: "Program testing",
+                  brief:
+                    "Program testing checks whether software produces expected results under normal, boundary, and error conditions.",
+                },
+                {
+                  id: "CS12-CH03-T11",
+                  topicNumber: 11,
+                  topic: "Debugging techniques",
+                  brief:
+                    "Debugging techniques include tracing program execution, inspecting variables, using breakpoints, reproducing errors, and testing fixes.",
+                },
+                {
+                  id: "CS12-CH03-T12",
+                  topicNumber: 12,
+                  topic: "Code readability",
+                  brief:
+                    "Code readability refers to how easily people can understand source code through clear naming, consistent formatting, simple logic, and appropriate structure.",
+                },
+                {
+                  id: "CS12-CH03-T13",
+                  topicNumber: 13,
+                  topic: "Program documentation",
+                  brief:
+                    "Program documentation explains a program's purpose, design, usage, inputs, outputs, and implementation details to support development and maintenance.",
+                },
+                {
+                  id: "CS12-CH03-T14",
+                  topicNumber: 14,
+                  topic: "Problem-solving exercises",
+                  brief:
+                    "Problem-solving exercises develop programming skills by applying analysis, algorithm design, coding, testing, and debugging to practical problems.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "CS12-B02",
+          branchNumber: 2,
+          branchName: "Database Management Systems",
+          chapters: [
+            {
+              id: "CS12-CH04",
+              chapterNumber: 4,
+              chapterName: "Database Design and Modeling",
+              topics: [
+                {
+                  id: "CS12-CH04-T01",
+                  topicNumber: 1,
+                  topic: "Database design concepts",
+                  brief:
+                    "Database design determines how data is organized into tables or other structures, how entities relate, and what constraints maintain data accuracy.",
+                },
+                {
+                  id: "CS12-CH04-T02",
+                  topicNumber: 2,
+                  topic: "Entities and attributes",
+                  brief:
+                    "An entity is a distinguishable person, object, place, or concept represented in a database, while attributes describe its properties.",
+                },
+                {
+                  id: "CS12-CH04-T03",
+                  topicNumber: 3,
+                  topic: "Relationships",
+                  brief:
+                    "Relationships describe associations between entities, such as a student enrolling in a course or a customer placing an order.",
+                },
+                {
+                  id: "CS12-CH04-T04",
+                  topicNumber: 4,
+                  topic: "Entity-relationship diagrams",
+                  brief:
+                    "An entity-relationship diagram (ERD) visually represents entities, their attributes, and the relationships and cardinalities between them.",
+                },
+                {
+                  id: "CS12-CH04-T05",
+                  topicNumber: 5,
+                  topic: "One-to-one relationships",
+                  brief:
+                    "A one-to-one relationship associates one record in an entity with at most one record in another entity, and vice versa.",
+                },
+                {
+                  id: "CS12-CH04-T06",
+                  topicNumber: 6,
+                  topic: "One-to-many relationships",
+                  brief:
+                    "A one-to-many relationship allows one record in an entity to be associated with multiple records in another entity.",
+                },
+                {
+                  id: "CS12-CH04-T07",
+                  topicNumber: 7,
+                  topic: "Many-to-many relationships",
+                  brief:
+                    "A many-to-many relationship allows multiple records in each entity to be associated with multiple records in the other, usually implemented through a junction table in relational databases.",
+                },
+                {
+                  id: "CS12-CH04-T08",
+                  topicNumber: 8,
+                  topic: "Relational tables",
+                  brief:
+                    "Relational tables organize data into rows and columns, with each row representing a record and each column representing an attribute.",
+                },
+                {
+                  id: "CS12-CH04-T09",
+                  topicNumber: 9,
+                  topic: "Primary keys",
+                  brief:
+                    "A primary key uniquely identifies each row in a table and cannot contain duplicate or null values.",
+                },
+                {
+                  id: "CS12-CH04-T10",
+                  topicNumber: 10,
+                  topic: "Foreign keys",
+                  brief:
+                    "A foreign key references a key in another or the same table to establish relationships and help enforce referential integrity.",
+                },
+                {
+                  id: "CS12-CH04-T11",
+                  topicNumber: 11,
+                  topic: "Candidate keys",
+                  brief:
+                    "A candidate key is a minimal set of attributes that uniquely identifies a record, and one candidate key is chosen as the primary key.",
+                },
+                {
+                  id: "CS12-CH04-T12",
+                  topicNumber: 12,
+                  topic: "Composite keys",
+                  brief:
+                    "A composite key uses two or more columns together to uniquely identify a row when no single column is sufficient.",
+                },
+                {
+                  id: "CS12-CH04-T13",
+                  topicNumber: 13,
+                  topic: "Referential integrity",
+                  brief:
+                    "Referential integrity ensures that foreign-key references remain valid according to database rules, preventing relationships from pointing to nonexistent referenced records.",
+                },
+                {
+                  id: "CS12-CH04-T14",
+                  topicNumber: 14,
+                  topic: "Database schema",
+                  brief:
+                    "A database schema defines the structure of a database, including tables, columns, data types, relationships, constraints, and other database objects.",
+                },
+                {
+                  id: "CS12-CH04-T15",
+                  topicNumber: 15,
+                  topic: "Logical database design",
+                  brief:
+                    "Logical database design converts requirements into a structured data model by defining entities, attributes, relationships, keys, and constraints independently of physical storage details.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH05",
+              chapterNumber: 5,
+              chapterName: "Database Normalization",
+              topics: [
+                {
+                  id: "CS12-CH05-T01",
+                  topicNumber: 1,
+                  topic: "Purpose of normalization",
+                  brief:
+                    "Database normalization organizes data into well-structured relations to reduce unnecessary duplication and prevent common insertion, update, and deletion anomalies.",
+                },
+                {
+                  id: "CS12-CH05-T02",
+                  topicNumber: 2,
+                  topic: "Database anomalies",
+                  brief:
+                    "Database anomalies are problems caused by poorly structured or redundant data, often appearing during insertion, updating, or deletion of records.",
+                },
+                {
+                  id: "CS12-CH05-T03",
+                  topicNumber: 3,
+                  topic: "Insertion anomalies",
+                  brief:
+                    "An insertion anomaly occurs when a fact cannot be added to a database without also adding unrelated or unavailable information.",
+                },
+                {
+                  id: "CS12-CH05-T04",
+                  topicNumber: 4,
+                  topic: "Update anomalies",
+                  brief:
+                    "An update anomaly occurs when the same fact is stored in multiple places and changes are not applied consistently to all copies.",
+                },
+                {
+                  id: "CS12-CH05-T05",
+                  topicNumber: 5,
+                  topic: "Deletion anomalies",
+                  brief:
+                    "A deletion anomaly occurs when removing one record unintentionally removes other information that should have been retained.",
+                },
+                {
+                  id: "CS12-CH05-T06",
+                  topicNumber: 6,
+                  topic: "Functional dependencies",
+                  brief:
+                    "A functional dependency exists when one attribute or set of attributes uniquely determines the value of another attribute in a relation.",
+                },
+                {
+                  id: "CS12-CH05-T07",
+                  topicNumber: 7,
+                  topic: "First normal form",
+                  brief:
+                    "First Normal Form (1NF) requires each attribute value to be atomic within the chosen relational model and each row to be identifiable, avoiding repeating groups.",
+                },
+                {
+                  id: "CS12-CH05-T08",
+                  topicNumber: 8,
+                  topic: "Second normal form",
+                  brief:
+                    "Second Normal Form (2NF) requires a relation to be in 1NF and every non-prime attribute to depend on the whole of each candidate key, not just part of a composite key.",
+                },
+                {
+                  id: "CS12-CH05-T09",
+                  topicNumber: 9,
+                  topic: "Third normal form",
+                  brief:
+                    "Third Normal Form (3NF) requires a relation to be in 2NF and to avoid specified transitive dependencies of non-prime attributes on candidate keys.",
+                },
+                {
+                  id: "CS12-CH05-T10",
+                  topicNumber: 10,
+                  topic: "Decomposition of relations",
+                  brief:
+                    "Decomposition divides a relation into smaller relations to improve database structure, ideally preserving information through lossless joins and retaining important dependencies.",
+                },
+                {
+                  id: "CS12-CH05-T11",
+                  topicNumber: 11,
+                  topic: "Benefits of normalization",
+                  brief:
+                    "Normalization reduces redundant data, improves consistency, simplifies maintenance, and helps prevent insertion, update, and deletion anomalies.",
+                },
+                {
+                  id: "CS12-CH05-T12",
+                  topicNumber: 12,
+                  topic: "Normalization exercises",
+                  brief:
+                    "Normalization exercises involve identifying keys and functional dependencies, detecting anomalies, and decomposing relations into appropriate normal forms.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH06",
+              chapterNumber: 6,
+              chapterName: "SQL and Database Operations",
+              topics: [
+                {
+                  id: "CS12-CH06-T01",
+                  topicNumber: 1,
+                  topic: "SQL fundamentals",
+                  brief:
+                    "SQL is a language used to define relational database structures, retrieve data, modify records, manage permissions, and control transactions.",
+                },
+                {
+                  id: "CS12-CH06-T02",
+                  topicNumber: 2,
+                  topic: "Data definition language",
+                  brief:
+                    "Data Definition Language (DDL) contains SQL statements such as CREATE, ALTER, and DROP that define or change database objects.",
+                },
+                {
+                  id: "CS12-CH06-T03",
+                  topicNumber: 3,
+                  topic: "Data manipulation language",
+                  brief:
+                    "Data Manipulation Language (DML) includes statements used to retrieve and modify data, such as SELECT, INSERT, UPDATE, and DELETE.",
+                },
+                {
+                  id: "CS12-CH06-T04",
+                  topicNumber: 4,
+                  topic: "Data control language",
+                  brief:
+                    "Data Control Language (DCL) includes statements such as GRANT and REVOKE that manage user privileges in database systems that support them.",
+                },
+                {
+                  id: "CS12-CH06-T05",
+                  topicNumber: 5,
+                  topic: "CREATE and ALTER",
+                  brief:
+                    "CREATE defines database objects such as tables, while ALTER changes the structure of existing objects.",
+                },
+                {
+                  id: "CS12-CH06-T06",
+                  topicNumber: 6,
+                  topic: "DROP and TRUNCATE",
+                  brief:
+                    "DROP removes a database object, while TRUNCATE removes all rows from a table while generally retaining its structure; exact behavior depends on the DBMS.",
+                },
+                {
+                  id: "CS12-CH06-T07",
+                  topicNumber: 7,
+                  topic: "INSERT and UPDATE",
+                  brief:
+                    "INSERT adds new records to a table, while UPDATE modifies values in existing records that match the specified conditions.",
+                },
+                {
+                  id: "CS12-CH06-T08",
+                  topicNumber: 8,
+                  topic: "DELETE",
+                  brief:
+                    "DELETE removes selected rows from a table and can target particular records through a WHERE clause.",
+                },
+                {
+                  id: "CS12-CH06-T09",
+                  topicNumber: 9,
+                  topic: "SELECT queries",
+                  brief:
+                    "SELECT queries retrieve data from tables or other query sources and can use filtering, sorting, grouping, joins, and expressions to produce results.",
+                },
+                {
+                  id: "CS12-CH06-T10",
+                  topicNumber: 10,
+                  topic: "WHERE conditions",
+                  brief:
+                    "The WHERE clause filters rows according to conditions involving comparisons, ranges, patterns, null checks, or other logical expressions.",
+                },
+                {
+                  id: "CS12-CH06-T11",
+                  topicNumber: 11,
+                  topic: "Logical operators in SQL",
+                  brief:
+                    "SQL logical operators such as AND, OR, and NOT combine or negate conditions used to filter query results.",
+                },
+                {
+                  id: "CS12-CH06-T12",
+                  topicNumber: 12,
+                  topic: "ORDER BY",
+                  brief:
+                    "ORDER BY sorts query results using one or more columns or expressions, with ASC for ascending order and DESC for descending order.",
+                },
+                {
+                  id: "CS12-CH06-T13",
+                  topicNumber: 13,
+                  topic: "GROUP BY",
+                  brief:
+                    "GROUP BY groups rows with matching values so aggregate functions can calculate results for each group.",
+                },
+                {
+                  id: "CS12-CH06-T14",
+                  topicNumber: 14,
+                  topic: "HAVING",
+                  brief:
+                    "HAVING filters groups after grouping and is commonly used with aggregate conditions, unlike WHERE, which filters rows before grouping.",
+                },
+                {
+                  id: "CS12-CH06-T15",
+                  topicNumber: 15,
+                  topic: "Aggregate functions",
+                  brief:
+                    "Aggregate functions summarize multiple rows into values, such as counts, totals, averages, minimums, and maximums.",
+                },
+                {
+                  id: "CS12-CH06-T16",
+                  topicNumber: 16,
+                  topic: "Inner joins",
+                  brief:
+                    "An INNER JOIN returns rows for which the join condition matches between the participating tables.",
+                },
+                {
+                  id: "CS12-CH06-T17",
+                  topicNumber: 17,
+                  topic: "Left and right joins",
+                  brief:
+                    "A LEFT JOIN preserves all rows from the left table, while a RIGHT JOIN preserves all rows from the right table and includes matching rows from the other table.",
+                },
+                {
+                  id: "CS12-CH06-T18",
+                  topicNumber: 18,
+                  topic: "Subqueries",
+                  brief:
+                    "A subquery is a query nested inside another SQL statement and can provide values or result sets for filtering, comparison, or data manipulation.",
+                },
+                {
+                  id: "CS12-CH06-T19",
+                  topicNumber: 19,
+                  topic: "Database views",
+                  brief:
+                    "A database view is a named query presented as a virtual table, commonly used to simplify queries and control access to selected data.",
+                },
+                {
+                  id: "CS12-CH06-T20",
+                  topicNumber: 20,
+                  topic: "Transactions and data integrity",
+                  brief:
+                    "A database transaction groups operations into a logical unit, commonly using ACID principles to help maintain consistency and reliable updates.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "CS12-B03",
+          branchNumber: 3,
+          branchName: "Web Technology",
+          chapters: [
+            {
+              id: "CS12-CH07",
+              chapterNumber: 7,
+              chapterName: "HTML",
+              topics: [
+                {
+                  id: "CS12-CH07-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to HTML",
+                  brief:
+                    "HyperText Markup Language (HTML) is the standard markup language used to structure content on web pages.",
+                },
+                {
+                  id: "CS12-CH07-T02",
+                  topicNumber: 2,
+                  topic: "Structure of an HTML document",
+                  brief:
+                    "A basic HTML document includes a doctype declaration, an html root element, a head section for metadata, and a body section for page content.",
+                },
+                {
+                  id: "CS12-CH07-T03",
+                  topicNumber: 3,
+                  topic: "HTML elements and attributes",
+                  brief:
+                    "HTML elements define parts of a page, while attributes provide additional information or configuration, such as an image's source or a link's destination.",
+                },
+                {
+                  id: "CS12-CH07-T04",
+                  topicNumber: 4,
+                  topic: "Headings and paragraphs",
+                  brief:
+                    "HTML heading elements h1 through h6 represent section headings at different levels, while the p element represents a paragraph of text.",
+                },
+                {
+                  id: "CS12-CH07-T05",
+                  topicNumber: 5,
+                  topic: "Text formatting",
+                  brief:
+                    "HTML text-formatting elements convey meaning or presentation, including strong emphasis, emphasized text, highlighted text, and subscript or superscript.",
+                },
+                {
+                  id: "CS12-CH07-T06",
+                  topicNumber: 6,
+                  topic: "Hyperlinks",
+                  brief:
+                    "Hyperlinks connect one resource to another and are commonly created with the anchor element and its href attribute.",
+                },
+                {
+                  id: "CS12-CH07-T07",
+                  topicNumber: 7,
+                  topic: "Images",
+                  brief:
+                    "The HTML img element embeds an image using the src attribute and should include suitable alternative text through the alt attribute.",
+                },
+                {
+                  id: "CS12-CH07-T08",
+                  topicNumber: 8,
+                  topic: "Ordered and unordered lists",
+                  brief:
+                    "Ordered lists use the ol element for sequential items, while unordered lists use ul for items whose order is not inherently significant; both contain li elements.",
+                },
+                {
+                  id: "CS12-CH07-T09",
+                  topicNumber: 9,
+                  topic: "Tables",
+                  brief:
+                    "HTML tables organize tabular information into rows and cells using elements such as table, tr, th, and td.",
+                },
+                {
+                  id: "CS12-CH07-T10",
+                  topicNumber: 10,
+                  topic: "Forms",
+                  brief:
+                    "HTML forms collect user input and can submit it to a server using controls such as text fields, checkboxes, radio buttons, and buttons.",
+                },
+                {
+                  id: "CS12-CH07-T11",
+                  topicNumber: 11,
+                  topic: "Input elements",
+                  brief:
+                    "The HTML input element provides different form controls through its type attribute, including text, email, password, number, checkbox, radio, and submit.",
+                },
+                {
+                  id: "CS12-CH07-T12",
+                  topicNumber: 12,
+                  topic: "Audio and video elements",
+                  brief:
+                    "The audio and video elements embed playable media in web pages and support attributes such as controls, source selection, and playback configuration.",
+                },
+                {
+                  id: "CS12-CH07-T13",
+                  topicNumber: 13,
+                  topic: "Semantic HTML",
+                  brief:
+                    "Semantic HTML uses elements that communicate the meaning and role of content, such as header, nav, main, article, section, and footer.",
+                },
+                {
+                  id: "CS12-CH07-T14",
+                  topicNumber: 14,
+                  topic: "HTML entities",
+                  brief:
+                    "HTML character references represent reserved characters or special symbols, such as &amp; for an ampersand and &lt; for a less-than sign.",
+                },
+                {
+                  id: "CS12-CH07-T15",
+                  topicNumber: 15,
+                  topic: "Creating a simple website",
+                  brief:
+                    "Creating a simple website involves writing HTML for content structure, organizing files and links, adding images, and testing the page in a browser.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH08",
+              chapterNumber: 8,
+              chapterName: "CSS and Web Page Design",
+              topics: [
+                {
+                  id: "CS12-CH08-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to CSS",
+                  brief:
+                    "Cascading Style Sheets (CSS) control the appearance and layout of HTML content, including colors, fonts, spacing, and responsive page design.",
+                },
+                {
+                  id: "CS12-CH08-T02",
+                  topicNumber: 2,
+                  topic: "Inline CSS",
+                  brief:
+                    "Inline CSS applies styles directly to an HTML element through its style attribute, generally making styles harder to reuse and maintain.",
+                },
+                {
+                  id: "CS12-CH08-T03",
+                  topicNumber: 3,
+                  topic: "Internal CSS",
+                  brief:
+                    "Internal CSS defines styles within a style element in an HTML document, usually in its head section.",
+                },
+                {
+                  id: "CS12-CH08-T04",
+                  topicNumber: 4,
+                  topic: "External CSS",
+                  brief:
+                    "External CSS stores styles in a separate stylesheet file linked to an HTML document, supporting reuse and separation of presentation from content.",
+                },
+                {
+                  id: "CS12-CH08-T05",
+                  topicNumber: 5,
+                  topic: "Selectors",
+                  brief:
+                    "CSS selectors identify the HTML elements to which style rules apply, using patterns such as element names, classes, IDs, attributes, and relationships.",
+                },
+                {
+                  id: "CS12-CH08-T06",
+                  topicNumber: 6,
+                  topic: "Colors and backgrounds",
+                  brief:
+                    "CSS color and background properties control text colors, background colors, background images, and related visual effects.",
+                },
+                {
+                  id: "CS12-CH08-T07",
+                  topicNumber: 7,
+                  topic: "Fonts and typography",
+                  brief:
+                    "CSS typography properties control font families, sizes, weights, line heights, letter spacing, and text presentation.",
+                },
+                {
+                  id: "CS12-CH08-T08",
+                  topicNumber: 8,
+                  topic: "Margins and padding",
+                  brief:
+                    "Margins create space outside an element's border, while padding creates space between the border and the element's content.",
+                },
+                {
+                  id: "CS12-CH08-T09",
+                  topicNumber: 9,
+                  topic: "Borders",
+                  brief:
+                    "CSS border properties define an element's border style, width, color, and corner shape.",
+                },
+                {
+                  id: "CS12-CH08-T10",
+                  topicNumber: 10,
+                  topic: "Box model",
+                  brief:
+                    "The CSS box model describes an element's content, padding, border, and margin, which together determine its layout and spacing.",
+                },
+                {
+                  id: "CS12-CH08-T11",
+                  topicNumber: 11,
+                  topic: "Display property",
+                  brief:
+                    "The CSS display property controls how an element participates in layout, with values such as block, inline, flex, grid, and none.",
+                },
+                {
+                  id: "CS12-CH08-T12",
+                  topicNumber: 12,
+                  topic: "Positioning",
+                  brief:
+                    "CSS positioning controls how elements are placed using values such as static, relative, absolute, fixed, and sticky.",
+                },
+                {
+                  id: "CS12-CH08-T13",
+                  topicNumber: 13,
+                  topic: "Flexbox fundamentals",
+                  brief:
+                    "Flexbox is a one-dimensional CSS layout system that arranges items in a row or column and helps distribute space and align elements.",
+                },
+                {
+                  id: "CS12-CH08-T14",
+                  topicNumber: 14,
+                  topic: "Grid fundamentals",
+                  brief:
+                    "CSS Grid is a two-dimensional layout system for arranging elements in rows and columns with control over tracks, gaps, and alignment.",
+                },
+                {
+                  id: "CS12-CH08-T15",
+                  topicNumber: 15,
+                  topic: "Responsive web design",
+                  brief:
+                    "Responsive web design adapts layouts and content to different screen sizes and devices using flexible layouts, scalable media, and CSS media queries.",
+                },
+                {
+                  id: "CS12-CH08-T16",
+                  topicNumber: 16,
+                  topic: "Media queries",
+                  brief:
+                    "CSS media queries apply styles when specified conditions are met, such as viewport width, orientation, or user display preferences.",
+                },
+                {
+                  id: "CS12-CH08-T17",
+                  topicNumber: 17,
+                  topic: "Styling forms",
+                  brief:
+                    "Styling forms uses CSS to improve the appearance and usability of labels, input fields, buttons, error messages, and focus states.",
+                },
+                {
+                  id: "CS12-CH08-T18",
+                  topicNumber: 18,
+                  topic: "Website layout design",
+                  brief:
+                    "Website layout design organizes page elements into a clear visual hierarchy with appropriate spacing, alignment, navigation, and responsive behavior.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH09",
+              chapterNumber: 9,
+              chapterName: "JavaScript Fundamentals",
+              topics: [
+                {
+                  id: "CS12-CH09-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to JavaScript",
+                  brief:
+                    "JavaScript is a programming language widely used to add interactivity, dynamic behavior, and application logic to web pages and other environments.",
+                },
+                {
+                  id: "CS12-CH09-T02",
+                  topicNumber: 2,
+                  topic: "Variables and constants",
+                  brief:
+                    "JavaScript uses let and var to declare variables and const to declare bindings that cannot be reassigned, although objects referenced by const may still be mutable.",
+                },
+                {
+                  id: "CS12-CH09-T03",
+                  topicNumber: 3,
+                  topic: "Data types",
+                  brief:
+                    "JavaScript includes primitive types such as string, number, bigint, boolean, undefined, symbol, and null, as well as objects.",
+                },
+                {
+                  id: "CS12-CH09-T04",
+                  topicNumber: 4,
+                  topic: "Operators",
+                  brief:
+                    "JavaScript operators perform arithmetic, comparison, logical evaluation, assignment, and other operations on values and expressions.",
+                },
+                {
+                  id: "CS12-CH09-T05",
+                  topicNumber: 5,
+                  topic: "Conditional statements",
+                  brief:
+                    "Conditional statements such as if, else if, else, and switch allow JavaScript programs to choose which instructions to execute based on conditions.",
+                },
+                {
+                  id: "CS12-CH09-T06",
+                  topicNumber: 6,
+                  topic: "Loops",
+                  brief:
+                    "Loops such as for, while, do...while, and for...of repeat instructions to process data or perform tasks until a condition or iteration sequence ends.",
+                },
+                {
+                  id: "CS12-CH09-T07",
+                  topicNumber: 7,
+                  topic: "Functions",
+                  brief:
+                    "Functions are reusable blocks of JavaScript code that can accept parameters, perform operations, and return values.",
+                },
+                {
+                  id: "CS12-CH09-T08",
+                  topicNumber: 8,
+                  topic: "Arrays",
+                  brief:
+                    "JavaScript arrays are ordered collections used to store and process multiple values through indexed access and methods such as map, filter, and push.",
+                },
+                {
+                  id: "CS12-CH09-T09",
+                  topicNumber: 9,
+                  topic: "Objects",
+                  brief:
+                    "JavaScript objects store related data and behavior as properties, with values that may include primitives, arrays, functions, or other objects.",
+                },
+                {
+                  id: "CS12-CH09-T10",
+                  topicNumber: 10,
+                  topic: "Events",
+                  brief:
+                    "Events represent actions or occurrences such as clicks, key presses, form submissions, and page loading that JavaScript can detect and respond to.",
+                },
+                {
+                  id: "CS12-CH09-T11",
+                  topicNumber: 11,
+                  topic: "DOM fundamentals",
+                  brief:
+                    "The Document Object Model (DOM) represents an HTML document as a tree of objects that JavaScript can inspect and modify.",
+                },
+                {
+                  id: "CS12-CH09-T12",
+                  topicNumber: 12,
+                  topic: "Form validation",
+                  brief:
+                    "Form validation checks user input against required conditions, formats, and constraints before processing or submitting the data.",
+                },
+                {
+                  id: "CS12-CH09-T13",
+                  topicNumber: 13,
+                  topic: "Basic client-side interaction",
+                  brief:
+                    "Client-side interaction uses JavaScript to respond to user actions, update page content, validate inputs, and change interface behavior in the browser.",
+                },
+                {
+                  id: "CS12-CH09-T14",
+                  topicNumber: 14,
+                  topic: "Debugging JavaScript",
+                  brief:
+                    "JavaScript debugging uses browser developer tools, console messages, breakpoints, and variable inspection to locate and fix errors.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "CS12-B04",
+          branchNumber: 4,
+          branchName: "Software Engineering and System Analysis",
+          chapters: [
+            {
+              id: "CS12-CH10",
+              chapterNumber: 10,
+              chapterName: "Software Development Life Cycle",
+              topics: [
+                {
+                  id: "CS12-CH10-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to software engineering",
+                  brief:
+                    "Software engineering applies systematic methods, tools, and principles to develop, test, deploy, and maintain reliable software.",
+                },
+                {
+                  id: "CS12-CH10-T02",
+                  topicNumber: 2,
+                  topic: "Software development life cycle",
+                  brief:
+                    "The Software Development Life Cycle (SDLC) is a structured process covering activities such as planning, requirements analysis, design, implementation, testing, deployment, and maintenance.",
+                },
+                {
+                  id: "CS12-CH10-T03",
+                  topicNumber: 3,
+                  topic: "Problem identification",
+                  brief:
+                    "Problem identification defines the issue to be solved, its causes, affected users, objectives, and the expected outcomes of a software solution.",
+                },
+                {
+                  id: "CS12-CH10-T04",
+                  topicNumber: 4,
+                  topic: "Requirement gathering",
+                  brief:
+                    "Requirement gathering collects information about user needs, business goals, system constraints, and expected software behavior through methods such as interviews and observation.",
+                },
+                {
+                  id: "CS12-CH10-T05",
+                  topicNumber: 5,
+                  topic: "Feasibility study",
+                  brief:
+                    "A feasibility study evaluates whether a proposed system is practical in terms of technical capability, cost, operational needs, schedule, and applicable legal requirements.",
+                },
+                {
+                  id: "CS12-CH10-T06",
+                  topicNumber: 6,
+                  topic: "System analysis",
+                  brief:
+                    "System analysis examines the existing situation, stakeholder needs, data flows, and system requirements before a solution is designed.",
+                },
+                {
+                  id: "CS12-CH10-T07",
+                  topicNumber: 7,
+                  topic: "System design",
+                  brief:
+                    "System design converts requirements into a technical plan covering architecture, data structures, interfaces, components, and interactions.",
+                },
+                {
+                  id: "CS12-CH10-T08",
+                  topicNumber: 8,
+                  topic: "Implementation",
+                  brief:
+                    "Implementation converts the system design into working software through coding, configuration, integration, and related development activities.",
+                },
+                {
+                  id: "CS12-CH10-T09",
+                  topicNumber: 9,
+                  topic: "Testing",
+                  brief:
+                    "Testing evaluates software behavior against requirements to detect defects and verify that expected functions and quality criteria are met.",
+                },
+                {
+                  id: "CS12-CH10-T10",
+                  topicNumber: 10,
+                  topic: "Deployment",
+                  brief:
+                    "Deployment makes software available in its target environment by preparing infrastructure, configuring services, releasing components, and checking operational readiness.",
+                },
+                {
+                  id: "CS12-CH10-T11",
+                  topicNumber: 11,
+                  topic: "Maintenance",
+                  brief:
+                    "Software maintenance modifies an existing system to correct defects, adapt to environmental changes, improve performance, or prevent future problems.",
+                },
+                {
+                  id: "CS12-CH10-T12",
+                  topicNumber: 12,
+                  topic: "Documentation",
+                  brief:
+                    "Software documentation records requirements, design decisions, architecture, code usage, testing, deployment, and operational procedures for users and developers.",
+                },
+                {
+                  id: "CS12-CH10-T13",
+                  topicNumber: 13,
+                  topic: "Verification and validation",
+                  brief:
+                    "Verification checks whether a product conforms to specified requirements and design, while validation checks whether it meets users' needs and intended purpose.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH11",
+              chapterNumber: 11,
+              chapterName: "Software Development Models",
+              topics: [
+                {
+                  id: "CS12-CH11-T01",
+                  topicNumber: 1,
+                  topic: "Waterfall model",
+                  brief:
+                    "The Waterfall model organizes development into sequential phases, making it most suitable when requirements are stable and changes can be controlled.",
+                },
+                {
+                  id: "CS12-CH11-T02",
+                  topicNumber: 2,
+                  topic: "Prototype model",
+                  brief:
+                    "The Prototype model builds an early version of a system so stakeholders can evaluate ideas and clarify requirements before or during full development.",
+                },
+                {
+                  id: "CS12-CH11-T03",
+                  topicNumber: 3,
+                  topic: "Incremental model",
+                  brief:
+                    "The Incremental model delivers a system in smaller functional releases, allowing useful features to be delivered and evaluated progressively.",
+                },
+                {
+                  id: "CS12-CH11-T04",
+                  topicNumber: 4,
+                  topic: "Spiral model",
+                  brief:
+                    "The Spiral model develops software through repeated cycles that emphasize planning, risk analysis, engineering, and evaluation.",
+                },
+                {
+                  id: "CS12-CH11-T05",
+                  topicNumber: 5,
+                  topic: "Agile development",
+                  brief:
+                    "Agile development uses iterative work, frequent feedback, collaboration, and adaptable planning to deliver software in small increments.",
+                },
+                {
+                  id: "CS12-CH11-T06",
+                  topicNumber: 6,
+                  topic: "Iterative development",
+                  brief:
+                    "Iterative development improves a solution through repeated cycles of planning, implementation, testing, and refinement.",
+                },
+                {
+                  id: "CS12-CH11-T07",
+                  topicNumber: 7,
+                  topic: "Comparison of development models",
+                  brief:
+                    "Comparing development models involves examining their approaches to planning, flexibility, risk management, stakeholder feedback, delivery timing, and suitability for different projects.",
+                },
+                {
+                  id: "CS12-CH11-T08",
+                  topicNumber: 8,
+                  topic: "Advantages and limitations of each model",
+                  brief:
+                    "Each development model has trade-offs in predictability, adaptability, documentation, cost, risk control, and delivery speed that influence its suitability for a project.",
+                },
+                {
+                  id: "CS12-CH11-T09",
+                  topicNumber: 9,
+                  topic: "Choosing a development model",
+                  brief:
+                    "Choosing a development model depends on factors such as requirement stability, project size, risk, team experience, deadlines, regulatory needs, and stakeholder involvement.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH12",
+              chapterNumber: 12,
+              chapterName: "System Analysis and Design",
+              topics: [
+                {
+                  id: "CS12-CH12-T01",
+                  topicNumber: 1,
+                  topic: "System concepts",
+                  brief:
+                    "A system is a set of connected components that work together to achieve a purpose by receiving inputs, processing them, and producing outputs.",
+                },
+                {
+                  id: "CS12-CH12-T02",
+                  topicNumber: 2,
+                  topic: "Information systems",
+                  brief:
+                    "An information system combines people, processes, data, and technology to collect, process, store, and distribute information.",
+                },
+                {
+                  id: "CS12-CH12-T03",
+                  topicNumber: 3,
+                  topic: "System requirements",
+                  brief:
+                    "System requirements describe the capabilities, constraints, and quality expectations that a system must satisfy to meet stakeholder needs.",
+                },
+                {
+                  id: "CS12-CH12-T04",
+                  topicNumber: 4,
+                  topic: "Functional requirements",
+                  brief:
+                    "Functional requirements specify the services, operations, and behaviors a system must provide, such as registering users or generating reports.",
+                },
+                {
+                  id: "CS12-CH12-T05",
+                  topicNumber: 5,
+                  topic: "Non-functional requirements",
+                  brief:
+                    "Non-functional requirements describe quality attributes and constraints, such as performance, security, reliability, usability, accessibility, and scalability.",
+                },
+                {
+                  id: "CS12-CH12-T06",
+                  topicNumber: 6,
+                  topic: "Data flow diagrams",
+                  brief:
+                    "A Data Flow Diagram (DFD) shows how data moves between external entities, processes, and data stores within a system.",
+                },
+                {
+                  id: "CS12-CH12-T07",
+                  topicNumber: 7,
+                  topic: "Flowcharts",
+                  brief:
+                    "A flowchart visually represents the sequence of steps, decisions, and operations in a process or algorithm using standardized symbols.",
+                },
+                {
+                  id: "CS12-CH12-T08",
+                  topicNumber: 8,
+                  topic: "System flowcharts",
+                  brief:
+                    "A system flowchart illustrates the overall flow of data and control through system components, including input, processing, storage, and output.",
+                },
+                {
+                  id: "CS12-CH12-T09",
+                  topicNumber: 9,
+                  topic: "Use-case diagrams",
+                  brief:
+                    "A use-case diagram shows the interactions between external actors and the functions a system provides, helping summarize its functional scope.",
+                },
+                {
+                  id: "CS12-CH12-T10",
+                  topicNumber: 10,
+                  topic: "Entity-relationship diagrams",
+                  brief:
+                    "An entity-relationship diagram represents data entities, their attributes, and relationships to support database analysis and design.",
+                },
+                {
+                  id: "CS12-CH12-T11",
+                  topicNumber: 11,
+                  topic: "System input design",
+                  brief:
+                    "System input design determines how data is collected and entered, focusing on accuracy, validation, ease of use, and prevention of invalid input.",
+                },
+                {
+                  id: "CS12-CH12-T12",
+                  topicNumber: 12,
+                  topic: "System output design",
+                  brief:
+                    "System output design determines how information is presented through reports, screens, notifications, and other outputs in a clear and useful format.",
+                },
+                {
+                  id: "CS12-CH12-T13",
+                  topicNumber: 13,
+                  topic: "User interface design",
+                  brief:
+                    "User interface design organizes visual elements and interactions so users can understand, navigate, and operate a system effectively.",
+                },
+                {
+                  id: "CS12-CH12-T14",
+                  topicNumber: 14,
+                  topic: "System implementation",
+                  brief:
+                    "System implementation puts the designed solution into operation through development or configuration, data migration, deployment, and user training as required.",
+                },
+                {
+                  id: "CS12-CH12-T15",
+                  topicNumber: 15,
+                  topic: "System evaluation",
+                  brief:
+                    "System evaluation assesses whether a system meets its objectives and requirements by examining functionality, usability, performance, security, and user feedback.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH13",
+              chapterNumber: 13,
+              chapterName: "Software Testing and Maintenance",
+              topics: [
+                {
+                  id: "CS12-CH13-T01",
+                  topicNumber: 1,
+                  topic: "Purpose of software testing",
+                  brief:
+                    "Software testing identifies defects, checks conformance to requirements, reduces risk, and provides evidence about software quality.",
+                },
+                {
+                  id: "CS12-CH13-T02",
+                  topicNumber: 2,
+                  topic: "Unit testing",
+                  brief:
+                    "Unit testing checks individual functions, methods, or components in isolation to determine whether they behave as expected.",
+                },
+                {
+                  id: "CS12-CH13-T03",
+                  topicNumber: 3,
+                  topic: "Integration testing",
+                  brief:
+                    "Integration testing examines interactions between combined modules or services to identify problems in their interfaces and data exchange.",
+                },
+                {
+                  id: "CS12-CH13-T04",
+                  topicNumber: 4,
+                  topic: "System testing",
+                  brief:
+                    "System testing evaluates a complete integrated system against specified functional and non-functional requirements.",
+                },
+                {
+                  id: "CS12-CH13-T05",
+                  topicNumber: 5,
+                  topic: "Acceptance testing",
+                  brief:
+                    "Acceptance testing determines whether a system meets agreed acceptance criteria and is suitable for its intended users or operational environment.",
+                },
+                {
+                  id: "CS12-CH13-T06",
+                  topicNumber: 6,
+                  topic: "Black-box testing",
+                  brief:
+                    "Black-box testing evaluates a system's inputs and outputs without relying on knowledge of its internal implementation.",
+                },
+                {
+                  id: "CS12-CH13-T07",
+                  topicNumber: 7,
+                  topic: "White-box testing",
+                  brief:
+                    "White-box testing examines internal code structure and logic, including statements, branches, and execution paths.",
+                },
+                {
+                  id: "CS12-CH13-T08",
+                  topicNumber: 8,
+                  topic: "Test cases",
+                  brief:
+                    "A test case specifies inputs, preconditions, execution steps, and expected results used to check a particular behavior or requirement.",
+                },
+                {
+                  id: "CS12-CH13-T09",
+                  topicNumber: 9,
+                  topic: "Debugging",
+                  brief:
+                    "Debugging is the process of locating, analyzing, and correcting the causes of defects discovered during development or testing.",
+                },
+                {
+                  id: "CS12-CH13-T10",
+                  topicNumber: 10,
+                  topic: "Bug tracking",
+                  brief:
+                    "Bug tracking records and manages software defects, including their descriptions, severity, status, reproduction steps, and resolution.",
+                },
+                {
+                  id: "CS12-CH13-T11",
+                  topicNumber: 11,
+                  topic: "Software maintenance",
+                  brief:
+                    "Software maintenance updates deployed software to correct defects, accommodate changes, improve quality, or reduce the likelihood of future failures.",
+                },
+                {
+                  id: "CS12-CH13-T12",
+                  topicNumber: 12,
+                  topic: "Corrective maintenance",
+                  brief:
+                    "Corrective maintenance fixes faults or defects discovered after software has been delivered or deployed.",
+                },
+                {
+                  id: "CS12-CH13-T13",
+                  topicNumber: 13,
+                  topic: "Adaptive maintenance",
+                  brief:
+                    "Adaptive maintenance modifies software to keep it working when its environment changes, such as operating systems, hardware, regulations, or external services.",
+                },
+                {
+                  id: "CS12-CH13-T14",
+                  topicNumber: 14,
+                  topic: "Perfective maintenance",
+                  brief:
+                    "Perfective maintenance improves software features, performance, usability, or maintainability in response to evolving user needs.",
+                },
+                {
+                  id: "CS12-CH13-T15",
+                  topicNumber: 15,
+                  topic: "Preventive maintenance",
+                  brief:
+                    "Preventive maintenance makes changes intended to reduce the likelihood of future failures or make software easier to maintain.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "CS12-B05",
+          branchNumber: 5,
+          branchName: "Computer Networks and Security",
+          chapters: [
+            {
+              id: "CS12-CH14",
+              chapterNumber: 14,
+              chapterName: "Network Models and Protocols",
+              topics: [
+                {
+                  id: "CS12-CH14-T01",
+                  topicNumber: 1,
+                  topic: "Network architecture",
+                  brief:
+                    "Network architecture describes the structure and design of a network, including its devices, layers, protocols, communication links, and services.",
+                },
+                {
+                  id: "CS12-CH14-T02",
+                  topicNumber: 2,
+                  topic: "OSI reference model",
+                  brief:
+                    "The Open Systems Interconnection (OSI) reference model divides network communication into seven conceptual layers to help describe and standardize networking functions.",
+                },
+                {
+                  id: "CS12-CH14-T03",
+                  topicNumber: 3,
+                  topic: "Layers of the OSI model",
+                  brief:
+                    "The seven OSI layers are Physical, Data Link, Network, Transport, Session, Presentation, and Application, each describing different communication responsibilities.",
+                },
+                {
+                  id: "CS12-CH14-T04",
+                  topicNumber: 4,
+                  topic: "TCP/IP model",
+                  brief:
+                    "The TCP/IP model organizes Internet communication into layers commonly described as Link, Internet, Transport, and Application.",
+                },
+                {
+                  id: "CS12-CH14-T05",
+                  topicNumber: 5,
+                  topic: "Network protocols",
+                  brief:
+                    "Network protocols define rules and formats that devices use to communicate, exchange data, establish connections, and handle errors.",
+                },
+                {
+                  id: "CS12-CH14-T06",
+                  topicNumber: 6,
+                  topic: "TCP",
+                  brief:
+                    "Transmission Control Protocol (TCP) provides a reliable, ordered byte stream between applications using mechanisms such as retransmission, sequencing, and flow control.",
+                },
+                {
+                  id: "CS12-CH14-T07",
+                  topicNumber: 7,
+                  topic: "UDP",
+                  brief:
+                    "User Datagram Protocol (UDP) sends independent datagrams without guaranteeing delivery, ordering, or duplicate protection, making it useful when low overhead is important.",
+                },
+                {
+                  id: "CS12-CH14-T08",
+                  topicNumber: 8,
+                  topic: "IP",
+                  brief:
+                    "Internet Protocol (IP) provides addressing and packet forwarding between networks without guaranteeing delivery or packet ordering.",
+                },
+                {
+                  id: "CS12-CH14-T09",
+                  topicNumber: 9,
+                  topic: "HTTP and HTTPS",
+                  brief:
+                    "HTTP transfers web requests and responses, while HTTPS protects HTTP communication with TLS encryption and server authentication.",
+                },
+                {
+                  id: "CS12-CH14-T10",
+                  topicNumber: 10,
+                  topic: "FTP",
+                  brief:
+                    "File Transfer Protocol (FTP) is a network protocol for transferring files between systems; traditional FTP does not encrypt traffic by default.",
+                },
+                {
+                  id: "CS12-CH14-T11",
+                  topicNumber: 11,
+                  topic: "SMTP",
+                  brief:
+                    "Simple Mail Transfer Protocol (SMTP) is used to send and relay email messages between mail clients and servers or between mail servers.",
+                },
+                {
+                  id: "CS12-CH14-T12",
+                  topicNumber: 12,
+                  topic: "POP3 and IMAP",
+                  brief:
+                    "POP3 and IMAP are protocols for retrieving email; POP3 commonly downloads messages, while IMAP supports synchronized access to mail stored on a server.",
+                },
+                {
+                  id: "CS12-CH14-T13",
+                  topicNumber: 13,
+                  topic: "Ethernet",
+                  brief:
+                    "Ethernet is a family of wired networking technologies that defines frame formats, addressing, and physical or link-layer communication for local networks.",
+                },
+                {
+                  id: "CS12-CH14-T14",
+                  topicNumber: 14,
+                  topic: "Wireless networking",
+                  brief:
+                    "Wireless networking connects devices through radio or other wireless signals, using technologies such as Wi-Fi, Bluetooth, and cellular networks.",
+                },
+                {
+                  id: "CS12-CH14-T15",
+                  topicNumber: 15,
+                  topic: "Network addressing",
+                  brief:
+                    "Network addressing assigns identifiers to interfaces and services so data can be directed to the correct destinations within or between networks.",
+                },
+                {
+                  id: "CS12-CH14-T16",
+                  topicNumber: 16,
+                  topic: "IPv4",
+                  brief:
+                    "Internet Protocol version 4 (IPv4) uses 32-bit addresses, commonly written as four decimal octets separated by dots.",
+                },
+                {
+                  id: "CS12-CH14-T17",
+                  topicNumber: 17,
+                  topic: "IPv6",
+                  brief:
+                    "Internet Protocol version 6 (IPv6) uses 128-bit addresses, written in hexadecimal groups, and provides a much larger address space than IPv4.",
+                },
+                {
+                  id: "CS12-CH14-T18",
+                  topicNumber: 18,
+                  topic: "Subnetting fundamentals",
+                  brief:
+                    "Subnetting divides an IP network into smaller logical networks using a subnet mask or prefix length to distinguish network bits from host bits.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH15",
+              chapterNumber: 15,
+              chapterName: "Network Security and Cyber Ethics",
+              topics: [
+                {
+                  id: "CS12-CH15-T01",
+                  topicNumber: 1,
+                  topic: "Network security fundamentals",
+                  brief:
+                    "Network security protects network infrastructure, connected systems, and transmitted data using controls such as access restrictions, monitoring, encryption, and firewalls.",
+                },
+                {
+                  id: "CS12-CH15-T02",
+                  topicNumber: 2,
+                  topic: "Confidentiality, integrity, and availability",
+                  brief:
+                    "The confidentiality, integrity, and availability (CIA) triad describes three core security goals: preventing unauthorized disclosure, preserving accuracy, and maintaining access to information and services.",
+                },
+                {
+                  id: "CS12-CH15-T03",
+                  topicNumber: 3,
+                  topic: "Authentication and authorization",
+                  brief:
+                    "Authentication verifies a user's or system's identity, while authorization determines which resources and actions that authenticated identity is permitted to access.",
+                },
+                {
+                  id: "CS12-CH15-T04",
+                  topicNumber: 4,
+                  topic: "Access control",
+                  brief:
+                    "Access control applies policies that determine who or what can access resources and which operations are allowed.",
+                },
+                {
+                  id: "CS12-CH15-T05",
+                  topicNumber: 5,
+                  topic: "Encryption and decryption",
+                  brief:
+                    "Encryption transforms readable information into ciphertext using a cryptographic method and key, while decryption converts it back when the correct key and method are available.",
+                },
+                {
+                  id: "CS12-CH15-T06",
+                  topicNumber: 6,
+                  topic: "Symmetric encryption",
+                  brief:
+                    "Symmetric encryption uses the same secret key, or closely related secret-key material, to encrypt and decrypt data.",
+                },
+                {
+                  id: "CS12-CH15-T07",
+                  topicNumber: 7,
+                  topic: "Asymmetric encryption",
+                  brief:
+                    "Asymmetric cryptography uses a public-private key pair and supports operations such as encryption, key establishment, and digital signatures.",
+                },
+                {
+                  id: "CS12-CH15-T08",
+                  topicNumber: 8,
+                  topic: "Digital signatures",
+                  brief:
+                    "Digital signatures use cryptographic techniques to help verify the origin and integrity of digital data and provide evidence that can support non-repudiation.",
+                },
+                {
+                  id: "CS12-CH15-T09",
+                  topicNumber: 9,
+                  topic: "Digital certificates",
+                  brief:
+                    "A digital certificate binds an identity to a public key and is typically issued or signed by a certificate authority within a trust framework.",
+                },
+                {
+                  id: "CS12-CH15-T10",
+                  topicNumber: 10,
+                  topic: "Firewalls",
+                  brief:
+                    "A firewall filters incoming and outgoing network traffic according to configured rules to help block unauthorized communications.",
+                },
+                {
+                  id: "CS12-CH15-T11",
+                  topicNumber: 11,
+                  topic: "Malware",
+                  brief:
+                    "Malware is software designed to harm, disrupt, spy on, or gain unauthorized access to devices, networks, or data.",
+                },
+                {
+                  id: "CS12-CH15-T12",
+                  topicNumber: 12,
+                  topic: "Phishing",
+                  brief:
+                    "Phishing is a deceptive technique in which attackers impersonate trusted organizations or people to obtain sensitive information or persuade victims to take unsafe actions.",
+                },
+                {
+                  id: "CS12-CH15-T13",
+                  topicNumber: 13,
+                  topic: "Social engineering",
+                  brief:
+                    "Social engineering manipulates people into revealing information, granting access, or performing actions that compromise security.",
+                },
+                {
+                  id: "CS12-CH15-T14",
+                  topicNumber: 14,
+                  topic: "Network attacks",
+                  brief:
+                    "Network attacks attempt to disrupt services, intercept communications, steal data, or gain unauthorized access through methods such as denial of service and spoofing.",
+                },
+                {
+                  id: "CS12-CH15-T15",
+                  topicNumber: 15,
+                  topic: "Secure passwords",
+                  brief:
+                    "Secure passwords are long, unique, and difficult to guess; using a password manager and multi-factor authentication improves account protection.",
+                },
+                {
+                  id: "CS12-CH15-T16",
+                  topicNumber: 16,
+                  topic: "Backup and recovery",
+                  brief:
+                    "Backup and recovery involve keeping protected copies of data and restoring information or services after accidental loss, hardware failure, or security incidents.",
+                },
+                {
+                  id: "CS12-CH15-T17",
+                  topicNumber: 17,
+                  topic: "Cyber law awareness",
+                  brief:
+                    "Cyber law awareness involves understanding applicable laws and regulations concerning online activities, electronic transactions, privacy, unauthorized access, and digital offenses.",
+                },
+                {
+                  id: "CS12-CH15-T18",
+                  topicNumber: 18,
+                  topic: "Privacy and digital ethics",
+                  brief:
+                    "Privacy and digital ethics involve respecting personal information, obtaining appropriate consent, using data responsibly, and behaving fairly in digital environments.",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "CS12-B06",
+          branchNumber: 6,
+          branchName: "Emerging Technologies and Applications",
+          chapters: [
+            {
+              id: "CS12-CH16",
+              chapterNumber: 16,
+              chapterName: "Artificial Intelligence and Machine Learning",
+              topics: [
+                {
+                  id: "CS12-CH16-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to artificial intelligence",
+                  brief:
+                    "Artificial Intelligence (AI) is a field of computing focused on creating systems that perform tasks such as perception, reasoning, language processing, and decision-making.",
+                },
+                {
+                  id: "CS12-CH16-T02",
+                  topicNumber: 2,
+                  topic: "Applications of artificial intelligence",
+                  brief:
+                    "AI is used in healthcare, education, finance, transportation, agriculture, customer service, recommendation systems, and many other fields.",
+                },
+                {
+                  id: "CS12-CH16-T03",
+                  topicNumber: 3,
+                  topic: "Machine learning fundamentals",
+                  brief:
+                    "Machine learning is a branch of AI in which systems learn patterns from data to make predictions or decisions without requiring every rule to be explicitly programmed.",
+                },
+                {
+                  id: "CS12-CH16-T04",
+                  topicNumber: 4,
+                  topic: "Supervised learning",
+                  brief:
+                    "Supervised learning trains a model using labeled examples, where each training input is paired with a known target or outcome.",
+                },
+                {
+                  id: "CS12-CH16-T05",
+                  topicNumber: 5,
+                  topic: "Unsupervised learning",
+                  brief:
+                    "Unsupervised learning identifies patterns, groupings, or structures in data that does not have labeled target outcomes.",
+                },
+                {
+                  id: "CS12-CH16-T06",
+                  topicNumber: 6,
+                  topic: "Reinforcement learning",
+                  brief:
+                    "Reinforcement learning trains an agent to choose actions through interaction with an environment, using rewards or penalties to guide learning.",
+                },
+                {
+                  id: "CS12-CH16-T07",
+                  topicNumber: 7,
+                  topic: "Training data and testing data",
+                  brief:
+                    "Training data is used to fit a machine-learning model, while testing data evaluates how well the trained model performs on previously unseen examples.",
+                },
+                {
+                  id: "CS12-CH16-T08",
+                  topicNumber: 8,
+                  topic: "Classification and regression",
+                  brief:
+                    "Classification predicts discrete categories, such as spam or not spam, while regression predicts numerical values, such as prices or temperatures.",
+                },
+                {
+                  id: "CS12-CH16-T09",
+                  topicNumber: 9,
+                  topic: "Natural language processing",
+                  brief:
+                    "Natural Language Processing (NLP) enables computers to analyze, understand, generate, or respond to human language in text and speech.",
+                },
+                {
+                  id: "CS12-CH16-T10",
+                  topicNumber: 10,
+                  topic: "Computer vision",
+                  brief:
+                    "Computer vision enables systems to extract information from images and videos for tasks such as object detection, image classification, and facial recognition.",
+                },
+                {
+                  id: "CS12-CH16-T11",
+                  topicNumber: 11,
+                  topic: "AI ethics",
+                  brief:
+                    "AI ethics examines the responsible development and use of AI, including fairness, accountability, transparency, safety, and respect for human rights.",
+                },
+                {
+                  id: "CS12-CH16-T12",
+                  topicNumber: 12,
+                  topic: "Bias in AI systems",
+                  brief:
+                    "Bias in AI systems occurs when data, design choices, or evaluation methods produce systematically unfair or inaccurate outcomes for particular groups or situations.",
+                },
+                {
+                  id: "CS12-CH16-T13",
+                  topicNumber: 13,
+                  topic: "Privacy considerations",
+                  brief:
+                    "Privacy considerations in AI include limiting unnecessary data collection, protecting sensitive information, obtaining appropriate consent, and managing how personal data is used.",
+                },
+                {
+                  id: "CS12-CH16-T14",
+                  topicNumber: 14,
+                  topic: "Limitations of AI",
+                  brief:
+                    "AI systems can make errors, reflect biases in their data, struggle with unfamiliar situations, and lack reliable human-like understanding or judgment.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH17",
+              chapterNumber: 17,
+              chapterName: "Cloud Computing and Internet of Things",
+              topics: [
+                {
+                  id: "CS12-CH17-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to cloud computing",
+                  brief:
+                    "Cloud computing provides on-demand access to computing resources such as servers, storage, databases, and software over a network.",
+                },
+                {
+                  id: "CS12-CH17-T02",
+                  topicNumber: 2,
+                  topic: "Cloud computing service models",
+                  brief:
+                    "Cloud service models describe the level of service provided, commonly including Infrastructure as a Service, Platform as a Service, and Software as a Service.",
+                },
+                {
+                  id: "CS12-CH17-T03",
+                  topicNumber: 3,
+                  topic: "Infrastructure as a Service",
+                  brief:
+                    "Infrastructure as a Service (IaaS) provides virtualized computing resources such as servers, storage, and networking that customers can configure and manage.",
+                },
+                {
+                  id: "CS12-CH17-T04",
+                  topicNumber: 4,
+                  topic: "Platform as a Service",
+                  brief:
+                    "Platform as a Service (PaaS) provides a managed environment for developing, testing, and deploying applications without requiring users to manage all underlying infrastructure.",
+                },
+                {
+                  id: "CS12-CH17-T05",
+                  topicNumber: 5,
+                  topic: "Software as a Service",
+                  brief:
+                    "Software as a Service (SaaS) delivers software applications over a network, usually through a browser or client app, with much of the infrastructure managed by the provider.",
+                },
+                {
+                  id: "CS12-CH17-T06",
+                  topicNumber: 6,
+                  topic: "Public and private clouds",
+                  brief:
+                    "A public cloud provides services on shared provider infrastructure, while a private cloud is dedicated to a single organization, though its management and hosting arrangements can vary.",
+                },
+                {
+                  id: "CS12-CH17-T07",
+                  topicNumber: 7,
+                  topic: "Cloud storage",
+                  brief:
+                    "Cloud storage keeps data on remotely managed storage systems accessible over a network and can support synchronization, sharing, backup, and scalable capacity.",
+                },
+                {
+                  id: "CS12-CH17-T08",
+                  topicNumber: 8,
+                  topic: "Advantages and limitations of cloud computing",
+                  brief:
+                    "Cloud computing can provide scalability, flexible access, and reduced infrastructure management, but it may introduce dependency on connectivity, providers, pricing models, and security configurations.",
+                },
+                {
+                  id: "CS12-CH17-T09",
+                  topicNumber: 9,
+                  topic: "Internet of Things fundamentals",
+                  brief:
+                    "The Internet of Things (IoT) connects physical devices equipped with sensors, software, and network connectivity so they can collect and exchange data.",
+                },
+                {
+                  id: "CS12-CH17-T10",
+                  topicNumber: 10,
+                  topic: "IoT devices and sensors",
+                  brief:
+                    "IoT devices use sensors to measure conditions such as temperature, movement, humidity, or pressure and may use actuators to perform physical actions.",
+                },
+                {
+                  id: "CS12-CH17-T11",
+                  topicNumber: 11,
+                  topic: "IoT communication",
+                  brief:
+                    "IoT communication transfers data between devices, gateways, and services using technologies and protocols such as Wi-Fi, Bluetooth, cellular networks, MQTT, and CoAP.",
+                },
+                {
+                  id: "CS12-CH17-T12",
+                  topicNumber: 12,
+                  topic: "Smart homes",
+                  brief:
+                    "Smart homes use connected devices to monitor or automate functions such as lighting, heating, security, energy use, and household appliances.",
+                },
+                {
+                  id: "CS12-CH17-T13",
+                  topicNumber: 13,
+                  topic: "IoT in agriculture",
+                  brief:
+                    "IoT in agriculture uses sensors and connected systems to monitor soil moisture, weather, livestock, and crops and to support irrigation and farm management.",
+                },
+                {
+                  id: "CS12-CH17-T14",
+                  topicNumber: 14,
+                  topic: "IoT security and privacy",
+                  brief:
+                    "IoT security and privacy involve protecting connected devices, communications, and collected data through secure configuration, authentication, updates, encryption, and responsible data handling.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH18",
+              chapterNumber: 18,
+              chapterName: "E-Commerce and Digital Payments",
+              topics: [
+                {
+                  id: "CS12-CH18-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to e-commerce",
+                  brief:
+                    "Electronic commerce (e-commerce) involves buying and selling goods or services and conducting related business activities through electronic networks.",
+                },
+                {
+                  id: "CS12-CH18-T02",
+                  topicNumber: 2,
+                  topic: "Business-to-business commerce",
+                  brief:
+                    "Business-to-business (B2B) commerce involves transactions between businesses, such as wholesale purchasing, supplier contracts, and corporate services.",
+                },
+                {
+                  id: "CS12-CH18-T03",
+                  topicNumber: 3,
+                  topic: "Business-to-consumer commerce",
+                  brief:
+                    "Business-to-consumer (B2C) commerce occurs when a business sells products or services directly to individual customers.",
+                },
+                {
+                  id: "CS12-CH18-T04",
+                  topicNumber: 4,
+                  topic: "Consumer-to-consumer commerce",
+                  brief:
+                    "Consumer-to-consumer (C2C) commerce involves individuals buying and selling goods or services to one another, often through online marketplaces.",
+                },
+                {
+                  id: "CS12-CH18-T05",
+                  topicNumber: 5,
+                  topic: "Online marketplaces",
+                  brief:
+                    "Online marketplaces provide digital platforms where multiple sellers can list products or services for customers to discover, compare, and purchase.",
+                },
+                {
+                  id: "CS12-CH18-T06",
+                  topicNumber: 6,
+                  topic: "Electronic payment systems",
+                  brief:
+                    "Electronic payment systems transfer money digitally through methods such as bank transfers, payment cards, mobile banking, and online payment services.",
+                },
+                {
+                  id: "CS12-CH18-T07",
+                  topicNumber: 7,
+                  topic: "Digital wallets",
+                  brief:
+                    "Digital wallets are applications or services that store payment credentials or monetary value and allow users to make or manage electronic transactions.",
+                },
+                {
+                  id: "CS12-CH18-T08",
+                  topicNumber: 8,
+                  topic: "Online banking",
+                  brief:
+                    "Online banking allows customers to access financial services through a website or mobile application, including checking balances, transferring funds, and paying bills.",
+                },
+                {
+                  id: "CS12-CH18-T09",
+                  topicNumber: 9,
+                  topic: "Electronic fund transfers",
+                  brief:
+                    "Electronic fund transfers move money between accounts or parties through electronic payment networks without requiring physical cash or paper-based transfer processes.",
+                },
+                {
+                  id: "CS12-CH18-T10",
+                  topicNumber: 10,
+                  topic: "Digital signatures",
+                  brief:
+                    "Digital signatures use cryptographic methods to help verify the signer of digital data and detect changes made after signing.",
+                },
+                {
+                  id: "CS12-CH18-T11",
+                  topicNumber: 11,
+                  topic: "Online transaction security",
+                  brief:
+                    "Online transaction security protects payment and account information through measures such as encrypted connections, authentication, fraud monitoring, and secure payment processing.",
+                },
+                {
+                  id: "CS12-CH18-T12",
+                  topicNumber: 12,
+                  topic: "Advantages of e-commerce",
+                  brief:
+                    "E-commerce can offer wider market reach, convenient purchasing, continuous availability, easier product comparison, and reduced costs associated with some physical operations.",
+                },
+                {
+                  id: "CS12-CH18-T13",
+                  topicNumber: 13,
+                  topic: "Risks and challenges of e-commerce",
+                  brief:
+                    "E-commerce challenges include fraud, privacy risks, cybersecurity threats, delivery problems, product misrepresentation, payment disputes, and dependence on digital infrastructure.",
+                },
+                {
+                  id: "CS12-CH18-T14",
+                  topicNumber: 14,
+                  topic: "Consumer protection and privacy",
+                  brief:
+                    "Consumer protection and privacy involve transparent pricing, accurate product information, secure personal data handling, fair transaction practices, and accessible complaint or refund procedures.",
+                },
+              ],
+            },
+            {
+              id: "CS12-CH19",
+              chapterNumber: 19,
+              chapterName: "Multimedia and Digital Content",
+              topics: [
+                {
+                  id: "CS12-CH19-T01",
+                  topicNumber: 1,
+                  topic: "Introduction to multimedia",
+                  brief:
+                    "Multimedia combines two or more forms of digital content, such as text, graphics, audio, video, and animation, to communicate information.",
+                },
+                {
+                  id: "CS12-CH19-T02",
+                  topicNumber: 2,
+                  topic: "Text and graphics",
+                  brief:
+                    "Text communicates information through written characters, while graphics use visual elements such as illustrations, diagrams, icons, and shapes.",
+                },
+                {
+                  id: "CS12-CH19-T03",
+                  topicNumber: 3,
+                  topic: "Digital images",
+                  brief:
+                    "Digital images represent visual information using pixels or mathematical descriptions, with resolution, color depth, and compression affecting quality and file size.",
+                },
+                {
+                  id: "CS12-CH19-T04",
+                  topicNumber: 4,
+                  topic: "Image formats",
+                  brief:
+                    "Image formats define how image data is stored, with common examples including JPEG for photographic images, PNG for lossless images and transparency, GIF for simple animation, and SVG for vector graphics.",
+                },
+                {
+                  id: "CS12-CH19-T05",
+                  topicNumber: 5,
+                  topic: "Audio fundamentals",
+                  brief:
+                    "Digital audio represents sound through sampled measurements of an audio signal, with sampling rate, bit depth, and channel count influencing quality and file size.",
+                },
+                {
+                  id: "CS12-CH19-T06",
+                  topicNumber: 6,
+                  topic: "Digital audio formats",
+                  brief:
+                    "Digital audio formats store sound in different ways, including uncompressed PCM in WAV, lossless compression in FLAC, and lossy compression in MP3 and AAC.",
+                },
+                {
+                  id: "CS12-CH19-T07",
+                  topicNumber: 7,
+                  topic: "Video fundamentals",
+                  brief:
+                    "Digital video represents moving images as a sequence of frames, often combined with audio, and is described by resolution, frame rate, and encoding.",
+                },
+                {
+                  id: "CS12-CH19-T08",
+                  topicNumber: 8,
+                  topic: "Video formats",
+                  brief:
+                    "Video file formats and containers, such as MP4, WebM, and MOV, package video, audio, and metadata using supported codecs.",
+                },
+                {
+                  id: "CS12-CH19-T09",
+                  topicNumber: 9,
+                  topic: "Compression",
+                  brief:
+                    "Compression reduces the amount of data needed to represent a file, helping save storage space and reduce transmission requirements.",
+                },
+                {
+                  id: "CS12-CH19-T10",
+                  topicNumber: 10,
+                  topic: "Lossy compression",
+                  brief:
+                    "Lossy compression reduces file size by permanently discarding some information, often trading perfect fidelity for smaller files.",
+                },
+                {
+                  id: "CS12-CH19-T11",
+                  topicNumber: 11,
+                  topic: "Lossless compression",
+                  brief:
+                    "Lossless compression reduces file size while allowing the original data to be reconstructed exactly after decompression.",
+                },
+                {
+                  id: "CS12-CH19-T12",
+                  topicNumber: 12,
+                  topic: "Animation fundamentals",
+                  brief:
+                    "Animation creates the appearance of movement by displaying a sequence of images or changing visual properties over time.",
+                },
+                {
+                  id: "CS12-CH19-T13",
+                  topicNumber: 13,
+                  topic: "Multimedia applications",
+                  brief:
+                    "Multimedia is used in education, entertainment, advertising, gaming, presentations, simulations, communication, and digital training.",
+                },
+                {
+                  id: "CS12-CH19-T14",
+                  topicNumber: 14,
+                  topic: "Digital content creation",
+                  brief:
+                    "Digital content creation involves planning, producing, editing, and publishing material such as articles, images, audio, videos, animations, and interactive media.",
+                },
+                {
+                  id: "CS12-CH19-T15",
+                  topicNumber: 15,
+                  topic: "Copyright and intellectual property",
+                  brief:
+                    "Copyright and intellectual property laws can protect creative works and other original content, defining how they may be copied, distributed, adapted, or used by others.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+};
