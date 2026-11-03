@@ -2,6 +2,7 @@ import type { Request, Response, NextFunction } from "express";
 import { authService } from "../services/auth.service.js";
 import { userRepository } from "../repository/user.repository.js";
 import { progressRepository } from "../repository/progress.repository.js";
+import { analyticsRepository } from "../repository/analytics.repository.js";
 import { config } from "../config/env.config.js";
 import { sendSuccess, sendError } from "../utils/response.util.js";
 import type { GoogleAuthRequest } from "../types/auth.types.js";

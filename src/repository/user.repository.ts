@@ -7,6 +7,7 @@ import {
 } from "../config/firebase.config.js";
 import type { User, GoogleProfile } from "../types/auth.types.js";
 import { logger } from "../utils/logger.util.js";
+import { analyticsRepository } from "./analytics.repository.js";
 
 export const ADMIN_EMAIL = "study2ool.nepal@gmail.com";
 
@@ -395,6 +396,9 @@ export class UserRepository {
       }
 
       finalUser = newUser;
+      analyticsRepository.onUserCreated(newUser).catch((e) =>
+        logger.warn(`[UserRepository] Analytics onUserCreated error: ${e.message}`)
+      );
     }
 
     return finalUser;
@@ -407,6 +411,10 @@ export class UserRepository {
     this.users.delete(userId);
     this.emailIndex.delete(existing.email.toLowerCase());
     this.googleIdIndex.delete(existing.googleId);
+
+    analyticsRepository.onUserDeleted(existing).catch((e) =>
+      logger.warn(`[UserRepository] Analytics onUserDeleted error: ${e.message}`)
+    );
 
     if (isFirestoreReady() && db) {
       try {
@@ -497,6 +505,12 @@ export class UserRepository {
         throw err;
       }
     }
+
+    analyticsRepository
+      .onUserProfileUpdated(existing, updatedUser)
+      .catch((e) =>
+        logger.warn(`[UserRepository] Analytics onUserProfileUpdated error: ${e.message}`)
+      );
 
     return updatedUser;
   }

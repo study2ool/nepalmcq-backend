@@ -33,9 +33,10 @@ export async function authenticateToken(
   try {
     const payload = await authService.resolveTokenPayload(token);
 
-    // Tokens only expire when the user logs out
+    // Tokens only expire when the user logs out. Check token, NEVER userId!
     const isRevoked = await authService.isTokenRevoked(
-      payload.tokenId || payload.userId || token,
+      token,
+      payload.tokenId,
     );
     if (isRevoked) {
       sendError(
@@ -106,7 +107,8 @@ export async function optionalAuth(
       try {
         const payload = await authService.resolveTokenPayload(token);
         const isRevoked = await authService.isTokenRevoked(
-          payload.tokenId || payload.userId || token,
+          token,
+          payload.tokenId,
         );
         if (!isRevoked) {
           const user = await userRepository.findById(payload.userId);

@@ -183,14 +183,16 @@ export class AuthService {
 
   /**
    * Generates a Firebase Auth Custom Token using Firebase Admin SDK.
-   * Includes custom claims such as { role: 'student', email: '...' }.
+   * Includes custom claims such as { role: 'student', email: '...', tokenId: 'tok_...' }.
    */
   public async createFirebaseCustomToken(user: User): Promise<string> {
+    const tokenId = `tok_${crypto.randomUUID().replace(/-/g, "")}`;
     if (firebaseAuth) {
       try {
         const customToken = await firebaseAuth.createCustomToken(user.id, {
           role: user.role || "student",
           email: user.email,
+          tokenId,
         });
         logger.info(
           `[Auth Service] Successfully created Firebase custom token for user UID: ${user.id}`,
@@ -205,24 +207,27 @@ export class AuthService {
     }
 
     // Fallback self-minted RS256 token if Firebase Admin Auth is not connected
-    return this.createLocalCustomToken(user);
+    return this.createLocalCustomToken(user, tokenId);
   }
 
   /**
    * Creates a self-signed RS256 Firebase custom token when running in offline/local mode
    */
-  private createLocalCustomToken(user: User): string {
+  private createLocalCustomToken(user: User, tokenIdParam?: string): string {
+    const jti = tokenIdParam || `tok_${crypto.randomUUID().replace(/-/g, "")}`;
     const header = { alg: "RS256", typ: "JWT" };
     const iat = Math.floor(Date.now() / 1000);
     const body = {
       aud: "https://identitytoolkit.googleapis.com/google.identity.identitytoolkit.v1.IdentityToolkit",
       iat,
+      jti,
       iss: config.firebaseClientEmail || "local-auth",
       sub: config.firebaseClientEmail || "local-auth",
       uid: user.id,
       claims: {
         email: user.email,
         role: user.role || "student",
+        tokenId: jti,
       },
     };
 
@@ -303,10 +308,19 @@ export class AuthService {
   }
 
   /**
+   * Helper to compute safe, deterministic token hash for tracking individual sessions
+   */
+  public computeTokenHash(token: string): string {
+    return "h_" + crypto.createHash("sha256").update(token).digest("hex").slice(0, 32);
+  }
+
+  /**
    * Resolves an incoming token (Firebase ID token or Firebase Custom token)
    * into an AuthTokenPayload without premature expiration, ensuring persistent sessions.
    */
   public async resolveTokenPayload(token: string): Promise<AuthTokenPayload> {
+    const tokenHash = this.computeTokenHash(token);
+
     // 1. If Firebase Auth is available, try verifying as a Firebase ID token
     if (firebaseAuth) {
       try {
@@ -314,11 +328,15 @@ export class AuthService {
         if (decodedFb && (decodedFb.uid || decodedFb.sub)) {
           const email = decodedFb.email || "";
           const isAdmin = email.toLowerCase() === ADMIN_EMAIL.toLowerCase();
+          const tokenId =
+            decodedFb.jti ||
+            (decodedFb as any).tokenId ||
+            tokenHash;
           return {
             userId: decodedFb.uid || decodedFb.sub,
             email,
             role: isAdmin ? "admin" : (decodedFb.role as any) || "student",
-            tokenId: decodedFb.jti || token,
+            tokenId,
             createdAt: decodedFb.iat
               ? new Date(decodedFb.iat * 1000).toISOString()
               : new Date().toISOString(),
@@ -331,6 +349,12 @@ export class AuthService {
 
     // 2. Verify and decode Firebase Custom Token
     const payload = this.verifyCustomToken(token);
+    const tokenId =
+      payload.jti ||
+      payload.claims?.tokenId ||
+      payload.claims?.jti ||
+      payload.tokenId ||
+      tokenHash;
 
     // Firebase custom tokens have `uid` top-level and optional `claims`
     if (payload.uid) {
@@ -344,7 +368,7 @@ export class AuthService {
         userId: payload.uid,
         email,
         role,
-        tokenId: payload.jti || payload.uid || token,
+        tokenId,
         createdAt: payload.iat
           ? new Date(payload.iat * 1000).toISOString()
           : new Date().toISOString(),
@@ -360,7 +384,7 @@ export class AuthService {
         userId,
         email,
         role: isAdmin ? "admin" : payload.role || "student",
-        tokenId: payload.tokenId || payload.jti || token,
+        tokenId,
         createdAt: payload.createdAt || new Date().toISOString(),
       };
     }
@@ -369,45 +393,51 @@ export class AuthService {
   }
 
   /**
-   * Revokes a token by its tokenId or raw token upon user logout
+   * Revokes a token by its unique token hash or tokenId upon user logout.
+   * NOTE: NEVER revokes a user ID!
    */
   public async revokeToken(rawToken: string): Promise<void> {
+    if (!rawToken || typeof rawToken !== "string") return;
+
     try {
-      let identifier = rawToken;
+      const tokenHash = this.computeTokenHash(rawToken);
+      let tokenId = "";
       let userId = "unknown";
 
       try {
         const { payload } = this.decodeTokenSegments(rawToken);
         if (payload) {
-          if (payload.tokenId) identifier = payload.tokenId;
-          else if (payload.uid) identifier = payload.uid;
-          else if (payload.jti) identifier = payload.jti;
-
+          tokenId =
+            payload.jti ||
+            payload.claims?.tokenId ||
+            payload.claims?.jti ||
+            payload.tokenId ||
+            "";
           if (payload.userId) userId = payload.userId;
           else if (payload.uid) userId = payload.uid;
         }
       } catch {
-        // use rawToken if decoding fails
+        // use raw token hash if decoding fails
       }
 
-      this.revokedTokenIds.add(rawToken);
-      if (identifier) this.revokedTokenIds.add(identifier);
+      // Add to in-memory set
+      this.revokedTokenIds.add(tokenHash);
+      if (tokenId && !tokenId.startsWith("usr_") && !tokenId.startsWith("google_")) {
+        this.revokedTokenIds.add(tokenId);
+      }
 
       if (isFirestoreReady() && db) {
         try {
-          const docId = identifier.replace(/[/\\#?]/g, "_").slice(0, 100);
+          const docId = `rev_${tokenHash}`;
           await db.collection(this.revokedCollectionName).doc(docId).set({
-            tokenId: identifier,
+            tokenHash,
+            tokenId: tokenId || tokenHash,
             userId,
             revokedAt: new Date().toISOString(),
           });
-          logger.info(
-            `Token '${docId}' marked expired in Firestore on logout.`,
-          );
+          logger.info(`Token '${docId}' marked expired in Firestore on logout.`);
         } catch (err: any) {
-          logger.error(
-            `Failed to persist revoked token to Firestore: ${err.message}`,
-          );
+          logger.error(`Failed to persist revoked token to Firestore: ${err.message}`);
         }
       }
     } catch (err: any) {
@@ -416,26 +446,51 @@ export class AuthService {
   }
 
   /**
-   * Checks whether a token or tokenId has been revoked/expired due to logout
+   * Checks whether a specific token or its unique tokenId has been revoked due to logout
    */
-  public async isTokenRevoked(identifier: string): Promise<boolean> {
-    if (!identifier) return false;
+  public async isTokenRevoked(rawToken: string, tokenIdParam?: string): Promise<boolean> {
+    if (!rawToken) return false;
 
-    // 1. Check in-memory revoked set
-    if (this.revokedTokenIds.has(identifier)) {
+    // Never consider user IDs as revoked tokens
+    if (rawToken.startsWith("usr_") || rawToken.startsWith("google_")) {
+      return false;
+    }
+
+    const tokenHash = this.computeTokenHash(rawToken);
+
+    // 1. Check in-memory revoked set for tokenHash or tokenId
+    if (this.revokedTokenIds.has(tokenHash)) {
+      return true;
+    }
+    if (
+      tokenIdParam &&
+      !tokenIdParam.startsWith("usr_") &&
+      !tokenIdParam.startsWith("google_") &&
+      this.revokedTokenIds.has(tokenIdParam)
+    ) {
       return true;
     }
 
-    // 2. Fallback check in Firestore collection
+    // 2. Check in Firestore collection
     if (isFirestoreReady() && db) {
       try {
-        const doc = await db
-          .collection(this.revokedCollectionName)
-          .doc(identifier)
-          .get();
+        const docId = `rev_${tokenHash}`;
+        const doc = await db.collection(this.revokedCollectionName).doc(docId).get();
         if (doc.exists) {
-          this.revokedTokenIds.add(identifier);
+          this.revokedTokenIds.add(tokenHash);
           return true;
+        }
+
+        if (
+          tokenIdParam &&
+          !tokenIdParam.startsWith("usr_") &&
+          !tokenIdParam.startsWith("google_")
+        ) {
+          const tokenDoc = await db.collection(this.revokedCollectionName).doc(tokenIdParam).get();
+          if (tokenDoc.exists) {
+            this.revokedTokenIds.add(tokenIdParam);
+            return true;
+          }
         }
       } catch {
         // Return memory evaluation on error
@@ -485,6 +540,12 @@ export class AuthService {
 
     const user = await userRepository.createOrUpdateGoogleUser(profile);
     const token = await this.createFirebaseCustomToken(user);
+
+    // Clean up any legacy erroneous user.id entries from revoked storage
+    this.revokedTokenIds.delete(user.id);
+    if (isFirestoreReady() && db) {
+      db.collection(this.revokedCollectionName).doc(user.id).delete().catch(() => {});
+    }
 
     return { user, token };
   }

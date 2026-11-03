@@ -2,6 +2,8 @@ import type { Request, Response } from "express";
 import { userRepository, ADMIN_EMAIL } from "../repository/user.repository.js";
 import { collegeRepository } from "../repository/college.repository.js";
 import { progressRepository } from "../repository/progress.repository.js";
+import { contactRepository } from "../repository/contact.repository.js";
+import { analyticsRepository } from "../repository/analytics.repository.js";
 import { sendSuccess, sendError } from "../utils/response.util.js";
 import { logger } from "../utils/logger.util.js";
 
@@ -12,58 +14,18 @@ export class AdminController {
    */
   public getStats = async (_req: Request, res: Response): Promise<void> => {
     try {
-      const [users, colleges, attempts, schoolStandings] = await Promise.all([
-        userRepository.getAllUsers(),
-        collegeRepository.getAll(),
+      const [analyticsSummary, attempts, schoolStandings, inquiryStats] = await Promise.all([
+        analyticsRepository.getSummary(),
         progressRepository.getAllAttempts(200),
         progressRepository.getSchoolStandings(),
+        contactRepository.getStats(),
       ]);
 
       const usersByRole = {
-        student: 0,
+        student: analyticsSummary.totalStudents,
         teacher: 0,
-        admin: 0,
+        admin: Math.max(1, analyticsSummary.totalUsers - analyticsSummary.totalStudents),
       };
-
-      const genderDistribution: Record<string, number> = {
-        male: 0,
-        female: 0,
-        other: 0,
-        prefer_not_to_say: 0,
-        unspecified: 0,
-      };
-
-      const gradeDistribution: Record<string, number> = {
-        "11": 0,
-        "12": 0,
-        unspecified: 0,
-      };
-
-      let onboardedCount = 0;
-
-      users.forEach((u) => {
-        if (u.role === "admin" || u.email.toLowerCase() === ADMIN_EMAIL.toLowerCase()) {
-          usersByRole.admin += 1;
-        } else if (u.role === "teacher") {
-          usersByRole.teacher += 1;
-        } else {
-          usersByRole.student += 1;
-        }
-
-        if (u.isOnboarded) onboardedCount += 1;
-
-        if (u.gender) {
-          genderDistribution[u.gender] = (genderDistribution[u.gender] ?? 0) + 1;
-        } else {
-          genderDistribution["unspecified"] = (genderDistribution["unspecified"] ?? 0) + 1;
-        }
-
-        if (u.grade) {
-          gradeDistribution[String(u.grade)] = (gradeDistribution[String(u.grade)] ?? 0) + 1;
-        } else {
-          gradeDistribution["unspecified"] = (gradeDistribution["unspecified"] ?? 0) + 1;
-        }
-      });
 
       let totalQuestionsAnswered = 0;
       let totalMarks = 0;
@@ -78,17 +40,16 @@ export class AdminController {
       const averageAccuracy = attempts.length > 0 ? Math.round(totalAccSum / attempts.length) : 0;
       const averageScore = attempts.length > 0 ? Math.round((totalMarks / attempts.length) * 10) / 10 : 0;
 
-      const userMap = new Map(users.map((u) => [u.id, u.name]));
-
-      // Sort users by createdAt/lastLoginAt descending
-      const recentUsers = [...users]
+      // Lightweight recent users fetch without scanning for analytics
+      const allUsers = userRepository.getAll();
+      const recentUsers = [...allUsers]
         .sort((a, b) => new Date(b.createdAt || b.lastLoginAt).getTime() - new Date(a.createdAt || a.lastLoginAt).getTime())
         .slice(0, 8);
 
       const recentAttempts = attempts.slice(0, 10).map((a) => ({
         id: a.id,
         userId: a.userId,
-        studentName: userMap.get(a.userId) || "Student",
+        studentName: allUsers.find(u => u.id === a.userId)?.name || "Student",
         subject: a.subject,
         grade: a.grade,
         score: a.metrics?.score || 0,
@@ -100,12 +61,13 @@ export class AdminController {
       sendSuccess(
         res,
         {
-          totalUsers: users.length,
+          totalUsers: analyticsSummary.totalUsers,
+          totalStudents: analyticsSummary.totalStudents,
           usersByRole,
-          onboardedCount,
-          genderDistribution,
-          gradeDistribution,
-          totalColleges: colleges.length,
+          onboardedCount: analyticsSummary.onboardedCount,
+          genderDistribution: analyticsSummary.genderWise,
+          schoolWise: analyticsSummary.schoolWise,
+          totalColleges: analyticsSummary.totalColleges,
           totalAttempts: attempts.length,
           totalQuestionsAnswered,
           averageAccuracy,
@@ -113,6 +75,10 @@ export class AdminController {
           recentUsers,
           recentAttempts,
           topSchools: schoolStandings.slice(0, 5),
+          totalInquiries: inquiryStats.total,
+          pendingInquiries: inquiryStats.pending,
+          inquiryStats,
+          analytics: analyticsSummary,
         },
         "Admin platform statistics retrieved successfully",
       );
@@ -317,6 +283,8 @@ export class AdminController {
         isPopular: !!isPopular,
       });
 
+      analyticsRepository.onSchoolCreated(created).catch(() => {});
+
       sendSuccess(res, created, "School added successfully", 201);
     } catch (err: any) {
       sendError(res, err.message || "Failed to create school", 500);
@@ -343,6 +311,8 @@ export class AdminController {
         return;
       }
 
+      analyticsRepository.onSchoolUpdated(updated).catch(() => {});
+
       sendSuccess(res, updated, "School updated successfully");
     } catch (err: any) {
       sendError(res, err.message || "Failed to update school", 500);
@@ -363,12 +333,41 @@ export class AdminController {
 
       const deleted = await collegeRepository.deleteCollege(id);
       if (deleted) {
+        analyticsRepository.onSchoolDeleted(id).catch(() => {});
         sendSuccess(res, { id }, "School removed successfully");
       } else {
         sendError(res, "School not found", 404);
       }
     } catch (err: any) {
       sendError(res, err.message || "Failed to delete school", 500);
+    }
+  };
+
+  /**
+   * GET /api/v1/admin/analytics
+   * Returns complete platform analytics from single summary doc
+   */
+  public getAnalytics = async (_req: Request, res: Response): Promise<void> => {
+    try {
+      const summary = await analyticsRepository.getSummary();
+      sendSuccess(res, summary, "Platform analytics summary retrieved successfully");
+    } catch (err: any) {
+      logger.error(`[AdminController] Error retrieving analytics: ${err.message}`);
+      sendError(res, err.message || "Failed to retrieve analytics", 500);
+    }
+  };
+
+  /**
+   * POST /api/v1/admin/analytics/sync
+   * Forces recalculation of platform summary single doc
+   */
+  public syncAnalytics = async (_req: Request, res: Response): Promise<void> => {
+    try {
+      const summary = await analyticsRepository.recalculateSummary();
+      sendSuccess(res, summary, "Platform analytics recalculated and synced successfully");
+    } catch (err: any) {
+      logger.error(`[AdminController] Error syncing analytics: ${err.message}`);
+      sendError(res, err.message || "Failed to sync analytics", 500);
     }
   };
 }
