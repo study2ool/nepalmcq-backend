@@ -2,9 +2,18 @@ import * as path from "path";
 import * as fs from "fs";
 import * as dotenv from "dotenv";
 
-dotenv.config();
-
 const baseDir = process.cwd();
+
+// Auto-load .env from current directory or backend directory
+const envCandidates = [
+  path.resolve(baseDir, ".env"),
+  path.resolve(baseDir, "backend", ".env"),
+];
+for (const envPath of envCandidates) {
+  if (fs.existsSync(envPath)) {
+    dotenv.config({ path: envPath });
+  }
+}
 
 function resolveDirectory(envKey: string, defaultPath: string): string {
   const custom = process.env[envKey];
@@ -15,25 +24,6 @@ function resolveDirectory(envKey: string, defaultPath: string): string {
   if (fs.existsSync(rootCandidate)) return rootCandidate;
 
   const backendCandidate = path.resolve(baseDir, "backend", defaultPath);
-  if (fs.existsSync(backendCandidate)) return backendCandidate;
-
-  return rootCandidate;
-}
-
-function resolveFilePath(envKey: string, defaultPath: string): string {
-  const custom =
-    process.env[envKey] ||
-    (envKey === "FIREBASE_SERVICE_ACCOUNT_KEY_PATH"
-      ? process.env.GOOGLE_APPLICATION_CREDENTIALS
-      : "");
-  const target = custom || defaultPath;
-  if (!target) return "";
-  if (path.isAbsolute(target)) return target;
-
-  const rootCandidate = path.resolve(baseDir, target);
-  if (fs.existsSync(rootCandidate)) return rootCandidate;
-
-  const backendCandidate = path.resolve(baseDir, "backend", target);
   if (fs.existsSync(backendCandidate)) return backendCandidate;
 
   return rootCandidate;
@@ -64,10 +54,6 @@ export const config = {
   firebasePrivateKey: process.env.FIREBASE_PRIVATE_KEY
     ? process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, "\n")
     : "",
-  firebaseServiceAccountKeyPath: resolveFilePath(
-    "FIREBASE_SERVICE_ACCOUNT_KEY_PATH",
-    "service-account.json",
-  ),
   firestoreUsersCollection: process.env.FIRESTORE_USERS_COLLECTION || "users",
   firestoreRevokedTokensCollection:
     process.env.FIRESTORE_REVOKED_TOKENS_COLLECTION || "revoked_tokens",

@@ -1,5 +1,3 @@
-import * as fs from "fs";
-import * as path from "path";
 import {
   initializeApp,
   getApps,
@@ -19,20 +17,8 @@ try {
   if (getApps().length === 0) {
     let credential: any = null;
 
-    // 1. Service account JSON file
+    // 1. Inline environment variables (FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, FIREBASE_PRIVATE_KEY)
     if (
-      config.firebaseServiceAccountKeyPath &&
-      fs.existsSync(config.firebaseServiceAccountKeyPath)
-    ) {
-      const fullPath = path.resolve(config.firebaseServiceAccountKeyPath);
-      const serviceAccount = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
-      credential = cert(serviceAccount);
-      logger.info(
-        `Firebase Admin initializing with service account file: ${fullPath}`,
-      );
-    }
-    // 2. Inline environment variables
-    else if (
       config.firebaseProjectId &&
       config.firebaseClientEmail &&
       config.firebasePrivateKey
@@ -46,7 +32,7 @@ try {
         `Firebase Admin initializing with project credentials for "${config.firebaseProjectId}"`,
       );
     }
-    // 3. Application default credentials (e.g. Cloud Run / GCP / gcloud auth)
+    // 2. Application default credentials (e.g. Cloud Run / GCP / gcloud auth)
     else if (
       config.firebaseProjectId ||
       process.env.GOOGLE_APPLICATION_CREDENTIALS
@@ -72,7 +58,7 @@ try {
       );
     } else {
       logger.warn(
-        `⚠️ Firebase credentials not configured. Set FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_PRIVATE_KEY (or FIREBASE_SERVICE_ACCOUNT_KEY_PATH) in .env to connect to live Cloud Firestore. Falling back to local data store.`,
+        `⚠️ Firebase credentials not configured. Set FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_PRIVATE_KEY in .env to connect to live Cloud Firestore. Falling back to local data store.`,
       );
     }
   } else {
