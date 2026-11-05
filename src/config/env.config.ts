@@ -25,7 +25,7 @@ export const config = {
   frontendUrl: process.env.FRONTEND_URL || "http://localhost:3000",
   googleCallbackUrl:
     process.env.GOOGLE_CALLBACK_URL ||
-    "https://study2ool.firebaseapp.com/__/auth/handler",
+    `http://localhost:${process.env.PORT || "5001"}/api/v1/auth/google/callback`,
 
   // Auth & Google OAuth Credentials
   googleClientId: process.env.GOOGLE_CLIENT_ID || "",
