@@ -12,6 +12,7 @@ import collegeRoutes from "./college.routes.js";
 import adminRoutes from "./admin.routes.js";
 import accountDeletionRoutes from "./accountDeletion.routes.js";
 import contactRoutes from "./contact.routes.js";
+import reactionRoutes from "./reaction.routes.js";
 
 const apiRouter = Router();
 
@@ -29,5 +30,7 @@ apiRouter.use("/colleges", collegeRoutes);
 apiRouter.use("/admin", adminRoutes);
 apiRouter.use("/account-deletions", accountDeletionRoutes);
 apiRouter.use("/contact", contactRoutes);
+apiRouter.use("/questions/reactions", reactionRoutes);
+apiRouter.use("/reactions", reactionRoutes);
 
 export default apiRouter;
