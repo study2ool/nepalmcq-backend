@@ -140,6 +140,8 @@ export class QuizController {
         classLevel,
         topic,
         difficulty,
+        year,
+        sourceType,
         limit = "20",
         offset = "0",
         random,
@@ -162,6 +164,12 @@ export class QuizController {
         difficulty && difficulty !== "All Levels" && difficulty !== "all"
           ? String(difficulty)
           : undefined;
+      const cleanYear =
+        year && year !== "All" && year !== "All Years"
+          ? String(year)
+          : undefined;
+      const cleanSourceType =
+        sourceType && sourceType !== "all" ? String(sourceType) : undefined;
 
       const result = quizService.getQuestions({
         subject: cleanSubject,
@@ -169,6 +177,8 @@ export class QuizController {
           parsedClass === 11 || parsedClass === 12 ? parsedClass : undefined,
         topic: cleanTopic,
         difficulty: cleanDifficulty,
+        year: cleanYear,
+        sourceType: cleanSourceType,
         limit: isNaN(parsedLimit) ? 20 : parsedLimit,
         offset: isNaN(parsedOffset) ? 0 : parsedOffset,
         random: isRandom,

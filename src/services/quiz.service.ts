@@ -393,6 +393,8 @@ Return ONLY a valid JSON object matching this exact structure:
     classLevel?: (11 | 12) | undefined;
     topic?: string | undefined;
     difficulty?: string | undefined;
+    year?: string | undefined;
+    sourceType?: string | undefined;
     limit?: number | undefined;
     offset?: number | undefined;
     random?: boolean | undefined;

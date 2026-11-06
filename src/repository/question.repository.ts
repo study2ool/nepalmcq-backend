@@ -99,6 +99,8 @@ export class QuestionRepository {
     classLevel?: (11 | 12) | undefined;
     topic?: string | undefined;
     difficulty?: string | undefined;
+    year?: string | undefined;
+    sourceType?: string | undefined;
     limit?: number | undefined;
     offset?: number | undefined;
     random?: boolean | undefined;
@@ -126,6 +128,16 @@ export class QuestionRepository {
     if (filters.difficulty) {
       filtered = filtered.filter(
         (q) => q.difficulty.toLowerCase() === filters.difficulty?.toLowerCase(),
+      );
+    }
+
+    if (filters.year && filters.year !== "All" && filters.year !== "All Years") {
+      filtered = filtered.filter((q) => (q as any).year === filters.year);
+    }
+
+    if (filters.sourceType && filters.sourceType !== "all") {
+      filtered = filtered.filter(
+        (q) => (q as any).sourceType === filters.sourceType,
       );
     }
 

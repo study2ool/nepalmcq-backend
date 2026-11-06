@@ -1,0 +1,106 @@
+import type { Question } from "../../types/quiz.types.js";
+
+export const accountingQuestions: Question[] = [
+  {
+    id: "ACC11-001",
+    class: 11,
+    subject: "Accounting",
+    topic: "Accounting Equation",
+    subtopic: "Assets and Liabilities",
+    topicId: "ACC11-CH03",
+    subtopicId: "ACC11-CH03-T01",
+    question:
+      "According to the fundamental accounting equation, which of the following is correct?",
+    options: [
+      { key: "A", text: "Assets = Liabilities - Capital" },
+      { key: "B", text: "Assets = Liabilities + Capital" },
+      { key: "C", text: "Capital = Assets + Liabilities" },
+      { key: "D", text: "Liabilities = Assets + Capital" },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "The fundamental accounting equation states Assets = Liabilities + Capital (Owner's Equity). Every debit entry has an equal credit counterpart.",
+    difficulty: "Easy",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Grade 11 Accounting Chapter 3",
+  },
+  {
+    id: "ACC11-002",
+    class: 11,
+    subject: "Accounting",
+    topic: "Accounting Principles and Concepts",
+    subtopic: "Conservatism",
+    topicId: "ACC11-CH02",
+    subtopicId: "ACC11-CH02-T04",
+    question: "The convention of conservatism requires an accountant to:",
+    options: [
+      { key: "A", text: "Record all anticipated profits immediately" },
+      {
+        key: "B",
+        text: "Provide for all foreseeable losses but anticipate no profits",
+      },
+      { key: "C", text: "Ignore depreciation charges until an asset is sold" },
+      { key: "D", text: "Report assets at market resale value only" },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "The conservatism convention dictates anticipating no profits while providing for all anticipated losses and liabilities.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Grade 11 Accounting Principles",
+  },
+  {
+    id: "ACC12-001",
+    class: 12,
+    subject: "Accounting",
+    topic: "Accounting for Share Capital",
+    subtopic: "Share Forfeiture",
+    topicId: "ACC12-CH01",
+    subtopicId: "ACC12-CH01-T05",
+    question:
+      "When shares are forfeited for non-payment of calls, the amount already paid by shareholders is credited to:",
+    options: [
+      { key: "A", text: "Calls in Arrears Account" },
+      { key: "B", text: "Share Forfeiture Account" },
+      { key: "C", text: "General Reserve Account" },
+      { key: "D", text: "Capital Redemption Reserve" },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "Upon forfeiture of shares, the amount previously collected from defaulting shareholders is credited to the Share Forfeiture Account.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Grade 12 Company Accounts",
+  },
+  {
+    id: "ACC12-002",
+    class: 12,
+    subject: "Accounting",
+    topic: "Cash Flow Statement",
+    subtopic: "Investing Activities",
+    topicId: "ACC12-CH04",
+    subtopicId: "ACC12-CH04-T02",
+    question:
+      "Under NAS 07 / NFRS, which of the following is classified as an Investing Activity?",
+    options: [
+      { key: "A", text: "Cash received from issuing debentures" },
+      { key: "B", text: "Cash paid for purchase of manufacturing plant" },
+      { key: "C", text: "Cash paid to employees for wages" },
+      { key: "D", text: "Payment of interest on bank borrowings" },
+    ],
+    correct_options: ["B"],
+    is_multi_select: false,
+    explanation:
+      "Cash outflows for the purchase of plant, property, or equipment represent capital expenditure in investing activities.",
+    difficulty: "Medium",
+    question_type: "MCQ",
+    marks: 1,
+    curriculum_note: "NEB Grade 12 Cash Flow Statement",
+  },
+];
